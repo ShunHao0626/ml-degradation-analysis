@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/c9ta11344d",
+  "figure_id": "Fig9",
+  "panel_id": "A",
+  "record_id": "10.1039_c9ta11344d__Fig9__A__pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(hour)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line",
+      "legend_id": null,
+      "legend_name": "G-SnO₂",
+      "match": "Series 1 (blue line) matches G-SnO₂"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line",
+      "legend_id": null,
+      "legend_name": "SnO₂",
+      "match": "Series 2 (orange line) matches SnO₂"
+    }
+  ],
+  "source_image_path": "Fig9_A_pce.png",
+  "paper_markdown_path": "../10.1039_c9ta11344d.md"
+}

@@ -1,0 +1,34 @@
+{
+  "doi": "10.1021/acsaem.9b02117",
+  "figure_id": "Fig8",
+  "panel_id": "A",
+  "record_id": "10.1021_acsaem.9b02117__Fig8__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": "legend_001",
+      "legend_name": "3D/1D",
+      "match": "Series 1 (blue) matches 3D/1D (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "red",
+      "legend_id": "legend_002",
+      "legend_name": "3D",
+      "match": "Series 2 (red) matches 3D (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig8_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsaem.9b02117.md"
+}

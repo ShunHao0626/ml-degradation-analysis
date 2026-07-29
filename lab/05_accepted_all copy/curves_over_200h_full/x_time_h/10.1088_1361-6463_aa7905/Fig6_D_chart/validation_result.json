@@ -1,0 +1,41 @@
+{
+  "doi": "10.1088/1361-6463_aa7905",
+  "figure_id": "Fig6",
+  "panel_id": "D",
+  "record_id": "10.1088_1361-6463_aa7905__Fig6__D__chart",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "red, dashed line, filled circle",
+      "legend_id": "legend_003",
+      "legend_name": "IS0S-D-1",
+      "match": "Series 1 (red, dashed line, filled circle) matches IS0S-D-1 (legend_003)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "green, dashed line, open square",
+      "legend_id": "legend_001",
+      "legend_name": "ISOS-0-1",
+      "match": "Series 2 (green, dashed line, open square) matches ISOS-0-1 (legend_001)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "blue, dashed line, filled circle",
+      "legend_id": "legend_002",
+      "legend_name": "IS0S-L-1",
+      "match": "Series 3 (blue, dashed line, filled circle) matches IS0S-L-1 (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig6_D_chart.png",
+  "paper_markdown_path": "../10.1088_1361-6463_aa7905.md"
+}

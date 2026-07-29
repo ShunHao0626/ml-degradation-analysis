@@ -1,0 +1,34 @@
+{
+  "doi": "10.1016/j.cej.2021.131444",
+  "figure_id": "Fig4",
+  "panel_id": "B",
+  "record_id": "10.1016_j.cej.2021.131444__Fig4__B__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "black",
+      "legend_id": null,
+      "legend_name": "DC-SnO₂-MSA/PSCs",
+      "match": "Series 1 (black) matches DC-SnO₂-MSA/PSCs"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "black",
+      "legend_id": null,
+      "legend_name": "DC-SnO₂/PSCs",
+      "match": "Series 2 (black) matches DC-SnO₂/PSCs"
+    }
+  ],
+  "source_image_path": "Fig4_B_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1016_j.cej.2021.131444.md"
+}

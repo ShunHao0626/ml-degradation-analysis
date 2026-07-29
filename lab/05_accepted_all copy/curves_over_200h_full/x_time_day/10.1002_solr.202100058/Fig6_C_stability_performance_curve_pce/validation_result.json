@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/solr.202100058",
+  "figure_id": "Fig6",
+  "panel_id": "C",
+  "record_id": "10.1002_solr.202100058__Fig6__C__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "SnO₂",
+      "match": "Series 1 matches SnO₂"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "SnO₂-CNS",
+      "match": "Series 2 matches SnO₂-CNS"
+    }
+  ],
+  "source_image_path": "Fig6_C_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_solr.202100058.md"
+}

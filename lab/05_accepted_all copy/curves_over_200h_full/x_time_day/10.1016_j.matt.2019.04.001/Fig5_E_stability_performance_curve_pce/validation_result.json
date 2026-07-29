@@ -1,0 +1,34 @@
+{
+  "doi": "10.1016/j.matt.2019.04.001",
+  "figure_id": "Fig5",
+  "panel_id": "E",
+  "record_id": "10.1016_j.matt.2019.04.001__Fig5__E__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time (days)",
+      "unit": "days"
+    },
+    "y": {
+      "name": "PCE (%)",
+      "unit": "%"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "c-Ga:TiO₂",
+      "match": "Series 1 matches c-Ga:TiO₂"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "c-TiO₂",
+      "match": "Series 2 matches c-TiO₂"
+    }
+  ],
+  "source_image_path": "Fig5_E_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.matt.2019.04.001.md"
+}

@@ -1,0 +1,48 @@
+{
+  "doi": "10.1002/solr.202100178",
+  "figure_id": "Fig3",
+  "panel_id": "D",
+  "record_id": "10.1002_solr.202100178__Fig3__D__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "day"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "Control",
+      "match": "Series 1 matches Control (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "WithCTAC",
+      "match": "Series 2 matches WithCTAC (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": "legend_003",
+      "legend_name": "With CTAB",
+      "match": "Series 3 matches With CTAB (legend_003)"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": null,
+      "legend_id": "legend_004",
+      "legend_name": "WithCTAL",
+      "match": "Series 4 matches WithCTAL (legend_004)"
+    }
+  ],
+  "source_image_path": "Fig3_D_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_solr.202100178.md"
+}

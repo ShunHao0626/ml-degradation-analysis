@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.orgel.2021.106428",
+  "figure_id": "Fig9",
+  "panel_id": "whole",
+  "record_id": "10.1016_j.orgel.2021.106428__Fig9__whole__stability",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line",
+      "legend_id": "legend_003",
+      "legend_name": "TPA-Py-PTZ",
+      "match": "Series 1 (blue line) matches TPA-Py-PTZ (legend_003)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line",
+      "legend_id": "legend_002",
+      "legend_name": "TPA-TPy",
+      "match": "Series 2 (orange line) matches TPA-TPy (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line",
+      "legend_id": "legend_001",
+      "legend_name": "NiOx",
+      "match": "Series 3 (green line) matches NiOx (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig9_whole_stability.png",
+  "paper_markdown_path": "../10.1016_j.orgel.2021.106428.md"
+}

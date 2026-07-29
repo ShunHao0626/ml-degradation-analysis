@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/anie.201806392",
+  "figure_id": "Fig3",
+  "panel_id": "H",
+  "record_id": "10.1002_anie.201806392__Fig3__H__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time (day)",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "PCE (%)",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "OMe-TATPyr",
+      "match": "Series 1 matches OMe-TATPyr"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Spiro-OMeTAD",
+      "match": "Series 2 matches Spiro-OMeTAD"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Py-C",
+      "match": "Series 3 matches Py-C"
+    }
+  ],
+  "source_image_path": "Fig3_H_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1002_anie.201806392.md"
+}

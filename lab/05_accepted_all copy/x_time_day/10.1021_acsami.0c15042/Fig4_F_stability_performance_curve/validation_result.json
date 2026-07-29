@@ -1,0 +1,41 @@
+{
+  "doi": "10.1021/acsami.0c15042",
+  "figure_id": "Fig4",
+  "panel_id": "F",
+  "record_id": "10.1021_acsami.0c15042__Fig4__F__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "w/o F8IC",
+      "match": "Series 1 matches w/o F8IC"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "F8IC additive",
+      "match": "Series 2 matches F8IC additive"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "F8IC anti-solvent",
+      "match": "Series 3 matches F8IC anti-solvent"
+    }
+  ],
+  "source_image_path": "Fig4_F_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1021_acsami.0c15042.md"
+}

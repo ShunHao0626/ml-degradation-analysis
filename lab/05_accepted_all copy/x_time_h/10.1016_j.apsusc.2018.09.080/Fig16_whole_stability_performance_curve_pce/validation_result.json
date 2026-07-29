@@ -1,0 +1,34 @@
+{
+  "doi": "10.1016/j.apsusc.2018.09.080",
+  "figure_id": "Fig16",
+  "panel_id": "whole",
+  "record_id": "10.1016_j.apsusc.2018.09.080__Fig16__whole__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized Efficiency",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "red",
+      "legend_id": "legend_002",
+      "legend_name": "ZnO NRs",
+      "match": "Series 1 (red) matches ZnO NRs (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "black",
+      "legend_id": "legend_001",
+      "legend_name": "→ZnO@TiO2 NRs",
+      "match": "Series 2 (black) matches →ZnO@TiO2 NRs (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig16_whole_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.apsusc.2018.09.080.md"
+}

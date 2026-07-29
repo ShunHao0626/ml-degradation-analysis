@@ -1,0 +1,41 @@
+{
+  "doi": "10.1021/jacs.6b10227",
+  "figure_id": "Fig3",
+  "panel_id": "C",
+  "record_id": "10.1021_jacs.6b10227__Fig3__C__jv_curve_stability_performance_photovoltaic_parameter",
+  "axis": {
+    "x": {
+      "name": "Time (hours)",
+      "unit": "hours"
+    },
+    "y": {
+      "name": "Normalized PCE (a.u.)",
+      "unit": "a.u."
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "CsPbBr₃/carbon",
+      "match": "Series 1 matches CsPbBr₃/carbon"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "MAPbI₃/carbon",
+      "match": "Series 2 matches MAPbI₃/carbon"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "MAPbI₃/spiro-MeOTAD",
+      "match": "Series 3 matches MAPbI₃/spiro-MeOTAD"
+    }
+  ],
+  "source_image_path": "Fig3_C_jv_curve_stability_performance_photovoltaic_parameter.png",
+  "paper_markdown_path": "../10.1021_jacs.6b10227.md"
+}

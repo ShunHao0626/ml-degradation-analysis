@@ -1,0 +1,27 @@
+{
+  "doi": "10.1002/aenm.202200480",
+  "figure_id": "Fig6",
+  "panel_id": "C",
+  "record_id": "10.1002_aenm.202200480__Fig6__C__stability",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(hour)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "TTDA-TTA-COF",
+      "match": "Series 1 matches TTDA-TTA-COF"
+    }
+  ],
+  "source_image_path": "Fig6_C_stability.png",
+  "paper_markdown_path": "../10.1002_aenm.202200480.md"
+}

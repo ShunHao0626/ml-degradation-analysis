@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/solr.201900249",
+  "figure_id": "Fig1",
+  "panel_id": "C",
+  "record_id": "10.1002_solr.201900249__Fig1__C__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot, black in original",
+      "legend_id": "legend_001",
+      "legend_name": "o—pero-pristine",
+      "match": "Series 1 (blue in replot, black in original) matches o—pero-pristine (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot, red in original",
+      "legend_id": "legend_002",
+      "legend_name": "ol pero-0.1",
+      "match": "Series 2 (orange in replot, red in original) matches ol pero-0.1 (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig1_C_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_solr.201900249.md"
+}

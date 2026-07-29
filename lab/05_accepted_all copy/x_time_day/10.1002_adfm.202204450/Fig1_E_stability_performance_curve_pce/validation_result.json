@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/adfm.202204450",
+  "figure_id": "Fig1",
+  "panel_id": "E",
+  "record_id": "10.1002_adfm.202204450__Fig1__E__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": "(a.u.)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_003",
+      "legend_name": "PI",
+      "match": "Series 1 matches PI (legend_003)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "Control",
+      "match": "Series 2 matches Control (legend_001)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "PF",
+      "match": "Series 3 matches PF (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig1_E_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_adfm.202204450.md"
+}

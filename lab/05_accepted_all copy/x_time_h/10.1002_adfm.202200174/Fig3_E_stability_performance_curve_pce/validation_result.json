@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/adfm.202200174",
+  "figure_id": "Fig3",
+  "panel_id": "E",
+  "record_id": "10.1002_adfm.202200174__Fig3__E__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time (h)",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot",
+      "legend_id": "legend_002",
+      "legend_name": "5 mol% excess Pbl2",
+      "match": "Series 1 (blue in replot) matches 5 mol% excess Pbl2 (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot",
+      "legend_id": "legend_001",
+      "legend_name": "Control",
+      "match": "Series 2 (orange in replot) matches Control (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig3_E_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_adfm.202200174.md"
+}

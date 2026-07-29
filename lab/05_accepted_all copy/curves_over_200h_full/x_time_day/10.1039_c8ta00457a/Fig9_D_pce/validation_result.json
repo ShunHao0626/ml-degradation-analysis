@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/c8ta00457a",
+  "figure_id": "Fig9",
+  "panel_id": "D",
+  "record_id": "10.1039_c8ta00457a__Fig9__D__pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot",
+      "legend_id": "legend_001",
+      "legend_name": "WithoutOTAB",
+      "match": "Series 1 (blue in replot) matches WithoutOTAB (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot",
+      "legend_id": "legend_002",
+      "legend_name": "WithOTAB",
+      "match": "Series 2 (orange in replot) matches WithOTAB (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig9_D_pce.png",
+  "paper_markdown_path": "../10.1039_c8ta00457a.md"
+}

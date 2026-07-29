@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/d3sc02845c",
+  "figure_id": "Fig6",
+  "panel_id": "A",
+  "record_id": "10.1039_d3sc02845c__Fig6__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "t",
+      "unit": "h"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "%"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "TMDAP-EP-OMeDPA",
+      "match": "Series 1 matches TMDAP-EP-OMeDPA"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "TMDAP-OMeDPA",
+      "match": "Series 2 matches TMDAP-OMeDPA"
+    }
+  ],
+  "source_image_path": "Fig6_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1039_d3sc02845c.md"
+}

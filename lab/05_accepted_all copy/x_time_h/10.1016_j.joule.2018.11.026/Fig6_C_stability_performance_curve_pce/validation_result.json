@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.joule.2018.11.026",
+  "figure_id": "Fig6",
+  "panel_id": "C",
+  "record_id": "10.1016_j.joule.2018.11.026__Fig6__C__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Aging time",
+      "unit": "hr"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line with circles",
+      "legend_id": "legend_001",
+      "legend_name": "0-(PDA)(MA)₃Pb13",
+      "match": "Series 1 (blue line with circles) matches 0-(PDA)(MA)₃Pb13 (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line with squares",
+      "legend_id": "legend_002",
+      "legend_name": "0-(PA)2(MA)₃Pb₂13- MAPb13",
+      "match": "Series 2 (orange line with squares) matches 0-(PA)2(MA)₃Pb₂13- MAPb13 (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line with triangles",
+      "legend_id": "legend_003",
+      "legend_name": "MAPb13",
+      "match": "Series 3 (green line with triangles) matches MAPb13 (legend_003)"
+    }
+  ],
+  "source_image_path": "Fig6_C_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.joule.2018.11.026.md"
+}

@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.optmat.2020.110377",
+  "figure_id": "Fig4",
+  "panel_id": "whole",
+  "record_id": "10.1016_j.optmat.2020.110377__Fig4__whole__pce",
+  "axis": {
+    "x": {
+      "name": "Hours",
+      "unit": null
+    },
+    "y": {
+      "name": "Normalized Power Conversion Efficiency",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line in Image 3",
+      "legend_id": "legend_003",
+      "legend_name": "Spiro-OMeTAD",
+      "match": "Series 1 (blue line in Image 3) matches Spiro-OMeTAD (legend_003)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line in Image 3",
+      "legend_id": "legend_002",
+      "legend_name": "P3HT/PEDOT:PS",
+      "match": "Series 2 (orange line in Image 3) matches P3HT/PEDOT:PS (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line in Image 3",
+      "legend_id": "legend_001",
+      "legend_name": "P3HT",
+      "match": "Series 3 (green line in Image 3) matches P3HT (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig4_whole_pce.png",
+  "paper_markdown_path": "../10.1016_j.optmat.2020.110377.md"
+}

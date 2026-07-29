@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.nanoen.2019.103866",
+  "figure_id": "Fig5",
+  "panel_id": "C",
+  "record_id": "10.1016_j.nanoen.2019.103866__Fig5__C__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line",
+      "legend_id": null,
+      "legend_name": "Choline chloride",
+      "match": "Series 1 (blue line) matches Choline chloride"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line",
+      "legend_id": null,
+      "legend_name": "S-acetylthiocholine chloride",
+      "match": "Series 2 (orange line) matches S-acetylthiocholine chloride"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line",
+      "legend_id": null,
+      "legend_name": "Control (PCBM)",
+      "match": "Series 3 (green line) matches Control (PCBM)"
+    }
+  ],
+  "source_image_path": "Fig5_C_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.nanoen.2019.103866.md"
+}

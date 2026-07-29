@@ -1,0 +1,48 @@
+{
+  "doi": "10.1002/adma.201806823",
+  "figure_id": "Fig3",
+  "panel_id": "C",
+  "record_id": "10.1002_adma.201806823__Fig3__C__pce",
+  "axis": {
+    "x": {
+      "name": "Time [h]",
+      "unit": "[h]"
+    },
+    "y": {
+      "name": "Normalized PCE [a.u.]",
+      "unit": "[a.u.]"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "black",
+      "legend_id": null,
+      "legend_name": "X=0.17",
+      "match": "Series 1 (black) matches X=0.17"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "green",
+      "legend_id": null,
+      "legend_name": "X=0.10",
+      "match": "Series 2 (green) matches X=0.10"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "X=0.05",
+      "match": "Series 3 matches X=0.05"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "X=0",
+      "match": "Series 4 matches X=0"
+    }
+  ],
+  "source_image_path": "Fig3_C_pce.png",
+  "paper_markdown_path": "../10.1002_adma.201806823.md"
+}

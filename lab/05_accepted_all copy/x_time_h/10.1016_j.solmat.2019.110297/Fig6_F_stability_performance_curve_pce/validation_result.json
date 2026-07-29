@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.solmat.2019.110297",
+  "figure_id": "Fig6",
+  "panel_id": "F",
+  "record_id": "10.1016_j.solmat.2019.110297__Fig6__F__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Au NSs/SnO₂",
+      "match": "Series 1 matches Au NSs/SnO₂"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Au NSs",
+      "match": "Series 2 matches Au NSs"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "control device",
+      "match": "Series 3 matches control device"
+    }
+  ],
+  "source_image_path": "Fig6_F_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.solmat.2019.110297.md"
+}

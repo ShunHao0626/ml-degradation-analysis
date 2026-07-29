@@ -1,0 +1,34 @@
+{
+  "doi": "10.1038/s41467-018-05454-4",
+  "figure_id": "Fig5",
+  "panel_id": "A",
+  "record_id": "10.1038_s41467-018-05454-4__Fig5__A__mppt_stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "black",
+      "legend_id": null,
+      "legend_name": "Control",
+      "match": "Series 1 (black) matches Control"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "red",
+      "legend_id": null,
+      "legend_name": "Target",
+      "match": "Series 2 (red) matches Target"
+    }
+  ],
+  "source_image_path": "Fig5_A_mppt_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1038_s41467-018-05454-4.md"
+}

@@ -1,0 +1,48 @@
+{
+  "doi": "10.1088/1402-4896_ab90be",
+  "figure_id": "Fig9",
+  "panel_id": "A",
+  "record_id": "10.1088_1402-4896_ab90be__Fig9__A__pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "PCE/initial PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_004",
+      "legend_name": "ImEu5",
+      "match": "Series 1 matches ImEu5 (legend_004)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_003",
+      "legend_name": "ImEu3",
+      "match": "Series 2 matches ImEu3 (legend_003)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "ImEu1",
+      "match": "Series 3 matches ImEu1 (legend_002)"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "lm",
+      "match": "Series 4 matches lm (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig9_A_pce.png",
+  "paper_markdown_path": "../10.1088_1402-4896_ab90be.md"
+}

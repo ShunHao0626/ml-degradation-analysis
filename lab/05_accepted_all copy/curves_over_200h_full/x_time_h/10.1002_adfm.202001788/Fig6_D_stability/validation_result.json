@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/adfm.202001788",
+  "figure_id": "Fig6",
+  "panel_id": "D",
+  "record_id": "10.1002_adfm.202001788__Fig6__D__stability",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "h"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Pero-pristine",
+      "match": "Series 1 matches Pero-pristine"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Pero-I-0.1",
+      "match": "Series 2 matches Pero-I-0.1"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Pero-Th-0.05",
+      "match": "Series 3 matches Pero-Th-0.05"
+    }
+  ],
+  "source_image_path": "Fig6_D_stability.png",
+  "paper_markdown_path": "../10.1002_adfm.202001788.md"
+}

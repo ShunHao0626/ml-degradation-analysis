@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/d3se00435j",
+  "figure_id": "Fig8",
+  "panel_id": "B",
+  "record_id": "10.1039_d3se00435j__Fig8__B__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "Hours"
+    },
+    "y": {
+      "name": "Norm. PCE",
+      "unit": "%"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": "legend_002",
+      "legend_name": "OABr0.1mg.mL-1",
+      "match": "Series 1 (blue) matches OABr0.1mg.mL-1 (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "red",
+      "legend_id": "legend_001",
+      "legend_name": "Reference",
+      "match": "Series 2 (red) matches Reference (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig8_B_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1039_d3se00435j.md"
+}

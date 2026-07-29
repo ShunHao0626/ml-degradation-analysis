@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/adma.201800973",
+  "figure_id": "Fig3",
+  "panel_id": "D",
+  "record_id": "10.1002_adma.201800973__Fig3__D__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "hr"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "red circles in original",
+      "legend_id": "legend_002",
+      "legend_name": "10%w/wPbSe:MAPbl",
+      "match": "Series 1 (red circles in original) matches 10%w/wPbSe:MAPbl (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "black squares in original",
+      "legend_id": "legend_001",
+      "legend_name": "reference MAPbl",
+      "match": "Series 2 (black squares in original) matches reference MAPbl (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig3_D_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_adma.201800973.md"
+}

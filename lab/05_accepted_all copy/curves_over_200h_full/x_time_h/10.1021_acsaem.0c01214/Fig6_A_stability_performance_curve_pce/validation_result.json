@@ -1,0 +1,41 @@
+{
+  "doi": "10.1021/acsaem.0c01214",
+  "figure_id": "Fig6",
+  "panel_id": "A",
+  "record_id": "10.1021_acsaem.0c01214__Fig6__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(hour)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Ref. cells",
+      "match": "Series 1 matches Ref. cells"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "SHP cells",
+      "match": "Series 2 matches SHP cells"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "DHP cells",
+      "match": "Series 3 matches DHP cells"
+    }
+  ],
+  "source_image_path": "Fig6_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsaem.0c01214.md"
+}

@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.cej.2021.131185",
+  "figure_id": "Fig7",
+  "panel_id": "B",
+  "record_id": "10.1016_j.cej.2021.131185__Fig7__B__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time (h)",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE (%)",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line, triangle markers in original",
+      "legend_id": "legend_003",
+      "legend_name": "Treated 3D/2D",
+      "match": "Series 1 (blue line, triangle markers in original) matches Treated 3D/2D (legend_003)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line, diamond markers in replot, red line, circle markers in original",
+      "legend_id": "legend_002",
+      "legend_name": "Control 3D/2D",
+      "match": "Series 2 (orange line, diamond markers in replot, red line, circle markers in original) matches Control 3D/2D (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line, square markers in replot, dark grey line, square markers in original",
+      "legend_id": "legend_001",
+      "legend_name": "3D",
+      "match": "Series 3 (green line, square markers in replot, dark grey line, square markers in original) matches 3D (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig7_B_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1016_j.cej.2021.131185.md"
+}

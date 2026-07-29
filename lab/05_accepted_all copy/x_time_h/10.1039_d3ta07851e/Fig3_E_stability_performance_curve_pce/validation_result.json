@@ -1,0 +1,41 @@
+{
+  "doi": "10.1039/d3ta07851e",
+  "figure_id": "Fig3",
+  "panel_id": "E",
+  "record_id": "10.1039_d3ta07851e__Fig3__E__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line in Image 3",
+      "legend_id": null,
+      "legend_name": "SP-SMe",
+      "match": "Series 1 (blue line in Image 3) matches SP-SMe"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line in Image 3",
+      "legend_id": null,
+      "legend_name": "Spiro-OMeTAD",
+      "match": "Series 2 (orange line in Image 3) matches Spiro-OMeTAD"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line in Image 3",
+      "legend_id": null,
+      "legend_name": "SP-Naph",
+      "match": "Series 3 (green line in Image 3) matches SP-Naph"
+    }
+  ],
+  "source_image_path": "Fig3_E_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1039_d3ta07851e.md"
+}

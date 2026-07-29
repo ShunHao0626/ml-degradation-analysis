@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/solr.202000376",
+  "figure_id": "Fig8",
+  "panel_id": "C",
+  "record_id": "10.1002_solr.202000376__Fig8__C__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line with circular markers in replot",
+      "legend_id": "legend_001",
+      "legend_name": "MAPbI3",
+      "match": "Series 1 (blue line with circular markers in replot) matches MAPbI3 (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line with circular markers in replot",
+      "legend_id": "legend_002",
+      "legend_name": "MAPbI3with SDBS",
+      "match": "Series 2 (orange line with circular markers in replot) matches MAPbI3with SDBS (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig8_C_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_solr.202000376.md"
+}

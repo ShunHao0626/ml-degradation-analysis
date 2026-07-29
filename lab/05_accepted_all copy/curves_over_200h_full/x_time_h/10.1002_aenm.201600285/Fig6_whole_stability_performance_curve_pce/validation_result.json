@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/aenm.201600285",
+  "figure_id": "Fig6",
+  "panel_id": "whole",
+  "record_id": "10.1002_aenm.201600285__Fig6__whole__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": null,
+      "legend_name": "PC[70]BM/AZO/Au",
+      "match": "Series 1 (blue) matches PC[70]BM/AZO/Au"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange",
+      "legend_id": null,
+      "legend_name": "PC[70]BM/Al",
+      "match": "Series 2 (orange) matches PC[70]BM/Al"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green",
+      "legend_id": null,
+      "legend_name": "PC[70]BM/AZO/Al",
+      "match": "Series 3 (green) matches PC[70]BM/AZO/Al"
+    }
+  ],
+  "source_image_path": "Fig6_whole_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_aenm.201600285.md"
+}

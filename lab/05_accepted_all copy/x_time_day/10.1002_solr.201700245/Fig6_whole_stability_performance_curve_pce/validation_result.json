@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/solr.201700245",
+  "figure_id": "Fig6",
+  "panel_id": "whole",
+  "record_id": "10.1002_solr.201700245__Fig6__whole__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "Days"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "with CrOX layer",
+      "match": "Series 1 matches with CrOX layer"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "without CrOX layer",
+      "match": "Series 2 matches without CrOX layer"
+    }
+  ],
+  "source_image_path": "Fig6_whole_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_solr.201700245.md"
+}

@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/d1qm00680k",
+  "figure_id": "Fig5",
+  "panel_id": "C",
+  "record_id": "10.1039_d1qm00680k__Fig5__C__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized efficiency",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line with circular markers",
+      "legend_id": "legend_002",
+      "legend_name": "TEP",
+      "match": "Series 1 (blue line with circular markers) matches TEP (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line with square/diamond markers",
+      "legend_id": "legend_001",
+      "legend_name": "Pristine",
+      "match": "Series 2 (orange line with square/diamond markers) matches Pristine (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig5_C_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1039_d1qm00680k.md"
+}

@@ -1,0 +1,41 @@
+{
+  "doi": "10.3390/nano15090699",
+  "figure_id": "Fig12",
+  "panel_id": "A",
+  "record_id": "10.3390_nano15090699__Fig12__A__stability_performance_curve_retention",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in identity plot",
+      "legend_id": null,
+      "legend_name": "PEACI/DMSO+IPA",
+      "match": "Series 1 (blue in identity plot) matches PEACI/DMSO+IPA"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in identity plot",
+      "legend_id": null,
+      "legend_name": "PEACI/IPA",
+      "match": "Series 2 (orange in identity plot) matches PEACI/IPA"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green in identity plot",
+      "legend_id": null,
+      "legend_name": "Control",
+      "match": "Series 3 (green in identity plot) matches Control"
+    }
+  ],
+  "source_image_path": "Fig12_A_stability_performance_curve_retention.png",
+  "paper_markdown_path": "../10.3390_nano15090699.md"
+}

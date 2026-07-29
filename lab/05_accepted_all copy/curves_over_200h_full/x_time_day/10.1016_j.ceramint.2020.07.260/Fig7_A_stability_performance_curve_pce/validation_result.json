@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.ceramint.2020.07.260",
+  "figure_id": "Fig7",
+  "panel_id": "A",
+  "record_id": "10.1016_j.ceramint.2020.07.260__Fig7__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Aging time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue curve in Image 3",
+      "legend_id": "legend_002",
+      "legend_name": "Cell B",
+      "match": "Series 1 (blue curve in Image 3) matches Cell B (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange curve in Image 3",
+      "legend_id": "legend_001",
+      "legend_name": "Cell A",
+      "match": "Series 2 (orange curve in Image 3) matches Cell A (legend_001)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green curve in Image 3",
+      "legend_id": "legend_003",
+      "legend_name": "Cell D",
+      "match": "Series 3 (green curve in Image 3) matches Cell D (legend_003)"
+    }
+  ],
+  "source_image_path": "Fig7_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.ceramint.2020.07.260.md"
+}

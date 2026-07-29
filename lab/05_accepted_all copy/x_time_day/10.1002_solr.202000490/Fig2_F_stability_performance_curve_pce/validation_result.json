@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/solr.202000490",
+  "figure_id": "Fig2",
+  "panel_id": "F",
+  "record_id": "10.1002_solr.202000490__Fig2__F__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "day"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "Pristine",
+      "match": "Series 1 matches Pristine (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_003",
+      "legend_name": "TPA:PS",
+      "match": "Series 2 matches TPA:PS (legend_003)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "PS",
+      "match": "Series 3 matches PS (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig2_F_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_solr.202000490.md"
+}

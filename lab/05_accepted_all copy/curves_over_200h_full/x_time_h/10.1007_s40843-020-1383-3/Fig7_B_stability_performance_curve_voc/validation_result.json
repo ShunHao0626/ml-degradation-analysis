@@ -1,0 +1,34 @@
+{
+  "doi": "10.1007/s40843-020-1383-3",
+  "figure_id": "Fig7",
+  "panel_id": "B",
+  "record_id": "10.1007_s40843-020-1383-3__Fig7__B__stability_performance_curve_voc",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "EACI-2.5%",
+      "match": "Series 1 matches EACI-2.5% (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "EACI-0%",
+      "match": "Series 2 matches EACI-0% (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig7_B_stability_performance_curve_voc.png",
+  "paper_markdown_path": "../10.1007_s40843-020-1383-3.md"
+}

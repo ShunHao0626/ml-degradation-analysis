@@ -1,0 +1,34 @@
+{
+  "doi": "10.1016/j.jmst.2021.05.084",
+  "figure_id": "Fig5",
+  "panel_id": "A",
+  "record_id": "10.1016_j.jmst.2021.05.084__Fig5__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "day"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "3 wt%",
+      "match": "Series 1 matches 3 wt%"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "0 wt%",
+      "match": "Series 2 matches 0 wt%"
+    }
+  ],
+  "source_image_path": "Fig5_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.jmst.2021.05.084.md"
+}

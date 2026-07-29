@@ -1,0 +1,34 @@
+{
+  "doi": "10.1021/acsaem.0c01796",
+  "figure_id": "Fig10",
+  "panel_id": "whole",
+  "record_id": "10.1021_acsaem.0c01796__Fig10__whole__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Norm. PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue curve",
+      "legend_id": "legend_001",
+      "legend_name": "2,6-diAF",
+      "match": "Series 1 (blue curve) matches 2,6-diAF (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange curve",
+      "legend_id": "legend_002",
+      "legend_name": "spiro-OMeTAD",
+      "match": "Series 2 (orange curve) matches spiro-OMeTAD (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig10_whole_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsaem.0c01796.md"
+}

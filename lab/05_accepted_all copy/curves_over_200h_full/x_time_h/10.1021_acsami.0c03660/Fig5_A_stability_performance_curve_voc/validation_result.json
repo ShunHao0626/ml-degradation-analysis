@@ -1,0 +1,41 @@
+{
+  "doi": "10.1021/acsami.0c03660",
+  "figure_id": "Fig5",
+  "panel_id": "A",
+  "record_id": "10.1021_acsami.0c03660__Fig5__A__stability_performance_curve_voc",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "h"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line",
+      "legend_id": "legend_001",
+      "legend_name": "o—Li-doped cell",
+      "match": "Series 1 (blue line) matches o—Li-doped cell (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line",
+      "legend_id": "legend_002",
+      "legend_name": "TPFB-dopedcell-1",
+      "match": "Series 2 (orange line) matches TPFB-dopedcell-1 (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line",
+      "legend_id": "legend_003",
+      "legend_name": "TPFB-doped cell-2",
+      "match": "Series 3 (green line) matches TPFB-doped cell-2 (legend_003)"
+    }
+  ],
+  "source_image_path": "Fig5_A_stability_performance_curve_voc.png",
+  "paper_markdown_path": "../10.1021_acsami.0c03660.md"
+}

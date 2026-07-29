@@ -1,0 +1,34 @@
+{
+  "doi": "10.1021/acs.nanolett.9b01553",
+  "figure_id": "Fig4",
+  "panel_id": "F",
+  "record_id": "10.1021_acs.nanolett.9b01553__Fig4__F__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line in replot",
+      "legend_id": "legend_001",
+      "legend_name": "Pristine perovskite",
+      "match": "Series 1 (blue line in replot) matches Pristine perovskite (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line in replot",
+      "legend_id": "legend_002",
+      "legend_name": "CuBr(0.2wt%)",
+      "match": "Series 2 (orange line in replot) matches CuBr(0.2wt%) (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig4_F_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acs.nanolett.9b01553.md"
+}

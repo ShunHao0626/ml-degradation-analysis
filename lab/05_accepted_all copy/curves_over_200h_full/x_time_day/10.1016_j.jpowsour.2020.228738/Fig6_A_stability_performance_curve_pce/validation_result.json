@@ -1,0 +1,34 @@
+{
+  "doi": "10.1016/j.jpowsour.2020.228738",
+  "figure_id": "Fig6",
+  "panel_id": "A",
+  "record_id": "10.1016_j.jpowsour.2020.228738__Fig6__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "NiO",
+      "match": "Series 1 matches NiO"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "NiO:BN",
+      "match": "Series 2 matches NiO:BN"
+    }
+  ],
+  "source_image_path": "Fig6_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.jpowsour.2020.228738.md"
+}

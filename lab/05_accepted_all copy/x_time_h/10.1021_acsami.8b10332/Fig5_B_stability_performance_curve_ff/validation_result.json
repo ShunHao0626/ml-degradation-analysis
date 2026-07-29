@@ -1,0 +1,34 @@
+{
+  "doi": "10.1021/acsami.8b10332",
+  "figure_id": "Fig5",
+  "panel_id": "B",
+  "record_id": "10.1021_acsami.8b10332__Fig5__B__stability_performance_curve_ff",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized Efficiency",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line",
+      "legend_id": null,
+      "legend_name": "SnO₂",
+      "match": "Series 1 (blue line) matches SnO₂"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line",
+      "legend_id": null,
+      "legend_name": "SnO₂/DA",
+      "match": "Series 2 (orange line) matches SnO₂/DA"
+    }
+  ],
+  "source_image_path": "Fig5_B_stability_performance_curve_ff.png",
+  "paper_markdown_path": "../10.1021_acsami.8b10332.md"
+}

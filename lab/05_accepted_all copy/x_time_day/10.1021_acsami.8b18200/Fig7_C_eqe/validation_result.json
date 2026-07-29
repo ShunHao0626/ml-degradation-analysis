@@ -1,0 +1,41 @@
+{
+  "doi": "10.1021/acsami.8b18200",
+  "figure_id": "Fig7",
+  "panel_id": "C",
+  "record_id": "10.1021_acsami.8b18200__Fig7__C__eqe",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "days"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "normalized"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line in replot",
+      "legend_id": "legend_001",
+      "legend_name": "PEDOT:PSS(NoPVP)",
+      "match": "Series 1 (blue line in replot) matches PEDOT:PSS(NoPVP) (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line in replot",
+      "legend_id": "legend_002",
+      "legend_name": "NiO (No PVP)",
+      "match": "Series 2 (orange line in replot) matches NiO (No PVP) (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line in replot",
+      "legend_id": "legend_003",
+      "legend_name": "NiO (PVP 0.6 mg/ml)",
+      "match": "Series 3 (green line in replot) matches NiO (PVP 0.6 mg/ml) (legend_003)"
+    }
+  ],
+  "source_image_path": "Fig7_C_eqe.png",
+  "paper_markdown_path": "../10.1021_acsami.8b18200.md"
+}

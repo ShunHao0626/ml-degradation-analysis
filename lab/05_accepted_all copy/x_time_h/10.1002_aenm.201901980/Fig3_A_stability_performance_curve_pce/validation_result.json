@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/aenm.201901980",
+  "figure_id": "Fig3",
+  "panel_id": "A",
+  "record_id": "10.1002_aenm.201901980__Fig3__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Hour",
+      "unit": null
+    },
+    "y": {
+      "name": "PCE (Normalized)",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "O—MAPbl₃",
+      "match": "Series 1 matches O—MAPbl₃ (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_003",
+      "legend_name": "MAPb12BrCIx",
+      "match": "Series 2 matches MAPb12BrCIx (legend_003)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "MAPbI,Br",
+      "match": "Series 3 matches MAPbI,Br (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig3_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_aenm.201901980.md"
+}

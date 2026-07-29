@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.nanoen.2019.03.044",
+  "figure_id": "Fig3",
+  "panel_id": "F",
+  "record_id": "10.1016_j.nanoen.2019.03.044__Fig3__F__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "h"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue curve",
+      "legend_id": "legend_001",
+      "legend_name": "C-SnO2",
+      "match": "Series 1 (blue curve) matches C-SnO2 (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange curve",
+      "legend_id": "legend_002",
+      "legend_name": "G-SnO2",
+      "match": "Series 2 (orange curve) matches G-SnO2 (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green curve",
+      "legend_id": "legend_003",
+      "legend_name": "G-SnO2/C-SnO2",
+      "match": "Series 3 (green curve) matches G-SnO2/C-SnO2 (legend_003)"
+    }
+  ],
+  "source_image_path": "Fig3_F_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1016_j.nanoen.2019.03.044.md"
+}

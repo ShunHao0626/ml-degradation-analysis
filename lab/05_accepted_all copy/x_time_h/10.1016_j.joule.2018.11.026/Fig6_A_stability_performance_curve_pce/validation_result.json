@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.joule.2018.11.026",
+  "figure_id": "Fig6",
+  "panel_id": "A",
+  "record_id": "10.1016_j.joule.2018.11.026__Fig6__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Aging time",
+      "unit": "(hr)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot",
+      "legend_id": null,
+      "legend_name": "(PDA)(MA)₃Pb₄I₁₃",
+      "match": "Series 1 (blue in replot) matches (PDA)(MA)₃Pb₄I₁₃"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot",
+      "legend_id": null,
+      "legend_name": "(PA)₂(MA)₃Pb₄I₁₃",
+      "match": "Series 2 (orange in replot) matches (PA)₂(MA)₃Pb₄I₁₃"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green in replot",
+      "legend_id": null,
+      "legend_name": "MAPbI₃",
+      "match": "Series 3 (green in replot) matches MAPbI₃"
+    }
+  ],
+  "source_image_path": "Fig6_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.joule.2018.11.026.md"
+}

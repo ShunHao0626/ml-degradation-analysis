@@ -1,0 +1,34 @@
+{
+  "doi": "10.1016/j.solener.2020.06.057",
+  "figure_id": "Fig7",
+  "panel_id": "A",
+  "record_id": "10.1016_j.solener.2020.06.057__Fig7__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time (h)",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line with circles",
+      "legend_id": "legend_001",
+      "legend_name": "Controlled",
+      "match": "Series 1 (blue line with circles) matches Controlled (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line with circles",
+      "legend_id": "legend_002",
+      "legend_name": "PMMA:PCBM (1:2)",
+      "match": "Series 2 (orange line with circles) matches PMMA:PCBM (1:2) (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig7_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.solener.2020.06.057.md"
+}

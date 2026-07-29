@@ -1,0 +1,34 @@
+{
+  "doi": "10.1016/j.solmat.2018.07.009",
+  "figure_id": "Fig5",
+  "panel_id": "F",
+  "record_id": "10.1016_j.solmat.2018.07.009__Fig5__F__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line with circular markers in replot",
+      "legend_id": "legend_002",
+      "legend_name": "CH3NH3PbI3cell",
+      "match": "Series 1 (blue line with circular markers in replot) matches CH3NH3PbI3cell (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line with diamond markers in replot",
+      "legend_id": "legend_001",
+      "legend_name": "CsPbBr3 cell",
+      "match": "Series 2 (orange line with diamond markers in replot) matches CsPbBr3 cell (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig5_F_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.solmat.2018.07.009.md"
+}

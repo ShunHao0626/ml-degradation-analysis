@@ -1,0 +1,34 @@
+{
+  "doi": "10.1016/j.mtener.2020.100590",
+  "figure_id": "Fig9",
+  "panel_id": "G",
+  "record_id": "10.1016_j.mtener.2020.100590__Fig9__G__schematic_diagram_stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(normalized)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Au",
+      "match": "Series 1 matches Au"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "C2",
+      "match": "Series 2 matches C2"
+    }
+  ],
+  "source_image_path": "Fig9_G_schematic_diagram_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.mtener.2020.100590.md"
+}

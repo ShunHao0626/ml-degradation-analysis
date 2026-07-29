@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/d1na00172h",
+  "figure_id": "Fig6",
+  "panel_id": "B",
+  "record_id": "10.1039_d1na00172h__Fig6__B__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Hours",
+      "unit": null
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange curve",
+      "legend_id": "legend_001",
+      "legend_name": "PSC-2",
+      "match": "Series 2 (orange curve) matches PSC-2 (legend_001)"
+    },
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue curve",
+      "legend_id": "legend_002",
+      "legend_name": "PSC-Ref",
+      "match": "Series 1 (blue curve) matches PSC-Ref (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig6_B_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1039_d1na00172h.md"
+}

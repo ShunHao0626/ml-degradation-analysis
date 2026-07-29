@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/aenm.201601156",
+  "figure_id": "Fig4",
+  "panel_id": "A",
+  "record_id": "10.1002_aenm.201601156__Fig4__A__pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "h"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "%"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Spiro-OMeTAD",
+      "match": "Series 1 matches Spiro-OMeTAD"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Spiro-OMeTAD:CuI (32 mol%)",
+      "match": "Series 2 matches Spiro-OMeTAD:CuI (32 mol%)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Spiro-OMeTAD:CuSCN (33 mol%)",
+      "match": "Series 3 matches Spiro-OMeTAD:CuSCN (33 mol%)"
+    }
+  ],
+  "source_image_path": "Fig4_A_pce.png",
+  "paper_markdown_path": "../10.1002_aenm.201601156.md"
+}

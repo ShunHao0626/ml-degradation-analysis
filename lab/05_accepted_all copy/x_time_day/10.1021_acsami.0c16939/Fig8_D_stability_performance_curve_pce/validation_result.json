@@ -1,0 +1,34 @@
+{
+  "doi": "10.1021/acsami.0c16939",
+  "figure_id": "Fig8",
+  "panel_id": "D",
+  "record_id": "10.1021_acsami.0c16939__Fig8__D__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": "legend_001",
+      "legend_name": "Pristine",
+      "match": "Series 1 (blue) matches Pristine (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange",
+      "legend_id": "legend_002",
+      "legend_name": "TPFPBpassivation",
+      "match": "Series 2 (orange) matches TPFPBpassivation (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig8_D_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsami.0c16939.md"
+}

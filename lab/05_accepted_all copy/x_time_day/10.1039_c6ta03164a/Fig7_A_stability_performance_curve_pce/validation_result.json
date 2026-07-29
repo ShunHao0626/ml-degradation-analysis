@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/c6ta03164a",
+  "figure_id": "Fig7",
+  "panel_id": "A",
+  "record_id": "10.1039_c6ta03164a__Fig7__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "time",
+      "unit": "(d)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "LP-P3HT",
+      "match": "Series 1 matches LP-P3HT (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "LN-P3HT",
+      "match": "Series 2 matches LN-P3HT (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig7_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1039_c6ta03164a.md"
+}

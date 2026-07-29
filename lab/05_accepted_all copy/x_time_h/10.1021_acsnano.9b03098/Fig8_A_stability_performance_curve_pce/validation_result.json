@@ -1,0 +1,41 @@
+{
+  "doi": "10.1021/acsnano.9b03098",
+  "figure_id": "Fig8",
+  "panel_id": "A",
+  "record_id": "10.1021_acsnano.9b03098__Fig8__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Illumination time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line",
+      "legend_id": "legend_001",
+      "legend_name": "Control PSC",
+      "match": "Series 1 (blue line) matches Control PSC (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line",
+      "legend_id": "legend_003",
+      "legend_name": "G-NBRF (SiO2&AI2O3)",
+      "match": "Series 2 (orange line) matches G-NBRF (SiO2&AI2O3) (legend_003)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line",
+      "legend_id": "legend_002",
+      "legend_name": "G-NBRF (SiO2&TiO2)",
+      "match": "Series 3 (green line) matches G-NBRF (SiO2&TiO2) (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig8_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsnano.9b03098.md"
+}

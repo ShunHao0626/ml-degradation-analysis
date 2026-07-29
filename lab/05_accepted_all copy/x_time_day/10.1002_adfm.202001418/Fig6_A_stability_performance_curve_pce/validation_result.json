@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/adfm.202001418",
+  "figure_id": "Fig6",
+  "panel_id": "A",
+  "record_id": "10.1002_adfm.202001418__Fig6__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "/ day"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": "legend_002",
+      "legend_name": "T—ITO/PCgBM",
+      "match": "Series 1 (blue) matches T—ITO/PCgBM (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "red",
+      "legend_id": "legend_001",
+      "legend_name": "ITO/PSD",
+      "match": "Series 2 (red) matches ITO/PSD (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig6_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_adfm.202001418.md"
+}

@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/solr.201800232",
+  "figure_id": "Fig4",
+  "panel_id": "D",
+  "record_id": "10.1002_solr.201800232__Fig4__D__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time (Days)",
+      "unit": "Days"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "black",
+      "legend_id": null,
+      "legend_name": "Spiro-OMeTAD Devices",
+      "match": "Series 1 (black) matches Spiro-OMeTAD Devices"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "red",
+      "legend_id": null,
+      "legend_name": "PD-10-DTTE-7/Spiro-OMeTAD Devices",
+      "match": "Series 2 (red) matches PD-10-DTTE-7/Spiro-OMeTAD Devices"
+    }
+  ],
+  "source_image_path": "Fig4_D_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_solr.201800232.md"
+}

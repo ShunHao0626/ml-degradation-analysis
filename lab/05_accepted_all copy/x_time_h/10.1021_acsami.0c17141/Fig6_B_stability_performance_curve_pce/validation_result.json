@@ -1,0 +1,48 @@
+{
+  "doi": "10.1021/acsami.0c17141",
+  "figure_id": "Fig6",
+  "panel_id": "B",
+  "record_id": "10.1021_acsami.0c17141__Fig6__B__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": "legend_002",
+      "legend_name": "CNTs-8",
+      "match": "Series 1 (blue) matches CNTs-8 (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "black",
+      "legend_id": "legend_003",
+      "legend_name": "graphene-1/CNTs-8",
+      "match": "Series 2 (black) matches graphene-1/CNTs-8 (legend_003)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "red",
+      "legend_id": "legend_004",
+      "legend_name": "graphene-4/CNTs-8",
+      "match": "Series 3 (red) matches graphene-4/CNTs-8 (legend_004)"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": "purple",
+      "legend_id": "legend_001",
+      "legend_name": "reference Ag electrode",
+      "match": "Series 4 (purple) matches reference Ag electrode (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig6_B_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsami.0c17141.md"
+}

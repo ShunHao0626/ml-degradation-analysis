@@ -1,0 +1,41 @@
+{
+  "doi": "10.1021/acsenergylett.0c01848",
+  "figure_id": "Fig4",
+  "panel_id": "A",
+  "record_id": "10.1021_acsenergylett.0c01848__Fig4__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": null,
+      "legend_name": "Peor/4ABI",
+      "match": "Series 1 (blue) matches Peor/4ABI"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Control",
+      "match": "Series 2 matches Control"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Pero/2AEI",
+      "match": "Series 3 matches Pero/2AEI"
+    }
+  ],
+  "source_image_path": "Fig4_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsenergylett.0c01848.md"
+}

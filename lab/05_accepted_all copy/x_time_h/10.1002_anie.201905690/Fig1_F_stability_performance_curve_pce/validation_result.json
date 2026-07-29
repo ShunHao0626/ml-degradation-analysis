@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/anie.201905690",
+  "figure_id": "Fig1",
+  "panel_id": "F",
+  "record_id": "10.1002_anie.201905690__Fig1__F__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "h"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot",
+      "legend_id": null,
+      "legend_name": "BA₂MA₄Pb₅I₁₆",
+      "match": "Series 1 (blue in replot) matches BA₂MA₄Pb₅I₁₆"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot",
+      "legend_id": null,
+      "legend_name": "BA₂(Cs₀.₀₂ (MA₀.₆₄FA₀.₃₄)₄)Pb₅I₁₆",
+      "match": "Series 2 (orange in replot) matches BA₂(Cs₀.₀₂ (MA₀.₆₄FA₀.₃₄)₄)Pb₅I₁₆"
+    }
+  ],
+  "source_image_path": "Fig1_F_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_anie.201905690.md"
+}

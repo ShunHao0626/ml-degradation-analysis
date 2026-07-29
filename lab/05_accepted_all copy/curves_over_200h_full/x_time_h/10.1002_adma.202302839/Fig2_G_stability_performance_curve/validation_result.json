@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/adma.202302839",
+  "figure_id": "Fig2",
+  "panel_id": "G",
+  "record_id": "10.1002_adma.202302839__Fig2__G__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "h"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Buried",
+      "match": "Series 1 matches Buried"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Control",
+      "match": "Series 2 matches Control"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Dual",
+      "match": "Series 3 matches Dual"
+    }
+  ],
+  "source_image_path": "Fig2_G_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1002_adma.202302839.md"
+}

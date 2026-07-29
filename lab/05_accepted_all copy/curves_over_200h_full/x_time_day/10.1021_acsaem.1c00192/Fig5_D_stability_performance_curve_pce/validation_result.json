@@ -1,0 +1,34 @@
+{
+  "doi": "10.1021/acsaem.1c00192",
+  "figure_id": "Fig5",
+  "panel_id": "D",
+  "record_id": "10.1021_acsaem.1c00192__Fig5__D__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time (day)",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot",
+      "legend_id": "legend_002",
+      "legend_name": "1mg/mL",
+      "match": "Series 1 (blue in replot) matches 1mg/mL (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot",
+      "legend_id": "legend_001",
+      "legend_name": "0mg/mL",
+      "match": "Series 2 (orange in replot) matches 0mg/mL (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig5_D_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsaem.1c00192.md"
+}

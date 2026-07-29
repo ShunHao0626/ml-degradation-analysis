@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/adfm.201901026",
+  "figure_id": "Fig7",
+  "panel_id": "C",
+  "record_id": "10.1002_adfm.201901026__Fig7__C__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": null,
+      "legend_name": "1.2%",
+      "match": "Series 1 (blue) matches 1.2%"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "red",
+      "legend_id": null,
+      "legend_name": "0.5%",
+      "match": "Series 2 (red) matches 0.5%"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "black",
+      "legend_id": null,
+      "legend_name": "0%",
+      "match": "Series 3 (black) matches 0%"
+    }
+  ],
+  "source_image_path": "Fig7_C_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_adfm.201901026.md"
+}

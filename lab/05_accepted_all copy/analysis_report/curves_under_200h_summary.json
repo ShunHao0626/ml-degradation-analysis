@@ -1,0 +1,2190 @@
+{
+  "total_curves": 2151,
+  "under_200h": 293,
+  "over_200h": 1858,
+  "by_top": {
+    "x_time_day": {
+      "under_200h": 40,
+      "total": 663
+    },
+    "x_time_h": {
+      "under_200h": 251,
+      "total": 1480
+    },
+    "x_time_min": {
+      "under_200h": 2,
+      "total": 2
+    },
+    "x_time_week_month_year": {
+      "under_200h": 0,
+      "total": 6
+    }
+  },
+  "per_doi": {
+    "10.1039/d1na00173f": {
+      "min_hours": 19.07,
+      "max_hours": 148.84,
+      "figures": [
+        "Fig5_F"
+      ],
+      "folders": [
+        "Fig5_F_mppt_stability_performance_curve_spectrum"
+      ]
+    },
+    "10.1021/jacs.0c13069": {
+      "min_hours": 38.64,
+      "max_hours": 119.33,
+      "figures": [
+        "Fig4_C"
+      ],
+      "folders": [
+        "Fig4_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.xcrp.2020.100224": {
+      "min_hours": 43.57,
+      "max_hours": 74.49,
+      "figures": [
+        "Fig5_B",
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_B_stability",
+        "Fig5_D_stability_performance_curve"
+      ]
+    },
+    "10.1002/adma.201705596": {
+      "min_hours": 44.63,
+      "max_hours": 44.63,
+      "figures": [
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_D_stability_performance_curve"
+      ]
+    },
+    "10.1016/j.solmat.2019.110284": {
+      "min_hours": 45.35,
+      "max_hours": 45.35,
+      "figures": [
+        "Fig3_B"
+      ],
+      "folders": [
+        "Fig3_B_structure"
+      ]
+    },
+    "10.1039/c5ee03255e": {
+      "min_hours": 46.6,
+      "max_hours": 46.6,
+      "figures": [
+        "Fig6_D"
+      ],
+      "folders": [
+        "Fig6_D_stability_performance_curve"
+      ]
+    },
+    "10.1002/solr.201900167": {
+      "min_hours": 46.84,
+      "max_hours": 46.84,
+      "figures": [
+        "Fig4_D"
+      ],
+      "folders": [
+        "Fig4_D_stability_performance_curve"
+      ]
+    },
+    "10.1002/aenm.201602120": {
+      "min_hours": 47.72,
+      "max_hours": 47.72,
+      "figures": [
+        "Fig4_A"
+      ],
+      "folders": [
+        "Fig4_A_pce"
+      ]
+    },
+    "10.1016/j.nanoen.2022.107818": {
+      "min_hours": 49.22,
+      "max_hours": 49.22,
+      "figures": [
+        "Fig5_E"
+      ],
+      "folders": [
+        "Fig5_E_mppt_stability_performance_curve_pce"
+      ]
+    },
+    "10.1038/ncomms10228": {
+      "min_hours": 54.39,
+      "max_hours": 54.39,
+      "figures": [
+        "Fig5_A"
+      ],
+      "folders": [
+        "Fig5_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/adfm.201807850": {
+      "min_hours": 58.44,
+      "max_hours": 58.44,
+      "figures": [
+        "Fig7_F"
+      ],
+      "folders": [
+        "Fig7_F_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d4ee02427c": {
+      "min_hours": 60.95,
+      "max_hours": 109.29,
+      "figures": [
+        "Fig3_M",
+        "Fig4_H"
+      ],
+      "folders": [
+        "Fig3_M_mppt_stability_performance_curve_density_of_states",
+        "Fig4_H_mppt_stability_performance_curve_pce_eqe"
+      ]
+    },
+    "10.1039/d0ta12286f": {
+      "min_hours": 70.88,
+      "max_hours": 71.36,
+      "figures": [
+        "Fig5_A",
+        "Fig5_B"
+      ],
+      "folders": [
+        "Fig5_A_stability_performance_curve_pce",
+        "Fig5_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/adma.201907623": {
+      "min_hours": 72.46,
+      "max_hours": 143.15,
+      "figures": [
+        "Fig5_C"
+      ],
+      "folders": [
+        "Fig5_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d0ta01860k": {
+      "min_hours": 74.13,
+      "max_hours": 74.13,
+      "figures": [
+        "Fig5_B"
+      ],
+      "folders": [
+        "Fig5_B_mppt_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/adfm.202002964": {
+      "min_hours": 78.31,
+      "max_hours": 78.31,
+      "figures": [
+        "Fig5_C"
+      ],
+      "folders": [
+        "Fig5_C_mppt_stability_performance_curve_profile"
+      ]
+    },
+    "10.1021/jacs.6b10227": {
+      "min_hours": 79.31,
+      "max_hours": 79.31,
+      "figures": [
+        "Fig3_D"
+      ],
+      "folders": [
+        "Fig3_D_stability_performance_curve_pce_photovoltaic_parameter"
+      ]
+    },
+    "10.1021/acs.chemmater.5b03137": {
+      "min_hours": 81.53,
+      "max_hours": 81.53,
+      "figures": [
+        "Fig3_B"
+      ],
+      "folders": [
+        "Fig3_B_profile"
+      ]
+    },
+    "10.1002/advs.201901241": {
+      "min_hours": 84.24,
+      "max_hours": 108.97,
+      "figures": [
+        "Fig5_C",
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_C_stability_performance_curve_pce_plot",
+        "Fig5_D_stability_performance_curve_pce_plot"
+      ]
+    },
+    "10.1002/aenm.202301218": {
+      "min_hours": 88.75,
+      "max_hours": 176.51,
+      "figures": [
+        "Fig3_E",
+        "Fig5_F"
+      ],
+      "folders": [
+        "Fig3_E_mppt_stability_performance_curve_pce_eqe",
+        "Fig5_F_mppt_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.nanoen.2015.10.010": {
+      "min_hours": 88.88,
+      "max_hours": 88.88,
+      "figures": [
+        "Fig7_D"
+      ],
+      "folders": [
+        "Fig7_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d0ra09294k": {
+      "min_hours": 94.64,
+      "max_hours": 95.14,
+      "figures": [
+        "Fig5_C"
+      ],
+      "folders": [
+        "Fig5_C_stability_performance_curve"
+      ]
+    },
+    "10.1002/smll.201907283": {
+      "min_hours": 94.68,
+      "max_hours": 94.68,
+      "figures": [
+        "Fig6_D"
+      ],
+      "folders": [
+        "Fig6_D_ff"
+      ]
+    },
+    "10.1016/j.nanoen.2021.105751": {
+      "min_hours": 95.25,
+      "max_hours": 95.25,
+      "figures": [
+        "Fig4_B"
+      ],
+      "folders": [
+        "Fig4_B_stability_performance_curve_pce_pattern"
+      ]
+    },
+    "10.1021/acsaem.0c01796": {
+      "min_hours": 95.28,
+      "max_hours": 95.28,
+      "figures": [
+        "Fig10"
+      ],
+      "folders": [
+        "Fig10_whole_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/advs.201903250": {
+      "min_hours": 97.12,
+      "max_hours": 120.17,
+      "figures": [
+        "Fig5_D",
+        "Fig5_E"
+      ],
+      "folders": [
+        "Fig5_D_tga_stability_performance_curve_pce",
+        "Fig5_E_tga_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d3ee03687a": {
+      "min_hours": 99.0,
+      "max_hours": 99.0,
+      "figures": [
+        "Fig5_B"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.orgel.2018.09.019": {
+      "min_hours": 99.5,
+      "max_hours": 100.39,
+      "figures": [
+        "Fig4_A"
+      ],
+      "folders": [
+        "Fig4_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/eem2.12089": {
+      "min_hours": 99.52,
+      "max_hours": 99.52,
+      "figures": [
+        "Fig5_B"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve"
+      ]
+    },
+    "10.1021/acsenergylett.7b00375": {
+      "min_hours": 100.01,
+      "max_hours": 100.01,
+      "figures": [
+        "Fig4_C"
+      ],
+      "folders": [
+        "Fig4_C_stability_performance_curve_eqe"
+      ]
+    },
+    "10.1002/pssr.202000062": {
+      "min_hours": 100.06,
+      "max_hours": 100.06,
+      "figures": [
+        "Fig4_B"
+      ],
+      "folders": [
+        "Fig4_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/smll.201904399": {
+      "min_hours": 101.57,
+      "max_hours": 101.57,
+      "figures": [
+        "Fig6_C"
+      ],
+      "folders": [
+        "Fig6_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.nanoen.2016.09.041": {
+      "min_hours": 102.59,
+      "max_hours": 103.16,
+      "figures": [
+        "Fig2_A"
+      ],
+      "folders": [
+        "Fig2_A_pce"
+      ]
+    },
+    "10.1016/j.jpowsour.2021.230534": {
+      "min_hours": 104.38,
+      "max_hours": 104.67,
+      "figures": [
+        "Fig4_C"
+      ],
+      "folders": [
+        "Fig4_C_stability"
+      ]
+    },
+    "10.1021/acsami.0c02751": {
+      "min_hours": 104.5,
+      "max_hours": 104.81,
+      "figures": [
+        "Fig9_A"
+      ],
+      "folders": [
+        "Fig9_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.nanoen.2021.106157": {
+      "min_hours": 105.25,
+      "max_hours": 105.25,
+      "figures": [
+        "Fig3_G"
+      ],
+      "folders": [
+        "Fig3_G_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.cej.2021.130685": {
+      "min_hours": 105.8,
+      "max_hours": 105.8,
+      "figures": [
+        "Fig5_F"
+      ],
+      "folders": [
+        "Fig5_F_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsami.9b11229": {
+      "min_hours": 106.01,
+      "max_hours": 106.97,
+      "figures": [
+        "Fig5_B",
+        "Fig5_C",
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve",
+        "Fig5_C_stability_performance_curve",
+        "Fig5_D_stability_performance_curve"
+      ]
+    },
+    "10.1002/solr.202100899": {
+      "min_hours": 106.87,
+      "max_hours": 198.97,
+      "figures": [
+        "Fig5_B",
+        "Fig5_C",
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve_pce",
+        "Fig5_C_stability_performance_curve_pce",
+        "Fig5_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.3390/coatings11060627": {
+      "min_hours": 107.31,
+      "max_hours": 107.31,
+      "figures": [
+        "Fig3_A"
+      ],
+      "folders": [
+        "Fig3_A_stability_performance_curve"
+      ]
+    },
+    "10.1002/aenm.201700226": {
+      "min_hours": 107.51,
+      "max_hours": 107.51,
+      "figures": [
+        "Fig4_A"
+      ],
+      "folders": [
+        "Fig4_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/adfm.202101163": {
+      "min_hours": 109.1,
+      "max_hours": 109.1,
+      "figures": [
+        "Fig7_B"
+      ],
+      "folders": [
+        "Fig7_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/solr.201700245": {
+      "min_hours": 110.75,
+      "max_hours": 110.75,
+      "figures": [
+        "Fig6"
+      ],
+      "folders": [
+        "Fig6_whole_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.nanoen.2014.12.022": {
+      "min_hours": 115.58,
+      "max_hours": 115.58,
+      "figures": [
+        "Fig4_A"
+      ],
+      "folders": [
+        "Fig4_A_photovoltaic_parameter"
+      ]
+    },
+    "10.1016/j.jpowsour.2021.229781": {
+      "min_hours": 116.87,
+      "max_hours": 118.74,
+      "figures": [
+        "Fig4_B"
+      ],
+      "folders": [
+        "Fig4_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/c9ta08314f": {
+      "min_hours": 117.13,
+      "max_hours": 117.13,
+      "figures": [
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.nanoen.2019.103964": {
+      "min_hours": 117.34,
+      "max_hours": 117.34,
+      "figures": [
+        "Fig4_B"
+      ],
+      "folders": [
+        "Fig4_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.solener.2016.10.005": {
+      "min_hours": 117.42,
+      "max_hours": 117.42,
+      "figures": [
+        "Fig7"
+      ],
+      "folders": [
+        "Fig7_whole_stability"
+      ]
+    },
+    "10.1016/j.orgel.2019.03.036": {
+      "min_hours": 117.42,
+      "max_hours": 117.49,
+      "figures": [
+        "Fig5_C",
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_C_stability_performance_curve_pce",
+        "Fig5_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsaem.0c00584": {
+      "min_hours": 117.57,
+      "max_hours": 119.96,
+      "figures": [
+        "Fig3_D"
+      ],
+      "folders": [
+        "Fig3_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.jechem.2021.08.021": {
+      "min_hours": 117.7,
+      "max_hours": 117.7,
+      "figures": [
+        "Fig5_G"
+      ],
+      "folders": [
+        "Fig5_G_stability_performance_curve_pce_voc"
+      ]
+    },
+    "10.1002/aenm.201803287": {
+      "min_hours": 117.96,
+      "max_hours": 117.96,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.electacta.2018.07.028": {
+      "min_hours": 117.98,
+      "max_hours": 118.2,
+      "figures": [
+        "Fig2_A"
+      ],
+      "folders": [
+        "Fig2_A_spectrum_2"
+      ]
+    },
+    "10.1039/c5ta09080f": {
+      "min_hours": 118.05,
+      "max_hours": 118.05,
+      "figures": [
+        "Fig6_C"
+      ],
+      "folders": [
+        "Fig6_C_stability_performance_curve_pce_profile"
+      ]
+    },
+    "10.1016/j.jmat.2021.08.007": {
+      "min_hours": 118.06,
+      "max_hours": 160.23,
+      "figures": [
+        "Fig6_A"
+      ],
+      "folders": [
+        "Fig6_A_stability_performance_curve"
+      ]
+    },
+    "10.1002/adem.202000990": {
+      "min_hours": 118.07,
+      "max_hours": 118.07,
+      "figures": [
+        "Fig5_C"
+      ],
+      "folders": [
+        "Fig5_C_jv_curve_stability_performance_pce"
+      ]
+    },
+    "10.1002/adma.201905766": {
+      "min_hours": 118.17,
+      "max_hours": 177.99,
+      "figures": [
+        "Fig4_E"
+      ],
+      "folders": [
+        "Fig4_E_mppt_stability_performance_curve_pce",
+        "Fig4_E_stability_performance_curve_pce"
+      ]
+    },
+    "10.1126/science.aam6620": {
+      "min_hours": 118.32,
+      "max_hours": 118.32,
+      "figures": [
+        "Fig4_A"
+      ],
+      "folders": [
+        "Fig4_A_stability_performance_curve_pce_2"
+      ]
+    },
+    "10.1002/aenm.201802774": {
+      "min_hours": 118.38,
+      "max_hours": 118.38,
+      "figures": [
+        "Fig3_C"
+      ],
+      "folders": [
+        "Fig3_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d1na00172h": {
+      "min_hours": 118.5,
+      "max_hours": 118.67,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1007/s40820-022-00995-2": {
+      "min_hours": 118.53,
+      "max_hours": 118.53,
+      "figures": [
+        "Fig5_F"
+      ],
+      "folders": [
+        "Fig5_F_sem_image_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsenergylett.1c01446": {
+      "min_hours": 118.58,
+      "max_hours": 118.58,
+      "figures": [
+        "Fig5"
+      ],
+      "folders": [
+        "Fig5_whole_stability_performance_curve_pce"
+      ]
+    },
+    "10.1038/s41467-018-05760-x": {
+      "min_hours": 118.85,
+      "max_hours": 120.12,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_jv_curve_stability_performance_pce"
+      ]
+    },
+    "10.1002/solr.201900319": {
+      "min_hours": 118.99,
+      "max_hours": 118.99,
+      "figures": [
+        "Fig4_F"
+      ],
+      "folders": [
+        "Fig4_F_stability_performance_curve_eqe"
+      ]
+    },
+    "10.1016/j.mssp.2018.10.034": {
+      "min_hours": 119.63,
+      "max_hours": 167.23,
+      "figures": [
+        "Fig12"
+      ],
+      "folders": [
+        "Fig12_whole_stability"
+      ]
+    },
+    "10.1016/j.solmat.2017.12.015": {
+      "min_hours": 119.75,
+      "max_hours": 119.75,
+      "figures": [
+        "Fig8_D"
+      ],
+      "folders": [
+        "Fig8_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsenergylett.8b00085": {
+      "min_hours": 119.83,
+      "max_hours": 119.83,
+      "figures": [
+        "Fig2_F"
+      ],
+      "folders": [
+        "Fig2_F_stability_performance_curve_image"
+      ]
+    },
+    "10.1021/acs.langmuir.8b01650": {
+      "min_hours": 119.84,
+      "max_hours": 119.84,
+      "figures": [
+        "Fig6"
+      ],
+      "folders": [
+        "Fig6_whole_stability"
+      ]
+    },
+    "10.1002/solr.201800290": {
+      "min_hours": 119.98,
+      "max_hours": 119.98,
+      "figures": [
+        "Fig7_A"
+      ],
+      "folders": [
+        "Fig7_A_stability_performance_curve"
+      ]
+    },
+    "10.1002/solr.202000164": {
+      "min_hours": 120.05,
+      "max_hours": 120.05,
+      "figures": [
+        "Fig4_C"
+      ],
+      "folders": [
+        "Fig4_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.apsusc.2017.02.057": {
+      "min_hours": 120.08,
+      "max_hours": 120.08,
+      "figures": [
+        "Fig4_D"
+      ],
+      "folders": [
+        "Fig4_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/adfm.202002230": {
+      "min_hours": 120.7,
+      "max_hours": 120.7,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_stability_performance_curve_mapping"
+      ]
+    },
+    "10.1016/j.flatc.2021.100254": {
+      "min_hours": 120.91,
+      "max_hours": 120.91,
+      "figures": [
+        "Fig10"
+      ],
+      "folders": [
+        "Fig10_whole_stability_performance_curve"
+      ]
+    },
+    "10.1016/j.nanoen.2019.104244": {
+      "min_hours": 124.72,
+      "max_hours": 124.72,
+      "figures": [
+        "Fig5_B"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1007/s10853-020-04965-0": {
+      "min_hours": 125.84,
+      "max_hours": 125.84,
+      "figures": [
+        "Fig8_B"
+      ],
+      "folders": [
+        "Fig8_B_stability_performance_curve_jsc"
+      ]
+    },
+    "10.1039/c7ta09716f": {
+      "min_hours": 128.48,
+      "max_hours": 128.48,
+      "figures": [
+        "Fig7_B"
+      ],
+      "folders": [
+        "Fig7_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d5ee01110h": {
+      "min_hours": 133.98,
+      "max_hours": 133.98,
+      "figures": [
+        "Fig1_E"
+      ],
+      "folders": [
+        "Fig1_E_stability_performance_curve"
+      ]
+    },
+    "10.1039/c7ee02272g": {
+      "min_hours": 135.14,
+      "max_hours": 135.14,
+      "figures": [
+        "Fig2_E"
+      ],
+      "folders": [
+        "Fig2_E_sem_image_stability_performance_curve_pce_2"
+      ]
+    },
+    "10.1039/d4ra08786k": {
+      "min_hours": 135.25,
+      "max_hours": 135.25,
+      "figures": [
+        "Fig7_B"
+      ],
+      "folders": [
+        "Fig7_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsami.0c11247": {
+      "min_hours": 136.38,
+      "max_hours": 136.38,
+      "figures": [
+        "Fig5_A"
+      ],
+      "folders": [
+        "Fig5_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/admi.201500799": {
+      "min_hours": 137.04,
+      "max_hours": 143.04,
+      "figures": [
+        "Fig7"
+      ],
+      "folders": [
+        "Fig7_whole_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d4ee03001j": {
+      "min_hours": 137.86,
+      "max_hours": 137.86,
+      "figures": [
+        "Fig5_F"
+      ],
+      "folders": [
+        "Fig5_F_mppt_stability_performance_curve_jsc"
+      ]
+    },
+    "10.1021/acsami.0c00142": {
+      "min_hours": 138.1,
+      "max_hours": 138.1,
+      "figures": [
+        "Fig4_F"
+      ],
+      "folders": [
+        "Fig4_F_stability"
+      ]
+    },
+    "10.1038/s41598-020-79348-1": {
+      "min_hours": 138.13,
+      "max_hours": 138.13,
+      "figures": [
+        "Fig4_A"
+      ],
+      "folders": [
+        "Fig4_A_stability_performance_curve_ff"
+      ]
+    },
+    "10.1021/jacs.7b07949": {
+      "min_hours": 138.72,
+      "max_hours": 138.72,
+      "figures": [
+        "Fig4_B"
+      ],
+      "folders": [
+        "Fig4_B_stability_performance_curve_ff_pce"
+      ]
+    },
+    "10.1021/acs.chemmater.0c00995": {
+      "min_hours": 140.06,
+      "max_hours": 140.06,
+      "figures": [
+        "Fig6_D"
+      ],
+      "folders": [
+        "Fig6_D_xrd_pattern_stability_performance_curve_pce_spectrum"
+      ]
+    },
+    "10.1002/adfm.201503559": {
+      "min_hours": 141.43,
+      "max_hours": 143.36,
+      "figures": [
+        "Fig6"
+      ],
+      "folders": [
+        "Fig6_whole_figure"
+      ]
+    },
+    "10.1002/aenm.201903654": {
+      "min_hours": 141.44,
+      "max_hours": 141.44,
+      "figures": [
+        "Fig5_E"
+      ],
+      "folders": [
+        "Fig5_E_mppt_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.jpowsour.2020.229345": {
+      "min_hours": 142.0,
+      "max_hours": 142.0,
+      "figures": [
+        "Fig8_D"
+      ],
+      "folders": [
+        "Fig8_D_stability_performance_curve_jsc"
+      ]
+    },
+    "10.1016/j.orgel.2018.02.026": {
+      "min_hours": 142.18,
+      "max_hours": 143.79,
+      "figures": [
+        "Fig8_A"
+      ],
+      "folders": [
+        "Fig8_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d1ta05699a": {
+      "min_hours": 142.64,
+      "max_hours": 142.85,
+      "figures": [
+        "Fig5_E"
+      ],
+      "folders": [
+        "Fig5_E_stability_performance_curve"
+      ]
+    },
+    "10.1002/smll.202101380": {
+      "min_hours": 142.87,
+      "max_hours": 142.87,
+      "figures": [
+        "Fig5_H"
+      ],
+      "folders": [
+        "Fig5_H_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/solr.202000621": {
+      "min_hours": 145.49,
+      "max_hours": 193.09,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsaem.9b01652": {
+      "min_hours": 147.18,
+      "max_hours": 147.18,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_rate"
+      ]
+    },
+    "10.1039/c9tc01741k": {
+      "min_hours": 147.24,
+      "max_hours": 147.24,
+      "figures": [
+        "Fig7_B"
+      ],
+      "folders": [
+        "Fig7_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d3ta01935g": {
+      "min_hours": 147.55,
+      "max_hours": 148.8,
+      "figures": [
+        "Fig5_F"
+      ],
+      "folders": [
+        "Fig5_F_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d0sc06354a": {
+      "min_hours": 147.55,
+      "max_hours": 147.55,
+      "figures": [
+        "Fig6_D"
+      ],
+      "folders": [
+        "Fig6_D_stability_performance_curve"
+      ]
+    },
+    "10.1039/d0se00528b": {
+      "min_hours": 147.71,
+      "max_hours": 148.3,
+      "figures": [
+        "Fig6_A"
+      ],
+      "folders": [
+        "Fig6_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsenergylett.0c00596": {
+      "min_hours": 147.83,
+      "max_hours": 147.83,
+      "figures": [
+        "Fig4_C"
+      ],
+      "folders": [
+        "Fig4_C_mppt_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.solener.2021.01.030": {
+      "min_hours": 148.06,
+      "max_hours": 148.06,
+      "figures": [
+        "Fig6_A"
+      ],
+      "folders": [
+        "Fig6_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d3ta07851e": {
+      "min_hours": 148.31,
+      "max_hours": 148.31,
+      "figures": [
+        "Fig3_E"
+      ],
+      "folders": [
+        "Fig3_E_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/C9TA03131F": {
+      "min_hours": 148.86,
+      "max_hours": 149.12,
+      "figures": [
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.jechem.2019.10.006": {
+      "min_hours": 148.9,
+      "max_hours": 148.9,
+      "figures": [
+        "Fig4_F"
+      ],
+      "folders": [
+        "Fig4_F_stability_performance_curve_voc"
+      ]
+    },
+    "10.1016/j.solmat.2018.07.009": {
+      "min_hours": 149.17,
+      "max_hours": 149.17,
+      "figures": [
+        "Fig5_F"
+      ],
+      "folders": [
+        "Fig5_F_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.jallcom.2021.159658": {
+      "min_hours": 149.33,
+      "max_hours": 149.67,
+      "figures": [
+        "Fig23"
+      ],
+      "folders": [
+        "Fig23_whole_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/smtd.201900652": {
+      "min_hours": 151.49,
+      "max_hours": 151.49,
+      "figures": [
+        "Fig5_E"
+      ],
+      "folders": [
+        "Fig5_E_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.xcrp.2021.100395": {
+      "min_hours": 152.52,
+      "max_hours": 152.52,
+      "figures": [
+        "Fig6_F"
+      ],
+      "folders": [
+        "Fig6_F_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/c9ta09260a": {
+      "min_hours": 152.6,
+      "max_hours": 152.6,
+      "figures": [
+        "Fig4_I"
+      ],
+      "folders": [
+        "Fig4_I_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/solr.202100320": {
+      "min_hours": 156.82,
+      "max_hours": 156.82,
+      "figures": [
+        "Fig7_F"
+      ],
+      "folders": [
+        "Fig7_F_stability_performance_curve_pce_pattern"
+      ]
+    },
+    "10.1002/aenm.201902239": {
+      "min_hours": 157.2,
+      "max_hours": 157.2,
+      "figures": [
+        "Fig5_C"
+      ],
+      "folders": [
+        "Fig5_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.jmst.2021.05.084": {
+      "min_hours": 158.15,
+      "max_hours": 158.15,
+      "figures": [
+        "Fig5_B"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsaem.0c00811": {
+      "min_hours": 159.37,
+      "max_hours": 159.37,
+      "figures": [
+        "Fig5_B"
+      ],
+      "folders": [
+        "Fig5_B_curve"
+      ]
+    },
+    "10.1021/acs.chemmater.1c00662": {
+      "min_hours": 162.06,
+      "max_hours": 162.06,
+      "figures": [
+        "Fig4_B"
+      ],
+      "folders": [
+        "Fig4_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/adma.201903448": {
+      "min_hours": 163.46,
+      "max_hours": 163.46,
+      "figures": [
+        "Fig3_G"
+      ],
+      "folders": [
+        "Fig3_G_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/c7ta09543k": {
+      "min_hours": 164.11,
+      "max_hours": 164.11,
+      "figures": [
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_D_stability_performance_curve"
+      ]
+    },
+    "10.1039/C9SC01697J": {
+      "min_hours": 164.27,
+      "max_hours": 164.27,
+      "figures": [
+        "Fig6_E"
+      ],
+      "folders": [
+        "Fig6_E_sem_image_stability_performance_curve_photovoltaic_parameter"
+      ]
+    },
+    "10.1021/acsenergylett.7b00508": {
+      "min_hours": 164.68,
+      "max_hours": 164.68,
+      "figures": [
+        "Fig4_F"
+      ],
+      "folders": [
+        "Fig4_F_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/c7nr03507a": {
+      "min_hours": 164.75,
+      "max_hours": 164.75,
+      "figures": [
+        "Fig5_A"
+      ],
+      "folders": [
+        "Fig5_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.nanoen.2020.105462": {
+      "min_hours": 164.92,
+      "max_hours": 165.08,
+      "figures": [
+        "Fig5_B",
+        "Fig5_C"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve_pce",
+        "Fig5_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/adma.201907396": {
+      "min_hours": 164.96,
+      "max_hours": 164.96,
+      "figures": [
+        "Fig5_E"
+      ],
+      "folders": [
+        "Fig5_E_mppt_stability_performance_curve_pattern"
+      ]
+    },
+    "10.1002/advs.201700025": {
+      "min_hours": 165.08,
+      "max_hours": 165.08,
+      "figures": [
+        "Fig7"
+      ],
+      "folders": [
+        "Fig7_whole_stability"
+      ]
+    },
+    "10.1016/j.joule.2018.11.026": {
+      "min_hours": 165.09,
+      "max_hours": 167.4,
+      "figures": [
+        "Fig6_B",
+        "Fig6_C"
+      ],
+      "folders": [
+        "Fig6_B_stability_performance_curve_pce",
+        "Fig6_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.cplett.2021.138496": {
+      "min_hours": 165.25,
+      "max_hours": 165.25,
+      "figures": [
+        "Fig5_B"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve"
+      ]
+    },
+    "10.1016/j.jmrt.2021.12.012": {
+      "min_hours": 165.3,
+      "max_hours": 166.28,
+      "figures": [
+        "Fig14_D"
+      ],
+      "folders": [
+        "Fig14_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.jallcom.2021.161455": {
+      "min_hours": 165.35,
+      "max_hours": 165.35,
+      "figures": [
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_D_stability_performance_curve"
+      ]
+    },
+    "10.1016/j.electacta.2016.03.002": {
+      "min_hours": 165.41,
+      "max_hours": 166.38,
+      "figures": [
+        "Fig7_A"
+      ],
+      "folders": [
+        "Fig7_A_stability_performance_curve"
+      ]
+    },
+    "10.1021/acs.jpcc.0c02628": {
+      "min_hours": 165.54,
+      "max_hours": 165.54,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.solmat.2016.12.025": {
+      "min_hours": 165.57,
+      "max_hours": 165.57,
+      "figures": [
+        "Fig3_C"
+      ],
+      "folders": [
+        "Fig3_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1126/science.aad1015": {
+      "min_hours": 165.8,
+      "max_hours": 166.71,
+      "figures": [
+        "Fig4_C"
+      ],
+      "folders": [
+        "Fig4_C_jv_curve_stability_performance_jsc"
+      ]
+    },
+    "10.1039/c6ta10588b": {
+      "min_hours": 165.91,
+      "max_hours": 166.16,
+      "figures": [
+        "Fig6"
+      ],
+      "folders": [
+        "Fig6_whole_stability"
+      ]
+    },
+    "10.1016/j.solmat.2017.07.022": {
+      "min_hours": 166.05,
+      "max_hours": 167.03,
+      "figures": [
+        "Fig7"
+      ],
+      "folders": [
+        "Fig7_whole_stability"
+      ]
+    },
+    "10.1002/adma.202003965": {
+      "min_hours": 166.15,
+      "max_hours": 166.15,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_chart"
+      ]
+    },
+    "10.1109/jphotov.2020.2987390": {
+      "min_hours": 166.31,
+      "max_hours": 166.31,
+      "figures": [
+        "Fig4_D"
+      ],
+      "folders": [
+        "Fig4_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.apsusc.2018.09.080": {
+      "min_hours": 166.32,
+      "max_hours": 167.96,
+      "figures": [
+        "Fig16"
+      ],
+      "folders": [
+        "Fig16_whole_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsami.8b12675": {
+      "min_hours": 166.56,
+      "max_hours": 166.56,
+      "figures": [
+        "Fig6"
+      ],
+      "folders": [
+        "Fig6_whole_stability"
+      ]
+    },
+    "10.3390/pr10081477": {
+      "min_hours": 166.71,
+      "max_hours": 166.71,
+      "figures": [
+        "Fig6"
+      ],
+      "folders": [
+        "Fig6_whole_figure"
+      ]
+    },
+    "10.1016/j.jallcom.2020.157396": {
+      "min_hours": 166.79,
+      "max_hours": 166.79,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/adma.202003296": {
+      "min_hours": 166.91,
+      "max_hours": 166.91,
+      "figures": [
+        "Fig5_B"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsami.0c05527": {
+      "min_hours": 167.09,
+      "max_hours": 167.09,
+      "figures": [
+        "Fig7_C"
+      ],
+      "folders": [
+        "Fig7_C_stability_performance_curve"
+      ]
+    },
+    "10.1039/d0ta06033j": {
+      "min_hours": 167.27,
+      "max_hours": 167.27,
+      "figures": [
+        "Fig4_F"
+      ],
+      "folders": [
+        "Fig4_F_stability_performance_curve_pattern"
+      ]
+    },
+    "10.1016/j.orgel.2021.106244": {
+      "min_hours": 167.45,
+      "max_hours": 167.45,
+      "figures": [
+        "Fig7"
+      ],
+      "folders": [
+        "Fig7_whole_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d0dt03201h": {
+      "min_hours": 167.69,
+      "max_hours": 167.69,
+      "figures": [
+        "Fig6_G"
+      ],
+      "folders": [
+        "Fig6_G_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsaem.8b00602": {
+      "min_hours": 167.71,
+      "max_hours": 167.71,
+      "figures": [
+        "Fig8"
+      ],
+      "folders": [
+        "Fig8_whole_stability"
+      ]
+    },
+    "10.1016/j.carbon.2019.10.101": {
+      "min_hours": 167.79,
+      "max_hours": 167.79,
+      "figures": [
+        "Fig4_A"
+      ],
+      "folders": [
+        "Fig4_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.apsusc.2019.143552": {
+      "min_hours": 167.91,
+      "max_hours": 167.91,
+      "figures": [
+        "Fig10"
+      ],
+      "folders": [
+        "Fig10_whole_figure"
+      ]
+    },
+    "10.1016/j.heliyon.2024.e25352": {
+      "min_hours": 168.0,
+      "max_hours": 168.0,
+      "figures": [
+        "Fig6"
+      ],
+      "folders": [
+        "Fig6_whole_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.electacta.2018.04.055": {
+      "min_hours": 168.24,
+      "max_hours": 168.24,
+      "figures": [
+        "Fig4_D"
+      ],
+      "folders": [
+        "Fig4_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/adfm.201600746": {
+      "min_hours": 168.48,
+      "max_hours": 168.48,
+      "figures": [
+        "Fig6_A"
+      ],
+      "folders": [
+        "Fig6_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsami.0c17141": {
+      "min_hours": 169.55,
+      "max_hours": 169.55,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.solmat.2015.10.008": {
+      "min_hours": 170.07,
+      "max_hours": 170.38,
+      "figures": [
+        "Fig6_D"
+      ],
+      "folders": [
+        "Fig6_D_ff"
+      ]
+    },
+    "10.1021/acsami.7b06681": {
+      "min_hours": 172.42,
+      "max_hours": 172.42,
+      "figures": [
+        "Fig6_D"
+      ],
+      "folders": [
+        "Fig6_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.joule.2020.12.003": {
+      "min_hours": 173.58,
+      "max_hours": 173.58,
+      "figures": [
+        "Fig6_C"
+      ],
+      "folders": [
+        "Fig6_C_mppt_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/admi.202000105": {
+      "min_hours": 174.11,
+      "max_hours": 174.11,
+      "figures": [
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsenergylett.0c01207": {
+      "min_hours": 174.4,
+      "max_hours": 175.4,
+      "figures": [
+        "Fig5_A"
+      ],
+      "folders": [
+        "Fig5_A_pce"
+      ]
+    },
+    "10.1039/c9ta13922b": {
+      "min_hours": 175.41,
+      "max_hours": 175.41,
+      "figures": [
+        "Fig4_H"
+      ],
+      "folders": [
+        "Fig4_H_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/c6ta06152d": {
+      "min_hours": 175.95,
+      "max_hours": 176.41,
+      "figures": [
+        "Fig5_A"
+      ],
+      "folders": [
+        "Fig5_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d4su00641k": {
+      "min_hours": 176.11,
+      "max_hours": 177.25,
+      "figures": [
+        "Fig1"
+      ],
+      "folders": [
+        "Fig1_whole_stability_performance_curve"
+      ]
+    },
+    "10.1016/j.nanoen.2017.11.008": {
+      "min_hours": 176.56,
+      "max_hours": 176.56,
+      "figures": [
+        "Fig3_F"
+      ],
+      "folders": [
+        "Fig3_F_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/d4ee05699j": {
+      "min_hours": 184.83,
+      "max_hours": 184.83,
+      "figures": [
+        "Fig4_I"
+      ],
+      "folders": [
+        "Fig4_I_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsami.6b15563": {
+      "min_hours": 186.4,
+      "max_hours": 186.4,
+      "figures": [
+        "Fig5_F"
+      ],
+      "folders": [
+        "Fig5_F_stability_performance_curve_pce"
+      ]
+    },
+    "10.1126/sciadv.aav8925": {
+      "min_hours": 186.82,
+      "max_hours": 186.82,
+      "figures": [
+        "Fig5_B"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/c9ta05802h": {
+      "min_hours": 187.18,
+      "max_hours": 187.18,
+      "figures": [
+        "Fig5_A"
+      ],
+      "folders": [
+        "Fig5_A_stability_performance_curve_jsc"
+      ]
+    },
+    "10.1016/j.solener.2021.06.076": {
+      "min_hours": 187.2,
+      "max_hours": 187.2,
+      "figures": [
+        "Fig9_A"
+      ],
+      "folders": [
+        "Fig9_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.jallcom.2020.157784": {
+      "min_hours": 187.31,
+      "max_hours": 187.31,
+      "figures": [
+        "Fig7_H"
+      ],
+      "folders": [
+        "Fig7_H_stability_performance_curve_pce"
+      ]
+    },
+    "10.1038/s41598-017-00866-6": {
+      "min_hours": 187.64,
+      "max_hours": 191.07,
+      "figures": [
+        "Fig1_A",
+        "Fig1_B"
+      ],
+      "folders": [
+        "Fig1_A_stability_performance_curve_pce",
+        "Fig1_B_xrd_pattern_stability_performance_curve"
+      ]
+    },
+    "10.1016/j.electacta.2017.07.040": {
+      "min_hours": 188.22,
+      "max_hours": 188.22,
+      "figures": [
+        "Fig8"
+      ],
+      "folders": [
+        "Fig8_whole_stability_performance_curve_pce"
+      ]
+    },
+    "10.1038/s41586-019-1036-3": {
+      "min_hours": 188.27,
+      "max_hours": 188.27,
+      "figures": [
+        "Fig4_A"
+      ],
+      "folders": [
+        "Fig4_A_mppt_stability_performance_curve"
+      ]
+    },
+    "10.1016/j.orgel.2019.03.033": {
+      "min_hours": 188.4,
+      "max_hours": 188.4,
+      "figures": [
+        "Fig7_C"
+      ],
+      "folders": [
+        "Fig7_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/admi.201800499": {
+      "min_hours": 188.5,
+      "max_hours": 188.5,
+      "figures": [
+        "Fig6_E"
+      ],
+      "folders": [
+        "Fig6_E_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/c8ta06557h": {
+      "min_hours": 188.68,
+      "max_hours": 191.35,
+      "figures": [
+        "Fig6_E",
+        "Fig6_F"
+      ],
+      "folders": [
+        "Fig6_E_stability_performance_curve_pce",
+        "Fig6_F_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.nanoen.2021.106445": {
+      "min_hours": 188.78,
+      "max_hours": 188.78,
+      "figures": [
+        "Fig5_C"
+      ],
+      "folders": [
+        "Fig5_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/c8nh00163d": {
+      "min_hours": 188.82,
+      "max_hours": 188.82,
+      "figures": [
+        "Fig4_A"
+      ],
+      "folders": [
+        "Fig4_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.nanoen.2016.08.055": {
+      "min_hours": 189.58,
+      "max_hours": 189.58,
+      "figures": [
+        "Fig9_A"
+      ],
+      "folders": [
+        "Fig9_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.3390/coatings9110766": {
+      "min_hours": 189.76,
+      "max_hours": 189.76,
+      "figures": [
+        "Fig8_D"
+      ],
+      "folders": [
+        "Fig8_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.electacta.2016.09.138": {
+      "min_hours": 189.88,
+      "max_hours": 189.88,
+      "figures": [
+        "Fig6_D"
+      ],
+      "folders": [
+        "Fig6_D_eis_plot_stability_performance_curve"
+      ]
+    },
+    "10.1016/j.jpowsour.2022.231243": {
+      "min_hours": 190.12,
+      "max_hours": 190.12,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_jv_curve_stability_performance_pce"
+      ]
+    },
+    "10.1016/j.orgel.2019.105384": {
+      "min_hours": 190.47,
+      "max_hours": 191.27,
+      "figures": [
+        "Fig5"
+      ],
+      "folders": [
+        "Fig5_whole_figure"
+      ]
+    },
+    "10.1007/s40843-019-1174-3": {
+      "min_hours": 190.51,
+      "max_hours": 190.51,
+      "figures": [
+        "Fig7_D"
+      ],
+      "folders": [
+        "Fig7_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.solmat.2019.04.007": {
+      "min_hours": 190.71,
+      "max_hours": 190.71,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_stability"
+      ]
+    },
+    "10.1039/c8ta11977e": {
+      "min_hours": 190.72,
+      "max_hours": 190.72,
+      "figures": [
+        "Fig8_A"
+      ],
+      "folders": [
+        "Fig8_A_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/aenm.201601156": {
+      "min_hours": 191.62,
+      "max_hours": 191.62,
+      "figures": [
+        "Fig4_A"
+      ],
+      "folders": [
+        "Fig4_A_pce"
+      ]
+    },
+    "10.1039/c9ta05744g": {
+      "min_hours": 191.92,
+      "max_hours": 191.92,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_mppt_stability_performance_curve"
+      ]
+    },
+    "10.1039/c7tc00882a": {
+      "min_hours": 192.31,
+      "max_hours": 192.31,
+      "figures": [
+        "Fig7"
+      ],
+      "folders": [
+        "Fig7_whole_stability"
+      ]
+    },
+    "10.1039/c6ee00612d": {
+      "min_hours": 192.86,
+      "max_hours": 192.86,
+      "figures": [
+        "Fig2_E"
+      ],
+      "folders": [
+        "Fig2_E_mppt_stability_performance_curve_eqe"
+      ]
+    },
+    "10.1002/celc.201701054": {
+      "min_hours": 193.35,
+      "max_hours": 193.35,
+      "figures": [
+        "Fig7_B"
+      ],
+      "folders": [
+        "Fig7_B_stability_performance_curve"
+      ]
+    },
+    "10.1002/smtd.201900476": {
+      "min_hours": 193.37,
+      "max_hours": 193.37,
+      "figures": [
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_D_mppt_stability_performance_curve_pce_eqe"
+      ]
+    },
+    "10.1002/adma.202205769": {
+      "min_hours": 193.84,
+      "max_hours": 193.84,
+      "figures": [
+        "Fig4_B"
+      ],
+      "folders": [
+        "Fig4_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/c9ta05422g": {
+      "min_hours": 193.98,
+      "max_hours": 195.28,
+      "figures": [
+        "Fig9_F"
+      ],
+      "folders": [
+        "Fig9_F_stability_performance_curve"
+      ]
+    },
+    "10.1021/jacs.7b13229": {
+      "min_hours": 194.03,
+      "max_hours": 194.03,
+      "figures": [
+        "Fig3_D"
+      ],
+      "folders": [
+        "Fig3_D_stability_performance_curve_pce_jsc"
+      ]
+    },
+    "10.1016/j.nanoen.2020.104929": {
+      "min_hours": 194.05,
+      "max_hours": 194.05,
+      "figures": [
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/adma.201701221": {
+      "min_hours": 195.53,
+      "max_hours": 195.69,
+      "figures": [
+        "Fig5_B",
+        "Fig5_C"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve_pce",
+        "Fig5_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1002/admi.202001144": {
+      "min_hours": 195.73,
+      "max_hours": 198.7,
+      "figures": [
+        "Fig3_B"
+      ],
+      "folders": [
+        "Fig3_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.jechem.2021.05.042": {
+      "min_hours": 195.78,
+      "max_hours": 195.78,
+      "figures": [
+        "Fig6_F"
+      ],
+      "folders": [
+        "Fig6_F_stability_performance_curve"
+      ]
+    },
+    "10.1016/j.nanoen.2020.105181": {
+      "min_hours": 196.38,
+      "max_hours": 196.38,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.jpowsour.2020.228818": {
+      "min_hours": 196.43,
+      "max_hours": 199.48,
+      "figures": [
+        "Fig6_B"
+      ],
+      "folders": [
+        "Fig6_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.xcrp.2021.100450": {
+      "min_hours": 196.53,
+      "max_hours": 196.53,
+      "figures": [
+        "Fig5_F"
+      ],
+      "folders": [
+        "Fig5_F_stability_performance_curve_pce_image"
+      ]
+    },
+    "10.1039/c8ta02121j": {
+      "min_hours": 196.9,
+      "max_hours": 196.9,
+      "figures": [
+        "Fig6_C"
+      ],
+      "folders": [
+        "Fig6_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.solmat.2019.110335": {
+      "min_hours": 196.91,
+      "max_hours": 198.83,
+      "figures": [
+        "Fig1_E",
+        "Fig1_F"
+      ],
+      "folders": [
+        "Fig1_E_schematic_diagram_pce",
+        "Fig1_F_schematic_diagram_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.solmat.2019.110383": {
+      "min_hours": 197.2,
+      "max_hours": 197.2,
+      "figures": [
+        "Fig3"
+      ],
+      "folders": [
+        "Fig3_whole_figure"
+      ]
+    },
+    "10.1021/acsami.9b22627": {
+      "min_hours": 197.2,
+      "max_hours": 197.2,
+      "figures": [
+        "Fig9_C"
+      ],
+      "folders": [
+        "Fig9_C_mppt_stability_performance_curve"
+      ]
+    },
+    "10.1002/advs.201903047": {
+      "min_hours": 197.27,
+      "max_hours": 198.99,
+      "figures": [
+        "Fig4_D"
+      ],
+      "folders": [
+        "Fig4_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/c7ta04851c": {
+      "min_hours": 197.27,
+      "max_hours": 197.27,
+      "figures": [
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.3390/cryst12091194": {
+      "min_hours": 197.48,
+      "max_hours": 197.48,
+      "figures": [
+        "Fig5_D"
+      ],
+      "folders": [
+        "Fig5_D_stability_performance_curve_pce"
+      ]
+    },
+    "10.1039/c9tc06578d": {
+      "min_hours": 197.71,
+      "max_hours": 197.71,
+      "figures": [
+        "Fig5_B"
+      ],
+      "folders": [
+        "Fig5_B_stability_performance_curve_pce"
+      ]
+    },
+    "10.1021/acsenergylett.1c00443": {
+      "min_hours": 197.92,
+      "max_hours": 197.92,
+      "figures": [
+        "Fig3_I"
+      ],
+      "folders": [
+        "Fig3_I_stability_performance_curve"
+      ]
+    },
+    "10.1039/d0ta11916d": {
+      "min_hours": 198.22,
+      "max_hours": 198.22,
+      "figures": [
+        "Fig5_C"
+      ],
+      "folders": [
+        "Fig5_C_stability_performance_curve"
+      ]
+    },
+    "10.1039/d0ta05676f": {
+      "min_hours": 198.23,
+      "max_hours": 198.23,
+      "figures": [
+        "Fig7_C"
+      ],
+      "folders": [
+        "Fig7_C_stability_performance_curve_pattern"
+      ]
+    },
+    "10.1002/aenm.201900243": {
+      "min_hours": 198.29,
+      "max_hours": 198.29,
+      "figures": [
+        "Fig6_C"
+      ],
+      "folders": [
+        "Fig6_C_stability_performance_curve"
+      ]
+    },
+    "10.1016/j.nanoen.2018.09.037": {
+      "min_hours": 198.37,
+      "max_hours": 198.37,
+      "figures": [
+        "Fig6_D"
+      ],
+      "folders": [
+        "Fig6_D_stability_performance_curve"
+      ]
+    },
+    "10.1021/acsnano.6b01904": {
+      "min_hours": 198.5,
+      "max_hours": 198.5,
+      "figures": [
+        "Fig8_B"
+      ],
+      "folders": [
+        "Fig8_B_stability_performance_curve_pce_image"
+      ]
+    },
+    "10.1016/j.solener.2020.01.048": {
+      "min_hours": 198.63,
+      "max_hours": 198.63,
+      "figures": [
+        "Fig4_D"
+      ],
+      "folders": [
+        "Fig4_D_stability_performance_curve_eqe"
+      ]
+    },
+    "10.1016/j.jpcs.2020.109792": {
+      "min_hours": 198.96,
+      "max_hours": 198.96,
+      "figures": [
+        "Fig5_C"
+      ],
+      "folders": [
+        "Fig5_C_stability_performance_curve_pce"
+      ]
+    },
+    "10.1016/j.solmat.2019.110297": {
+      "min_hours": 199.5,
+      "max_hours": 199.5,
+      "figures": [
+        "Fig6_F"
+      ],
+      "folders": [
+        "Fig6_F_stability_performance_curve_pce"
+      ]
+    }
+  }
+}

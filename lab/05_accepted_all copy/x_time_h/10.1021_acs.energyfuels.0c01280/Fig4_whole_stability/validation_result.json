@@ -1,0 +1,41 @@
+{
+  "doi": "10.1021/acs.energyfuels.0c01280",
+  "figure_id": "Fig4",
+  "panel_id": "whole",
+  "record_id": "10.1021_acs.energyfuels.0c01280__Fig4__whole__stability",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Optimal device Without encapsulation",
+      "match": "Series 1 matches Optimal device Without encapsulation"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Optimal device With encapsulation",
+      "match": "Series 2 matches Optimal device With encapsulation"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Control device Without encapsulation",
+      "match": "Series 3 matches Control device Without encapsulation"
+    }
+  ],
+  "source_image_path": "Fig4_whole_stability.png",
+  "paper_markdown_path": "../10.1021_acs.energyfuels.0c01280.md"
+}

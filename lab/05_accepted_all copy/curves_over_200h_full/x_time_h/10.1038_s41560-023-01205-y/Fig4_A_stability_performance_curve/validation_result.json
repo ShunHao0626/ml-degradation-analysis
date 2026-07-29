@@ -1,0 +1,27 @@
+{
+  "doi": "10.1038/s41560-023-01205-y",
+  "figure_id": "Fig4",
+  "panel_id": "A",
+  "record_id": "10.1038_s41560-023-01205-y__Fig4__A__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": null,
+      "legend_name": "(3D/CLP/2D)/spiro-OMeTAD",
+      "match": "Series 1 (blue) matches (3D/CLP/2D)/spiro-OMeTAD"
+    }
+  ],
+  "source_image_path": "Fig4_A_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1038_s41560-023-01205-y.md"
+}

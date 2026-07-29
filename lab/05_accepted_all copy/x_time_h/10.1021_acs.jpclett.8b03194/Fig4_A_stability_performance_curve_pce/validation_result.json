@@ -1,0 +1,34 @@
+{
+  "doi": "10.1021/acs.jpclett.8b03194",
+  "figure_id": "Fig4",
+  "panel_id": "A",
+  "record_id": "10.1021_acs.jpclett.8b03194__Fig4__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "PCE/PCE₀",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot",
+      "legend_id": "legend_002",
+      "legend_name": "8%CsI",
+      "match": "Series 1 (blue in replot) matches 8%CsI (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot",
+      "legend_id": "legend_001",
+      "legend_name": "0%Csl",
+      "match": "Series 2 (orange in replot) matches 0%Csl (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig4_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acs.jpclett.8b03194.md"
+}

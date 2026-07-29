@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/admi.202001425",
+  "figure_id": "Fig4",
+  "panel_id": "F",
+  "record_id": "10.1002_admi.202001425__Fig4__F__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "[hour]"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "black line with square markers in original",
+      "legend_id": "legend_001",
+      "legend_name": "Spiro-OMeTAD",
+      "match": "Series 1 (black line with square markers in original) matches Spiro-OMeTAD (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "red line with circle markers in original",
+      "legend_id": "legend_002",
+      "legend_name": "PCDTBTwfibrils",
+      "match": "Series 2 (red line with circle markers in original) matches PCDTBTwfibrils (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "blue line with triangle markers in original",
+      "legend_id": "legend_003",
+      "legend_name": "PCDTBTw/ofibrils",
+      "match": "Series 3 (blue line with triangle markers in original) matches PCDTBTw/ofibrils (legend_003)"
+    }
+  ],
+  "source_image_path": "Fig4_F_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_admi.202001425.md"
+}

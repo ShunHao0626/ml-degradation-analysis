@@ -1,0 +1,34 @@
+{
+  "doi": "10.1021/acs.nanolett.9b02142",
+  "figure_id": "Fig1",
+  "panel_id": "C",
+  "record_id": "10.1021_acs.nanolett.9b02142__Fig1__C__stability_performance_curve_voc",
+  "axis": {
+    "x": {
+      "name": "Aging period",
+      "unit": "[day]"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "[%]"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "LD-HP",
+      "match": "Series 1 matches LD-HP (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "Control-HP",
+      "match": "Series 2 matches Control-HP (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig1_C_stability_performance_curve_voc.png",
+  "paper_markdown_path": "../10.1021_acs.nanolett.9b02142.md"
+}

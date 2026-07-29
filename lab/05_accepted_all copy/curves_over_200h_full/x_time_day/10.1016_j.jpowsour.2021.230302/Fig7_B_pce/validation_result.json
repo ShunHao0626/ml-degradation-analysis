@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.jpowsour.2021.230302",
+  "figure_id": "Fig7",
+  "panel_id": "B",
+  "record_id": "10.1016_j.jpowsour.2021.230302__Fig7__B__pce",
+  "axis": {
+    "x": {
+      "name": "Time(day)",
+      "unit": "day"
+    },
+    "y": {
+      "name": "Normalized efficiency",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_003",
+      "legend_name": "SC-PEDOT:PSS",
+      "match": "Series 1 matches SC-PEDOT:PSS (legend_003)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "PEDOT:PSS",
+      "match": "Series 2 matches PEDOT:PSS (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "Pristine",
+      "match": "Series 3 matches Pristine (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig7_B_pce.png",
+  "paper_markdown_path": "../10.1016_j.jpowsour.2021.230302.md"
+}

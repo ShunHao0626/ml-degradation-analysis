@@ -1,0 +1,41 @@
+{
+  "doi": "10.1038/s41467-024-45228-9",
+  "figure_id": "Fig6",
+  "panel_id": "A",
+  "record_id": "10.1038_s41467-024-45228-9__Fig6__A__mppt_stability_performance_curve_image",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line",
+      "legend_id": null,
+      "legend_name": "Control",
+      "match": "Series 1 (blue line) matches Control"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line",
+      "legend_id": null,
+      "legend_name": "PEDAI",
+      "match": "Series 2 (orange line) matches PEDAI"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line",
+      "legend_id": null,
+      "legend_name": "PZDI",
+      "match": "Series 3 (green line) matches PZDI"
+    }
+  ],
+  "source_image_path": "Fig6_A_mppt_stability_performance_curve_image.png",
+  "paper_markdown_path": "../10.1038_s41467-024-45228-9.md"
+}

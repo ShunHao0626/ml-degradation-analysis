@@ -1,0 +1,48 @@
+{
+  "doi": "10.1063/5.0012646",
+  "figure_id": "Fig4",
+  "panel_id": "B",
+  "record_id": "10.1063_5.0012646__Fig4__B__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time (days)",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "PCE (%)",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "PCBM/Ag",
+      "match": "Series 1 matches PCBM/Ag"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "PCBM/Hf3/Ag",
+      "match": "Series 2 matches PCBM/Hf3/Ag"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "PCBM/Hf2/Ag",
+      "match": "Series 3 matches PCBM/Hf2/Ag"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "PCBM/Hf1/Ag",
+      "match": "Series 4 matches PCBM/Hf1/Ag"
+    }
+  ],
+  "source_image_path": "Fig4_B_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1063_5.0012646.md"
+}

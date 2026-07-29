@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/smll.202101380",
+  "figure_id": "Fig5",
+  "panel_id": "H",
+  "record_id": "10.1002_smll.202101380__Fig5__H__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "CsPbo.5Sn0.45l2Br",
+      "match": "Series 1 matches CsPbo.5Sn0.45l2Br (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_003",
+      "legend_name": "CsPb0.55Sn0.4512Br-CsCI-S",
+      "match": "Series 2 matches CsPb0.55Sn0.4512Br-CsCI-S (legend_003)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "CsPb0.55Sn0.45l2Br-CsCI",
+      "match": "Series 3 matches CsPb0.55Sn0.45l2Br-CsCI (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig5_H_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_smll.202101380.md"
+}

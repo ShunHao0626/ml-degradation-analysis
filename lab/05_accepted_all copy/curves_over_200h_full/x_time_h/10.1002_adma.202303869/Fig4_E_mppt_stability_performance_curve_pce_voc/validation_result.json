@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/adma.202303869",
+  "figure_id": "Fig4",
+  "panel_id": "E",
+  "record_id": "10.1002_adma.202303869__Fig4__E__mppt_stability_performance_curve_pce_voc",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line with circular markers in replot",
+      "legend_id": "legend_001",
+      "legend_name": "CsFAMA",
+      "match": "Series 1 (blue line with circular markers in replot) matches CsFAMA (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line with circular markers in replot",
+      "legend_id": "legend_002",
+      "legend_name": "O- CsFAMA-BT-T",
+      "match": "Series 2 (orange line with circular markers in replot) matches O- CsFAMA-BT-T (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig4_E_mppt_stability_performance_curve_pce_voc.png",
+  "paper_markdown_path": "../10.1002_adma.202303869.md"
+}

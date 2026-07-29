@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/d3ta02892e",
+  "figure_id": "Fig5",
+  "panel_id": "F",
+  "record_id": "10.1039_d3ta02892e__Fig5__F__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Aging time (h)",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalize PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": "legend_001",
+      "legend_name": "S-CsSnl₃",
+      "match": "Series 1 (blue) matches S-CsSnl₃ (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange",
+      "legend_id": "legend_002",
+      "legend_name": "C-CsSnl₃",
+      "match": "Series 2 (orange) matches C-CsSnl₃ (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig5_F_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1039_d3ta02892e.md"
+}

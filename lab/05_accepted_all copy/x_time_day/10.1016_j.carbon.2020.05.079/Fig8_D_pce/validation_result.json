@@ -1,0 +1,48 @@
+{
+  "doi": "10.1016/j.carbon.2020.05.079",
+  "figure_id": "Fig8",
+  "panel_id": "D",
+  "record_id": "10.1016_j.carbon.2020.05.079__Fig8__D__pce",
+  "axis": {
+    "x": {
+      "name": "Times",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Control",
+      "match": "Series 1 matches Control"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "C60-Ta",
+      "match": "Series 2 matches C60-Ta"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "PCBM",
+      "match": "Series 3 matches PCBM"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "C60",
+      "match": "Series 4 matches C60"
+    }
+  ],
+  "source_image_path": "Fig8_D_pce.png",
+  "paper_markdown_path": "../10.1016_j.carbon.2020.05.079.md"
+}

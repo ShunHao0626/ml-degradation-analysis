@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/adma.201800544",
+  "figure_id": "Fig3",
+  "panel_id": "A",
+  "record_id": "10.1002_adma.201800544__Fig3__A__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "h"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot, black in original",
+      "legend_id": "legend_002",
+      "legend_name": "Reference",
+      "match": "Series 1 (blue in replot, black in original) matches Reference (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot, red in original",
+      "legend_id": "legend_001",
+      "legend_name": "MMI treated",
+      "match": "Series 2 (orange in replot, red in original) matches MMI treated (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig3_A_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1002_adma.201800544.md"
+}

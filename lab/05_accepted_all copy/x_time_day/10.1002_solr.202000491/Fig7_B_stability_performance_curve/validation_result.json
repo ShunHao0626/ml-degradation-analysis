@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/solr.202000491",
+  "figure_id": "Fig7",
+  "panel_id": "B",
+  "record_id": "10.1002_solr.202000491__Fig7__B__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time (Dayes)",
+      "unit": "Dayes"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "black",
+      "legend_id": null,
+      "legend_name": "C-PSC without M TLC",
+      "match": "Series 1 (black) matches C-PSC without M TLC"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "black",
+      "legend_id": null,
+      "legend_name": "C-PSC with M TLC",
+      "match": "Series 2 (black) matches C-PSC with M TLC"
+    }
+  ],
+  "source_image_path": "Fig7_B_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1002_solr.202000491.md"
+}

@@ -1,0 +1,41 @@
+{
+  "doi": "10.1126/science.aax8018",
+  "figure_id": "Fig4",
+  "panel_id": "E",
+  "record_id": "10.1126_science.aax8018__Fig4__E__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized Efficiency Decay",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "—Control",
+      "match": "Series 1 matches —Control"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "—GO",
+      "match": "Series 2 matches —GO"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "—CI-GO",
+      "match": "Series 3 matches —CI-GO"
+    }
+  ],
+  "source_image_path": "Fig4_E_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1126_science.aax8018.md"
+}

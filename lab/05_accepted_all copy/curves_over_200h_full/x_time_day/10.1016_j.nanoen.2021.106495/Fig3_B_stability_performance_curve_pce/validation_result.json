@@ -1,0 +1,34 @@
+{
+  "doi": "10.1016/j.nanoen.2021.106495",
+  "figure_id": "Fig3",
+  "panel_id": "B",
+  "record_id": "10.1016_j.nanoen.2021.106495__Fig3__B__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line",
+      "legend_id": null,
+      "legend_name": "63%",
+      "match": "Series 1 (blue line) matches 63%"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line",
+      "legend_id": null,
+      "legend_name": "85%",
+      "match": "Series 2 (orange line) matches 85%"
+    }
+  ],
+  "source_image_path": "Fig3_B_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.nanoen.2021.106495.md"
+}

@@ -1,0 +1,34 @@
+{
+  "doi": "10.3390/en16237849",
+  "figure_id": "Fig8",
+  "panel_id": "F",
+  "record_id": "10.3390_en16237849__Fig8__F__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "days"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "CsPbI3−xBrx",
+      "match": "Series 1 matches CsPbI3−xBrx (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "CsPbI3−xBrx-PEO(7.5mg/ml)",
+      "match": "Series 2 matches CsPbI3−xBrx-PEO(7.5mg/ml) (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig8_F_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.3390_en16237849.md"
+}

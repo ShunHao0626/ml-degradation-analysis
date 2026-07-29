@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/c9ta06718c",
+  "figure_id": "Fig6",
+  "panel_id": "C",
+  "record_id": "10.1039_c9ta06718c__Fig6__C__pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "hours"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "%"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "With DTA",
+      "match": "Series 1 matches With DTA"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "W/O DTA",
+      "match": "Series 2 matches W/O DTA"
+    }
+  ],
+  "source_image_path": "Fig6_C_pce.png",
+  "paper_markdown_path": "../10.1039_c9ta06718c.md"
+}

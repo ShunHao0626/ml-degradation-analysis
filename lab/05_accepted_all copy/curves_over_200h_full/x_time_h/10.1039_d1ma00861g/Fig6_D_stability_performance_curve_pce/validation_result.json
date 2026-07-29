@@ -1,0 +1,41 @@
+{
+  "doi": "10.1039/d1ma00861g",
+  "figure_id": "Fig6",
+  "panel_id": "D",
+  "record_id": "10.1039_d1ma00861g__Fig6__D__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line",
+      "legend_id": "legend_003",
+      "legend_name": "PSC-HTMFree",
+      "match": "Series 1 (blue line) matches PSC-HTMFree (legend_003)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line",
+      "legend_id": "legend_002",
+      "legend_name": "PSC-Spiro",
+      "match": "Series 2 (orange line) matches PSC-Spiro (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line",
+      "legend_id": "legend_001",
+      "legend_name": "PSC-CuSCN",
+      "match": "Series 3 (green line) matches PSC-CuSCN (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig6_D_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1039_d1ma00861g.md"
+}

@@ -1,0 +1,34 @@
+{
+  "doi": "10.1021/acsami.8b03543",
+  "figure_id": "Fig4",
+  "panel_id": "E",
+  "record_id": "10.1021_acsami.8b03543__Fig4__E__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time (hours)",
+      "unit": "hours"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "PEDOT:P(SS-Co-TFPMA)",
+      "match": "Series 1 matches PEDOT:P(SS-Co-TFPMA) (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "PEDOT:PSS",
+      "match": "Series 2 matches PEDOT:PSS (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig4_E_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsami.8b03543.md"
+}

@@ -1,0 +1,48 @@
+{
+  "doi": "10.1002/cssc.201700603",
+  "figure_id": "Fig5",
+  "panel_id": "B",
+  "record_id": "10.1002_cssc.201700603__Fig5__B__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "magenta",
+      "legend_id": null,
+      "legend_name": "5",
+      "match": "Series 1 (magenta) matches 5"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "blue",
+      "legend_id": null,
+      "legend_name": "3",
+      "match": "Series 2 (blue) matches 3"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "red",
+      "legend_id": null,
+      "legend_name": "1",
+      "match": "Series 3 (red) matches 1"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": "black",
+      "legend_id": null,
+      "legend_name": "0",
+      "match": "Series 4 (black) matches 0"
+    }
+  ],
+  "source_image_path": "Fig5_B_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_cssc.201700603.md"
+}

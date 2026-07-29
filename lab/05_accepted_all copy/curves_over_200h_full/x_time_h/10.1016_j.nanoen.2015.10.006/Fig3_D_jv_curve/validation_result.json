@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.nanoen.2015.10.006",
+  "figure_id": "Fig3",
+  "panel_id": "D",
+  "record_id": "10.1016_j.nanoen.2015.10.006__Fig3__D__jv_curve",
+  "axis": {
+    "x": {
+      "name": "Duration",
+      "unit": "hours"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "'Partial' Encapsulation",
+      "match": "Series 1 matches 'Partial' Encapsulation"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "'Complete' Encapsulation",
+      "match": "Series 2 matches 'Complete' Encapsulation"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "No Encapsulation",
+      "match": "Series 3 matches No Encapsulation"
+    }
+  ],
+  "source_image_path": "Fig3_D_jv_curve.png",
+  "paper_markdown_path": "../10.1016_j.nanoen.2015.10.006.md"
+}

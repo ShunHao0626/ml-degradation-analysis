@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.orgel.2018.09.019",
+  "figure_id": "Fig4",
+  "panel_id": "A",
+  "record_id": "10.1016_j.orgel.2018.09.019__Fig4__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "h"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "black",
+      "legend_id": null,
+      "legend_name": "TiO₂ (Dark)",
+      "match": "Series 1 (black) matches TiO₂ (Dark)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "red",
+      "legend_id": null,
+      "legend_name": "TiO₂/SrO (UV)",
+      "match": "Series 2 (red) matches TiO₂/SrO (UV)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "blue",
+      "legend_id": null,
+      "legend_name": "TiO₂ (UV)",
+      "match": "Series 3 (blue) matches TiO₂ (UV)"
+    }
+  ],
+  "source_image_path": "Fig4_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.orgel.2018.09.019.md"
+}

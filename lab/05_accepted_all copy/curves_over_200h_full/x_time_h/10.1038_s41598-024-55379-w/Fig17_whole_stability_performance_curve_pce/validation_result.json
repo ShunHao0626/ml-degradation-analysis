@@ -1,0 +1,48 @@
+{
+  "doi": "10.1038/s41598-024-55379-w",
+  "figure_id": "Fig17",
+  "panel_id": "whole",
+  "record_id": "10.1038_s41598-024-55379-w__Fig17__whole__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "ZnO/H2O-Ag-doped ZnO 1wt.% ETL",
+      "match": "Series 1 matches ZnO/H2O-Ag-doped ZnO 1wt.% ETL"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Ag-doped ZnO 1wt.% ETL",
+      "match": "Series 2 matches Ag-doped ZnO 1wt.% ETL"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Un-doped ZnO ETL",
+      "match": "Series 3 matches Un-doped ZnO ETL"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "ZnO/H2O-ethanol mixtures-Ag-doped ZnO 1wt.% ETL",
+      "match": "Series 4 matches ZnO/H2O-ethanol mixtures-Ag-doped ZnO 1wt.% ETL"
+    }
+  ],
+  "source_image_path": "Fig17_whole_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1038_s41598-024-55379-w.md"
+}

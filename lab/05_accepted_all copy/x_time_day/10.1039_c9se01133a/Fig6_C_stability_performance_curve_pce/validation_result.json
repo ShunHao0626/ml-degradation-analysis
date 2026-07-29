@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/c9se01133a",
+  "figure_id": "Fig6",
+  "panel_id": "C",
+  "record_id": "10.1039_c9se01133a__Fig6__C__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue/red",
+      "legend_id": "legend_001",
+      "legend_name": "TiO₂CL/BKTiO₂NPs",
+      "match": "Series 1 (blue/red) matches TiO₂CL/BKTiO₂NPs (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange/black",
+      "legend_id": "legend_002",
+      "legend_name": "r-TiO2CL",
+      "match": "Series 2 (orange/black) matches r-TiO2CL (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig6_C_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1039_c9se01133a.md"
+}

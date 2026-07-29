@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.cej.2021.128727",
+  "figure_id": "Fig7",
+  "panel_id": "F",
+  "record_id": "10.1016_j.cej.2021.128727__Fig7__F__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "black",
+      "legend_id": "legend_001",
+      "legend_name": "Pristine",
+      "match": "Series 1 (black) matches Pristine (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "red",
+      "legend_id": "legend_002",
+      "legend_name": "wloHTM",
+      "match": "Series 2 (red) matches wloHTM (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "blue",
+      "legend_id": "legend_003",
+      "legend_name": "w/Br-GO HTM",
+      "match": "Series 3 (blue) matches w/Br-GO HTM (legend_003)"
+    }
+  ],
+  "source_image_path": "Fig7_F_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.cej.2021.128727.md"
+}

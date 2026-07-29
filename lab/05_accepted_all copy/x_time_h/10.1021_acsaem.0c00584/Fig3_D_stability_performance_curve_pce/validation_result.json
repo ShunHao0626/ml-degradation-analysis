@@ -1,0 +1,48 @@
+{
+  "doi": "10.1021/acsaem.0c00584",
+  "figure_id": "Fig3",
+  "panel_id": "D",
+  "record_id": "10.1021_acsaem.0c00584__Fig3__D__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Aging Time",
+      "unit": "(hour)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": "legend_004",
+      "legend_name": "145mg/ml×3L Control QDs",
+      "match": "Series 1 (blue) matches 145mg/ml×3L Control QDs (legend_004)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "red",
+      "legend_id": "legend_002",
+      "legend_name": "145mg/ml×3LFAIQDs",
+      "match": "Series 2 (red) matches 145mg/ml×3LFAIQDs (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green",
+      "legend_id": "legend_003",
+      "legend_name": "75mg/ml×5L Control QDs",
+      "match": "Series 3 (green) matches 75mg/ml×5L Control QDs (legend_003)"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": "black",
+      "legend_id": "legend_001",
+      "legend_name": "75mg/ml×5LFAIQDs",
+      "match": "Series 4 (black) matches 75mg/ml×5LFAIQDs (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig3_D_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsaem.0c00584.md"
+}

@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.cej.2021.131108",
+  "figure_id": "Fig11",
+  "panel_id": "E",
+  "record_id": "10.1016_j.cej.2021.131108__Fig11__E__stability",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "SGT-405s(C₂CF₃)",
+      "match": "Series 1 matches SGT-405s(C₂CF₃)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "SGT-405(3,6)",
+      "match": "Series 2 matches SGT-405(3,6)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "spiro-OMeTAD",
+      "match": "Series 3 matches spiro-OMeTAD"
+    }
+  ],
+  "source_image_path": "Fig11_E_stability.png",
+  "paper_markdown_path": "../10.1016_j.cej.2021.131108.md"
+}

@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/adfm.201807604",
+  "figure_id": "Fig5",
+  "panel_id": "A",
+  "record_id": "10.1002_adfm.201807604__Fig5__A__stability",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "AD-SnO₂",
+      "match": "Series 1 matches AD-SnO₂ (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "TA-SnO2",
+      "match": "Series 2 matches TA-SnO2 (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": "legend_003",
+      "legend_name": "HT-SnO₂",
+      "match": "Series 3 matches HT-SnO₂ (legend_003)"
+    }
+  ],
+  "source_image_path": "Fig5_A_stability.png",
+  "paper_markdown_path": "../10.1002_adfm.201807604.md"
+}

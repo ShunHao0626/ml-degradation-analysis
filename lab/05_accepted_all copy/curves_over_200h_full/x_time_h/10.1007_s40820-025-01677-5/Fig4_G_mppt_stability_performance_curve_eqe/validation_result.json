@@ -1,0 +1,41 @@
+{
+  "doi": "10.1007/s40820-025-01677-5",
+  "figure_id": "Fig4",
+  "panel_id": "G",
+  "record_id": "10.1007_s40820-025-01677-5__Fig4__G__mppt_stability_performance_curve_eqe",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": "legend_003",
+      "legend_name": "。I-PVSK",
+      "match": "Series 1 (blue) matches 。I-PVSK (legend_003)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange",
+      "legend_id": "legend_001",
+      "legend_name": "Control",
+      "match": "Series 2 (orange) matches Control (legend_001)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green",
+      "legend_id": "legend_002",
+      "legend_name": "Br-PVSK",
+      "match": "Series 3 (green) matches Br-PVSK (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig4_G_mppt_stability_performance_curve_eqe.png",
+  "paper_markdown_path": "../10.1007_s40820-025-01677-5.md"
+}

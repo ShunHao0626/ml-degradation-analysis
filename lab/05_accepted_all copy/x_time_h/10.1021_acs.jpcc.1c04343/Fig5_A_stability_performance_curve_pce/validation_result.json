@@ -1,0 +1,41 @@
+{
+  "doi": "10.1021/acs.jpcc.1c04343",
+  "figure_id": "Fig5",
+  "panel_id": "A",
+  "record_id": "10.1021_acs.jpcc.1c04343__Fig5__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "h"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "Control",
+      "match": "Series 1 matches Control (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_003",
+      "legend_name": "TMAI-2D/3D",
+      "match": "Series 2 matches TMAI-2D/3D (legend_003)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "PEAI-2D/3D",
+      "match": "Series 3 matches PEAI-2D/3D (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig5_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acs.jpcc.1c04343.md"
+}

@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/adfm.201807556",
+  "figure_id": "Fig6",
+  "panel_id": "A",
+  "record_id": "10.1002_adfm.201807556__Fig6__A__stability_performance_curve_ff",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(days)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "PTAA-controlled",
+      "match": "Series 1 matches PTAA-controlled"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "PEDOT:PSS-controlled",
+      "match": "Series 2 matches PEDOT:PSS-controlled"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "TFB-controlled",
+      "match": "Series 3 matches TFB-controlled"
+    }
+  ],
+  "source_image_path": "Fig6_A_stability_performance_curve_ff.png",
+  "paper_markdown_path": "../10.1002_adfm.201807556.md"
+}

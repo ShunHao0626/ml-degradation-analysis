@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/aenm.201803587",
+  "figure_id": "Fig5",
+  "panel_id": "D",
+  "record_id": "10.1002_aenm.201803587__Fig5__D__stability_performance_curve_pce_eqe",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Reference",
+      "match": "Series 1 matches Reference"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "With FACl",
+      "match": "Series 2 matches With FACl"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "With FACl and passivation",
+      "match": "Series 3 matches With FACl and passivation"
+    }
+  ],
+  "source_image_path": "Fig5_D_stability_performance_curve_pce_eqe.png",
+  "paper_markdown_path": "../10.1002_aenm.201803587.md"
+}

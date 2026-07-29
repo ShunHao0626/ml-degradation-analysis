@@ -1,0 +1,48 @@
+{
+  "doi": "10.1002/admi.202102324",
+  "figure_id": "Fig6",
+  "panel_id": "F",
+  "record_id": "10.1002_admi.202102324__Fig6__F__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time of illumination",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line in replot",
+      "legend_id": null,
+      "legend_name": "25 °C w/o BDP",
+      "match": "Series 1 (blue line in replot) matches 25 °C w/o BDP"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line in replot",
+      "legend_id": null,
+      "legend_name": "25 °C BDP-NH₂",
+      "match": "Series 2 (orange line in replot) matches 25 °C BDP-NH₂"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line in replot",
+      "legend_id": null,
+      "legend_name": "65 °C BDP-NH₂",
+      "match": "Series 3 (green line in replot) matches 65 °C BDP-NH₂"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": "red line in replot",
+      "legend_id": null,
+      "legend_name": "65 °C w/o BDP",
+      "match": "Series 4 (red line in replot) matches 65 °C w/o BDP"
+    }
+  ],
+  "source_image_path": "Fig6_F_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_admi.202102324.md"
+}

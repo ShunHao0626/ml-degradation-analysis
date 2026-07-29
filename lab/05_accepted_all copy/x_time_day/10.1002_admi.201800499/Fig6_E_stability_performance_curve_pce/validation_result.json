@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/admi.201800499",
+  "figure_id": "Fig6",
+  "panel_id": "E",
+  "record_id": "10.1002_admi.201800499__Fig6__E__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "With CF film",
+      "match": "Series 1 matches With CF film"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Without CF film",
+      "match": "Series 2 matches Without CF film"
+    }
+  ],
+  "source_image_path": "Fig6_E_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_admi.201800499.md"
+}

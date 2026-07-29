@@ -1,0 +1,48 @@
+{
+  "doi": "10.1002/adfm.201706923",
+  "figure_id": "Fig5",
+  "panel_id": "B",
+  "record_id": "10.1002_adfm.201706923__Fig5__B__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Storage Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange",
+      "legend_id": "legend_001",
+      "legend_name": "→Control",
+      "match": "Series 2 (orange) matches →Control (legend_001)"
+    },
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": "legend_002",
+      "legend_name": "PEAI-1mg/mL",
+      "match": "Series 1 (blue) matches PEAI-1mg/mL (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green",
+      "legend_id": "legend_003",
+      "legend_name": "PEAI-4mg/mL",
+      "match": "Series 3 (green) matches PEAI-4mg/mL (legend_003)"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": "red",
+      "legend_id": "legend_004",
+      "legend_name": "PEAI-8mg/mL",
+      "match": "Series 4 (red) matches PEAI-8mg/mL (legend_004)"
+    }
+  ],
+  "source_image_path": "Fig5_B_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_adfm.201706923.md"
+}

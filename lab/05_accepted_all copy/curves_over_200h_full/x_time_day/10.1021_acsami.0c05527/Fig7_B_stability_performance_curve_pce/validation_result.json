@@ -1,0 +1,41 @@
+{
+  "doi": "10.1021/acsami.0c05527",
+  "figure_id": "Fig7",
+  "panel_id": "B",
+  "record_id": "10.1021_acsami.0c05527__Fig7__B__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time (day)",
+      "unit": "day"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Sn-based",
+      "match": "Series 1 matches Sn-based"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Sn/P-based",
+      "match": "Series 2 matches Sn/P-based"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Sn/PP-based",
+      "match": "Series 3 matches Sn/PP-based"
+    }
+  ],
+  "source_image_path": "Fig7_B_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsami.0c05527.md"
+}

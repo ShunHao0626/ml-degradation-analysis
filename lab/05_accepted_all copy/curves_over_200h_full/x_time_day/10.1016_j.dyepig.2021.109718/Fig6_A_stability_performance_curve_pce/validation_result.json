@@ -1,0 +1,48 @@
+{
+  "doi": "10.1016/j.dyepig.2021.109718",
+  "figure_id": "Fig6",
+  "panel_id": "A",
+  "record_id": "10.1016_j.dyepig.2021.109718__Fig6__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "BTPA-C",
+      "match": "Series 1 matches BTPA-C"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "BTPA-8C",
+      "match": "Series 2 matches BTPA-8C"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Spiro-OMeTAD",
+      "match": "Series 3 matches Spiro-OMeTAD"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "BTPA-3C",
+      "match": "Series 4 matches BTPA-3C"
+    }
+  ],
+  "source_image_path": "Fig6_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1016_j.dyepig.2021.109718.md"
+}

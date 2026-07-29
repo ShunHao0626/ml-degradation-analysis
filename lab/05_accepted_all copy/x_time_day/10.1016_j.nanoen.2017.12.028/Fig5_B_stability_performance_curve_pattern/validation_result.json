@@ -1,0 +1,48 @@
+{
+  "doi": "10.1016/j.nanoen.2017.12.028",
+  "figure_id": "Fig5",
+  "panel_id": "B",
+  "record_id": "10.1016_j.nanoen.2017.12.028__Fig5__B__stability_performance_curve_pattern",
+  "axis": {
+    "x": {
+      "name": "Aging time",
+      "unit": "days"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_004",
+      "legend_name": "spiro-OMeTAD",
+      "match": "Series 1 matches spiro-OMeTAD (legend_004)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "PCDTBT1",
+      "match": "Series 2 matches PCDTBT1 (legend_001)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": "legend_003",
+      "legend_name": "PCDTBT8",
+      "match": "Series 3 matches PCDTBT8 (legend_003)"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "PCDTBT",
+      "match": "Series 4 matches PCDTBT (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig5_B_stability_performance_curve_pattern.png",
+  "paper_markdown_path": "../10.1016_j.nanoen.2017.12.028.md"
+}

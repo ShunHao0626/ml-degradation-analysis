@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.apsusc.2021.150153",
+  "figure_id": "Fig7",
+  "panel_id": "whole",
+  "record_id": "10.1016_j.apsusc.2021.150153__Fig7__whole__stability",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": "(a.u.)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line with circles in replot, black line with circles in original",
+      "legend_id": "legend_001",
+      "legend_name": "0— CsPbBr3(vacuum co-evaporation)",
+      "match": "Series 1 (blue line with circles in replot, black line with circles in original) matches 0— CsPbBr3(vacuum co-evaporation) (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line with diamonds in replot, red line with circles in original",
+      "legend_id": "legend_002",
+      "legend_name": "CsPbBr3(spin-coating)",
+      "match": "Series 2 (orange line with diamonds in replot, red line with circles in original) matches CsPbBr3(spin-coating) (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green line with squares in replot, blue line with circles in original",
+      "legend_id": "legend_003",
+      "legend_name": "MAPbI3(spin-coating)",
+      "match": "Series 3 (green line with squares in replot, blue line with circles in original) matches MAPbI3(spin-coating) (legend_003)"
+    }
+  ],
+  "source_image_path": "Fig7_whole_stability.png",
+  "paper_markdown_path": "../10.1016_j.apsusc.2021.150153.md"
+}

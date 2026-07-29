@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/solr.201900091",
+  "figure_id": "Fig5",
+  "panel_id": "A",
+  "record_id": "10.1002_solr.201900091__Fig5__A__xps_spectrum_stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalize PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "red",
+      "legend_id": "legend_001",
+      "legend_name": "wc-Nb2O5",
+      "match": "Series 1 (red) matches wc-Nb2O5 (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "green",
+      "legend_id": "legend_002",
+      "legend_name": "wo",
+      "match": "Series 2 (green) matches wo (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig5_A_xps_spectrum_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1002_solr.201900091.md"
+}

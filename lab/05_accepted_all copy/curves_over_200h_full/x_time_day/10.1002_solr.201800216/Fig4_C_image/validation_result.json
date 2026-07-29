@@ -1,0 +1,48 @@
+{
+  "doi": "10.1002/solr.201800216",
+  "figure_id": "Fig4",
+  "panel_id": "C",
+  "record_id": "10.1002_solr.201800216__Fig4__C__image",
+  "axis": {
+    "x": {
+      "name": "Time (days)",
+      "unit": "days"
+    },
+    "y": {
+      "name": "PCE(%)",
+      "unit": "%"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot",
+      "legend_id": "legend_002",
+      "legend_name": "PEAI-1",
+      "match": "Series 1 (blue in replot) matches PEAI-1 (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot",
+      "legend_id": "legend_001",
+      "legend_name": "Pristine",
+      "match": "Series 2 (orange in replot) matches Pristine (legend_001)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green in replot",
+      "legend_id": "legend_003",
+      "legend_name": "PEABr-1",
+      "match": "Series 3 (green in replot) matches PEABr-1 (legend_003)"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": "red in replot",
+      "legend_id": "legend_004",
+      "legend_name": "PEACI-1",
+      "match": "Series 4 (red in replot) matches PEACI-1 (legend_004)"
+    }
+  ],
+  "source_image_path": "Fig4_C_image.png",
+  "paper_markdown_path": "../10.1002_solr.201800216.md"
+}

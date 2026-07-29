@@ -1,0 +1,27 @@
+{
+  "doi": "10.1186/s11671-019-2936-8",
+  "figure_id": "Fig4",
+  "panel_id": "A",
+  "record_id": "10.1186_s11671-019-2936-8__Fig4__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "Days"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "%"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": null,
+      "match": "Series 1 has no visible legend name"
+    }
+  ],
+  "source_image_path": "Fig4_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1186_s11671-019-2936-8.md"
+}

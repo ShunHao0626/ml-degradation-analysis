@@ -1,0 +1,48 @@
+{
+  "doi": "10.1021/acsami.8b07346",
+  "figure_id": "Fig5",
+  "panel_id": "A",
+  "record_id": "10.1021_acsami.8b07346__Fig5__A__schematic_diagram_stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "with TiO₂ and Al₂O₃",
+      "match": "Series 1 matches with TiO₂ and Al₂O₃"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "with TiO₂ and stacked Al₂O₃",
+      "match": "Series 2 matches with TiO₂ and stacked Al₂O₃"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "control devices",
+      "match": "Series 3 matches control devices"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "with TiO₂ interface layer",
+      "match": "Series 4 matches with TiO₂ interface layer"
+    }
+  ],
+  "source_image_path": "Fig5_A_schematic_diagram_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsami.8b07346.md"
+}

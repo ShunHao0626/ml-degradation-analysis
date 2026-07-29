@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/c9ta03022k",
+  "figure_id": "Fig1",
+  "panel_id": "F",
+  "record_id": "10.1039_c9ta03022k__Fig1__F__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time(day)",
+      "unit": "day"
+    },
+    "y": {
+      "name": "Normalized PCE(a.u.)",
+      "unit": "a.u."
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue, circle marker, gradual decay",
+      "legend_id": "legend_002",
+      "legend_name": "PTAA/PFN",
+      "match": "Series 1 (blue, circle marker, gradual decay) matches PTAA/PFN (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange, diamond marker, sharp decay",
+      "legend_id": "legend_001",
+      "legend_name": "PTAA",
+      "match": "Series 2 (orange, diamond marker, sharp decay) matches PTAA (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig1_F_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1039_c9ta03022k.md"
+}

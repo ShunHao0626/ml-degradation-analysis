@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/solr.202100178",
+  "figure_id": "Fig3",
+  "panel_id": "E",
+  "record_id": "10.1002_solr.202100178__Fig3__E__mppt_stability_performance_curve_pce_jsc",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot",
+      "legend_id": "legend_001",
+      "legend_name": "Control",
+      "match": "Series 1 (blue in replot) matches Control (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot",
+      "legend_id": "legend_002",
+      "legend_name": "WithCTAC",
+      "match": "Series 2 (orange in replot) matches WithCTAC (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig3_E_mppt_stability_performance_curve_pce_jsc.png",
+  "paper_markdown_path": "../10.1002_solr.202100178.md"
+}

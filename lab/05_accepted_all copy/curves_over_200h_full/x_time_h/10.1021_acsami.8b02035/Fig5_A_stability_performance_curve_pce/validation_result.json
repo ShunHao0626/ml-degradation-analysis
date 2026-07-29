@@ -1,0 +1,48 @@
+{
+  "doi": "10.1021/acsami.8b02035",
+  "figure_id": "Fig5",
+  "panel_id": "A",
+  "record_id": "10.1021_acsami.8b02035__Fig5__A__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(hour)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "NiO,&PCBM",
+      "match": "Series 1 matches NiO,&PCBM (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "NiO(m)&PCBM",
+      "match": "Series 2 matches NiO(m)&PCBM (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": "legend_003",
+      "legend_name": "NiO,&BSO/PCBM",
+      "match": "Series 3 matches NiO,&BSO/PCBM (legend_003)"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": null,
+      "legend_id": "legend_004",
+      "legend_name": "NiO(m)&BSO/PCBM",
+      "match": "Series 4 matches NiO(m)&BSO/PCBM (legend_004)"
+    }
+  ],
+  "source_image_path": "Fig5_A_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1021_acsami.8b02035.md"
+}

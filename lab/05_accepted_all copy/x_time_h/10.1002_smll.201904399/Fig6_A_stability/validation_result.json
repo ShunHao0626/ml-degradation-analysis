@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/smll.201904399",
+  "figure_id": "Fig6",
+  "panel_id": "A",
+  "record_id": "10.1002_smll.201904399__Fig6__A__stability",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "hr"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "P3HT:Li+TBP+Co",
+      "match": "Series 1 matches P3HT:Li+TBP+Co"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "P3HT:Li+TBP",
+      "match": "Series 2 matches P3HT:Li+TBP"
+    }
+  ],
+  "source_image_path": "Fig6_A_stability.png",
+  "paper_markdown_path": "../10.1002_smll.201904399.md"
+}

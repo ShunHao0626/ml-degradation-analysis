@@ -1,0 +1,34 @@
+{
+  "doi": "10.1126/sciadv.1700106",
+  "figure_id": "Fig2",
+  "panel_id": "F",
+  "record_id": "10.1126_sciadv.1700106__Fig2__F__stability_performance_curve_eqe",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "hours"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "Ref",
+      "match": "Series 1 matches Ref (legend_002)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "PVP",
+      "match": "Series 2 matches PVP (legend_001)"
+    }
+  ],
+  "source_image_path": "Fig2_F_stability_performance_curve_eqe.png",
+  "paper_markdown_path": "../10.1126_sciadv.1700106.md"
+}

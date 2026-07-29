@@ -1,0 +1,41 @@
+{
+  "doi": "10.1002/adma.202001470",
+  "figure_id": "Fig5",
+  "panel_id": "H",
+  "record_id": "10.1002_adma.202001470__Fig5__H__stability_performance_curve_pattern",
+  "axis": {
+    "x": {
+      "name": "Time (h)",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normal. PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue curve",
+      "legend_id": "legend_001",
+      "legend_name": "FAPbl3",
+      "match": "Series 1 (blue curve) matches FAPbl3 (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange curve",
+      "legend_id": "legend_002",
+      "legend_name": "Control",
+      "match": "Series 2 (orange curve) matches Control (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green curve",
+      "legend_id": "legend_003",
+      "legend_name": "w/tFM-PMAI",
+      "match": "Series 3 (green curve) matches w/tFM-PMAI (legend_003)"
+    }
+  ],
+  "source_image_path": "Fig5_H_stability_performance_curve_pattern.png",
+  "paper_markdown_path": "../10.1002_adma.202001470.md"
+}

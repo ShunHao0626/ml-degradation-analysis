@@ -1,0 +1,41 @@
+{
+  "doi": "10.3390/coatings11060627",
+  "figure_id": "Fig3",
+  "panel_id": "A",
+  "record_id": "10.3390_coatings11060627__Fig3__A__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Aging time",
+      "unit": "h"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "PEDOT:PSS",
+      "match": "Series 1 matches PEDOT:PSS"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "5% Zn-NiOx",
+      "match": "Series 2 matches 5% Zn-NiOx"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "NiOx",
+      "match": "Series 3 matches NiOx"
+    }
+  ],
+  "source_image_path": "Fig3_A_stability_performance_curve.png",
+  "paper_markdown_path": "../10.3390_coatings11060627.md"
+}

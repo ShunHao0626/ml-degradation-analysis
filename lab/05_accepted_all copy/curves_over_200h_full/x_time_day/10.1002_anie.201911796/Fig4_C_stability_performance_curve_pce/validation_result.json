@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/anie.201911796",
+  "figure_id": "Fig4",
+  "panel_id": "C",
+  "record_id": "10.1002_anie.201911796__Fig4__C__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(d)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": "legend_001",
+      "legend_name": "mp-ZTO",
+      "match": "Series 1 matches mp-ZTO (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": "legend_002",
+      "legend_name": "−SnO2",
+      "match": "Series 2 matches −SnO2 (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig4_C_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_anie.201911796.md"
+}

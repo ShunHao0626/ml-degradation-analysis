@@ -1,0 +1,34 @@
+{
+  "doi": "10.1016/j.nanoen.2022.107138",
+  "figure_id": "Fig4",
+  "panel_id": "B",
+  "record_id": "10.1016_j.nanoen.2022.107138__Fig4__B__stability",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(day)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue",
+      "legend_id": null,
+      "legend_name": "SnO₂",
+      "match": "Series 1 (blue) matches SnO₂"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange/red",
+      "legend_id": null,
+      "legend_name": "SnO₂-SnS₂",
+      "match": "Series 2 (orange/red) matches SnO₂-SnS₂"
+    }
+  ],
+  "source_image_path": "Fig4_B_stability.png",
+  "paper_markdown_path": "../10.1016_j.nanoen.2022.107138.md"
+}

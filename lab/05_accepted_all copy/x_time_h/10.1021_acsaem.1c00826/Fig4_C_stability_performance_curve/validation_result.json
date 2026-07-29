@@ -1,0 +1,41 @@
+{
+  "doi": "10.1021/acsaem.1c00826",
+  "figure_id": "Fig4",
+  "panel_id": "C",
+  "record_id": "10.1021_acsaem.1c00826__Fig4__C__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "PCE",
+      "unit": "(Normalized)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue, circles",
+      "legend_id": "legend_001",
+      "legend_name": "Reference",
+      "match": "Series 1 (blue, circles) matches Reference (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange, squares",
+      "legend_id": "legend_002",
+      "legend_name": "25CPCBM-Tol",
+      "match": "Series 2 (orange, squares) matches 25CPCBM-Tol (legend_002)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green, triangles",
+      "legend_id": "legend_003",
+      "legend_name": "Re-coated process(25CPCBM-Tol)",
+      "match": "Series 3 (green, triangles) matches Re-coated process(25CPCBM-Tol) (legend_003)"
+    }
+  ],
+  "source_image_path": "Fig4_C_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1021_acsaem.1c00826.md"
+}

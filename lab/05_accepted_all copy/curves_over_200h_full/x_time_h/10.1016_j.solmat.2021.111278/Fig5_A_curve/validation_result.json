@@ -1,0 +1,41 @@
+{
+  "doi": "10.1016/j.solmat.2021.111278",
+  "figure_id": "Fig5",
+  "panel_id": "A",
+  "record_id": "10.1016_j.solmat.2021.111278__Fig5__A__curve",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "ITO cathode",
+      "match": "Series 1 matches ITO cathode"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Cu cathode",
+      "match": "Series 2 matches Cu cathode"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Si photodiode",
+      "match": "Series 3 matches Si photodiode"
+    }
+  ],
+  "source_image_path": "Fig5_A_curve.png",
+  "paper_markdown_path": "../10.1016_j.solmat.2021.111278.md"
+}

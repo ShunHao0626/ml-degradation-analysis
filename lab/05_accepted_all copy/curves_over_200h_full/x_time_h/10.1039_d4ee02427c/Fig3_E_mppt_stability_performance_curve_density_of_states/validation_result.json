@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/d4ee02427c",
+  "figure_id": "Fig3",
+  "panel_id": "E",
+  "record_id": "10.1039_d4ee02427c__Fig3__E__mppt_stability_performance_curve_density_of_states",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "(h)"
+    },
+    "y": {
+      "name": "Normalized Pmax",
+      "unit": "(%)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot",
+      "legend_id": "legend_001",
+      "legend_name": "PEHCI-CNandMBI",
+      "match": "Series 1 (blue in replot) matches PEHCI-CNandMBI (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot",
+      "legend_id": "legend_002",
+      "legend_name": "Control",
+      "match": "Series 2 (orange in replot) matches Control (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig3_E_mppt_stability_performance_curve_density_of_states.png",
+  "paper_markdown_path": "../10.1039_d4ee02427c.md"
+}

@@ -1,0 +1,34 @@
+{
+  "doi": "10.1002/anie.202012095",
+  "figure_id": "Fig5",
+  "panel_id": "E",
+  "record_id": "10.1002_anie.202012095__Fig5__E__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time (hour)",
+      "unit": "hour"
+    },
+    "y": {
+      "name": "PCE (%)",
+      "unit": "%"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "Pristine",
+      "match": "Series 1 matches Pristine"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": null,
+      "legend_id": null,
+      "legend_name": "QA",
+      "match": "Series 2 matches QA"
+    }
+  ],
+  "source_image_path": "Fig5_E_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1002_anie.202012095.md"
+}

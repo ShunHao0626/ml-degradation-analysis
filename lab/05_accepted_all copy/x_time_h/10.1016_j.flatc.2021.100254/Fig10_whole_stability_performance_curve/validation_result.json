@@ -1,0 +1,48 @@
+{
+  "doi": "10.1016/j.flatc.2021.100254",
+  "figure_id": "Fig10",
+  "panel_id": "whole",
+  "record_id": "10.1016_j.flatc.2021.100254__Fig10__whole__stability_performance_curve",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "hr"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": "(P/P₀)"
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue in replot",
+      "legend_id": "legend_001",
+      "legend_name": "Normal",
+      "match": "Series 1 (blue in replot) matches Normal (legend_001)"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange in replot",
+      "legend_id": "legend_004",
+      "legend_name": "0.08 mg/mL",
+      "match": "Series 2 (orange in replot) matches 0.08 mg/mL (legend_004)"
+    },
+    {
+      "series_id": "Series 3",
+      "curve_color": "green in replot",
+      "legend_id": "legend_003",
+      "legend_name": "0.04 mg/mL",
+      "match": "Series 3 (green in replot) matches 0.04 mg/mL (legend_003)"
+    },
+    {
+      "series_id": "Series 4",
+      "curve_color": "red in replot",
+      "legend_id": "legend_002",
+      "legend_name": "0.02 mg/mL",
+      "match": "Series 4 (red in replot) matches 0.02 mg/mL (legend_002)"
+    }
+  ],
+  "source_image_path": "Fig10_whole_stability_performance_curve.png",
+  "paper_markdown_path": "../10.1016_j.flatc.2021.100254.md"
+}

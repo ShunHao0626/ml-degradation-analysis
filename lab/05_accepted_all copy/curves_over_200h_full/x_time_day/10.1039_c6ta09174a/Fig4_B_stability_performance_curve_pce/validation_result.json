@@ -1,0 +1,34 @@
+{
+  "doi": "10.1039/c6ta09174a",
+  "figure_id": "Fig4",
+  "panel_id": "B",
+  "record_id": "10.1039_c6ta09174a__Fig4__B__stability_performance_curve_pce",
+  "axis": {
+    "x": {
+      "name": "Time",
+      "unit": "days"
+    },
+    "y": {
+      "name": "Normalized PCE",
+      "unit": null
+    }
+  },
+  "series_mappings": [
+    {
+      "series_id": "Series 1",
+      "curve_color": "blue line",
+      "legend_id": null,
+      "legend_name": "a",
+      "match": "Series 1 (blue line) matches a"
+    },
+    {
+      "series_id": "Series 2",
+      "curve_color": "orange line",
+      "legend_id": null,
+      "legend_name": "b",
+      "match": "Series 2 (orange line) matches b"
+    }
+  ],
+  "source_image_path": "Fig4_B_stability_performance_curve_pce.png",
+  "paper_markdown_path": "../10.1039_c6ta09174a.md"
+}
