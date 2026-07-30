@@ -1,0 +1,5 @@
+sensitivity_config,som_sigma,som_lr,som_node,n_curves,quantization_error
+sigma0.3_lr0.1,0.3,0.1,0,1017,1.455826583129039
+sigma0.3_lr0.1,0.3,0.1,1,436,1.455826583129039
+sigma0.5_lr0.3,0.5,0.3,0,1048,1.6822319178507068
+sigma0.5_lr0.3,0.5,0.3,1,405,1.6822319178507068

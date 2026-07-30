@@ -56,10 +56,10 @@ data/raw/
 data/external/
 
 # Lab results directories (regeneratable)
-result/
-results/
-results_all/
-outputs/
+# Uncomment lines below to exclude lab result files
+# result/
+# results_all/
+# outputs/
 
 # Log / temp
 *.log

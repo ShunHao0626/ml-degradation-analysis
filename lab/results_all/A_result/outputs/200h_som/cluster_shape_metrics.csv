@@ -1,0 +1,5 @@
+som_node_x,som_node_y,raw_cluster_id,change_0_10h,change_0_50h,change_0_200h,slope_0_10h,slope_100_200h,auc,suggested_shape_name,naming_basis
+0,0,0,-0.000886,-0.010537,-0.066067,-8.9e-05,-0.000387,0.959464,no_initial_change_stable_steady_loss,"PCE@200h=0.923, slope_0_10h=-0.00009/h, slope_100_200h=-0.00039/h, Δ200h=-0.066"
+0,1,1,-0.035505,-0.161067,-0.488603,-0.003551,-0.002033,0.720281,no_initial_change_moderate_degradation_steady_loss,"PCE@200h=0.506, slope_0_10h=-0.00355/h, slope_100_200h=-0.00203/h, Δ200h=-0.489"
+1,0,2,-0.014146,-0.074078,-0.247869,-0.001415,-0.001111,0.860079,no_initial_change_moderate_degradation_steady_loss,"PCE@200h=0.745, slope_0_10h=-0.00141/h, slope_100_200h=-0.00111/h, Δ200h=-0.248"
+1,1,3,-0.083065,-0.33927,-0.730005,-0.008307,-0.002008,0.507726,initial_drop_rapid_degradation_decelerating_loss,"PCE@200h=0.259, slope_0_10h=-0.00831/h, slope_100_200h=-0.00201/h, Δ200h=-0.730"

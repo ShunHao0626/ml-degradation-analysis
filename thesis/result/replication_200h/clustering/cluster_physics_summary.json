@@ -1,0 +1,42 @@
+[
+  {
+    "cluster_id": 0,
+    "name": "initial_gain",
+    "physics": "Initial gain (light-soaking improvement) — efficiency rises, then declines moderately. Most common shape across the heterogeneous dataset.",
+    "n_curves": 1134,
+    "delta_pce_rel_mean_pct": 6.19937411481531,
+    "delta_pce_rel_median_pct": 5.420824766159058,
+    "doi_unique": 829,
+    "figure_unique": 898
+  },
+  {
+    "cluster_id": 1,
+    "name": "linear_decay",
+    "physics": "Linear / slow decline — efficiency drops steadily over the 200 h window. Consistent with gradual ion migration or interface degradation.",
+    "n_curves": 178,
+    "delta_pce_rel_mean_pct": 49.616680466726926,
+    "delta_pce_rel_median_pct": 48.052568435668945,
+    "doi_unique": 163,
+    "figure_unique": 171
+  },
+  {
+    "cluster_id": 2,
+    "name": "initial_gain_plus_decay",
+    "physics": "Initial gain with sustained decay — initial light-soaking improvement is followed by a clear degradation phase; rarer than cluster 0.",
+    "n_curves": 462,
+    "delta_pce_rel_mean_pct": 23.854916153532088,
+    "delta_pce_rel_median_pct": 23.08468246459961,
+    "doi_unique": 397,
+    "figure_unique": 423
+  },
+  {
+    "cluster_id": 3,
+    "name": "fast_decay",
+    "physics": "Rapid exponential decay — efficiency collapses within the first few tens of hours; rarest but physically significant catastrophic-failure signature.",
+    "n_curves": 60,
+    "delta_pce_rel_mean_pct": 77.80097694396973,
+    "delta_pce_rel_median_pct": 79.42374038696289,
+    "doi_unique": 56,
+    "figure_unique": 59
+  }
+]

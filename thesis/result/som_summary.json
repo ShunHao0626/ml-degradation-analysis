@@ -1,0 +1,18 @@
+{
+  "som_x": 2,
+  "som_y": 2,
+  "som_sigma": 0.5,
+  "som_lr": 0.1,
+  "som_iterations": 50000,
+  "n_series": 2245,
+  "series_length": 900,
+  "hour_limit": 150,
+  "quantization_error": 2.4188140391965622,
+  "topographic_error": 0.0,
+  "cluster_sizes": {
+    "(0, 0)": 646,
+    "(1, 1)": 257,
+    "(0, 1)": 1243,
+    "(1, 0)": 99
+  }
+}

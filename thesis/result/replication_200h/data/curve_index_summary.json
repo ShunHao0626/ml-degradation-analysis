@@ -1,0 +1,16 @@
+{
+  "n_curves": 1873,
+  "by_top_dir": {
+    "x_time_day": 625,
+    "x_time_h": 1242,
+    "x_time_week_month_year": 6
+  },
+  "by_unit": {
+    "days": 625,
+    "hours": 1242,
+    "months": 4,
+    "weeks": 2
+  },
+  "dois_unique": 1206,
+  "figures_unique": 1402
+}

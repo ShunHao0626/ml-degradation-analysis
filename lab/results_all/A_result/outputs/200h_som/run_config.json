@@ -1,0 +1,74 @@
+{
+  "preproc": {
+    "hour_limit": 200.0,
+    "n_time_points": 1201,
+    "resample_interval": 0.16666666666666666,
+    "min_unique_points": 10,
+    "savgol_window": 71,
+    "savgol_polyorder": 2,
+    "savgol_mode": "mirror"
+  },
+  "som": {
+    "shape": [
+      2,
+      2
+    ],
+    "sigma": 0.5,
+    "learning_rate": 0.1,
+    "activation_distance": "euclidean",
+    "neighborhood_function": "gaussian",
+    "iterations": 50000,
+    "random_seed": 42,
+    "weight_initialization": "random",
+    "training_method": "train",
+    "sensitivity_A": {
+      "sigma": 0.3,
+      "learning_rate": 0.1
+    },
+    "sensitivity_B": {
+      "sigma": 0.5,
+      "learning_rate": 0.3
+    }
+  },
+  "val": {
+    "qe_sweep_n": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "qe_sweep_topology_override": "{4: (2, 2)}",
+    "kmeans_k_range": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "packages": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "scipy": "1.13.1",
+    "scikit-learn": "not installed",
+    "minisom": "unknown",
+    "matplotlib": "3.9.4",
+    "python": "3.9.6"
+  },
+  "run_start": "2026-07-29T16:23:31.676182",
+  "run_end": "2026-07-29T16:24:03.865071",
+  "include_short": false,
+  "n_total_curves": 2151,
+  "n_included": 1453,
+  "n_excluded": 698,
+  "som_qe": 1.455826562517185
+}

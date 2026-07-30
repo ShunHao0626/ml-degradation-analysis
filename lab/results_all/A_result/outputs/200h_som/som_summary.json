@@ -1,0 +1,12 @@
+{
+  "som_x": 2,
+  "som_y": 2,
+  "sigma": 0.5,
+  "lr": 0.1,
+  "iterations": 50000,
+  "seed": 42,
+  "n_samples": 1453,
+  "n_features": 1201,
+  "quantization_error": 1.455826562517185,
+  "topographic_error": 0.0
+}
