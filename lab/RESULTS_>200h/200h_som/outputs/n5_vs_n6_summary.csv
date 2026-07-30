@@ -1,0 +1,4 @@
+total_samples,model,n_nodes,topology,quantisation_error,n_empty_nodes,cluster_sizes
+1812,main 2x2,4,2x2,1.284634642495829,0,[]
+1812,n5_1x5,5,1x5,1.0965130646691466,0,"[66, 142, 888, 445, 271]"
+1812,n6_2x3,6,2x3,1.021676663873154,0,"[448, 142, 74, 832, 296, 20]"

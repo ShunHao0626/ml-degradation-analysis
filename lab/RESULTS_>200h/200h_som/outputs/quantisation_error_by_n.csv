@@ -1,0 +1,11 @@
+n_nodes,topology_x,topology_y,topology,quantisation_error,sigma,learning_rate,random_seed,topology_source
+2,1,2,1x2,2.0015554665571647,0.5,0.1,42,1xn fallback (implementation assumption)
+3,1,3,1x3,1.5029352627085568,0.5,0.1,42,1xn fallback (implementation assumption)
+4,2,2,2x2,1.284634642495829,0.5,0.1,42,main (2x2)
+4,1,4,1x4,1.2846346808263787,0.5,0.1,42,1xn reference (for n=4 topology comparison)
+5,1,5,1x5,1.0965130646691466,0.5,0.1,42,1xn fallback (implementation assumption)
+6,1,6,1x6,1.021676769316858,0.5,0.1,42,1xn fallback (implementation assumption)
+7,1,7,1x7,0.9459914184369773,0.5,0.1,42,1xn fallback (implementation assumption)
+8,1,8,1x8,0.8726008327862111,0.5,0.1,42,1xn fallback (implementation assumption)
+9,1,9,1x9,0.844318959606045,0.5,0.1,42,1xn fallback (implementation assumption)
+10,1,10,1x10,0.828566166801921,0.5,0.1,42,1xn fallback (implementation assumption)
