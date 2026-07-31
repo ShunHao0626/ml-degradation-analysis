@@ -1,0 +1,17 @@
+{
+  "dataset": "main_high_quality_min10",
+  "n_curves": 1442,
+  "models_compared": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "selected_n": 4,
+  "files_indexed": 9
+}

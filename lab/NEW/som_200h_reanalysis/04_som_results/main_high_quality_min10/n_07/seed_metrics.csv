@@ -1,0 +1,6 @@
+dataset,n_nodes,topology,seed,quantisation_error,topographic_error,n_empty_nodes,min_cluster_size,max_cluster_size
+main_high_quality_min10,7,1x7,7,1.000998733335997,0.05894590846047157,0,22,500
+main_high_quality_min10,7,1x7,21,1.0009987278678545,0.8321775312066574,0,22,500
+main_high_quality_min10,7,1x7,42,1.0009987304808332,0.4070735090152566,0,22,500
+main_high_quality_min10,7,1x7,84,1.0009987310413067,0.22815533980582525,0,22,500
+main_high_quality_min10,7,1x7,168,1.0009987278678545,0.8321775312066574,0,22,500

@@ -1,0 +1,65 @@
+2026-07-31 16:28:04,760 INFO Discovering curves under /Users/shunhao/Desktop/ML/lab/data_all
+2026-07-31 16:28:06,655 INFO Discovered 2151 curves
+2026-07-31 16:28:06,986 INFO Exporting selected raw-curve databases
+2026-07-31 16:28:07,535 INFO Preprocessing main_high_quality_min10
+2026-07-31 16:28:11,837 INFO main_high_quality_min10 matrix shape=(1442, 1201)
+2026-07-31 16:28:11,838 INFO Preprocessing paper_aligned_min4
+2026-07-31 16:28:18,073 INFO paper_aligned_min4 matrix shape=(1785, 1201)
+2026-07-31 16:28:18,075 INFO Running n=2..10 multi-seed SOM scan for main_high_quality_min10
+2026-07-31 16:28:19,380 INFO main_high_quality_min10: training 2-node SOM (1x2), 5 seeds
+2026-07-31 16:28:25,728 INFO main_high_quality_min10: n=2 complete; QE=2.289563, mean seed ARI=1.0000
+2026-07-31 16:28:25,730 INFO main_high_quality_min10: training 3-node SOM (1x3), 5 seeds
+2026-07-31 16:28:34,810 INFO main_high_quality_min10: n=3 complete; QE=1.621418, mean seed ARI=1.0000
+2026-07-31 16:28:34,811 INFO main_high_quality_min10: training 4-node SOM (2x2), 5 seeds
+2026-07-31 16:28:42,682 INFO main_high_quality_min10: n=4 complete; QE=1.375525, mean seed ARI=1.0000
+2026-07-31 16:28:42,683 INFO main_high_quality_min10: training 5-node SOM (1x5), 5 seeds
+2026-07-31 16:28:51,097 INFO main_high_quality_min10: n=5 complete; QE=1.176982, mean seed ARI=1.0000
+2026-07-31 16:28:51,098 INFO main_high_quality_min10: training 6-node SOM (2x3), 5 seeds
+2026-07-31 16:29:00,202 INFO main_high_quality_min10: n=6 complete; QE=1.087532, mean seed ARI=1.0000
+2026-07-31 16:29:00,202 INFO main_high_quality_min10: training 7-node SOM (1x7), 5 seeds
+2026-07-31 16:29:09,629 INFO main_high_quality_min10: n=7 complete; QE=1.000999, mean seed ARI=1.0000
+2026-07-31 16:29:09,630 INFO main_high_quality_min10: training 8-node SOM (2x4), 5 seeds
+2026-07-31 16:29:24,313 INFO main_high_quality_min10: n=8 complete; QE=0.975152, mean seed ARI=0.9993
+2026-07-31 16:29:24,314 INFO main_high_quality_min10: training 9-node SOM (3x3), 5 seeds
+2026-07-31 16:29:40,974 INFO main_high_quality_min10: n=9 complete; QE=0.907509, mean seed ARI=1.0000
+2026-07-31 16:29:40,978 INFO main_high_quality_min10: training 10-node SOM (2x5), 5 seeds
+2026-07-31 16:30:01,999 INFO main_high_quality_min10: n=10 complete; QE=0.865760, mean seed ARI=0.8059
+2026-07-31 16:30:03,139 INFO main_high_quality_min10: KMeans validation k=2
+2026-07-31 16:30:05,536 INFO main_high_quality_min10: KMeans validation k=3
+2026-07-31 16:30:07,361 INFO main_high_quality_min10: KMeans validation k=4
+2026-07-31 16:30:09,544 INFO main_high_quality_min10: KMeans validation k=5
+2026-07-31 16:30:13,665 INFO main_high_quality_min10: KMeans validation k=6
+2026-07-31 16:30:20,780 INFO main_high_quality_min10: KMeans validation k=7
+2026-07-31 16:30:25,814 INFO main_high_quality_min10: KMeans validation k=8
+2026-07-31 16:30:30,060 INFO main_high_quality_min10: KMeans validation k=9
+2026-07-31 16:30:36,401 INFO main_high_quality_min10: KMeans validation k=10
+2026-07-31 16:30:57,908 INFO main_high_quality_min10 selected n=4
+2026-07-31 16:30:57,915 INFO Running n=2..10 multi-seed SOM scan for paper_aligned_min4
+2026-07-31 16:30:58,691 INFO paper_aligned_min4: training 2-node SOM (1x2), 5 seeds
+2026-07-31 16:31:02,547 INFO paper_aligned_min4: n=2 complete; QE=2.075004, mean seed ARI=1.0000
+2026-07-31 16:31:02,548 INFO paper_aligned_min4: training 3-node SOM (1x3), 5 seeds
+2026-07-31 16:31:06,829 INFO paper_aligned_min4: n=3 complete; QE=1.499995, mean seed ARI=1.0000
+2026-07-31 16:31:06,829 INFO paper_aligned_min4: training 4-node SOM (2x2), 5 seeds
+2026-07-31 16:31:11,526 INFO paper_aligned_min4: n=4 complete; QE=1.281065, mean seed ARI=1.0000
+2026-07-31 16:31:11,527 INFO paper_aligned_min4: training 5-node SOM (1x5), 5 seeds
+2026-07-31 16:31:16,730 INFO paper_aligned_min4: n=5 complete; QE=1.109606, mean seed ARI=1.0000
+2026-07-31 16:31:16,730 INFO paper_aligned_min4: training 6-node SOM (2x3), 5 seeds
+2026-07-31 16:31:22,506 INFO paper_aligned_min4: n=6 complete; QE=1.036971, mean seed ARI=1.0000
+2026-07-31 16:31:22,506 INFO paper_aligned_min4: training 7-node SOM (1x7), 5 seeds
+2026-07-31 16:31:28,460 INFO paper_aligned_min4: n=7 complete; QE=0.949451, mean seed ARI=1.0000
+2026-07-31 16:31:28,460 INFO paper_aligned_min4: training 8-node SOM (2x4), 5 seeds
+2026-07-31 16:31:34,922 INFO paper_aligned_min4: n=8 complete; QE=0.882362, mean seed ARI=0.9755
+2026-07-31 16:31:34,923 INFO paper_aligned_min4: training 9-node SOM (3x3), 5 seeds
+2026-07-31 16:31:41,813 INFO paper_aligned_min4: n=9 complete; QE=0.861582, mean seed ARI=0.9414
+2026-07-31 16:31:41,813 INFO paper_aligned_min4: training 10-node SOM (2x5), 5 seeds
+2026-07-31 16:31:49,138 INFO paper_aligned_min4: n=10 complete; QE=0.819061, mean seed ARI=0.9987
+2026-07-31 16:31:49,832 INFO paper_aligned_min4: KMeans validation k=2
+2026-07-31 16:31:50,658 INFO paper_aligned_min4: KMeans validation k=3
+2026-07-31 16:31:52,011 INFO paper_aligned_min4: KMeans validation k=4
+2026-07-31 16:31:53,095 INFO paper_aligned_min4: KMeans validation k=5
+2026-07-31 16:31:55,113 INFO paper_aligned_min4: KMeans validation k=6
+2026-07-31 16:31:58,050 INFO paper_aligned_min4: KMeans validation k=7
+2026-07-31 16:32:01,486 INFO paper_aligned_min4: KMeans validation k=8
+2026-07-31 16:32:03,754 INFO paper_aligned_min4: KMeans validation k=9
+2026-07-31 16:32:06,560 INFO paper_aligned_min4: KMeans validation k=10
+2026-07-31 16:32:18,380 INFO paper_aligned_min4 selected n=4

@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "selection_counts": {
+    "all_discovered": 2151,
+    "duration_ge_200h": 1862,
+    "duration_ge_200h_and_global_max_by_200h": 1823,
+    "paper_selected_min4": 1785,
+    "main_selected_min10": 1442
+  },
+  "selected_n": 4,
+  "final_rows": 1442,
+  "class_counts": {
+    "class_01": 831,
+    "class_03": 159,
+    "class_02": 393,
+    "class_04": 59
+  },
+  "class_raw_files_verified": true,
+  "si_exact_counts_verified": [
+    16,
+    2,
+    4,
+    5,
+    6
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "project_root": "/Users/shunhao/Desktop/ML/lab/NEW/som_200h_reanalysis",
+  "dataset_root": "/Users/shunhao/Desktop/ML/lab/data_all",
+  "work_md": "/Users/shunhao/Desktop/ML/thesis/paper/work.md",
+  "supplementary_md": "/Users/shunhao/Desktop/ML/thesis/paper/Supplementary.md",
+  "window_hours": 200.0,
+  "grid_step_hours": 0.16666666666666666,
+  "main_min_unique_points": 10,
+  "paper_min_unique_points": 4,
+  "savgol_window": 71,
+  "savgol_polyorder": 2,
+  "savgol_mode": "interp",
+  "som_sigma": 0.5,
+  "som_learning_rate": 0.1,
+  "som_iterations": 50000,
+  "som_primary_seed": 42,
+  "som_stability_seeds": [
+    7,
+    21,
+    42,
+    84,
+    168
+  ],
+  "som_node_counts": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "si_candidate_nodes": [
+    4,
+    5,
+    6
+  ],
+  "min_seed_stability_ari": 0.8,
+  "max_centroid_correlation": 0.995,
+  "min_centroid_rmse_for_distinct": 0.1,
+  "min_cluster_fraction": 0.01,
+  "kmeans_n_init": 20,
+  "pca_components_for_validation": 20,
+  "plot_max_curves_per_cluster": 250,
+  "topology_by_n": {
+    "2": [
+      1,
+      2
+    ],
+    "3": [
+      1,
+      3
+    ],
+    "4": [
+      2,
+      2
+    ],
+    "5": [
+      1,
+      5
+    ],
+    "6": [
+      2,
+      3
+    ],
+    "7": [
+      1,
+      7
+    ],
+    "8": [
+      2,
+      4
+    ],
+    "9": [
+      3,
+      3
+    ],
+    "10": [
+      2,
+      5
+    ],
+    "16": [
+      4,
+      4
+    ]
+  },
+  "n_grid_points": 1201
+}

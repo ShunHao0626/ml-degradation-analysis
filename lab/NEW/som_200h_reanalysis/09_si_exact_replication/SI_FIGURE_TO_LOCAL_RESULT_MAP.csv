@@ -1,0 +1,8 @@
+article_or_si_location,method,n_or_range,role,local_result
+Supplementary Fig. 1,SOM,16,initial overview of diverse degradation shapes,04_som_results/{dataset}/n_16/
+Supplementary Fig. 6,SOM quantisation error,2-10,elbow scan,04_som_results/{dataset}/n_02 through n_10/
+Main Fig. 4,SOM,4,selected main classification,04_som_results/{dataset}/n_04/
+Supplementary Fig. 15,SOM,2,under-clustered comparison,04_som_results/{dataset}/n_02/
+Supplementary Fig. 16,SOM,5,overlap comparison,04_som_results/{dataset}/n_05/
+Supplementary Fig. 17,SOM,6,more pronounced overlap comparison,04_som_results/{dataset}/n_06/
+Supplementary Fig. 8,K-means reference,4,independent clustering comparison,05_cluster_number_decision/{dataset}/kmeans_validation.csv

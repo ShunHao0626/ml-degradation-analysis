@@ -1,0 +1,9 @@
+{
+  "main_dataset": "main_high_quality_min10",
+  "paper_dataset": "paper_aligned_min4",
+  "main_selected_n": 4,
+  "paper_selected_n": 4,
+  "n_common_curves": 1442,
+  "ARI_on_common_curves": 0.7884339534440467,
+  "NMI_on_common_curves": 0.7638048396638801
+}

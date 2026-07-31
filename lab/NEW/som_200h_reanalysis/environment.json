@@ -1,0 +1,12 @@
+{
+  "generated_utc": "2026-07-31T08:28:04.735394+00:00",
+  "python": "3.9.6",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "scipy": "1.13.1",
+  "sklearn": "1.6.1",
+  "minisom": "unknown",
+  "matplotlib": "3.9.4",
+  "seaborn": "0.13.2"
+}
