@@ -14,8 +14,9 @@ from typing import Any, Dict, List
 # Paths
 # ----------------------------------------------------------------------------
 REPO_ROOT = Path("/Users/shunhao/Desktop/ML")
-DATASET_ROOT = REPO_ROOT / "lab" / "05_accepted_all copy" / "curves_over_200h_full"
-MANIFEST_PATH = DATASET_ROOT / "manifest.csv"
+DATASET_ROOT = REPO_ROOT / "lab" / "05_accepted_all copy"
+MANIFEST_DIR = DATASET_ROOT / "curves_over_200h_full"
+MANIFEST_PATH = MANIFEST_DIR / "manifest.csv"
 
 OUTPUT_ROOT = REPO_ROOT / "lab" / "RESULTS_>200h" / "200h_som"
 OUTPUT_DIR = OUTPUT_ROOT / "outputs"
@@ -183,6 +184,7 @@ RUN_CONFIG_FILENAME = "run_config.json"
 __all__ = [
     "REPO_ROOT",
     "DATASET_ROOT",
+    "MANIFEST_DIR",
     "MANIFEST_PATH",
     "OUTPUT_ROOT",
     "OUTPUT_DIR",

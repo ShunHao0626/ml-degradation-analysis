@@ -97,43 +97,56 @@ def figure_unit_factor(top_dir: str, fig_dir: Path) -> float:
 # Manifest construction
 # ----------------------------------------------------------------------------
 def discover_csv_files() -> pd.DataFrame:
-    """Walk dataset_root and produce a manifest of every CSV curve.
+    """Resolve selected figure folders to CSV curves in the canonical dataset.
 
-    The returned DataFrame has one row per CSV file with columns:
+    ``MANIFEST_PATH`` is a compact index of figure folders containing at least
+    one curve that reaches 200 h.  The source files themselves stay under the
+    canonical ``x_time_*`` directories instead of being copied into a second
+    dataset tree.
+
+    The returned DataFrame has one row per CSV file in a selected figure folder:
         sample_id, top_dir, doi, doi_dir, figure_folder, csv_file, unit_factor
     """
     rows = []
     base = config.DATASET_ROOT
-    for top in sorted(base.iterdir()):
-        if not top.is_dir():
+    manifest_path = config.MANIFEST_PATH
+    if not manifest_path.is_file():
+        raise FileNotFoundError(f"Dataset selection manifest not found: {manifest_path}")
+
+    selection = pd.read_csv(
+        manifest_path,
+        usecols=["top_dir", "doi_dir", "figure_folder"],
+    ).drop_duplicates()
+
+    for selected in selection.itertuples(index=False):
+        top_name = str(selected.top_dir)
+        doi_name = str(selected.doi_dir)
+        figure_name = str(selected.figure_folder)
+        fig_dir = base / top_name / doi_name / figure_name
+        if not fig_dir.is_dir():
+            logger.warning("Selected figure folder is missing: %s", fig_dir)
             continue
-        if not top.name.startswith("x_time_"):
-            continue
-        for doi_dir in sorted(top.iterdir()):
-            if not doi_dir.is_dir():
-                continue
-            doi = doi_dir.name.replace("_", "/", 1)
-            for fig_dir in sorted(doi_dir.iterdir()):
-                if not fig_dir.is_dir() or fig_dir.name == "image":
-                    continue
-                accepted = fig_dir / "accepted"
-                if accepted.is_dir():
-                    csv_paths = sorted(accepted.glob("*.csv"))
-                else:
-                    csv_paths = sorted(fig_dir.glob("*.csv"))
-                unit_factor = figure_unit_factor(top.name, fig_dir)
-                for csv_p in csv_paths:
-                    sample_id = f"{doi}|{fig_dir.name}|{csv_p.stem}"
-                    rows.append({
-                        "sample_id": sample_id,
-                        "top_dir": top.name,
-                        "doi_dir": doi_dir.name,
-                        "doi": doi,
-                        "figure_folder": fig_dir.name,
-                        "csv_file": str(csv_p),
-                        "rel_csv_file": str(csv_p.relative_to(base)),
-                        "unit_factor": unit_factor,
-                    })
+
+        accepted = fig_dir / "accepted"
+        if accepted.is_dir():
+            csv_paths = sorted(accepted.glob("*.csv"))
+        else:
+            csv_paths = sorted(fig_dir.glob("*.csv"))
+
+        doi = doi_name.replace("_", "/", 1)
+        unit_factor = figure_unit_factor(top_name, fig_dir)
+        for csv_p in csv_paths:
+            sample_id = f"{doi}|{figure_name}|{csv_p.stem}"
+            rows.append({
+                "sample_id": sample_id,
+                "top_dir": top_name,
+                "doi_dir": doi_name,
+                "doi": doi,
+                "figure_folder": figure_name,
+                "csv_file": str(csv_p),
+                "rel_csv_file": str(csv_p.relative_to(base)),
+                "unit_factor": unit_factor,
+            })
     df = pd.DataFrame(rows)
     logger.info("Discovered %d candidate CSV curves", len(df))
     return df

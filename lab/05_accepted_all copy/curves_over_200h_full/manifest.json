@@ -1,30 +1,33 @@
 {
   "threshold_hours": 200.0,
+  "storage_mode": "manifest_only",
+  "source_root": "/Users/shunhao/Desktop/ML/lab/05_accepted_all copy",
   "totals": {
     "dois": 1225,
     "figures": 1408,
-    "files": 9195
+    "source_files": 9195,
+    "qualifying_csv_curves": 1858
   },
   "by_top": {
     "x_time_day": {
-      "dois_copied": 432,
-      "figures_copied": 467,
-      "files_copied": 3083
+      "dois_selected": 432,
+      "figures_selected": 467,
+      "source_files_referenced": 3083
     },
     "x_time_h": {
-      "dois_copied": 789,
-      "figures_copied": 937,
-      "files_copied": 6084
+      "dois_selected": 789,
+      "figures_selected": 937,
+      "source_files_referenced": 6084
     },
     "x_time_min": {
-      "dois_copied": 0,
-      "figures_copied": 0,
-      "files_copied": 0
+      "dois_selected": 0,
+      "figures_selected": 0,
+      "source_files_referenced": 0
     },
     "x_time_week_month_year": {
-      "dois_copied": 4,
-      "figures_copied": 4,
-      "files_copied": 28
+      "dois_selected": 4,
+      "figures_selected": 4,
+      "source_files_referenced": 28
     }
   },
   "units_by_doi": {

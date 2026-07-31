@@ -18,7 +18,7 @@ import pytest
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 
-from src import config, preprocessing
+from src import config, data_loading, preprocessing
 
 
 # ----------------------------------------------------------------------------
@@ -181,3 +181,36 @@ def test_duplicate_timestamps_resolved_to_mean():
     assert len(out) == 3
     # duplicate at 0 should be 12.0
     assert out["pce"].iloc[0] == pytest.approx(12.0)
+
+
+# ----------------------------------------------------------------------------
+# 10. Manifest-only dataset resolves to canonical source files
+# ----------------------------------------------------------------------------
+def test_manifest_selection_uses_canonical_dataset(tmp_path, monkeypatch):
+    base = tmp_path / "accepted"
+    figure_dir = base / "x_time_h" / "10.0000_example" / "Fig1"
+    accepted_dir = figure_dir / "accepted"
+    accepted_dir.mkdir(parents=True)
+
+    csv_path = accepted_dir / "series.csv"
+    pd.DataFrame({"x": [0, 200], "y": [1.0, 0.9]}).to_csv(csv_path, index=False)
+
+    manifest_dir = base / "curves_over_200h_full"
+    manifest_dir.mkdir()
+    manifest_path = manifest_dir / "manifest.csv"
+    pd.DataFrame([{
+        "top_dir": "x_time_h",
+        "doi_dir": "10.0000_example",
+        "doi": "10.0000/example",
+        "figure_folder": "Fig1",
+        "csv_file": "x_time_h/10.0000_example/Fig1/accepted/series.csv",
+    }]).to_csv(manifest_path, index=False)
+
+    monkeypatch.setattr(config, "DATASET_ROOT", base)
+    monkeypatch.setattr(config, "MANIFEST_PATH", manifest_path)
+
+    discovered = data_loading.discover_csv_files()
+    assert discovered["csv_file"].tolist() == [str(csv_path)]
+    assert discovered["rel_csv_file"].tolist() == [
+        "x_time_h/10.0000_example/Fig1/accepted/series.csv"
+    ]

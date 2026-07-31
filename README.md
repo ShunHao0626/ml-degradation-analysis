@@ -35,11 +35,14 @@ These figures are descriptive clustering results, not proof of distinct physical
 ```text
 .
 ├── lab/
-│   ├── 05_accepted_all copy/       # Literature-derived, accepted PCE–time curves
+│   ├── data_all/                   # Current canonical literature-derived PCE–time curves
 │   │   ├── x_time_h/               # Curves reported in hours
 │   │   ├── x_time_day/             # Curves reported in days
 │   │   ├── x_time_min/             # Curves reported in minutes
-│   │   └── x_time_week_month_year/ # Curves reported in longer time units
+│   │   ├── x_time_week_month_year/ # Curves reported in longer time units
+│   ├── 05_accepted_all copy/       # Legacy analysis reports and selected-figure manifest
+│   │   └── curves_over_200h_full/  # Compact CSV/JSON index of qualifying figures
+│   ├── NEW/som_200h_reanalysis/    # New 200 h reanalysis, reports, code, and SI outputs
 │   ├── RESULTS_>200h/200h_som/     # Earlier/extended 200 h SOM results
 │   └── results_all/A_result/       # Structured primary analysis pipeline and outputs
 │       ├── scripts/run_200h_som.py # Pipeline entry point
@@ -55,7 +58,9 @@ These figures are descriptive clustering results, not proof of distinct physical
 
 ## Data and provenance
 
-The literature curves are organised by source DOI and figure/series under `lab/05_accepted_all copy/`. Each accepted curve is stored as a CSV, with associated source notes and figure assets where available. The source time unit is retained, then converted to hours by the analysis pipeline.
+The current canonical literature curves are organised by source DOI and figure/series under `lab/data_all/`. Each accepted curve is stored as a CSV, with associated source notes and figure assets where available. The source time unit is retained, then converted to hours by the analysis pipeline.
+
+`lab/05_accepted_all copy/curves_over_200h_full/` contains only CSV/JSON manifests. It is a compact index of selected figures rather than a second physical copy of the source assets.
 
 `thesis/dataset/` contains the processed dataset used by the PvkSOM-derived notebook workflow:
 
@@ -125,7 +130,9 @@ conda activate PvkSOM
 
 ### Configure paths
 
-Before running, open `lab/results_all/A_result/src/config.py` and update `OUT_ROOT` and the `DATA_DIRS` entries for your clone. They currently contain the original macOS absolute paths.
+Before running, open `lab/results_all/A_result/src/config.py` and update `OUT_ROOT` and the `DATA_DIRS` entries for your clone. They currently contain the original macOS absolute paths. In the current repository layout, point the four `DATA_DIRS` entries to `lab/data_all/x_time_h`, `lab/data_all/x_time_day`, `lab/data_all/x_time_min`, and `lab/data_all/x_time_week_month_year`.
+
+The earlier pipeline in `lab/RESULTS_>200h/200h_som/` similarly uses a manifest under `lab/05_accepted_all copy/`; when running it against the migrated local layout, set its `DATASET_ROOT` to `lab/data_all` while retaining the manifest path.
 
 ### Execute
 
