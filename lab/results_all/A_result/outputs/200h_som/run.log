@@ -1,0 +1,22 @@
+2026-07-29 16:25:38,739 [INFO] pvksom_200h:181 Training SOM: shape=2x2, sigma=0.5, lr=0.1, iter=1000, seed=42
+2026-07-29 16:25:38,767 [INFO] pvksom_200h:203   QE=0.1666, TE=0.0000
+2026-07-29 16:25:38,769 [INFO] pvksom_200h:181 Training SOM: shape=2x2, sigma=0.5, lr=0.1, iter=1000, seed=42
+2026-07-29 16:25:38,798 [INFO] pvksom_200h:203   QE=0.1666, TE=0.0000
+2026-07-29 16:25:38,801 [INFO] pvksom_200h:181 Training SOM: shape=2x2, sigma=0.5, lr=0.1, iter=1000, seed=42
+2026-07-29 16:25:38,831 [INFO] pvksom_200h:203   QE=0.1666, TE=0.0000
+2026-07-29 16:25:38,833 [INFO] pvksom_200h:181 Training SOM: shape=2x2, sigma=0.5, lr=0.1, iter=1000, seed=42
+2026-07-29 16:25:38,860 [INFO] pvksom_200h:203   QE=0.1666, TE=0.0000
+2026-07-29 16:25:38,862 [INFO] pvksom_200h:181 Training SOM: shape=2x2, sigma=0.5, lr=0.1, iter=1000, seed=99
+2026-07-29 16:25:38,890 [INFO] pvksom_200h:203   QE=0.4759, TE=0.0000
+2026-07-29 16:25:38,890 [INFO] pvksom_200h:181 Training SOM: shape=2x2, sigma=0.5, lr=0.1, iter=1000, seed=99
+2026-07-29 16:25:38,921 [INFO] pvksom_200h:203   QE=0.4759, TE=0.0000
+2026-07-29 16:25:38,923 [INFO] pvksom_200h:181 Training SOM: shape=2x2, sigma=0.5, lr=0.1, iter=1000, seed=1
+2026-07-29 16:25:38,954 [INFO] pvksom_200h:203   QE=0.1666, TE=0.0000
+2026-07-29 16:25:38,954 [INFO] pvksom_200h:181 Training SOM: shape=2x2, sigma=0.5, lr=0.1, iter=1000, seed=2
+2026-07-29 16:25:38,986 [INFO] pvksom_200h:203   QE=0.4759, TE=0.0000
+2026-07-29 16:25:38,993 [INFO] pvksom_200h:181 Training SOM: shape=2x2, sigma=0.5, lr=0.1, iter=500, seed=42
+2026-07-29 16:25:39,008 [INFO] pvksom_200h:203   QE=0.1666, TE=0.0000
+2026-07-29 16:25:39,011 [INFO] pvksom_200h:181 Training SOM: shape=2x2, sigma=0.5, lr=0.1, iter=1000, seed=42
+2026-07-29 16:25:39,039 [INFO] pvksom_200h:203   QE=8.9966, TE=0.0000
+2026-07-29 16:25:39,041 [INFO] pvksom_200h:181 Training SOM: shape=2x2, sigma=0.5, lr=0.1, iter=1000, seed=42
+2026-07-29 16:25:39,070 [INFO] pvksom_200h:203   QE=8.9966, TE=0.0000

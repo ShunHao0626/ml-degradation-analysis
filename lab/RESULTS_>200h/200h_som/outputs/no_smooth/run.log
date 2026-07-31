@@ -1,0 +1,29 @@
+2026-07-31 01:49:29,833 INFO 200h_som_no_smooth :: === 200h SOM analysis — NO-SMOOTH variant ===
+2026-07-31 01:49:29,833 INFO 200h_som_no_smooth :: Run start (UTC): 2026-07-30T17:49:29
+2026-07-31 01:49:29,833 INFO 200h_som_no_smooth :: Output root: /Users/shunhao/Desktop/ML/lab/RESULTS_>200h/200h_som/outputs/no_smooth
+2026-07-31 01:49:29,833 INFO 200h_som_no_smooth :: === Re-loading raw curves ===
+2026-07-31 01:49:30,052 INFO src.data_loading :: Discovered 1873 candidate CSV curves
+2026-07-31 01:49:32,561 INFO src.data_loading :: Loaded 114120 observation rows from 1873 curves
+2026-07-31 01:49:32,581 INFO 200h_som_no_smooth :: Loaded 114120 observation rows from 1873 curves
+2026-07-31 01:49:32,581 INFO 200h_som_no_smooth :: === Per-curve preprocessing (NO savgol) ===
+2026-07-31 01:49:39,186 INFO 200h_som_no_smooth :: Included: 1812   Excluded: 61
+2026-07-31 01:49:39,193 INFO 200h_som_no_smooth :: Included set matches smoothed run exactly (n=1812).
+2026-07-31 01:49:39,193 INFO 200h_som_no_smooth :: === Building no-smooth feature matrix ===
+2026-07-31 01:49:39,216 INFO 200h_som_no_smooth :: No-smooth feature matrix: {'shape': (1812, 1201), 'finite': True, 'n_samples': 1812}
+2026-07-31 01:49:39,238 INFO 200h_som_n7_n10 :: Training n=4 SOM (shape=(2, 2), σ=0.50, lr=0.10)
+2026-07-31 01:49:40,431 INFO 200h_som_n7_n10 :: n=4:  QE=1.2847  TE=0.0000
+2026-07-31 01:49:42,349 INFO 200h_som_n7_n10 :: Training n=5 SOM (shape=(1, 5), σ=0.50, lr=0.10)
+2026-07-31 01:49:43,465 INFO 200h_som_n7_n10 :: n=5:  QE=1.0966  TE=0.0988
+2026-07-31 01:49:45,148 INFO 200h_som_n7_n10 :: Training n=6 SOM (shape=(2, 3), σ=0.50, lr=0.10)
+2026-07-31 01:49:46,402 INFO 200h_som_n7_n10 :: n=6:  QE=1.0218  TE=0.0000
+2026-07-31 01:49:48,243 INFO 200h_som_n7_n10 :: Training n=7 SOM (shape=(1, 7), σ=0.50, lr=0.10)
+2026-07-31 01:49:49,474 INFO 200h_som_n7_n10 :: n=7:  QE=0.9461  TE=0.4161
+2026-07-31 01:49:51,385 INFO 200h_som_n7_n10 :: Training n=8 SOM (shape=(2, 4), σ=0.50, lr=0.10)
+2026-07-31 01:49:52,814 INFO 200h_som_n7_n10 :: n=8:  QE=0.8782  TE=0.0000
+2026-07-31 01:49:54,944 INFO 200h_som_n7_n10 :: Training n=9 SOM (shape=(3, 3), σ=0.50, lr=0.10)
+2026-07-31 01:49:56,378 INFO 200h_som_n7_n10 :: n=9:  QE=0.8571  TE=0.1087
+2026-07-31 01:49:58,876 INFO 200h_som_n7_n10 :: Training n=10 SOM (shape=(2, 5), σ=0.50, lr=0.10)
+2026-07-31 01:50:00,488 INFO 200h_som_n7_n10 :: n=10:  QE=0.8146  TE=0.0226
+2026-07-31 01:50:03,109 INFO 200h_som_n7_n10 :: Training n=16 SOM (shape=(4, 4), σ=0.50, lr=0.10)
+2026-07-31 01:50:05,265 INFO 200h_som_n7_n10 :: n=16:  QE=0.6928  TE=0.3449
+2026-07-31 01:50:08,721 INFO 200h_som_no_smooth :: === Done. No-smooth outputs in /Users/shunhao/Desktop/ML/lab/RESULTS_>200h/200h_som/outputs/no_smooth ===
