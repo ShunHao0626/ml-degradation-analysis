@@ -26,6 +26,7 @@ The project builds on the PvkSOM workflow associated with Hartono *et al.* (2023
 - **1,453** curves pass preprocessing and are included in the SOM analysis; **698** are excluded with documented reasons.
 - The main model is a **2 × 2 SOM** (4 nodes) trained for 50,000 iterations.
 - The four nodes span stable trajectories through moderate loss to early, rapid degradation.
+- A new **6 × 6 exploratory SOM** isolates a high-purity, low-recall rise-then-fall trajectory subtype using a fully documented 200-hour parameter scan.
 - Full intermediate data, cluster assignments, audit files, figures, trained SOM artifacts, and run logs are versioned for inspection.
 
 These figures are descriptive clustering results, not proof of distinct physical degradation mechanisms.
@@ -43,6 +44,7 @@ These figures are descriptive clustering results, not proof of distinct physical
 │   ├── 05_accepted_all copy/       # Legacy analysis reports and selected-figure manifest
 │   │   └── curves_over_200h_full/  # Compact CSV/JSON index of qualifying figures
 │   ├── NEW/som_200h_reanalysis/    # New 200 h reanalysis, reports, code, and SI outputs
+│   │   └── 11_paper200h_tuned_rise_fall_som/ # Reproducible 36-node rise-then-fall analysis
 │   ├── RESULTS_>200h/200h_som/     # Earlier/extended 200 h SOM results
 │   └── results_all/A_result/       # Structured primary analysis pipeline and outputs
 │       ├── scripts/run_200h_som.py # Pipeline entry point
@@ -113,6 +115,48 @@ The current complete report is [available here](<lab/results_all/A_result/output
 The SOM-versus-k-means (*k*=4) comparison gives ARI = 0.9004 and NMI = 0.8677 for this run. See the [cluster assignments](<lab/results_all/A_result/outputs/200h_som/cluster_assignments.csv>), [cluster summary](<lab/results_all/A_result/outputs/200h_som/cluster_summary.csv>), [quality-control report](<lab/results_all/A_result/outputs/200h_som/quality_control_report.csv>), and [run configuration](<lab/results_all/A_result/outputs/200h_som/run_config.json>) for the auditable record.
 
 Key visual outputs include the [cluster curves](<lab/results_all/A_result/outputs/200h_som/figures/som_cluster_curves.png>), [U-matrix](<lab/results_all/A_result/outputs/200h_som/figures/som_u_matrix.png>), [hit map](<lab/results_all/A_result/outputs/200h_som/figures/som_hit_map.png>), and [quantisation-error elbow](<lab/results_all/A_result/outputs/200h_som/figures/quantisation_error_elbow.png>).
+
+## Exploratory 36-node rise-then-fall analysis
+
+An additional paper-style 200-hour analysis investigates whether the SOM can isolate trajectories that first increase and then decrease. This analysis keeps the literature-aligned preprocessing and MiniSom framework fixed while tuning only the number of SOM nodes, Gaussian neighbourhood width (`sigma`), and learning rate.
+
+The fixed input contains **1,442 curves × 1,201 time points**. Curves are placed on a 10-minute grid using Akima interpolation, divided by their own 0–200 h maximum, and smoothed with a Savitzky–Golay filter (window 71, polynomial order 2). The selected exploratory model uses:
+
+| Parameter | Selected value |
+|---|---:|
+| SOM topology | 6 × 6 (36 nodes) |
+| `sigma` | 0.3 |
+| Learning rate | 0.1 |
+| Training iterations | 50,000 |
+| Primary random seed | 42 |
+
+The complete search evaluates **99 parameter combinations**, followed by 50,000-iteration validation across seeds 7, 21, 42, 84, and 168. For the primary seed, node 22 contains 9 curves, 8 of which satisfy the predefined core rise-then-fall (RTF) diagnostic:
+
+| Diagnostic | Result |
+|---|---:|
+| RTF-node precision | 88.9% |
+| RTF-node recall | 14.3% |
+| RTF-node F1 | 0.246 |
+| Quantisation error | 0.5735 |
+| Five-seed mean global ARI | 0.602 |
+| Five-seed mean target-node Jaccard | 0.317 |
+
+SOM weight training remains unsupervised: the RTF diagnostic is not an input feature and does not update model weights. However, RTF enrichment is used after training to compare parameter combinations and select the final model. The 36-node result should therefore be described as **unsupervised SOM training with target-guided post-training model selection**, not as a category count established solely by a QE elbow or by the original publication. Its main result is a high-purity but low-recall shape subtype, not complete recovery of all rise-then-fall curves.
+
+Start with the [reproduction guide](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/README_REPRODUCE_CN.md>). The bundle also contains the [complete parameter and workflow record](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/36_CLASS_SOM_PARAMETERS_AND_WORKFLOW_CN.md>), [99-configuration screen](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/01_parameter_screen/primary_seed_parameter_screen.csv>), [multi-seed validation](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/02_multiseed_validation/candidate_multiseed_metrics.csv>), [final assignments](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/03_selected_model/final_curve_assignments.csv>), and [36-node overview](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/03_selected_model/all_som_nodes.png>).
+
+To verify the archived result without retraining:
+
+```bash
+cd lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som
+python3 code/verify_paper200h_tuned_rise_fall_som.py
+```
+
+To retrain only the selected 36-node model and compare it with the archive:
+
+```bash
+python3 code/reproduce_selected_36_model.py --strict
+```
 
 ## Run the primary pipeline
 
