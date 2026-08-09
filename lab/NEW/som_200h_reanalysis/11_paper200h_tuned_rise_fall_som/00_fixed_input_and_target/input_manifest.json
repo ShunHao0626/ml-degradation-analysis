@@ -1,0 +1,37 @@
+{
+  "input_directory": "/Users/shunhao/Desktop/ML/lab/NEW/som_200h_reanalysis/03_preprocessed/main_high_quality_min10",
+  "input_array": "X_smoothed.npy",
+  "n_curves": 1442,
+  "n_time_points": 1201,
+  "window_h": [
+    0.0,
+    200.0
+  ],
+  "grid_step_min": 10.0,
+  "interpolation": "Akima",
+  "normalization": "per-curve maximum in 0-200 h",
+  "savgol": {
+    "window_length": 71,
+    "polyorder": 2,
+    "mode": "interp"
+  },
+  "som_fixed": {
+    "iterations_final": 50000,
+    "initialization": "random_weights_init",
+    "training_method": "train",
+    "activation_distance": "euclidean",
+    "neighborhood_function": "gaussian",
+    "topology": "rectangular"
+  },
+  "som_tuned": [
+    "n_nodes",
+    "sigma",
+    "learning_rate"
+  ],
+  "target_counts": {
+    "rise_then_fall_broad": 145,
+    "rise_then_fall_medium": 97,
+    "rise_then_fall_core": 56,
+    "rise_then_fall_strong": 26
+  }
+}
