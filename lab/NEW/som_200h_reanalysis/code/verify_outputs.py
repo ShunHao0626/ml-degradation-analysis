@@ -25,6 +25,29 @@ def main() -> None:
     require(int(counts["duration_ge_200h"]) == 1862, "duration count mismatch")
     require(int(counts["paper_selected_min4"]) == 1785, "paper count mismatch")
     require(int(counts["main_selected_min10"]) == 1442, "main count mismatch")
+    for filename in (
+        "main_selected_raw_curves_0_200h.png",
+        "main_selected_raw_curves_0_200h_by_scale.png",
+        "paper_sensitivity_selected_raw_curves_0_200h.png",
+        "paper_sensitivity_selected_raw_curves_0_200h_by_scale.png",
+    ):
+        raw_plot = PROJECT / "01_data_selection" / filename
+        require(raw_plot.is_file(), f"missing raw selected-curve plot: {filename}")
+        require(raw_plot.stat().st_size > 0, f"empty raw selected-curve plot: {filename}")
+
+    for filename in (
+        "main_high_quality_min10_all_preprocessed_curves.png",
+        "paper_aligned_min4_all_preprocessed_curves.png",
+    ):
+        preprocessed_plot = PROJECT / "03_preprocessed" / filename
+        require(
+            preprocessed_plot.is_file(),
+            f"missing all-curve preprocessing plot: {filename}",
+        )
+        require(
+            preprocessed_plot.stat().st_size > 0,
+            f"empty all-curve preprocessing plot: {filename}",
+        )
 
     for name, expected in (
         ("main_high_quality_min10", 1442),

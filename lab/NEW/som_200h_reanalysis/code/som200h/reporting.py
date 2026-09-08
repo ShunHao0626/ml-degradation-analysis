@@ -299,9 +299,9 @@ def write_main_report(
 def write_file_index(config: AnalysisConfig) -> None:
     descriptions = {
         "00_references": "Local copies of the main article and SI markdown.",
-        "01_data_selection": "Full 2,151-curve audit, selected manifests, and exclusions.",
+        "01_data_selection": "Full 2,151-curve audit, selected manifests, exclusions, and raw 0-200 h curve plots.",
         "02_selected_curve_database": "Browsable raw CSV databases for main and sensitivity cohorts.",
-        "03_preprocessed": "Time grid, matrices, wide CSVs, metadata, and preprocessing configuration.",
+        "03_preprocessed": "Time grid, matrices, wide CSVs, metadata, configuration, and all-curve preprocessing plots.",
         "04_som_results": "n=2–10 plus SI n=16 SOM models, assignments, summaries, seed stability, and figures.",
         "05_cluster_number_decision": "SI-style decision tables, K-means results, and decision plots.",
         "06_final_model": "Chosen model, final traceability table, cluster folders, weights, and figures.",

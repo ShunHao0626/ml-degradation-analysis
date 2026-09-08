@@ -13,6 +13,7 @@ import pandas as pd
 import seaborn as sns
 
 from .config import AnalysisConfig
+from .data import RawCurve
 from .modeling import SOMRun
 from .preprocessing import PreprocessedDataset
 
@@ -38,6 +39,146 @@ def plot_selection_flow(flow: pd.DataFrame, out: Path) -> None:
     plt.xticks(rotation=12, ha="right")
     fig.tight_layout()
     fig.savefig(out, dpi=220)
+    plt.close(fig)
+
+
+def plot_selected_raw_curves(
+    curves_by_id: dict[str, RawCurve],
+    selected: pd.DataFrame,
+    out: Path,
+    title: str,
+    window_hours: float = 200.0,
+) -> None:
+    """Plot every selected curve on one axis using raw points in 0--200 h."""
+    raw_curves: list[tuple[np.ndarray, np.ndarray]] = []
+
+    for curve_id in selected["curve_id"]:
+        curve = curves_by_id.get(curve_id)
+        if curve is None:
+            raise KeyError(f"Selected curve is missing from discovery: {curve_id}")
+        mask = (
+            np.isfinite(curve.x_hours_relative)
+            & np.isfinite(curve.y)
+            & (curve.x_hours_relative >= 0.0)
+            & (curve.x_hours_relative <= window_hours + 1e-9)
+        )
+        x = curve.x_hours_relative[mask]
+        y = curve.y[mask]
+        if x.size == 0:
+            continue
+        order = np.argsort(x, kind="stable")
+        x = x[order]
+        y = y[order]
+        raw_curves.append((x, y))
+
+    plotted_count = len(raw_curves)
+    if plotted_count != len(selected):
+        raise RuntimeError(
+            f"Expected to plot {len(selected)} curves, plotted {plotted_count}"
+        )
+
+    fig, ax = plt.subplots(figsize=(10, 6.2))
+    for x, y in raw_curves:
+        ax.plot(
+            x,
+            y,
+            color="#2563EB",
+            alpha=0.07,
+            linewidth=0.45,
+            marker=".",
+            markersize=0.8,
+            markeredgewidth=0,
+        )
+    ax.set_xlim(0.0, window_hours)
+    ax.set_xlabel("Relative ageing time (h)")
+    ax.set_ylabel("Raw y value as supplied")
+    ax.set_title(
+        f"{title} (n={plotted_count:,})\n"
+        "Observed raw points only; no interpolation, normalization, or smoothing"
+    )
+    fig.tight_layout()
+    fig.savefig(out, dpi=240, bbox_inches="tight")
+    plt.close(fig)
+
+
+def plot_selected_raw_curves_by_scale(
+    curves_by_id: dict[str, RawCurve],
+    selected: pd.DataFrame,
+    out: Path,
+    title: str,
+    window_hours: float = 200.0,
+) -> None:
+    """Plot raw selected curves in three panels without changing y values."""
+    groups = (
+        ("Raw maximum <= 2.5", -np.inf, 2.5, "#2563EB"),
+        ("2.5 < raw maximum <= 50", 2.5, 50.0, "#059669"),
+        ("Raw maximum > 50", 50.0, np.inf, "#EA580C"),
+    )
+    grouped_curves: list[list[tuple[np.ndarray, np.ndarray]]] = [
+        [] for _ in groups
+    ]
+
+    for curve_id in selected["curve_id"]:
+        curve = curves_by_id.get(curve_id)
+        if curve is None:
+            raise KeyError(f"Selected curve is missing from discovery: {curve_id}")
+        mask = (
+            np.isfinite(curve.x_hours_relative)
+            & np.isfinite(curve.y)
+            & (curve.x_hours_relative >= 0.0)
+            & (curve.x_hours_relative <= window_hours + 1e-9)
+        )
+        x = curve.x_hours_relative[mask]
+        y = curve.y[mask]
+        if x.size == 0:
+            continue
+        order = np.argsort(x, kind="stable")
+        x = x[order]
+        y = y[order]
+        raw_maximum = float(np.max(y))
+        for group_index, (_, lower, upper, _) in enumerate(groups):
+            if lower < raw_maximum <= upper:
+                grouped_curves[group_index].append((x, y))
+                break
+
+    plotted_count = sum(len(curves) for curves in grouped_curves)
+    if plotted_count != len(selected):
+        raise RuntimeError(
+            f"Expected to plot {len(selected)} curves, plotted {plotted_count}"
+        )
+
+    fig, axes = plt.subplots(1, 3, figsize=(17, 5.4), sharex=True)
+    for ax, group, curves in zip(axes, groups, grouped_curves):
+        label, _, _, color = group
+        all_y: list[np.ndarray] = []
+        for x, y in curves:
+            ax.plot(
+                x,
+                y,
+                color=color,
+                alpha=0.075,
+                linewidth=0.45,
+                marker=".",
+                markersize=0.8,
+                markeredgewidth=0,
+            )
+            all_y.append(y)
+        ax.set_xlim(0.0, window_hours)
+        ax.set_title(f"{label} (n={len(curves):,})")
+        ax.set_xlabel("Relative ageing time (h)")
+        if all_y:
+            y_values = np.concatenate(all_y)
+            y_min = float(np.min(y_values))
+            y_max = float(np.max(y_values))
+            padding = max((y_max - y_min) * 0.04, abs(y_max) * 0.01, 1e-6)
+            ax.set_ylim(y_min - padding, y_max + padding)
+    axes[0].set_ylabel("Raw y value as supplied")
+    fig.suptitle(
+        f"{title} (n={plotted_count:,})\n"
+        "Observed raw points only; no interpolation, normalization, or smoothing"
+    )
+    fig.tight_layout()
+    fig.savefig(out, dpi=240, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -71,6 +212,48 @@ def plot_preprocessing_overview(
     fig.suptitle(f"Preprocessing overview — {dataset.name} (random n={count})")
     fig.tight_layout()
     fig.savefig(out, dpi=220)
+    plt.close(fig)
+
+
+def plot_all_preprocessed_curves(
+    time_grid: np.ndarray,
+    curves: np.ndarray,
+    out: Path,
+    title: str,
+) -> None:
+    """Plot every final preprocessed curve together on one axis."""
+    if curves.ndim != 2:
+        raise ValueError(f"Expected a 2D curve matrix, got shape {curves.shape}")
+    if curves.shape[1] != time_grid.size:
+        raise ValueError(
+            "Curve width does not match the time grid: "
+            f"{curves.shape[1]} != {time_grid.size}"
+        )
+    if not np.isfinite(curves).all() or not np.isfinite(time_grid).all():
+        raise ValueError("Preprocessed curves and time grid must be finite")
+
+    fig, ax = plt.subplots(figsize=(10, 6.2))
+    for curve in curves:
+        ax.plot(
+            time_grid,
+            curve,
+            color="#2563EB",
+            alpha=0.045,
+            linewidth=0.45,
+        )
+    ax.set_xlim(float(time_grid[0]), float(time_grid[-1]))
+    y_min = float(np.min(curves))
+    y_max = float(np.max(curves))
+    padding = max((y_max - y_min) * 0.03, 1e-6)
+    ax.set_ylim(y_min - padding, y_max + padding)
+    ax.set_xlabel("Relative ageing time (h)")
+    ax.set_ylabel("Preprocessed normalized PCE")
+    ax.set_title(
+        f"{title} (n={curves.shape[0]:,})\n"
+        "Final SOM input: Akima interpolation, normalization, and Savitzky-Golay smoothing"
+    )
+    fig.tight_layout()
+    fig.savefig(out, dpi=240, bbox_inches="tight")
     plt.close(fig)
 
 

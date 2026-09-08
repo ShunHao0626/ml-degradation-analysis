@@ -31,10 +31,13 @@ from som200h.modeling import (
     save_final_traceability,
 )
 from som200h.plotting import (
+    plot_all_preprocessed_curves,
     plot_cluster_number_metrics,
     plot_cluster_sizes,
     plot_final_centroids,
     plot_preprocessing_overview,
+    plot_selected_raw_curves,
+    plot_selected_raw_curves_by_scale,
     plot_selection_flow,
     plot_som_clusters,
 )
@@ -100,6 +103,34 @@ def main() -> None:
         selection_flow,
         PROJECT / "01_data_selection" / "selection_flow.png",
     )
+    for selector, label, filename in (
+        (
+            "main_selected_min10",
+            "Main selected raw curves",
+            "main_selected_raw_curves_0_200h.png",
+        ),
+        (
+            "paper_selected_min4",
+            "Paper-sensitivity selected raw curves",
+            "paper_sensitivity_selected_raw_curves_0_200h.png",
+        ),
+    ):
+        plot_selected_raw_curves(
+            curves_by_id,
+            audit[audit[selector]],
+            PROJECT / "01_data_selection" / filename,
+            label,
+            config.window_hours,
+        )
+        plot_selected_raw_curves_by_scale(
+            curves_by_id,
+            audit[audit[selector]],
+            PROJECT
+            / "01_data_selection"
+            / filename.replace(".png", "_by_scale.png"),
+            label,
+            config.window_hours,
+        )
     expected = {
         "all_discovered": 2151,
         "duration_ge_200h": 1862,
@@ -148,6 +179,12 @@ def main() -> None:
         plot_preprocessing_overview(
             dataset,
             PROJECT / "03_preprocessed" / name / "preprocessing_overview.png",
+        )
+        plot_all_preprocessed_curves(
+            dataset.time_grid,
+            dataset.x_smoothed,
+            PROJECT / "03_preprocessed" / f"{name}_all_preprocessed_curves.png",
+            name,
         )
         datasets[name] = dataset
         failures[name] = failed
