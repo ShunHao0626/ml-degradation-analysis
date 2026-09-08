@@ -1,0 +1,4 @@
+comparison,selected_k_a,selected_k_b,ARI,NMI,aligned_membership_changes,note
+Test 1 vs Test 2,4,5,0.1499617391859781,0.16896675968597968,-1,Mismatch count is -1 when selected K differs; ARI/NMI remain valid.
+Test 2 vs Test 3,5,5,0.9902545399310525,0.9857500916187525,7,Mismatch count is -1 when selected K differs; ARI/NMI remain valid.
+Test 1 vs Test 3,4,5,0.14986266915172283,0.1685494887913515,-1,Mismatch count is -1 when selected K differs; ARI/NMI remain valid.

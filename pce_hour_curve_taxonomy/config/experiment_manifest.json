@@ -1,0 +1,37 @@
+{
+  "source_dataset": "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test",
+  "source_method": "/Users/shunhao/Desktop/ML/thesis",
+  "windows_hours": [150, 300, 500],
+  "resample_minutes": 10,
+  "interpolation": "Akima",
+  "normalization": "MaxAbsScaler_per_curve",
+  "savgol_window_points": 71,
+  "savgol_polyorder": 2,
+  "som_iterations": 50000,
+  "cluster_count_candidates": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "diagnostic_cluster_counts": [16],
+  "som_hyperparameter_pairs": [
+    {"sigma": 0.5, "learning_rate": 0.1, "role": "baseline"},
+    {"sigma": 0.3, "learning_rate": 0.1, "role": "published_sensitivity"},
+    {"sigma": 0.5, "learning_rate": 0.3, "role": "published_sensitivity"}
+  ],
+  "baseline_seed": 42,
+  "robustness_seeds": [7, 19, 42, 73, 101],
+  "seed_policy": "pre_registered_repetitions_not_a_tuning_dimension",
+  "model_input": "normalized_smoothed_pce_trajectory_only",
+  "quality_rules": {
+    "axis": "explicit_hours_or_days_and_explicit_pce_or_efficiency",
+    "time_origin": "subtract_first_digitized_x_to_match_elapsed_time_from_first_measurement",
+    "max_plausible_duration_hours": 100000,
+    "minimum_numeric_points": 4,
+    "must_cover_entire_window": true,
+    "exclude_if_first_global_pce_maximum_is_after_window": true
+  },
+  "forbidden": [
+    "force_four_clusters",
+    "use_ifo_names_or_shapes_during_training_or_model_selection",
+    "add_material_temperature_architecture_or_legend_variables",
+    "tune_undocumented_smoothing_or_som_values",
+    "select_random_seed_by_target_shape_match"
+  ]
+}

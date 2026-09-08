@@ -1,0 +1,5 @@
+class,n_curves,n_strict_topology_matches,fraction,strict_fraction_of_class,median_rule_stability,minimum_rule_stability,representative_curve_id,centroid_start,centroid_end
+IFO-Bridge,56,56,0.045565500406834825,1.0,1.0,0.33,10.1002_slct.202102172_Fig8_whole_stability_e3f4790125,0.9163357851738937,0.8824630075675437
+IFO-Hill,39,39,0.03173311635475997,1.0,1.0,0.45,10.1016_j.jphotochem.2018.02.018_Fig8_A_pce_40c4c1a1f2,0.9364950676323865,0.8293882243641755
+IFO-Slope,1118,892,0.9096826688364524,0.7978533094812165,1.0,0.31,10.1016_j.nanoen.2021.106495_Fig3_B_stability_performance_curve_pce_a3049a3ab5,0.9955799177593685,0.7481404670980847
+IFO-Valley,16,16,0.013018714401952807,1.0,1.0,0.91,10.1039_c8qm00620b_Fig3_D_stability_performance_curve_54dc50aba6,0.9888982723768923,0.8811233154153971

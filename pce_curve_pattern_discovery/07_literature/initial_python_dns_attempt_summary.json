@@ -1,0 +1,10 @@
+{
+  "generated_at_utc": "2026-09-02T16:08:31.400783+00:00",
+  "queue_size": 50,
+  "status_counts": {
+    "download_failed": 50
+  },
+  "downloaded_files": 0,
+  "downloaded_bytes": 0,
+  "policy": "Only URLs explicitly exposed as open PDF locations were attempted; no access-control bypass."
+}

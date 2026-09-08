@@ -1,0 +1,5 @@
+strict_class,curve_count,csv_count,png_count,high_count,low_review_count
+IFO-Bridge,3,3,3,3,0
+IFO-Hill,3,3,3,2,1
+IFO-Slope,51,51,51,50,1
+IFO-Valley,4,4,4,3,1

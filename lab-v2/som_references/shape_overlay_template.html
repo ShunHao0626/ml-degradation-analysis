@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>218 条曲线 · 形状叠加对照</title>
+<style>
+body{margin:0;background:#f7f9fb;color:#183049;font:15px/1.6 system-ui,sans-serif}main{max-width:1180px;margin:auto;padding:24px}h1{font-size:24px;margin:0 0 6px}p{margin:6px 0 16px;color:#506277}.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center}select{min-width:0;max-width:100%;flex:1}select,button{font:inherit;padding:7px 10px;border:1px solid #b9c6d2;border-radius:6px;background:white;color:#183049}button{cursor:pointer}button:disabled{opacity:.4;cursor:default}svg{width:100%;height:auto;display:block;margin-top:14px;background:white;border-radius:10px}svg text{font:14px system-ui,sans-serif;fill:#506277}.grid{stroke:#e1e7ed;stroke-width:1}.curve{fill:none;stroke:#2872af;stroke-width:1;opacity:.23;vector-effect:non-scaling-stroke;cursor:pointer;pointer-events:stroke}.selected{fill:none;stroke:#d8521b;stroke-width:2.7;vector-effect:non-scaling-stroke;pointer-events:none}.points{fill:#d8521b;pointer-events:none}.detail{padding:14px 0;min-height:100px;overflow-wrap:anywhere}.detail strong{font-size:17px;color:#183049}.path{font-size:12px;color:#68798a}.note{color:#9b470d}.footer{font-size:13px}button:focus-visible,select:focus-visible{outline:3px solid #4b97d1}@media(max-width:600px){main{padding:12px}select{flex-basis:100%}h1{font-size:20px}}
+</style>
+<main>
+<h1>218 条曲线 · 形状叠加对照</h1>
+<p>每条曲线独立缩放至 0–1。悬停查看，点击锁定；也可逐条选择，其他曲线始终作为背景。</p>
+<div class="controls"><label for="curve">突出显示</label><select id="curve" aria-label="选择曲线"><option value="-1">全部曲线</option></select><button id="prev">上一条</button><button id="next">下一条</button></div>
+<svg id="chart" viewBox="0 0 1100 650" role="img" aria-label="218条曲线的独立归一化叠加图，横轴为曲线内相对横坐标，纵轴为曲线内相对纵坐标"><g id="grid"></g><g id="lines"></g><path id="selected" class="selected"></path><g id="points" class="points"></g><text x="570" y="634" text-anchor="middle">曲线内相对横坐标（0–1，非统一真实时间）</text><text transform="translate(20 310) rotate(-90)" text-anchor="middle">曲线内相对纵坐标（0–1）</text></svg>
+<div id="detail" class="detail" aria-live="polite"></div>
+<p class="footer">包含全部 9,674 个原始点；不平滑、不插值。独立缩放会放大微小波动，图中不能比较真实时长、绝对降幅或退化速度。常数曲线显示于 y=0.5；异常样本保留并标注。</p>
+</main>
+<script>
+const curves=__CURVES_JSON__;
+const $=id=>document.getElementById(id), ns='http://www.w3.org/2000/svg';
+let pinned=-1;
+function svgEl(tag,attrs,parent){const el=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>el.setAttribute(k,v));parent.appendChild(el);return el}
+const X=x=>75+x*990,Y=y=>585-y*550;
+function path(c){return c.xy.map(([x,y],i)=>(i?'L':'M')+X(x).toFixed(3)+','+Y(y).toFixed(3)).join(' ')}
+for(let i=0;i<=5;i++){const t=i/5;svgEl('line',{x1:X(t),x2:X(t),y1:35,y2:585,class:'grid'},$('grid'));svgEl('line',{x1:75,x2:1065,y1:Y(t),y2:Y(t),class:'grid'},$('grid'));svgEl('text',{x:X(t),y:610,'text-anchor':'middle'},$('grid')).textContent=t.toFixed(1);svgEl('text',{x:63,y:Y(t)+5,'text-anchor':'end'},$('grid')).textContent=t.toFixed(1)}
+curves.forEach((c,i)=>{const option=document.createElement('option');option.value=i;option.textContent=String(c.id).padStart(3,'0')+' · '+c.label;$('curve').appendChild(option);const el=svgEl('path',{d:path(c),class:'curve','data-index':i},$('lines'));svgEl('title',{},el).textContent=c.label;el.addEventListener('pointerenter',()=>show(i));el.addEventListener('click',()=>choose(i))});
+function row(text,cls=''){const d=document.createElement('div');d.className=cls;d.textContent=text;$('detail').appendChild(d)}
+function fmt(v){return Number(v.toPrecision(6)).toLocaleString('zh-CN',{maximumFractionDigits:6})}
+function show(i){$('detail').replaceChildren();$('points').replaceChildren();$('lines').style.opacity=i<0?'1':'.3';if(i<0){$('selected').setAttribute('d','');row('全部 218 条曲线 · 99 个图片目录');row('选择曲线后可查看原始轴标签、数值范围和来源。');return}const c=curves[i];$('selected').setAttribute('d',path(c));c.xy.forEach(([x,y])=>svgEl('circle',{cx:X(x),cy:Y(y),r:2.2},$('points')));
+const heading=document.createElement('strong');heading.textContent=String(c.id).padStart(3,'0')+' / 218 · '+c.label;$('detail').appendChild(heading);row('原始横轴：'+c.xaxis+'；范围 '+fmt(c.xmin)+' 至 '+fmt(c.xmax)+' ｜ 原始纵轴：'+c.yaxis+'；范围 '+fmt(c.ymin)+' 至 '+fmt(c.ymax)+' ｜ '+c.n+' 个点');if(c.notes.length)row(c.notes.join('；'),'note');row(c.source,'path')}
+function choose(i){pinned=i;$('curve').value=String(i);$('prev').disabled=i<0;$('next').disabled=i===curves.length-1;show(i)}
+$('curve').addEventListener('change',e=>choose(Number(e.target.value)));$('prev').addEventListener('click',()=>choose(Math.max(-1,pinned-1)));$('next').addEventListener('click',()=>choose(Math.min(curves.length-1,pinned+1)));$('chart').addEventListener('pointerleave',()=>show(pinned));choose(-1);
+</script>
+</html>

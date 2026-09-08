@@ -1,0 +1,11 @@
+{
+  "experiments/elastic_model_dtw_0.25.npz": "c7d9b3ac09f983ae112a49eec33ad88ec46ad20494daff2d30a8ca842b44b978",
+  "experiments/elastic_model_dtw_0.npz": "01b85d3947921b1316a8bae022f9e969e377c3983add19b1763532497f9d19f1",
+  "experiments/elastic_model_dtw_1.npz": "15e84477ffba97769f032164902313847a311918c7d607c0c9103f5735909f77",
+  "experiments/elastic_model_msm_0.01.npz": "450c55c74d053eeeb02475acfbfb9feaeb534a7ec00b0968b13b499f034d7942",
+  "experiments/elastic_model_msm_0.1.npz": "c0b457660bff38f35ec13502362b5674441a6f25066b812ed93da3ae8baf55d5",
+  "experiments/models_maxabs.npz": "b7e2f0b9bda656ad8df7fe2ef99f062de3783a9997299bf7148b694d2087edba",
+  "experiments/models_minmax.npz": "d9d0ff53d3407eca3a569f4003f9ab2c5f3a1d1885335b828e6ee76585cd1928",
+  "experiments/models_zscore.npz": "35c166c81597579a92e42c226c33990150278b4973e82f57878a863cd723f6b2",
+  "experiments/time_only_model.npz": "82dcab589c9e03b862692bcffef3002997d5abb6bbc2f5dbd10fd890bc95a540"
+}

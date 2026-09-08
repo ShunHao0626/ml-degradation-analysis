@@ -1,0 +1,22 @@
+{
+  "smoothing": false,
+  "human_class_labels_read": false,
+  "human_class_labels_used": false,
+  "target_cluster_count": null,
+  "original_csv_count": 218,
+  "original_hashes_verified": true,
+  "unit_fields_only_from_metadata": true,
+  "identifiers_excluded_from_features": true,
+  "negative_values_retained": true,
+  "all_preprocessing_saved": true,
+  "parameters_frozen_before_morphology": true,
+  "seed": 20260905,
+  "stage_deviations": [
+    "Staged rather than full Cartesian CP x HDBSCAN search",
+    "Screening CP supports use 10 repeats per deletion fraction; all window finalists use required 50",
+    "HDBSCAN screening uses 5 bootstraps per nondegenerate candidate; finalists use 50",
+    "Timepoint deletion refits CP/features/preprocessing/HDBSCAN with frozen boundary-reliability calibration",
+    "Alternative CP and resampling sensitivities use 10 boundary-support repeats per deletion fraction",
+    "Full-duration main features use elapsed fraction; this is morphology comparison, not equal exposure comparison"
+  ]
+}

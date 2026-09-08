@@ -1,0 +1,16 @@
+{
+  "representation": "per-curve z-normalized unsmoothed trajectory",
+  "selected_k": 4,
+  "setting": {
+    "name": "paper_lr_sensitivity",
+    "sigma": 0.5,
+    "learning_rate": 0.3,
+    "random_order": false,
+    "source": "paper"
+  },
+  "selected_seed": 0,
+  "mean_pairwise_seed_ari": 1.0,
+  "raw_space_silhouette": -0.16430622446219223,
+  "smoothing_enabled": false,
+  "labels_used": false
+}

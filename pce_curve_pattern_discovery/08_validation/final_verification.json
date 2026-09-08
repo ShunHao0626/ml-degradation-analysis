@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": {
+    "selected_k_is_4": true,
+    "all_109_curves_assigned_once": true,
+    "all_k4_nodes_occupied": true,
+    "k4_cluster_sizes_match_search": true,
+    "n16_valley_candidate_is_singleton": true,
+    "n16_has_empty_node": true,
+    "ifo_assessment_is_posthoc_only": true
+  }
+}

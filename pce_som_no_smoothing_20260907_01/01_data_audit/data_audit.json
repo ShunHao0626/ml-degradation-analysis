@@ -1,0 +1,13 @@
+{
+  "input_root": "/Users/shunhao/Desktop/ML/lab/data_all",
+  "accepted_csv_count": 2151,
+  "accepted_csv_by_time_folder": {
+    "x_time_day": 663,
+    "x_time_h": 1480,
+    "x_time_min": 2,
+    "x_time_week_month_year": 6
+  },
+  "labels_used": false,
+  "smoothing_enabled": false,
+  "source_tree_modified": false
+}

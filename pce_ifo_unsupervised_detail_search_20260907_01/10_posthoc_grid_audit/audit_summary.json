@@ -1,0 +1,28 @@
+{
+  "audit_started_only_after_primary_freeze": true,
+  "audited_settings": 192,
+  "exact_four_setting_count": 0,
+  "maximum_target_type_coverage": 3,
+  "best_candidate": {
+    "variant_id": "w0300_coverage_z_level_d1",
+    "setting_id": "sigma1.2_lr0.5_sequential",
+    "elbow_k": 4,
+    "sigma": 1.2,
+    "learning_rate": 0.5,
+    "random_order": false,
+    "n": 1590,
+    "silhouette_median": 0.1982624769705582,
+    "seed_ari_from_search": 1.0,
+    "posthoc_target_type_coverage": 3,
+    "posthoc_exact_four": false,
+    "posthoc_names": "Bridge-like;Hill-like;Slope-like",
+    "bridge_count": 1,
+    "hill_count": 1,
+    "slope_count": 2,
+    "valley_count": 0,
+    "other_count": 0,
+    "primary_som_rank_sum": 624.0
+  },
+  "classification_algorithm_used_labels": false,
+  "important_boundary": "IFO names selected this exploratory display post hoc; it does not replace the label-blind primary model"
+}

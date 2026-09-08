@@ -1,0 +1,39 @@
+{
+  "all_passed": true,
+  "passed": 25,
+  "total": 25,
+  "checks": {
+    "exactly_218_input_csv_audited": true,
+    "exactly_155_axis_valid_curves": true,
+    "eligible_counts_match": true,
+    "all_six_windows_present": true,
+    "exactly_54_parameter_candidates": true,
+    "candidate_sigma_values_limited": true,
+    "candidate_learning_rate_values_limited": true,
+    "candidate_windows_limited": true,
+    "all_iterations_are_50000": true,
+    "all_maps_are_2x2": true,
+    "nine_candidates_stability_tested": true,
+    "exactly_45_stability_runs": true,
+    "five_fixed_stability_seeds": true,
+    "one_automatic_selected_candidate": true,
+    "selected_assignments_match_eligible_count": true,
+    "selected_four_nodes_occupied": true,
+    "no_training_label_columns": true,
+    "selected_matrix_full_10min_dimensions": true,
+    "selected_matrix_all_finite": true,
+    "silhouette_recomputes": true,
+    "final_random_seed_is_none": true,
+    "selection_declares_no_target_labels": true,
+    "no_target_archetype_names_in_pipeline": true,
+    "selected_plot_exists": true,
+    "report_exists": true
+  },
+  "recomputed": {
+    "selected_window_hours": 300,
+    "selected_sigma": 0.5,
+    "selected_learning_rate": 0.1,
+    "selected_silhouette": 0.5918688424123302,
+    "selected_n_curves": 116
+  }
+}

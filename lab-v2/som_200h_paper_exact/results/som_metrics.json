@@ -1,0 +1,35 @@
+{
+  "parameters": {
+    "window_hours": 200,
+    "interval_minutes": 10,
+    "savgol_window": 71,
+    "savgol_order": 2,
+    "som_x": 2,
+    "som_y": 2,
+    "som_sigma": 0.5,
+    "som_learning_rate": 0.1,
+    "som_iterations": 50000,
+    "som_random_seed": null,
+    "max_plausible_duration_hours": 100000.0,
+    "minimum_points_for_akima": 4,
+    "expected_input_curves": 218,
+    "expected_selected_curves": 114
+  },
+  "n_series": 114,
+  "series_length": 1200,
+  "quantization_error": 0.7556034379385257,
+  "topographic_error": 0.0,
+  "cluster_sizes": {
+    "0": 22,
+    "1": 3,
+    "2": 54,
+    "3": 35
+  },
+  "semantic_mapping": {
+    "2": "initial_gain",
+    "3": "slow_exponential_decay",
+    "0": "medium_exponential_decay",
+    "1": "fast_exponential_decay"
+  },
+  "random_seed_note": "None, exactly as the source notebook; trained weights are saved for this run."
+}

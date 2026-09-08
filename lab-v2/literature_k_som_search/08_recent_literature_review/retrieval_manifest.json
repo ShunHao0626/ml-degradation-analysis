@@ -1,0 +1,187 @@
+{
+  "generated_at_utc": "2026-09-01T22:51:02.666363+00:00",
+  "date_filter": {
+    "from": "2023-01-01",
+    "to": "2026-12-31"
+  },
+  "method": {
+    "retrieval": "Top 200 relevance-ranked records per query from OpenAlex and Crossref; the APIs' total result counts are reported but were not all downloaded.",
+    "deduplication": "Normalized DOI primary key; normalized title fallback for records without DOI.",
+    "screening": "Deterministic keyword screening of title plus available abstract. This is not a claim of full-text or figure review."
+  },
+  "queries": [
+    {
+      "source": "OpenAlex",
+      "query_id": "oa_operational_stability",
+      "query": "perovskite solar cell operational stability",
+      "service_total_results": 12177,
+      "retrieved_top_ranked": 200,
+      "request_url": "https://api.openalex.org/works?search=perovskite+solar+cell+operational+stability&filter=from_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cabstract_inverted_index%2Cauthorships",
+      "retrieval_status": "complete_cached_response"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "oa_mppt",
+      "query": "perovskite solar cell maximum power point tracking stability",
+      "service_total_results": 4962,
+      "retrieved_top_ranked": 200,
+      "request_url": "https://api.openalex.org/works?search=perovskite+solar+cell+maximum+power+point+tracking+stability&filter=from_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cabstract_inverted_index%2Cauthorships",
+      "retrieval_status": "complete_cached_response"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "oa_pce_time",
+      "query": "perovskite solar cell PCE time aging hours",
+      "service_total_results": null,
+      "retrieved_top_ranked": 0,
+      "request_url": "https://api.openalex.org/works?search=perovskite+solar+cell+PCE+time+aging+hours&filter=from_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cabstract_inverted_index%2Cauthorships",
+      "retrieval_status": "not_retrieved_after_API_429"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "oa_long_term",
+      "query": "perovskite photovoltaics long-term stability T80 hours",
+      "service_total_results": null,
+      "retrieved_top_ranked": 0,
+      "request_url": "https://api.openalex.org/works?search=perovskite+photovoltaics+long-term+stability+T80+hours&filter=from_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cabstract_inverted_index%2Cauthorships",
+      "retrieval_status": "not_retrieved_after_API_429"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "oa_light_soaking",
+      "query": "perovskite solar cell light soaking recovery stability",
+      "service_total_results": null,
+      "retrieved_top_ranked": 0,
+      "request_url": "https://api.openalex.org/works?search=perovskite+solar+cell+light+soaking+recovery+stability&filter=from_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cabstract_inverted_index%2Cauthorships",
+      "retrieval_status": "not_retrieved_after_API_429"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "oa_reversible",
+      "query": "perovskite solar cell reversible degradation recovery",
+      "service_total_results": null,
+      "retrieved_top_ranked": 0,
+      "request_url": "https://api.openalex.org/works?search=perovskite+solar+cell+reversible+degradation+recovery&filter=from_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cabstract_inverted_index%2Cauthorships",
+      "retrieval_status": "not_retrieved_after_API_429"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "oa_burn_in",
+      "query": "perovskite photovoltaic burn-in nonmonotonic degradation",
+      "service_total_results": null,
+      "retrieved_top_ranked": 0,
+      "request_url": "https://api.openalex.org/works?search=perovskite+photovoltaic+burn-in+nonmonotonic+degradation&filter=from_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cabstract_inverted_index%2Cauthorships",
+      "retrieval_status": "not_retrieved_after_API_429"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "oa_isos",
+      "query": "perovskite solar cell ISOS-L operational stability MPPT",
+      "service_total_results": null,
+      "retrieved_top_ranked": 0,
+      "request_url": "https://api.openalex.org/works?search=perovskite+solar+cell+ISOS-L+operational+stability+MPPT&filter=from_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cabstract_inverted_index%2Cauthorships",
+      "retrieval_status": "not_retrieved_after_API_429"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "oa_outdoor",
+      "query": "perovskite solar cell outdoor stability power conversion efficiency time",
+      "service_total_results": null,
+      "retrieved_top_ranked": 0,
+      "request_url": "https://api.openalex.org/works?search=perovskite+solar+cell+outdoor+stability+power+conversion+efficiency+time&filter=from_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cabstract_inverted_index%2Cauthorships",
+      "retrieval_status": "not_retrieved_after_API_429"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "oa_metastability",
+      "query": "perovskite solar cell metastability recovery efficiency",
+      "service_total_results": null,
+      "retrieved_top_ranked": 0,
+      "request_url": "https://api.openalex.org/works?search=perovskite+solar+cell+metastability+recovery+efficiency&filter=from_publication_date%3A2023-01-01%2Cto_publication_date%3A2026-12-31&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cpublication_date%2Ctype%2Ccited_by_count%2Cprimary_location%2Copen_access%2Cabstract_inverted_index%2Cauthorships",
+      "retrieval_status": "not_retrieved_after_API_429"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "cr_operational_stability",
+      "query": "perovskite solar cell operational stability",
+      "service_total_results": 670349,
+      "retrieved_top_ranked": 200,
+      "request_url": "https://api.crossref.org/works?query.bibliographic=perovskite+solar+cell+operational+stability&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=200&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Cpublished-print%2Cpublished-online%2Cissued%2Ccreated%2Ccontainer-title%2CURL%2Cabstract%2Ctype%2Cis-referenced-by-count%2Cpublisher",
+      "retrieval_status": "complete_cached_response"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "cr_mppt",
+      "query": "perovskite solar cell maximum power point tracking",
+      "service_total_results": 842035,
+      "retrieved_top_ranked": 200,
+      "request_url": "https://api.crossref.org/works?query.bibliographic=perovskite+solar+cell+maximum+power+point+tracking&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=200&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Cpublished-print%2Cpublished-online%2Cissued%2Ccreated%2Ccontainer-title%2CURL%2Cabstract%2Ctype%2Cis-referenced-by-count%2Cpublisher",
+      "retrieval_status": "complete_cached_response"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "cr_pce_hours",
+      "query": "perovskite solar cell PCE hours stability",
+      "service_total_results": 648020,
+      "retrieved_top_ranked": 200,
+      "request_url": "https://api.crossref.org/works?query.bibliographic=perovskite+solar+cell+PCE+hours+stability&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=200&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Cpublished-print%2Cpublished-online%2Cissued%2Ccreated%2Ccontainer-title%2CURL%2Cabstract%2Ctype%2Cis-referenced-by-count%2Cpublisher",
+      "retrieval_status": "complete_cached_response"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "cr_light_soaking",
+      "query": "perovskite solar cell light soaking recovery",
+      "service_total_results": 706675,
+      "retrieved_top_ranked": 200,
+      "request_url": "https://api.crossref.org/works?query.bibliographic=perovskite+solar+cell+light+soaking+recovery&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=200&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Cpublished-print%2Cpublished-online%2Cissued%2Ccreated%2Ccontainer-title%2CURL%2Cabstract%2Ctype%2Cis-referenced-by-count%2Cpublisher",
+      "retrieval_status": "complete_cached_response"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "cr_reversible",
+      "query": "perovskite solar cell reversible degradation recovery",
+      "service_total_results": 685998,
+      "retrieved_top_ranked": 200,
+      "request_url": "https://api.crossref.org/works?query.bibliographic=perovskite+solar+cell+reversible+degradation+recovery&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=200&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Cpublished-print%2Cpublished-online%2Cissued%2Ccreated%2Ccontainer-title%2CURL%2Cabstract%2Ctype%2Cis-referenced-by-count%2Cpublisher",
+      "retrieval_status": "complete_cached_response"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "cr_nonmonotonic",
+      "query": "perovskite solar cell nonmonotonic stability burn-in",
+      "service_total_results": 654262,
+      "retrieved_top_ranked": 200,
+      "request_url": "https://api.crossref.org/works?query.bibliographic=perovskite+solar+cell+nonmonotonic+stability+burn-in&filter=from-pub-date%3A2023-01-01%2Cuntil-pub-date%3A2026-12-31%2Ctype%3Ajournal-article&rows=200&select=DOI%2Ctitle%2Cauthor%2Cpublished%2Cpublished-print%2Cpublished-online%2Cissued%2Ccreated%2Ccontainer-title%2CURL%2Cabstract%2Ctype%2Cis-referenced-by-count%2Cpublisher",
+      "retrieval_status": "complete_cached_response"
+    }
+  ],
+  "counts": {
+    "openalex_query_records_with_duplicates": 400,
+    "crossref_query_records_with_duplicates": 1200,
+    "combined_query_records_with_duplicates": 1600,
+    "deduplicated_records": 950,
+    "deduplicated_with_doi": 950,
+    "deduplicated_with_abstract": 530,
+    "core_perovskite_pv_title_abstract": 713,
+    "curve_likely_original_priority": 239,
+    "nonmonotonic_recovery_priority": 23,
+    "screen_status": {
+      "A_curve_likely_original": 239,
+      "B_stability_original": 211,
+      "C_perovskite_PV_peripheral": 234,
+      "D_exclude_not_core_perovskite_PV": 237,
+      "C_review_or_perspective": 29
+    },
+    "publication_year": {
+      "2023": 299,
+      "2024": 284,
+      "2025": 223,
+      "2026": 144
+    },
+    "metadata_source_combinations": {
+      "OpenAlex": 297,
+      "Crossref;OpenAlex": 22,
+      "Crossref": 631
+    }
+  }
+}

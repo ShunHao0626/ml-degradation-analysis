@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "started_unix": 1788758619.607316,
+  "elapsed_seconds": 331.37490701675415,
+  "selected_k": 4,
+  "selected_variant": "w0300_coverage_maxabs_level",
+  "smoothing_enabled": false,
+  "labels_used_for_training_or_selection": false,
+  "source_tree_modified": false,
+  "python": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]"
+}

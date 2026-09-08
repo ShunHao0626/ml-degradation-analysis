@@ -1,0 +1,2 @@
+curve_id,included_strict_150h,exclusion_reasons,source_file,record,series_name,x_name,x_unit,y_name,y_unit,time_factor_to_hours,n_unique_points_after_mean,duplicate_x_rows_aggregated_by_mean,x_min_hours_before_rezero,x_max_hours_before_rezero,duration_hours,anonymous_n16_node
+图片28_256b0ae51b,True,,lab-v2/som_references/accepted/samples_test/图片28/accepted/samples_test__unknown__unknown__图片28__Series_1__Series_1.csv,图片28,samples_test__unknown__unknown__图片28__Series_1__Series_1,Time,(h),PCE,(%),1.0,40,0,-2.19198407061873,397.2363532366328,399.4283373072515,5

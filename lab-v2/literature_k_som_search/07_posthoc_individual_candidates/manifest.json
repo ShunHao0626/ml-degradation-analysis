@@ -1,0 +1,15 @@
+{
+  "analysis_role": "independent posthoc visualization only",
+  "feedback_into_unsupervised_learning": false,
+  "changes_to_som": false,
+  "changes_to_features": false,
+  "candidate_count": 4,
+  "figure": "/Users/shunhao/Desktop/ML/lab-v2/literature_k_som_search/07_posthoc_individual_candidates/four_real_curve_candidates_not_clusters.png",
+  "inventory": "/Users/shunhao/Desktop/ML/lab-v2/literature_k_som_search/07_posthoc_individual_candidates/candidate_inventory.csv",
+  "source_files": [
+    "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test/图片48/accepted/samples_test__unknown__unknown__图片48__EtCz3EPA_PTAA_BCP__Series_1.csv",
+    "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test/图片105/accepted/samples_test__unknown__unknown__图片105__Series_2__Series_2.csv",
+    "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test/图片59/accepted/samples_test__unknown__unknown__图片59__Control__Series_1.csv",
+    "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test/图片114/accepted/samples_test__unknown__unknown__图片114__Series_2__Series_2.csv"
+  ]
+}

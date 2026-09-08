@@ -1,0 +1,4 @@
+model,silhouette,davies_bouldin,calinski_harabasz,min_cluster_size,balance_entropy,ari_vs_shape_guided,label_mapping
+feature_kmeans,0.35122071136467686,1.0630059957468267,590.2226486414014,35,0.690965202091028,0.16146067800023997,"{""0"": ""IFO-Valley"", ""1"": ""IFO-Slope"", ""2"": ""IFO-Bridge"", ""3"": ""IFO-Hill""}"
+feature_ward,0.25899071598639295,1.1256613080200946,520.8360809040096,40,0.7144226080791337,0.12918617787992273,"{""0"": ""IFO-Slope"", ""1"": ""IFO-Valley"", ""2"": ""IFO-Bridge"", ""3"": ""IFO-Hill""}"
+feature_gmm,0.1506636591121937,2.188701676404438,269.07754093301367,114,0.6750595363299254,0.31788005777151446,"{""0"": ""IFO-Valley"", ""1"": ""IFO-Hill"", ""2"": ""IFO-Slope"", ""3"": ""IFO-Bridge""}"

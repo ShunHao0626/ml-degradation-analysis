@@ -1,0 +1,24 @@
+# Conda environment used for most experiments in this repository (macOS arm64).
+# Versions are the ones present in the environment at the time of the runs;
+# experiments that need the paper's MiniSom version vendor MiniSom 2.2.9 themselves.
+name: PvkSOM
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy=1.26.4
+  - scipy=1.13.1
+  - pandas=1.5.3
+  - scikit-learn=1.6.1
+  - matplotlib=3.9.4
+  - seaborn
+  - statsmodels
+  - numba
+  - tslearn
+  - jupyter
+  - ipykernel
+  - ipywidgets
+  - pip
+  - pip:
+      - minisom==2.3.6
+      - plotly==6.8.0

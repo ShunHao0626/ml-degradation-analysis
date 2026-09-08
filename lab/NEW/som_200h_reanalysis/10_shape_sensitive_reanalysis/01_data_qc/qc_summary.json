@@ -1,0 +1,10 @@
+{
+  "input_main_selected": 1442,
+  "strict_selected": 1431,
+  "strict_excluded": 11,
+  "max_support_gap_threshold_h": 40.0,
+  "axis_label_review_count": 2,
+  "exclusion_reason_counts": {
+    "max_support_gap_gt_40h": 11
+  }
+}

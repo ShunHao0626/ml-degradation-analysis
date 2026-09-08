@@ -1,0 +1,3 @@
+cluster,n,sample_bootstrap_jaccard_mean,sample_bootstrap_jaccard_p05,figure_bootstrap_jaccard_mean,figure_bootstrap_jaccard_p05,repeated_seed_jaccard_mean,repeated_seed_jaccard_p05
+0,6,0.4271216614724707,0.0,0.45121572871572874,0.0,1.0,1.0
+1,65,0.6985994061569041,0.023684210526315797,0.6888978466692778,0.0,1.0,1.0

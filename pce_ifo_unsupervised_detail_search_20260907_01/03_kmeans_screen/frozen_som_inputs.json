@@ -1,0 +1,10 @@
+{
+  "selected_variant_ids": [
+    "w0300_coverage_maxabs_level",
+    "w0300_coverage_z_level",
+    "w0300_coverage_z_level_d1",
+    "w0300_coverage_z_level_d1_d2"
+  ],
+  "selection_used_ifo_names": false,
+  "selection_rule": "best eligible unsupervised KMeans screen candidate per pre-registered representation"
+}

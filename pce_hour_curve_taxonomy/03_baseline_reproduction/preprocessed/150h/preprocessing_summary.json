@@ -1,0 +1,21 @@
+{
+  "window_hours": 150,
+  "input_manifest_rows": 218,
+  "included_curves": 103,
+  "matrix_shape": [
+    103,
+    900
+  ],
+  "time_grid_start_hours": 0.16666666666666666,
+  "time_grid_end_hours": 150.0,
+  "reason_counts": {
+    "axis_or_csv:non_time_cycle": 17,
+    "included": 103,
+    "global_pce_max_after_window": 12,
+    "axis_or_csv:power_proxy": 15,
+    "axis_or_csv:missing;missing": 32,
+    "shorter_than_window": 25,
+    "implausible_duration_over_100000h": 2,
+    "axis_or_csv:missing": 12
+  }
+}

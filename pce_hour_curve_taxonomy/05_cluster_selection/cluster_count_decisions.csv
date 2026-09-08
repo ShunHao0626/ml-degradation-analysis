@@ -1,0 +1,4 @@
+window_hours,eligible_curves,candidate_region,selected_k,qe_mean_k4,qe_mean_k5,qe_mean_k6,selected_cluster_sizes,decision
+150,103,4-5,5,0.542364865,0.496234941,0.450731943,"24;21;4;8;46","k=4 leaves visibly distinct low-degradation behaviours merged; k=6 duplicates near-flat/initial-gain shapes, so k=5 is the last non-overlapping main-shape solution."
+300,94,4-5,5,0.949819624,0.804994921,0.747594595,"2;16;16;43;17","QE improvement remains material through k=5; k=6 begins splitting overlapping low-degradation shapes. The n=2 rapid-loss group is retained but flagged as a rare candidate, not a population-level conclusion."
+500,86,5-6,5,1.388680185,1.239552099,1.172897194,"41;19;10;4;12","k=5 separates slow, medium, continuous-fast and early-fast/plateau behaviours; k=6 mainly duplicates near-flat/slow centroids. The n=4 continuous-fast group is flagged as small."

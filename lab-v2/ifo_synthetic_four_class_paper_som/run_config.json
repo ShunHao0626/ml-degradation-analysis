@@ -1,0 +1,24 @@
+{
+  "n_curves": 1000,
+  "curves_per_class": 250,
+  "duration_hours": 150,
+  "raw_nominal_interval_minutes": 30,
+  "resample_interval_minutes": 10,
+  "savgol_window": 71,
+  "savgol_order": 2,
+  "som_x": 2,
+  "som_y": 2,
+  "som_sigma": 0.5,
+  "som_learning_rate": 0.1,
+  "som_iterations": 50000,
+  "synthetic_seed": 20260830,
+  "main_som_random_seed": null,
+  "stability_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "minisom_version": "2.2.9"
+}

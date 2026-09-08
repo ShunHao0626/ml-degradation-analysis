@@ -1,0 +1,6 @@
+accuracy,balanced_accuracy,macro_f1,adjusted_rand_index_truth_vs_nodes,normalized_mutual_information_truth_vs_nodes,quantization_error,topographic_error,occupied_nodes,seed
+1,1,1,1,1,1.158430526,0,4,0
+1,1,1,1,1,1.158430524,0,4,1
+1,1,1,1,1,1.158430524,0,4,2
+1,1,1,1,1,1.158430526,0,4,3
+1,1,1,1,1,1.158430522,0,4,4

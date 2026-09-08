@@ -1,0 +1,11 @@
+pce_group,paper_shape_label,count,fraction_within_pce_group
+1,fast_exponential_decay,1,0.2
+1,initial_gain,4,0.8
+2,medium_exponential_decay,2,0.4
+2,slow_exponential_decay,3,0.6
+3,initial_gain,4,0.8
+3,slow_exponential_decay,1,0.2
+4,initial_gain,4,0.8
+4,slow_exponential_decay,1,0.2
+5,initial_gain,5,0.8333333333333334
+5,slow_exponential_decay,1,0.16666666666666666

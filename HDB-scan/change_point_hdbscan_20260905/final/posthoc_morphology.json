@@ -1,0 +1,40 @@
+[
+  {
+    "cluster": -1,
+    "n": 8,
+    "medoid": "S0197",
+    "medoid_slope_sequence": "decay → increase → decay",
+    "medoid_slopes": [
+      -2.722222222222231,
+      3.111111111111071,
+      -3.8888888888889883
+    ],
+    "median_net_change": -0.514492753623195,
+    "median_recovery_ratio": 0.8302107728337242
+  },
+  {
+    "cluster": 0,
+    "n": 6,
+    "medoid": "S0099",
+    "medoid_slope_sequence": "increase → increase → decay",
+    "medoid_slopes": [
+      14.419475655430693,
+      0.2746566791510684,
+      -1.483146067415722
+    ],
+    "median_net_change": 1.0799001248439397,
+    "median_recovery_ratio": 1.0
+  },
+  {
+    "cluster": 1,
+    "n": 65,
+    "medoid": "S0107",
+    "medoid_slope_sequence": "decay → decay",
+    "medoid_slopes": [
+      -2.554744525547453,
+      -0.6131386861313868
+    ],
+    "median_net_change": -1.1353711790392969,
+    "median_recovery_ratio": 0.0
+  }
+]

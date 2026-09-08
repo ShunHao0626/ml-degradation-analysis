@@ -1,0 +1,65 @@
+{
+  "windows_hours": [
+    150,
+    200,
+    300,
+    500,
+    750,
+    1000
+  ],
+  "sigma_values": [
+    0.3,
+    0.4,
+    0.5
+  ],
+  "learning_rate_values": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "interval_minutes": 10,
+  "savgol_window": 71,
+  "savgol_order": 2,
+  "som_x": 2,
+  "som_y": 2,
+  "som_iterations": 50000,
+  "fair_search_seed": 0,
+  "stability_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "stability_candidate_count": 9,
+  "minimum_unique_points": 4,
+  "max_plausible_duration_hours": 100000.0,
+  "expected_input_csv": 218,
+  "expected_axis_valid": 155,
+  "input_root": "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test",
+  "parameter_boundary": {
+    "tuned_variables_only": [
+      "time_window_hours",
+      "sigma",
+      "learning_rate"
+    ],
+    "fixed_paper_variables": [
+      "10min_resampling",
+      "Akima_interpolation",
+      "per_curve_MaxAbs",
+      "Savitzky_Golay_71_order_2",
+      "MiniSom_2.2.9",
+      "2x2_grid",
+      "50000_sequential_iterations",
+      "random_weights_init"
+    ],
+    "forbidden_and_not_used": [
+      "target_shape_labels",
+      "prototype_templates",
+      "peak_or_valley_thresholds",
+      "handcrafted_derivative_features",
+      "supervised_classifier",
+      "alternative_clustering_model"
+    ]
+  }
+}

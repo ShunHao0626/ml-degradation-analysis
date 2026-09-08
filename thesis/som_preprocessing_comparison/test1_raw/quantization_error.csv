@@ -1,0 +1,8 @@
+k,som_rows,som_cols,quantization_error,qe_reduction_from_previous,qe_reduction_percent,normalized_chord_elbow_score,occupied_nodes,selected,selection_rule
+2,1,2,110.95420859164054,,,0.0,2,False,maximum vertical deviation from endpoint chord on min-max normalized QE for K=2..8
+3,1,3,66.5032535829571,44.45095500868344,40.06243257728256,0.4377863491535784,3,False,maximum vertical deviation from endpoint chord on min-max normalized QE for K=2..8
+4,2,2,54.071361910811625,12.431891672145476,18.693659335986858,0.4401710428482577,4,True,maximum vertical deviation from endpoint chord on min-max normalized QE for K=2..8
+5,1,5,46.66440213256076,7.406959778250865,13.6984893971569,0.3742257032070369,5,False,maximum vertical deviation from endpoint chord on min-max normalized QE for K=2..8
+6,2,3,44.043166491078296,2.621235641482464,5.617206096493538,0.24320312536501032,6,False,maximum vertical deviation from endpoint chord on min-max normalized QE for K=2..8
+7,1,7,39.82345686494794,4.219709626130353,9.580849794224328,0.13391691787862328,7,False,maximum vertical deviation from endpoint chord on min-max normalized QE for K=2..8
+8,2,4,37.41506850088704,2.4083883640609045,6.047662743664865,0.0,8,False,maximum vertical deviation from endpoint chord on min-max normalized QE for K=2..8

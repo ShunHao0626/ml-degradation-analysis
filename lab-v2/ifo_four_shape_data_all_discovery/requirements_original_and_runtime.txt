@@ -1,0 +1,9 @@
+# Original paper environment pins relevant to the first-stage SOM
+MiniSom==2.2.9
+numpy==1.19.5
+pandas==1.3.4
+scipy==1.7.3
+scikit-learn==0.23.2
+tslearn==0.5.2
+
+# Actual runtime versions are recorded in environment_actual.json.

@@ -1,0 +1,115 @@
+kind,variant,n,n_clusters,noise_fraction,cluster_sizes,balance,dbcv,silhouette,davies_bouldin,calinski_harabasz,ari,ari_assigned,vi,common_assigned_fraction,n_overlap
+normalization,initial,79,2,0.3924050632911392,"[5, 43]",0.11627906976744186,0.2855016188096712,0.6595917314399312,0.45199263043088456,81.3288454849478,0.10296554031096163,,1.2238338453408173,0.5822784810126582,79
+normalization,max,79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+normalization,robust,79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.5232076972336757,0.7238663041364445,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+change_point,cp_pelt_linear,79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.5232076972336757,0.7238663041364445,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+change_point,cp_binseg_linear,79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+change_point,cp_pelt_rbf,79,2,0.11392405063291139,"[5, 65]",0.07692307692307693,0.3261274763482639,0.5667848801702117,0.5751180990331549,45.13684450345785,0.8688508092544289,1.0,0.38199434280332545,0.8607594936708861,79
+change_point,cp_pelt_l2,79,2,0.10126582278481013,"[5, 66]",0.07575757575757576,0.5353791980757739,0.6728866715457602,0.4855071772404217,94.79406569100587,0.921390635974874,1.0,0.2770480282659289,0.8734177215189873,79
+change_point,cp_binseg_rbf,79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+change_point,cp_binseg_l2,79,2,0.759493670886076,"[5, 14]",0.35714285714285715,0.032964556205968526,0.4004518660365591,0.8765903853347929,11.022504351908662,-0.15575083095480927,,1.1693766642272725,0.24050632911392406,79
+change_point,cp_window_linear,79,2,0.08860759493670886,"[7, 65]",0.1076923076923077,0.537420769990052,0.7287218580193378,0.49141866013233526,142.68703780116613,0.9750117539844962,1.0,0.18051581972485953,0.8860759493670886,79
+change_point,cp_window_rbf,79,2,0.0759493670886076,"[7, 66]",0.10606060606060606,0.41914684703745725,0.7358796195003606,0.3416330211940018,188.4881715861787,0.9353005851356642,1.0,0.17642823008375874,0.8987341772151899,79
+change_point,cp_window_l2,79,2,0.10126582278481013,"[5, 66]",0.07575757575757576,0.4938169728538592,0.7405693918784941,0.47814232673743945,114.92256537355155,0.921390635974874,1.0,0.2770480282659289,0.8734177215189873,79
+representation,full,79,2,0.11392405063291139,"[65, 5]",0.07692307692307693,0.5143772029479181,0.6473108564637869,0.5659851081437085,67.8686335080147,0.9901448584988877,1.0,0.07396020399727932,0.8860759493670886,79
+representation,0.9,79,2,0.05063291139240506,"[9, 66]",0.13636363636363635,0.48215428244345976,0.8309714423913724,0.23797049779814222,454.94996184448456,0.9212988980012562,1.0,0.2367745059257701,0.8987341772151899,79
+representation,0.95,79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.5232076972336757,0.7238663041364445,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+representation,0.99,79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+linear_resampling,initial,79,2,0.43037974683544306,"[7, 38]",0.18421052631578946,0.36079277295779244,0.7245541129886669,0.3780281709403101,115.07361131393543,0.05809666970529773,,1.2582620116154548,0.5569620253164557,79
+linear_resampling,max,79,2,0.43037974683544306,"[7, 38]",0.18421052631578946,0.39067114645652057,0.7356058125767867,0.34039146199861614,138.0729135060362,0.05809666970529773,,1.2582620116154548,0.5569620253164557,79
+linear_resampling,robust,79,2,0.0759493670886076,"[6, 67]",0.08955223880597014,0.6418839060667054,0.9177459084789797,0.1855296842334446,739.6495249518687,0.8730033448696478,1.0,0.30765935145063483,0.8860759493670886,79
+window_unmatched_cohort,full_duration,154,2,0.8116883116883117,"[7, 22]",0.3181818181818182,0.09513747894192279,0.5149109847309921,0.6278985202601262,29.019846209223257,-0.14209713823435544,,1.034704911329732,0.1518987341772152,79
+window_same_cohort_refit,full_duration,79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+window_unmatched_cohort,200h,50,2,0.74,"[7, 6]",0.8571428571428571,0.12914080620915072,0.5976404877112996,0.5680786275270862,29.83437246364864,-0.1748567247896598,,1.2043846312396087,0.21428571428571427,42
+window_same_cohort_refit,200h,42,0,1.0,[],0.0,,,,,,,-0.0,0.0,42
+window_unmatched_cohort,300h,79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.5232076972336757,0.7238663041364445,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+window_same_cohort_refit,300h,79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.5232076972336757,0.7238663041364445,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+window_unmatched_cohort,500h,84,2,0.7857142857142857,"[10, 8]",0.8,0.11051878452353464,0.5964553670774477,0.5016623354243804,44.68074619578499,-0.15289100557067256,,1.092795342984206,0.16176470588235295,68
+window_same_cohort_refit,500h,68,0,1.0,[],0.0,,,,,,,0.6153011304202965,0.0,68
+window_unmatched_cohort,750h,83,2,0.8072289156626506,"[10, 6]",0.6,0.09656370202809349,0.5709983810028803,0.6267315704405922,30.783407918262146,-0.14840813812699902,,1.0587236853619655,0.14814814814814814,54
+window_same_cohort_refit,750h,54,0,1.0,[],0.0,,,,,,,-0.0,0.0,54
+window_unmatched_cohort,1000h,51,0,1.0,[],0.0,,,,,,,0.7174352514213597,0.0,25
+window_same_cohort_refit,1000h,25,0,1.0,[],0.0,,,,,,,-0.0,0.0,25
+metadata_cohort,all,213,2,0.09859154929577464,"[12, 180]",0.06666666666666667,-0.05356069208347172,0.5821964655556533,0.5490690463539765,120.77987355428996,0.5591676717660001,0.2454377691203609,0.5885238000144601,0.8734177215189873,79
+metadata_cohort,cycles,17,0,1.0,[],0.0,,,,,,,,,0
+sampling_confound,exclude_point_count_features,79,2,0.08860759493670886,"[7, 65]",0.1076923076923077,0.3982480759305807,0.7513253622098343,0.3578604817612935,191.40094130416256,0.990156145509044,1.0,0.07449336098823167,0.8987341772151899,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": null, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.6190592701581648,0.7733757426512605,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": null, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.5232076972336757,0.7238663041364445,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": null, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.6190592701581648,0.7733757426512605,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": null, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.5232076972336757,0.7238663041364445,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 5, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.6190592701581648,0.7733757426512605,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 5, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.5232076972336757,0.7238663041364445,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 5, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.6190592701581648,0.7733757426512605,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 5, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,2,0.10126582278481013,"[6, 65]",0.09230769230769231,0.5232076972336757,0.7238663041364445,0.39761159607046276,141.7944070356227,1.0,1.0,-4.440892098500626e-16,0.8987341772151899,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 10, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 10, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 10, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 10, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 20, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 20, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 20, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 5, ""min_samples"": 20, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": null, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": null, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": null, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": null, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 5, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 5, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 5, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 5, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 10, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 10, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 10, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 10, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 20, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 20, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 20, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 8, ""min_samples"": 20, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": null, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": null, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": null, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": null, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 5, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 5, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 5, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 5, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 10, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 10, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 10, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 10, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 20, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 20, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 20, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 10, ""min_samples"": 20, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": null, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": null, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": null, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": null, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 5, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 5, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 5, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 5, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 10, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 10, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 10, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 10, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 20, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 20, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 20, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 20, ""min_samples"": 20, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": null, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": null, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": null, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": null, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 5, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 5, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 5, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 5, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 10, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 10, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 10, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 10, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 20, ""cluster_selection_method"": ""eom"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 20, ""cluster_selection_method"": ""eom"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 20, ""cluster_selection_method"": ""leaf"", ""metric"": ""euclidean""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79
+hdbscan_grid,"{""min_cluster_size"": 30, ""min_samples"": 20, ""cluster_selection_method"": ""leaf"", ""metric"": ""manhattan""}",79,0,1.0,[],0.0,,,,,,,0.5881660588971047,0.0,79

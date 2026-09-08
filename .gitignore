@@ -1,71 +1,115 @@
-# OS
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+# ============================================================================
+# Policy: the repository publishes code, configuration, reports and
+# summary-level results only. Datasets (raw, resampled, normalised or
+# per-curve copies), trained models, third-party publications and bulky
+# binaries stay local. See README.md, section "Data policy".
+# ============================================================================
 
-# Editor / IDE
+# ---- OS / editor / caches -------------------------------------------------
+.DS_Store
+._*
+Thumbs.db
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-
-# Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-*.egg-info/
+.ipynb_checkpoints/
+.mplcache/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.coverage
-htmlcov/
-.tox/
-.venv/
-venv/
-env/
+node_modules/
+.ppt_*/
+tmp/
+*.tmp
+*.bak
+*~
 
-# Jupyter
-.ipynb_checkpoints/
-profile_default/
-ipython_config.py
+# ---- Datasets: never published --------------------------------------------
+# digitised literature curves, source figures and paper full texts
+lab/data_all/
+# any directory of accepted raw curves, including copies inside experiments
+**/accepted/
+**/raw_curves/
+# 218-curve test subset and per-curve galleries (all copies)
+**/samples_test/
+**/samples_test_png/
+lab-v2/som_references/accepted/
+# Hartono et al. (2023) Zenodo dataset and per-sample exports
+thesis/dataset/
+thesis/20230816_run_revision_excN2/*_samples.csv
+# consolidated / resampled curve tables
+**/merged_all_curves.csv
+**/included_samples.csv
+**/preprocessed_curves.csv
+**/preprocessed_normalized_curves.csv
+**/preprocessed_smoothed_curves.csv
+lab/05_accepted_all copy/analysis_report/curves_over_200h_consolidated.csv
+lab-v2/som_200h_paper_exact/data_0_200h/
+lab-v2/som_200h_paper_exact/results/clusters/*.csv
+# per-curve copies and per-curve series produced inside experiments
+lab/NEW/som_200h_reanalysis/02_selected_curve_database/
+lab-v2/data_all_ifo_shape_groups/selected_1003_curves/
+lab-v2/ifo_four_type_matching_curves_export/csv/
+lab-v2/ifo_four_type_matching_curves_export/png/
+DTW/*/raw/
+DTW/*/aligned/
+DTW/*/features/
+DTW/*/clustering_results/representative_raw_curves/
+HDB-scan/*/raw_input/
+HDB-scan/*/cleaned_input/
+HDB-scan/*/normalized_input/
+HDB-scan/*/resampled_input/
+HDB-scan/*/window_inputs/
+curve_discovery_unsupervised_20260906_01/data/
+curve_discovery_unsupervised_20260906_01/*/data/
+HDB-scan/*/final/cluster_*/
+HDB-scan/*/final/noise/
 
-# Large data / model artifacts
-# Keep source code; ignore bulky datasets & trained models
-*.h5
-*.hdf5
-*.pt
-*.pth
+# ---- Third-party publications (copyright) ---------------------------------
+*.pdf
+*.xlsx
+thesis/paper/*.md
+lab/NEW/som_200h_reanalysis/00_references/
+**/oa_pdfs/
+**/open_access_papers/
+**/fulltext_open/
+**/fulltext_text/
+**/rendered_relevant_pages/
+**/evidence_pages/
+**/figure_review/
+**/source_data/
+# raw OpenAlex / Crossref API dumps (re-downloadable; screened tables are kept)
+**/raw_openalex/
+**/raw_crossref/
+**/openalex_raw/
+lab-v2/literature_k_som_search/08_recent_literature_review/raw/
+
+# ---- Trained models, matrices, caches, slides, embedded-data views ---------
 *.pkl
 *.pickle
 *.npy
 *.npz
+*.h5
+*.hdf5
+*.pt
+*.pth
 *.parquet
 *.feather
+*.gz
+*.dylib
+*.so
+*.pptx
+*.ndjson
+*.webp
+# interactive HTML pages embed the curve data
+*.html
+!lab-v2/som_references/shape_overlay_template.html
+plotly.min.js
 
-# Datasets and intermediate outputs
-dataset/
-datasets/
-data/raw/
-data/external/
-
-# Lab results directories (regeneratable)
-# Uncomment lines below to exclude lab result files
-# result/
-# results_all/
-# outputs/
-
-# Log / temp
-*.log
-*.tmp
-*.bak
-
-# Environment
+# ---- Environment -----------------------------------------------------------
 .env
 .env.local
+.venv/
+venv/
+env/

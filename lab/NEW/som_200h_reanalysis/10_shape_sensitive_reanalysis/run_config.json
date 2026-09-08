@@ -1,0 +1,45 @@
+{
+  "source_dataset": "main_high_quality_min10",
+  "window_hours": 200.0,
+  "max_support_gap_h": 40.0,
+  "fine_grid_step_h": 0.16666666666666666,
+  "model_grid_step_h": 1.0,
+  "interpolation_variants": [
+    "akima",
+    "pchip",
+    "linear"
+  ],
+  "selected_preprocessing": "pchip_normalized_no_smoothing",
+  "time_weights": {
+    "0_20h": 8,
+    "20_50h": 4,
+    "50_100h": 2,
+    "100_200h": 1
+  },
+  "feature_block_weights": {
+    "curve": 0.5,
+    "derivative": 0.3,
+    "descriptors": 0.2
+  },
+  "som_nodes": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "som_seeds": [
+    7,
+    21,
+    42,
+    84,
+    168
+  ],
+  "som_primary_seed": 42,
+  "som_iterations": 30000,
+  "som_sigma": 0.5,
+  "som_learning_rate": 0.1,
+  "som_distance": "euclidean_on_shape_sensitive_composite_features"
+}

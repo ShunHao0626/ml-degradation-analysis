@@ -1,0 +1,3 @@
+cluster,n,source_figures,medoid,medoid_source,end_ratio_median,end_ratio_q25,end_ratio_q75,positive_time_fraction_median,median_raw_sign_changes,median_peak_h,median_valley_h,within_DTW_median
+1,84,44,C063,图片162/accepted/samples_test__unknown__unknown__图片162__Series_1__Series_1.csv,0.9125918743256571,0.8083920803140063,0.9697280984052132,0.0,0.0,0.0,399.4283373072515,0.34879705922009774
+2,7,7,C125,图片33/accepted/samples_test__unknown__unknown__图片33__AZO_SnOx__Series_1.csv,1.0154287672975673,1.0117163979305346,1.0280042722682197,0.33804943998046927,3.0,310.87554182829643,0.0,0.5904883013856992

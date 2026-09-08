@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-09-01T22:57:12.698679+00:00",
+  "selection_rule": "OpenAlex-marked OA PDFs within A_curve_likely_original; title/abstract recovery candidates first, then screen score/year/citations.",
+  "target_successful_full_text_machine_reviews": 45,
+  "download_attempts": 100,
+  "valid_pdfs_parsed": 33,
+  "failed_or_non_pdf": 67,
+  "machine_curve_figure_evidence": 33,
+  "machine_nonmonotonic_shape_evidence": 23,
+  "important_scope_note": "PDF text/caption inspection is not visual verification of plotted curve shape."
+}

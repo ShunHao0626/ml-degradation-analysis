@@ -1,0 +1,13 @@
+test,pipeline,source_cluster,matched_test2_cluster,comparison_colour_class,pearson_shape_correlation,shape_rmse
+test1_raw,Raw → SOM,0,0,1,0.9895902212785135,0.0972311582273168
+test1_raw,Raw → SOM,1,1,0,0.9326600575686081,0.020035706587177217
+test1_raw,Raw → SOM,2,2,3,0.9632823549595011,0.36583028646522975
+test1_raw,Raw → SOM,3,3,2,0.9959099592251746,0.23131115645338848
+test2_resample_normalize,Resample + Normalize → SOM,0,0,1,0.9999999999999999,0.0
+test2_resample_normalize,Resample + Normalize → SOM,1,1,0,0.9999999999999999,0.0
+test2_resample_normalize,Resample + Normalize → SOM,2,2,3,1.0,0.0
+test2_resample_normalize,Resample + Normalize → SOM,3,3,2,1.0,0.0
+test3_resample_normalize_smooth,Resample + Normalize + Smooth → SOM,0,0,1,0.9999673757359584,0.0007619655550280783
+test3_resample_normalize_smooth,Resample + Normalize + Smooth → SOM,1,1,0,0.999655817862103,0.0007419834564857316
+test3_resample_normalize_smooth,Resample + Normalize + Smooth → SOM,2,2,3,0.9981415306867448,0.03316859808490443
+test3_resample_normalize_smooth,Resample + Normalize + Smooth → SOM,3,3,2,0.999877952348212,0.01451511804865792

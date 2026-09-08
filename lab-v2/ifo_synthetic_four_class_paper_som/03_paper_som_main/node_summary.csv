@@ -1,0 +1,5 @@
+som_node,som_x,som_y,posthoc_name,count,purity,IFO-Bridge,IFO-Hill,IFO-Slope,IFO-Valley
+0,0,0,IFO-Hill,250,1,0,250,0,0
+1,0,1,IFO-Bridge,250,1,250,0,0,0
+2,1,0,IFO-Slope,250,1,0,0,250,0
+3,1,1,IFO-Valley,250,1,0,0,0,250

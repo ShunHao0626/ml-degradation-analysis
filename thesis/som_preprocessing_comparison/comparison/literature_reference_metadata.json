@@ -1,0 +1,15 @@
+{
+  "source_pdf": "/Users/shunhao/Desktop/ML/thesis/paper/work.pdf",
+  "source_pdf_sha256": "6b57a7656aa98abc7d1d143d0f47b9feb1ed2d46b7a3bbdb90c8eb2ac2b1bd55",
+  "printed_page": 5,
+  "figure": "Fig. 4a",
+  "doi": "10.1038/s41467-023-40585-3",
+  "crop_rect_pdf_points": [
+    124,
+    44,
+    296,
+    218
+  ],
+  "masked_adjacent_content": "Fig. 4b panel letter only",
+  "role": "Visual literature reference only; not used as training data, for K selection, or for ARI/NMI calculations."
+}

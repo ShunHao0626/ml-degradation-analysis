@@ -1,0 +1,5 @@
+11:36:00 Frozen-model sensitivities
+11:36:00 Source-figure bootstrap
+11:36:00 Representatives and raw descriptive features
+11:36:00 Plotting
+11:36:08 {"absolute_common_start_h": 53.29948624300275, "absolute_common_end_h": 399.4283373072515, "absolute_sensitivity_n": 83, "typical_original_dt_h": 20.890672245811317, "common_grid_spacing_h": 21.022544068802713, "common_grid_points": 20, "group_bootstrap_ARI_mean": 0.9853176824534754, "group_bootstrap_ARI_p025": 0.7890894957361171, "group_bootstrap_ARI_p975": 1.0, "median_relative_distance_change_vs_classic": 0.013835110913043566, "selected_label_ARI_vs_classic": 1.0, "source_hashes_unchanged": true}

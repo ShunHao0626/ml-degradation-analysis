@@ -1,0 +1,22 @@
+{
+  "cluster_1": {
+    "raw_sample_traces": 84,
+    "mean_and_medoid_traces": 2,
+    "sample_selector_entries": 85,
+    "structure_verified": true
+  },
+  "cluster_2": {
+    "raw_sample_traces": 7,
+    "mean_and_medoid_traces": 2,
+    "sample_selector_entries": 8,
+    "structure_verified": true
+  },
+  "all_html_local_links_exist": true,
+  "source_files_unchanged": true,
+  "live_browser_test": "not available: no connected browser",
+  "static_figures_visually_checked": [
+    "dtw_clusters.png",
+    "dtw_cluster_2.png",
+    "pca_visualization.png"
+  ]
+}

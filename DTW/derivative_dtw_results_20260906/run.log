@@ -1,0 +1,128 @@
+Matplotlib is building the font cache; this may take a moment.
+00:12:43 Start audit
+00:12:44 218 source curves -> 134 eligible; 9 windows
+00:12:44 Sweep coverage100: 27.749 h, n=29
+00:12:45 coverage100 complete: 4536 cluster candidates accumulated
+00:12:45 Sweep coverage090: 47.806 h, n=28
+00:12:46 coverage090 complete: 9072 cluster candidates accumulated
+00:12:46 Sweep coverage080: 164.826 h, n=76
+00:12:49 coverage080 complete: 13608 cluster candidates accumulated
+00:12:49 Sweep coverage070: 399.428 h, n=91
+00:12:52 coverage070 complete: 18144 cluster candidates accumulated
+00:12:52 Sweep coverage060: 605.796 h, n=80
+00:12:54 coverage060 complete: 22680 cluster candidates accumulated
+00:12:54 Sweep coverage050: 975.620 h, n=66
+00:12:56 coverage050 complete: 27216 cluster candidates accumulated
+00:12:56 Sweep coverage040: 989.933 h, n=54
+00:12:58 coverage040 complete: 31752 cluster candidates accumulated
+00:12:58 Sweep coverage030: 1003.834 h, n=40
+00:13:00 coverage030 complete: 36288 cluster candidates accumulated
+00:13:00 Sweep coverage020: 1456.750 h, n=26
+00:13:01 coverage020 complete: 40824 cluster candidates accumulated
+00:13:02 Stability shortlist: 105 candidates x 4 perturbations x 50 repeats
+00:13:02 Stability 1/105 M000352 coverage100 y0 multivariate K=2
+00:13:02 Stability 2/105 M000596 coverage100 y0 multivariate K=3
+00:13:03 Stability 3/105 M001162 coverage100 ymax classic K=2
+00:13:03 Stability 4/105 M001307 coverage100 ymax derivative K=3
+00:13:03 Stability 5/105 M001486 coverage100 ymax multivariate K=2
+00:13:03 Stability 6/105 M001568 coverage100 ymax multivariate K=3
+00:13:04 Stability 7/105 M001648 coverage100 ymax multivariate K=2
+00:13:04 Stability 8/105 M001837 coverage100 ymax multivariate K=2
+00:13:04 Stability 9/105 M001972 coverage100 ymax multivariate K=2
+00:13:04 Stability 10/105 M002134 coverage100 ymax multivariate K=2
+00:13:04 Stability 11/105 M002665 coverage100 z multivariate K=2
+00:13:05 Stability 12/105 M002701 coverage100 z multivariate K=2
+00:13:05 Stability 13/105 M004006 coverage100 robust multivariate K=2
+00:13:05 Stability 14/105 M006913 coverage090 z classic K=2
+00:13:06 Stability 15/105 M007237 coverage090 z multivariate K=2
+00:13:06 Stability 16/105 M007399 coverage090 z multivariate K=2
+00:13:06 Stability 17/105 M007507 coverage090 z multivariate K=2
+00:13:06 Stability 18/105 M007678 coverage090 z multivariate K=2
+00:13:07 Stability 19/105 M009487 coverage080 y0 multivariate K=2
+00:13:07 Stability 20/105 M009514 coverage080 y0 multivariate K=2
+00:13:08 Stability 21/105 M010621 coverage080 ymax multivariate K=2
+00:13:08 Stability 22/105 M011422 coverage080 z classic K=2
+00:13:09 Stability 23/105 M011593 coverage080 z derivative K=2
+00:13:09 Stability 24/105 M011746 coverage080 z multivariate K=2
+00:13:10 Stability 25/105 M011881 coverage080 z multivariate K=2
+00:13:11 Stability 26/105 M011908 coverage080 z multivariate K=2
+00:13:11 Stability 27/105 M012070 coverage080 z multivariate K=2
+00:13:12 Stability 28/105 M012232 coverage080 z multivariate K=2
+00:13:12 Stability 29/105 M012367 coverage080 z multivariate K=2
+00:13:13 Stability 30/105 M013970 coverage070 y0 multivariate K=3
+00:13:14 Stability 31/105 M014608 coverage070 y0 multivariate K=2
+00:13:14 Stability 32/105 M014914 coverage070 ymax derivative K=2
+00:13:15 Stability 33/105 M015121 coverage070 ymax multivariate K=2
+00:13:16 Stability 34/105 M015670 coverage070 ymax multivariate K=2
+00:13:16 Stability 35/105 M015985 coverage070 z classic K=2
+00:13:17 Stability 36/105 M016255 coverage070 z multivariate K=2
+00:13:18 Stability 37/105 M016309 coverage070 z multivariate K=2
+00:13:19 Stability 38/105 M016471 coverage070 z multivariate K=2
+00:13:20 Stability 39/105 M016633 coverage070 z multivariate K=2
+00:13:20 Stability 40/105 M016795 coverage070 z multivariate K=2
+00:13:21 Stability 41/105 M016957 coverage070 z multivariate K=2
+00:13:22 Stability 42/105 M017938 coverage070 robust multivariate K=2
+00:13:23 Stability 43/105 M018102 coverage070 robust multivariate K=4
+00:13:24 Stability 44/105 M018550 coverage060 y0 multivariate K=2
+00:13:25 Stability 45/105 M019216 coverage060 y0 multivariate K=2
+00:13:26 Stability 46/105 M019684 coverage060 ymax multivariate K=2
+00:13:26 Stability 47/105 M020341 coverage060 ymax multivariate K=2
+00:13:27 Stability 48/105 M020521 coverage060 z classic K=2
+00:13:28 Stability 49/105 M020638 coverage060 z derivative K=2
+00:13:28 Stability 50/105 M020845 coverage060 z multivariate K=2
+00:13:29 Stability 51/105 M021007 coverage060 z multivariate K=2
+00:13:30 Stability 52/105 M021169 coverage060 z multivariate K=2
+00:13:31 Stability 53/105 M021331 coverage060 z multivariate K=2
+00:13:31 Stability 54/105 M021493 coverage060 z multivariate K=2
+00:13:32 Stability 55/105 M023005 coverage050 y0 multivariate K=2
+00:13:33 Stability 56/105 M023014 coverage050 y0 multivariate K=2
+00:13:33 Stability 57/105 M023815 coverage050 ymax classic K=2
+00:13:34 Stability 58/105 M024139 coverage050 ymax multivariate K=2
+00:13:34 Stability 59/105 M024301 coverage050 ymax multivariate K=2
+00:13:35 Stability 60/105 M024310 coverage050 ymax multivariate K=2
+00:13:35 Stability 61/105 M024463 coverage050 ymax multivariate K=2
+00:13:36 Stability 62/105 M024625 coverage050 ymax multivariate K=2
+00:13:36 Stability 63/105 M024787 coverage050 ymax multivariate K=2
+00:13:37 Stability 64/105 M025129 coverage050 z derivative K=2
+00:13:37 Stability 65/105 M025390 coverage050 z multivariate K=2
+00:13:38 Stability 66/105 M026038 coverage050 z multivariate K=2
+00:13:39 Stability 67/105 M027091 coverage050 robust multivariate K=2
+00:13:40 Stability 68/105 M027118 coverage050 robust multivariate K=2
+00:13:41 Stability 69/105 M027541 coverage040 y0 multivariate K=2
+00:13:41 Stability 70/105 M028351 coverage040 ymax classic K=2
+00:13:41 Stability 71/105 M028522 coverage040 ymax derivative K=2
+00:13:42 Stability 72/105 M028675 coverage040 ymax multivariate K=2
+00:13:42 Stability 73/105 M028837 coverage040 ymax multivariate K=2
+00:13:43 Stability 74/105 M028999 coverage040 ymax multivariate K=2
+00:13:43 Stability 75/105 M029161 coverage040 ymax multivariate K=2
+00:13:44 Stability 76/105 M029323 coverage040 ymax multivariate K=2
+00:13:44 Stability 77/105 M029899 coverage040 z multivariate K=2
+00:13:45 Stability 78/105 M030421 coverage040 z multivariate K=2
+00:13:45 Stability 79/105 M031627 coverage040 robust multivariate K=2
+00:13:46 Stability 80/105 M031681 coverage040 robust multivariate K=2
+00:13:46 Stability 81/105 M032077 coverage030 y0 multivariate K=2
+00:13:47 Stability 82/105 M032087 coverage030 y0 multivariate K=3
+00:13:47 Stability 83/105 M033076 coverage030 ymax derivative K=2
+00:13:47 Stability 84/105 M033211 coverage030 ymax multivariate K=2
+00:13:48 Stability 85/105 M033221 coverage030 ymax multivariate K=3
+00:13:48 Stability 86/105 M034102 coverage030 z classic K=2
+00:13:48 Stability 87/105 M034426 coverage030 z multivariate K=2
+00:13:49 Stability 88/105 M034588 coverage030 z multivariate K=2
+00:13:49 Stability 89/105 M034750 coverage030 z multivariate K=2
+00:13:50 Stability 90/105 M034912 coverage030 z multivariate K=2
+00:13:50 Stability 91/105 M035056 coverage030 z multivariate K=2
+00:13:50 Stability 92/105 M035074 coverage030 z multivariate K=2
+00:13:51 Stability 93/105 M035596 coverage030 robust multivariate K=2
+00:13:51 Stability 94/105 M036235 coverage030 robust multivariate K=2
+00:13:52 Stability 95/105 M037288 coverage020 y0 multivariate K=2
+00:13:52 Stability 96/105 M037477 coverage020 ymax classic K=2
+00:13:52 Stability 97/105 M037594 coverage020 ymax derivative K=2
+00:13:53 Stability 98/105 M037801 coverage020 ymax multivariate K=2
+00:13:53 Stability 99/105 M037963 coverage020 ymax multivariate K=2
+00:13:53 Stability 100/105 M038125 coverage020 ymax multivariate K=2
+00:13:53 Stability 101/105 M038287 coverage020 ymax multivariate K=2
+00:13:54 Stability 102/105 M038503 coverage020 ymax multivariate K=2
+00:13:54 Stability 103/105 M039052 coverage020 z multivariate K=2
+00:13:54 Stability 104/105 M040133 coverage020 robust multivariate K=3
+00:13:54 Stability 105/105 M040672 coverage020 robust multivariate K=2
+00:14:00 FROZEN M016957: 399.428h K=2 score=0.8026

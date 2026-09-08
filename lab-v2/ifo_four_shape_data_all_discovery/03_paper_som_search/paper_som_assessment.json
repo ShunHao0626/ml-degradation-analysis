@@ -1,0 +1,70 @@
+{
+  "paper_som_passed_four_archetype_gate": false,
+  "best_candidate": {
+    "candidate_id": 38,
+    "search_stage": "expanded_som",
+    "window_hours": 300,
+    "sigma": 0.2,
+    "learning_rate": 0.5,
+    "iterations": 100000,
+    "seed": 0,
+    "n_curves": 1635,
+    "quantization_error": 0.8539755483580256,
+    "topographic_error": 0.0,
+    "silhouette": 0.5730009237401119,
+    "davies_bouldin": 0.8422028168402835,
+    "calinski_harabasz": 2240.580383559623,
+    "min_cluster_size": 5,
+    "balance_entropy": 0.6311637714068945,
+    "matched_mean_prototype_correlation": 0.8485932545156804,
+    "independent_archetypes_found": 3,
+    "independent_labels": "IFO-Hill;IFO-Hill;IFO-Valley;IFO-Slope",
+    "cluster_0_size": 428,
+    "cluster_1_size": 1049,
+    "cluster_2_size": 5,
+    "cluster_3_size": 153,
+    "selection_score": 0.769465695609669,
+    "mean_pairwise_ari_5_seeds": 0.9982253335073684,
+    "min_pairwise_ari_5_seeds": 0.9955633337684209,
+    "stable_selection_score": 0.7691243093628621
+  },
+  "prototype_mapping": {
+    "0": "IFO-Hill",
+    "1": "IFO-Bridge",
+    "2": "IFO-Valley",
+    "3": "IFO-Slope"
+  },
+  "prototype_correlation_matrix": [
+    [
+      0.7122728658096799,
+      0.9345765030306583,
+      0.9047031085389046,
+      -0.14849647193578325
+    ],
+    [
+      0.7815889473772024,
+      0.9093936576645085,
+      0.8516792533915002,
+      -0.15278097524923606
+    ],
+    [
+      0.3049410197242308,
+      -0.8281231345302896,
+      -0.5456144423892944,
+      0.7317238118129789
+    ],
+    [
+      0.6302591148293408,
+      0.9458799926240066,
+      0.9464837558418816,
+      -0.1363382127618447
+    ]
+  ],
+  "gate": {
+    "independent_archetypes_found_required": 4,
+    "matched_mean_correlation_required": 0.7,
+    "minimum_cluster_size_required": 10,
+    "mean_seed_ari_required": 0.75
+  },
+  "decision": "fallback_to_shape_guided_classifier"
+}

@@ -1,0 +1,27 @@
+cluster,slope_sequence,count
+-1,decay → flat,1
+-1,decay → flat → flat,1
+-1,decay → increase → decay,3
+-1,increase → decay,2
+-1,increase → decay → increase → decay,1
+0,increase → decay → increase,1
+0,increase → flat,1
+0,increase → flat → flat → decay,1
+0,increase → flat → increase → decay,1
+0,increase → flat → increase → flat,1
+0,increase → increase → decay,1
+1,decay → decay,38
+1,decay → decay → decay,8
+1,decay → decay → decay → decay,1
+1,decay → decay → flat,3
+1,decay → decay → increase,1
+1,decay → flat,1
+1,decay → flat → decay → increase,1
+1,decay → flat → flat,1
+1,decay → flat → flat → flat,1
+1,decay → increase → decay → decay,1
+1,decay → increase → flat → flat → decay,1
+1,flat → flat → flat → decay,1
+1,increase → decay,5
+1,increase → decay → flat,1
+1,increase → flat → flat,1

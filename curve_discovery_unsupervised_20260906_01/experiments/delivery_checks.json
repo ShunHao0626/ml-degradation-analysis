@@ -1,0 +1,9 @@
+{
+  "n_curves": 218,
+  "n_original_points": 9674,
+  "n_gallery_pages": 19,
+  "training_runs": 3787,
+  "standalone_html": true,
+  "browser_tested": false,
+  "numerical_verification": "experiments/verification.json"
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "check": "Every source file unchanged",
+    "passed": true
+  },
+  {
+    "check": "Every raw copy identical to source",
+    "passed": true
+  },
+  {
+    "check": "218 audited, 134 eligible",
+    "passed": true
+  },
+  {
+    "check": "1512 distances and 40824 labeled candidates",
+    "passed": true
+  },
+  {
+    "check": "All exported derivatives use true dt and matching normalization",
+    "passed": true
+  },
+  {
+    "check": "All distance matrices finite symmetric nonnegative with zero diagonal",
+    "passed": true
+  },
+  {
+    "check": "All label vectors have advertised sample count and K",
+    "passed": true
+  },
+  {
+    "check": "105 candidates, four modes, exactly 50 repeats each",
+    "passed": true
+  },
+  {
+    "check": "Consensus numerators denominators symmetry and missing-pair handling",
+    "passed": true
+  },
+  {
+    "check": "K2..10 each receives four modes x 50 repeats",
+    "passed": true
+  },
+  {
+    "check": "Final labels exactly reproduce frozen linkage",
+    "passed": true
+  },
+  {
+    "check": "Final cluster counts 84/7",
+    "passed": true
+  },
+  {
+    "check": "Medoids are real samples minimizing within-cluster distance sum",
+    "passed": true
+  },
+  {
+    "check": "C++ DTW agrees with independent Python recurrence and backtracking",
+    "passed": true
+  },
+  {
+    "check": "Irregular-time linear curve has exact constant slope",
+    "passed": true
+  },
+  {
+    "check": "Constant curves have zero distance",
+    "passed": true
+  },
+  {
+    "check": "18 figure groups rendered to PNG and SVG",
+    "passed": true
+  }
+]

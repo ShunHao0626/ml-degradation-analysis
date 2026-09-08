@@ -1,0 +1,26 @@
+{
+  "algorithm": "change points + kinetic descriptors + HDBSCAN",
+  "window_hours": 300,
+  "n_curves": 79,
+  "cluster_counts": {
+    "0": 6,
+    "1": 65,
+    "-1": 8
+  },
+  "classification_normalization": "robust",
+  "primary_display_normalization": "y/y(0)",
+  "smoothing": false,
+  "model_retrained": false,
+  "ensemble_mean_only_postfit": true,
+  "mean_alignment": {
+    "kind": "linear interpolation",
+    "step_hours": 17.467784670755464,
+    "common_observation_end": 277.0156146081115,
+    "grid_end": 262.01677006133195,
+    "constant_contributors": true
+  },
+  "noise_is_not_a_cluster": true,
+  "bootstrap_ari": 0.5220126301359056,
+  "conclusion": "Exploratory grouping; stable final classes not established",
+  "source_assignment_sha256": "ea1e6e7c221ce978bffef37f1e04d176c4a1b197ab48dced5da02b19ab740e9d"
+}

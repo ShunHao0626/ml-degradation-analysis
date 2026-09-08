@@ -1,0 +1,22 @@
+{
+  "candidate_id": 30,
+  "window_hours": 500,
+  "sigma": 0.3,
+  "learning_rate": 0.3,
+  "iterations": 50000,
+  "som_x": 2,
+  "som_y": 2,
+  "seed": 0,
+  "n_curves": 104,
+  "input_dimensions": 3000,
+  "quantization_error": 1.4221402217091745,
+  "quantization_error_per_sqrt_dimension": 0.025964609312183768,
+  "topographic_error": 0.0,
+  "silhouette": 0.49316628316339856,
+  "occupied_nodes": 4,
+  "min_cluster_size_including_empty": 15,
+  "cluster_0_size": 46,
+  "cluster_1_size": 15,
+  "cluster_2_size": 26,
+  "cluster_3_size": 17
+}

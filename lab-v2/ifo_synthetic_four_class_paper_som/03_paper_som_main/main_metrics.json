@@ -1,0 +1,12 @@
+{
+  "accuracy": 1.0,
+  "balanced_accuracy": 1.0,
+  "macro_f1": 1.0,
+  "adjusted_rand_index_truth_vs_nodes": 1.0,
+  "normalized_mutual_information_truth_vs_nodes": 1.0,
+  "quantization_error": 1.1584305235565788,
+  "topographic_error": 0.0,
+  "occupied_nodes": 4,
+  "main_random_seed": null,
+  "main_seed_note": "The paper did not specify a random seed; MiniSom default random_seed=None was retained."
+}

@@ -1,0 +1,11 @@
+{
+  "smoothing_disabled_in_config": true,
+  "labels_disabled_in_config": true,
+  "no_savgol_import_or_call": true,
+  "no_smoothing_function": true,
+  "required_files_exist": true,
+  "manifest_contract": true,
+  "assignment_count_matches": true,
+  "cluster_count_matches": true,
+  "no_stale_cluster_artifacts": true
+}

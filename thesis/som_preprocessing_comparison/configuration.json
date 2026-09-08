@@ -1,0 +1,41 @@
+{
+  "exact_main_pipeline_count": 3,
+  "candidate_k": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "som_shape_rule": "closest exact factor pair; same rule per K across all pipelines",
+  "sigma": 0.5,
+  "learning_rate": 0.1,
+  "activation_distance": "euclidean",
+  "neighborhood_function": "gaussian",
+  "initialization": "MiniSom.random_weights_init",
+  "training_iterations": 50000,
+  "training_order": "sequential (random_order=False)",
+  "primary_seed": 42,
+  "robustness_repeat_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "resampling_interval_minutes": 10,
+  "akima_required_on_released_data": false,
+  "normalization": "per-curve MaxAbs within analysis window",
+  "savgol_window_length": 71,
+  "savgol_polynomial_order": 2,
+  "k_selection": "maximum normalized QE chord-deviation elbow on K=2..8",
+  "fixed_k4_role": "controlled comparison only; not evidence of four natural clusters",
+  "posthoc_shape_measurement": "SG(71,2) applied uniformly to centre/max|centre| only after clustering; never used as Test 1 or Test 2 SOM input"
+}

@@ -1,0 +1,6 @@
+2026-08-30 01:49:08,297 INFO Starting paper-aligned 200 h analysis
+2026-08-30 01:49:08,592 INFO Audited 218 curves; selected 114
+2026-08-30 01:49:08,613 INFO Preprocessed matrix shape: (114, 1200)
+2026-08-30 01:49:12,118 INFO SOM trained: QE=0.755603 TE=0.000000
+2026-08-30 01:51:52,749 INFO DTW k-means completed; inertia=0.056126
+2026-08-30 01:51:53,109 INFO Analysis complete. All verification checks passed.

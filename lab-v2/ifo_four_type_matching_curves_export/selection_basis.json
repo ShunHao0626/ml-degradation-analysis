@@ -1,0 +1,20 @@
+{
+  "source_dataset": "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test",
+  "source_strict_result": "/Users/shunhao/Desktop/ML/lab-v2/ifo_four_shape_discovery/06_final_four_classes/strict_four_class_matches.csv",
+  "selection_scope": "strict_topology_match == True only",
+  "analysis_window_hours": [
+    750
+  ],
+  "class_counts": {
+    "IFO-Bridge": 3,
+    "IFO-Hill": 3,
+    "IFO-Slope": 51,
+    "IFO-Valley": 4
+  },
+  "confidence_counts": {
+    "high": 58,
+    "low_review": 3
+  },
+  "total_curves": 61,
+  "note": "This is strict topology screening, not a pure-unsupervised discovery result. Topology direction can match even when the visual amplitude is weak."
+}

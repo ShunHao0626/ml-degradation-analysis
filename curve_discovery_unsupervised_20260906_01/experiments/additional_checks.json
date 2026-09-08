@@ -1,0 +1,22 @@
+{
+  "line_topology": {
+    "n": 218,
+    "selected_k": 4,
+    "elbow_by_range": {
+      "8": 4,
+      "10": 4,
+      "12": 4,
+      "16": 4
+    }
+  },
+  "documented_time_without_extreme_scale": {
+    "n": 157,
+    "selected_k": 4,
+    "elbow_by_range": {
+      "8": 3,
+      "10": 3,
+      "12": 4,
+      "16": 4
+    }
+  }
+}

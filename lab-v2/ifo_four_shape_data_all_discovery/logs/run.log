@@ -1,0 +1,27 @@
+2026-08-30 12:14:15,077 INFO Starting four-archetype discovery
+2026-08-30 12:14:18,273 INFO Audited 2151 CSV curves; 2134 have verified time/output axes
+2026-08-30 12:14:19,951 INFO Window 150h: matrix (1984, 900)
+2026-08-30 12:14:21,535 INFO Window 200h: matrix (1850, 1200)
+2026-08-30 12:14:23,562 INFO Window 300h: matrix (1635, 1800)
+2026-08-30 12:14:25,999 INFO Window 500h: matrix (1229, 3000)
+2026-08-30 12:14:28,128 INFO Window 750h: matrix (798, 4500)
+2026-08-30 12:14:29,968 INFO Window 1000h: matrix (500, 6000)
+2026-08-30 12:14:31,259 INFO Window 1500h: matrix (210, 9000)
+2026-08-30 12:14:32,342 INFO Window 2000h: matrix (143, 12000)
+2026-08-30 12:14:41,744 INFO SOM search 10/122
+2026-08-30 12:14:50,777 INFO SOM search 20/122
+2026-08-30 12:14:58,396 INFO SOM search 30/122
+2026-08-30 12:15:07,635 INFO SOM search 40/122
+2026-08-30 12:15:16,976 INFO SOM search 50/122
+2026-08-30 12:15:26,303 INFO SOM search 60/122
+2026-08-30 12:15:35,627 INFO SOM search 70/122
+2026-08-30 12:15:44,864 INFO SOM search 80/122
+2026-08-30 12:15:54,418 INFO SOM search 90/122
+2026-08-30 12:16:04,221 INFO SOM search 100/122
+2026-08-30 12:16:13,982 INFO SOM search 110/122
+2026-08-30 12:16:23,778 INFO SOM search 120/122
+2026-08-30 12:17:03,308 INFO Best SOM score 0.7691; four-archetype gate=False
+2026-08-30 12:17:39,976 INFO Shape-rule grid evaluated 10935 candidates with 936 unique assignments
+2026-08-30 12:17:40,232 INFO Shape classifier chose 500h window; class counts={'IFO-Bridge': 56, 'IFO-Hill': 39, 'IFO-Slope': 1118, 'IFO-Valley': 16}
+2026-08-30 12:17:41,101 INFO Alternative model comparison complete
+2026-08-30 12:17:51,653 INFO Four-archetype discovery completed and validated

@@ -1,0 +1,39 @@
+{
+  "source_curves": 2151,
+  "axis_quality_valid": 2134,
+  "window_eligible": 1229,
+  "window_hours": 500,
+  "phase_boundary_hours": 200,
+  "clear_matches": {
+    "IFO-Bridge": 23,
+    "IFO-Hill": 21,
+    "IFO-Slope": 433,
+    "IFO-Valley": 10
+  },
+  "boundary_candidates": {
+    "IFO-Bridge": 33,
+    "IFO-Hill": 18,
+    "IFO-Slope": 459,
+    "IFO-Valley": 6
+  },
+  "all_candidates": {
+    "IFO-Bridge": 56,
+    "IFO-Hill": 39,
+    "IFO-Slope": 892,
+    "IFO-Valley": 16
+  },
+  "status_counts": {
+    "clear_match": 487,
+    "boundary_candidate": 516,
+    "insufficient_duration": 905,
+    "excluded_axis_or_quality": 17,
+    "other_or_unresolved_shape": 226
+  },
+  "recomputed_rule_feature_mismatches": [],
+  "unused_negative_step_fraction_differences": 44,
+  "extra_display_thresholds": {
+    "min_key_effect_fraction": 0.01,
+    "min_rate_contrast": 1.5,
+    "min_observed_points": 8
+  }
+}

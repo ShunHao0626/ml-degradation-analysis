@@ -1,0 +1,118 @@
+[
+  {
+    "parent": 1,
+    "n": 46,
+    "local_k": 4,
+    "seed_ari_mean": 1.0,
+    "representatives": [
+      {
+        "cluster": 1,
+        "n": 3,
+        "medoid": "C055",
+        "medoid_figure": "图片157"
+      },
+      {
+        "cluster": 2,
+        "n": 28,
+        "medoid": "C115",
+        "medoid_figure": "图片210"
+      },
+      {
+        "cluster": 3,
+        "n": 6,
+        "medoid": "C145",
+        "medoid_figure": "图片52"
+      },
+      {
+        "cluster": 4,
+        "n": 9,
+        "medoid": "C087",
+        "medoid_figure": "图片184"
+      }
+    ]
+  },
+  {
+    "parent": 2,
+    "n": 23,
+    "local_k": 3,
+    "seed_ari_mean": 0.9477272727272726,
+    "representatives": [
+      {
+        "cluster": 1,
+        "n": 7,
+        "medoid": "C126",
+        "medoid_figure": "图片35"
+      },
+      {
+        "cluster": 2,
+        "n": 8,
+        "medoid": "C158",
+        "medoid_figure": "图片6"
+      },
+      {
+        "cluster": 3,
+        "n": 8,
+        "medoid": "C096",
+        "medoid_figure": "图片194"
+      }
+    ]
+  },
+  {
+    "parent": 3,
+    "n": 89,
+    "local_k": 3,
+    "seed_ari_mean": 0.7115091879725851,
+    "representatives": [
+      {
+        "cluster": 1,
+        "n": 10,
+        "medoid": "C143",
+        "medoid_figure": "图片51"
+      },
+      {
+        "cluster": 2,
+        "n": 43,
+        "medoid": "C169",
+        "medoid_figure": "图片64"
+      },
+      {
+        "cluster": 3,
+        "n": 36,
+        "medoid": "C050",
+        "medoid_figure": "图片141"
+      }
+    ]
+  },
+  {
+    "parent": 4,
+    "n": 60,
+    "local_k": 4,
+    "seed_ari_mean": 0.8516294651470769,
+    "representatives": [
+      {
+        "cluster": 1,
+        "n": 18,
+        "medoid": "C018",
+        "medoid_figure": "图片115"
+      },
+      {
+        "cluster": 2,
+        "n": 23,
+        "medoid": "C064",
+        "medoid_figure": "图片162"
+      },
+      {
+        "cluster": 3,
+        "n": 5,
+        "medoid": "C178",
+        "medoid_figure": "图片71"
+      },
+      {
+        "cluster": 4,
+        "n": 14,
+        "medoid": "C154",
+        "medoid_figure": "图片59"
+      }
+    ]
+  }
+]

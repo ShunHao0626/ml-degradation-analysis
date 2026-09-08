@@ -1,0 +1,24 @@
+{
+  "variants": 72,
+  "settings": 6,
+  "som_runs": 9072,
+  "elbow_models_audited": 432,
+  "exact_four_count": 0,
+  "maximum_target_type_coverage": 3,
+  "best_posthoc_candidate": {
+    "variant_id": "w0200_detail_z_level_d1",
+    "setting_id": "paper_sigma05_lr03_seq",
+    "elbow_k": 4,
+    "window_hours": 200,
+    "cohort": "detail",
+    "representation": "z_level_d1",
+    "n": 1269,
+    "seed_ari": 1.0,
+    "silhouette_median": 0.2339083152108338,
+    "label_blind_rank_sum": NaN,
+    "target_type_coverage": 3,
+    "exact_four": false,
+    "names": "Bridge-like;Hill-like;Slope-like"
+  },
+  "important_boundary": "posthoc morphology audit does not replace label-blind selection"
+}

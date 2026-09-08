@@ -1,0 +1,10 @@
+reference_file,this_result,purpose
+som_clusters.png,hdbscan_clusters.png,成员曲线+均值的分簇总览
+som_cluster_N.png,hdbscan_cluster_N.png,单簇叠图
+som_cluster_N_interactive.html,hdbscan_cluster_N_interactive.html,悬停、缩放、图例交互
+som_cluster_counts.png,hdbscan_cluster_counts.png,实际分簇数量
+som_umatrix.png / som_distance_map.png,hdbscan_condensed_tree.png / hdbscan_distance_map.png,使用本方法的层次与特征距离诊断
+overview_normalized.png,overview_normalized.png,全部已分析曲线
+overview_savgol.png,不生成,原策略禁止平滑
+pca_visualization.png,pca_visualization.png,按冻结的HDBSCAN结果着色
+pce_boxplot.html / pce_violin.html,同名文件,一条曲线贡献一个末端观测值

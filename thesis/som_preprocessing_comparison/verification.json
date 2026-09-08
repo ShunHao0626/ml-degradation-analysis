@@ -1,0 +1,17 @@
+{
+  "all_required_files_exist": true,
+  "missing_required_files": [],
+  "test1_raw_assignment_count_2245": true,
+  "test1_raw_k_values_2_through_8": true,
+  "test1_raw_one_selected_k": true,
+  "test1_raw_ten_repeat_seeds": true,
+  "test2_resample_normalize_assignment_count_2245": true,
+  "test2_resample_normalize_k_values_2_through_8": true,
+  "test2_resample_normalize_one_selected_k": true,
+  "test2_resample_normalize_ten_repeat_seeds": true,
+  "test3_resample_normalize_smooth_assignment_count_2245": true,
+  "test3_resample_normalize_smooth_k_values_2_through_8": true,
+  "test3_resample_normalize_smooth_one_selected_k": true,
+  "test3_resample_normalize_smooth_ten_repeat_seeds": true,
+  "all_checks_pass": true
+}

@@ -1,0 +1,26 @@
+{
+  "variant_id": "w0300_coverage_maxabs_level",
+  "window_hours": 300,
+  "cohort": "coverage",
+  "representation": "maxabs_level",
+  "selected_k": 4,
+  "sigma": 0.5,
+  "learning_rate": 0.03,
+  "random_order": true,
+  "screen_rank_sum": 309.5,
+  "selection_used_ifo_names": false,
+  "selection_used_target_k4": false,
+  "smoothing_enabled": false,
+  "selection_rule": "QE elbow within each SOM setting; label-blind rank aggregation across eligible settings",
+  "selected_seed": 41,
+  "mean_pairwise_seed_ari": 0.9577765666002448,
+  "cluster_sizes": [
+    86,
+    883,
+    212,
+    409
+  ],
+  "n": 1590,
+  "dimensions": 64,
+  "final_iterations": 30000
+}

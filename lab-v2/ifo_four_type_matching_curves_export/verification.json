@@ -1,0 +1,26 @@
+{
+  "all_passed": true,
+  "passed": 19,
+  "total": 19,
+  "checks": {
+    "manifest_has_61_curves": true,
+    "class_counts_match": true,
+    "exactly_61_exported_csv": true,
+    "exactly_61_exported_png": true,
+    "curve_ids_unique": true,
+    "csv_export_paths_unique": true,
+    "png_export_paths_unique": true,
+    "all_csv_png_pairs_exist": true,
+    "all_export_hashes_match_manifest": true,
+    "all_copies_identical_to_sources": true,
+    "all_window_hours_are_750": true,
+    "all_strict_topology_match": true,
+    "confidence_distribution_preserved": true,
+    "stable_manifest_has_58_high_rows": true,
+    "review_queue_has_3_low_rows": true,
+    "stable_and_review_partition_manifest": true,
+    "summary_total_is_61": true,
+    "summary_confidence_totals_match": true,
+    "readme_exists": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "training_completed_before_examples": true,
+  "examples_are_manual_interpretations": true,
+  "examples_are_not_labels": true,
+  "not_used_for_parameter_or_k_selection": true,
+  "shared_200h_boundary_verified": false
+}

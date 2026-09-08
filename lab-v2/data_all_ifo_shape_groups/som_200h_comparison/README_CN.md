@@ -1,0 +1,15 @@
+# 对指定200h SOM结果的逐条核对
+
+比较对象：lab/NEW/som_200h_reanalysis/04_som_results/main_high_quality_min10/n_04。
+
+该结果使用1442条曲线，观察0–200h；本次形态候选集是1003条，依据0–500h划分，两个集合重合694条。309条候选不在该SOM输入中；SOM另包含748条候选集之外的曲线。
+
+892条IFO-Slope宽规则候选在该SOM中的去向：cluster0为419条、cluster1为35条、cluster2为156条、cluster3为11条，其余271条没有输入。主簇cluster0有831条，其中419条正是上述Slope候选。
+
+892条并非892条典型先快降后慢降曲线，其中433条通过本次较明确规则，459条为边界候选。436条不满足本次早期/末段速率比1.5倍的标准（与其他边界原因可能重叠）。
+
+当前SOM按MaxAbs归一化的整条200h曲线距离分组；之前形状展示用500h内min–max缩放，两种图不能直接按视觉下降幅度比较。
+
+SOM的no_initial_change_stable是训练后命名：使用0–10h平均变化判定initial_gain/initial_drop/no_initial_change，并以0–200h平均损失小于0.10判定stable，未判定200h以后是否缓降，也未采用IFO四类规则。cluster0均值约0.9899到0.9204，因此名称为no_initial_change_stable；它仍然呈整体下降。
+
+all_1003_vs_som.csv记录逐条原始路径、IFO标签、较明确/边界状态、SOM簇及未入选原因；class_cross_table.csv是类别交叉计数。模型与原始输入均未修改。

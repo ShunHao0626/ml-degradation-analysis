@@ -1,0 +1,4 @@
+setting,source,sigma,learning_rate,random_order,elbow_k,qe_at_elbow,silhouette_at_elbow,seed_ari_at_elbow,overlap_ratio_at_elbow,min_cluster_fraction_at_elbow,occupied_nodes_at_elbow,empty_nodes_at_elbow,rank_qe,rank_silhouette,rank_stability,rank_separation,rank_sum,passes_main_shape_support
+paper_lr_sensitivity,paper,0.5,0.3,False,5,0.37221028808813217,0.5223357162280873,1.0,3.34219888768013,0.021604938271604937,5.0,0.0,2.0,2.0,1.5,2.0,7.5,True
+paper_sigma_sensitivity,paper,0.3,0.1,False,4,0.42550894820293417,0.5761906832462108,0.9813837340114759,3.70264117244269,0.03292181069958848,4.0,0.0,3.0,1.0,3.0,1.0,8.0,True
+paper_main,paper,0.5,0.1,False,5,0.3652487460750269,0.5171342944681941,1.0,3.2214728692496744,0.021604938271604937,5.0,0.0,1.0,3.0,1.5,3.0,8.5,True

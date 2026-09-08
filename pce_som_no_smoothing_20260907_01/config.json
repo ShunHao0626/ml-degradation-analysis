@@ -1,0 +1,30 @@
+{
+  "project_name": "PCE SOM no-smoothing reanalysis",
+  "input_root": "/Users/shunhao/Desktop/ML/lab/data_all",
+  "paper_root": "/Users/shunhao/Desktop/ML/thesis",
+  "primary_horizon_hours": 500,
+  "paper_sensitivity_horizon_hours": 150,
+  "grid_step_hours": 1,
+  "minimum_original_points": 4,
+  "candidate_k": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "screen_iterations": 10000,
+  "final_iterations": 50000,
+  "screen_seeds": [0, 11, 23, 42, 77],
+  "final_seeds": [0, 11, 23, 42, 77, 101, 131, 173, 211, 257],
+  "som_settings": [
+    {"name": "paper_main", "sigma": 0.5, "learning_rate": 0.1, "random_order": false, "source": "paper"},
+    {"name": "paper_sigma_sensitivity", "sigma": 0.3, "learning_rate": 0.1, "random_order": false, "source": "paper"},
+    {"name": "paper_lr_sensitivity", "sigma": 0.5, "learning_rate": 0.3, "random_order": false, "source": "paper"},
+    {"name": "optimized_random_order", "sigma": 0.5, "learning_rate": 0.1, "random_order": true, "source": "optimization"},
+    {"name": "optimized_wider_neighborhood", "sigma": 1.0, "learning_rate": 0.1, "random_order": true, "source": "optimization"},
+    {"name": "optimized_wider_faster", "sigma": 1.0, "learning_rate": 0.3, "random_order": true, "source": "optimization"}
+  ],
+  "smoothing": {
+    "enabled": false,
+    "methods": [],
+    "assertion": "No Savitzky-Golay, moving average, LOESS, spline or denoising filter is used."
+  },
+  "normalization": "per-curve MaxAbsScaler-equivalent division by max(abs(y))",
+  "alignment": "elapsed time starts at each curve's first observation; linear interpolation only",
+  "labels_used_during_learning": false
+}

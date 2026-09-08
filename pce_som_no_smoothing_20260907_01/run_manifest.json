@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "selected_k": 4,
+  "selected_setting": "paper_lr_sensitivity",
+  "primary_n": 1202,
+  "paper_sensitivity_n": 1944,
+  "smoothing_enabled": false,
+  "labels_used": false,
+  "shape_sensitive_sensitivity_complete": true,
+  "shape_sensitive_selected_k": 4,
+  "shape_sensitive_centres": {
+    "Slope-like": 2,
+    "Bridge-like": 1,
+    "Valley-like": 1,
+    "Hill-like": 0
+  },
+  "python": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3"
+}

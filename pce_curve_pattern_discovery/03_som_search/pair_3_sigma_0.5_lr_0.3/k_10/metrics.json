@@ -1,0 +1,13 @@
+{
+  "pair_id": 3,
+  "sigma": 0.5,
+  "learning_rate": 0.3,
+  "k": 10,
+  "layout": "2x5",
+  "quantization_error": 0.32997838476174607,
+  "qe_per_sqrt_dimension": 0.010999279492058202,
+  "occupied_nodes": 10,
+  "minimum_occupied_node_size": 4,
+  "minimum_member_centroid_rmse": 0.0144498047857249,
+  "cluster_sizes": "[9, 14, 6, 6, 4, 35, 11, 9, 11, 4]"
+}

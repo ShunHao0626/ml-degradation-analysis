@@ -1,0 +1,14 @@
+{
+  "minmax": {
+    "sigma": 0.5,
+    "lr": 0.1
+  },
+  "maxabs": {
+    "sigma": 0.5,
+    "lr": 0.3
+  },
+  "zscore": {
+    "sigma": 1.0,
+    "lr": 0.1
+  }
+}

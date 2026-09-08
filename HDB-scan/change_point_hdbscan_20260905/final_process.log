@@ -1,0 +1,1818 @@
+2026-09-05 14:11:43 QC: 218 total curves, 156 eligible known-hour curves
+2026-09-05 14:11:43 CP selected {'id': 'CP028', 'algorithm': 'pelt', 'cost': 'linear', 'min_fraction': 0.03, 'penalty': 0.5}
+2026-09-05 14:11:43 Feature extraction full_duration: 156 curves; no resampling
+2026-09-05 14:11:43 Feature extraction 200h: 50 curves; no resampling
+2026-09-05 14:11:43 Feature extraction 300h: 79 curves; no resampling
+2026-09-05 14:11:43 Feature extraction 500h: 84 curves; no resampling
+2026-09-05 14:11:43 Feature extraction 750h: 83 curves; no resampling
+2026-09-05 14:11:43 Feature extraction 1000h: 51 curves; no resampling
+2026-09-05 14:11:44 full_duration grid complete; total evaluated candidates 960
+2026-09-05 14:11:44 200h grid complete; total evaluated candidates 1536
+2026-09-05 14:11:44 300h grid complete; total evaluated candidates 2496
+2026-09-05 14:11:44 500h grid complete; total evaluated candidates 3456
+2026-09-05 14:11:44 750h grid complete; total evaluated candidates 4416
+2026-09-05 14:11:44 1000h grid complete; total evaluated candidates 4992
+2026-09-05 14:11:44 Full change-point support validation 300h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:11:44 Full change-point support validation full_duration: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:11:44 Full change-point support validation 200h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:11:44 Full change-point support validation 750h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:11:44 Full change-point support validation 500h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:11:44 Full change-point support validation 1000h: 50 repeats at each of 5% and 10% deletion
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+2026-09-05 14:11:44 Candidate frozen before physical interpretation: 300h__robust__0.95__001
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Final stability: sample bootstrap, figure bootstrap, shuffled input, 50 repetitions each
+2026-09-05 14:11:45 Final timepoint deletion: 50 runs at 5%, 50 runs at 10%; changepoints and feature transforms refit
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Sensitivity cp_pelt_linear
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Sensitivity cp_binseg_linear
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Sensitivity cp_pelt_rbf
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Sensitivity cp_pelt_l2
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Sensitivity cp_binseg_rbf
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Sensitivity cp_binseg_l2
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Sensitivity cp_window_linear
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Sensitivity cp_window_rbf
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Sensitivity cp_window_l2
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Sensitivity: common linear grids, observation windows and metadata cohorts
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
+  ret = a @ b
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Post-freeze audit of 26 four-cluster candidates: 50 bootstraps each; no reselection
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: divide by zero encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: overflow encountered in matmul
+  X_transformed = X @ self.components_.T
+/Users/shunhao/Library/Python/3.9/lib/python/site-packages/sklearn/decomposition/_base.py:148: RuntimeWarning: invalid value encountered in matmul
+  X_transformed = X @ self.components_.T
+2026-09-05 14:11:45 Parameters frozen; generating medoids, raw member overlays and descriptive morphology
+2026-09-05 14:11:49 ALL STAGES COMPLETE

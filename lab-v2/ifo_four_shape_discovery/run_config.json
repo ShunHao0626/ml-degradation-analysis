@@ -1,0 +1,28 @@
+{
+  "windows_hours": [
+    150,
+    200,
+    300,
+    500,
+    750,
+    1000
+  ],
+  "final_search_windows": [
+    500,
+    750,
+    1000
+  ],
+  "interval_minutes": 10,
+  "savgol_window": 71,
+  "savgol_order": 2,
+  "shape_points": 301,
+  "som_x": 2,
+  "som_y": 2,
+  "paper_som_iterations": 50000,
+  "search_random_seed": 0,
+  "max_plausible_duration_hours": 100000.0,
+  "minimum_unique_points": 4,
+  "minimum_final_class_size": 3,
+  "expected_input_curves": 218,
+  "expected_axis_valid_curves": 155
+}

@@ -1,224 +1,144 @@
-# ML Degradation Analysis
+# ML degradation analysis
 
-> An auditable machine-learning workflow for grouping **perovskite solar-cell degradation trajectories** by their power-conversion-efficiency (PCE) evolution.
+Unsupervised shape analysis of perovskite solar-cell (PSC) ageing curves: power-conversion efficiency (PCE) versus time. The project reproduces the Self-Organizing Map (SOM) workflow of Hartono *et al.* (2023, PvkSOM) and then asks, with a series of independent experiments, which degradation-curve shapes emerge from literature-digitised curves without supervision, and whether four target morphologies (IFO-Bridge / Hill / Slope / Valley) form natural clusters.
 
-[![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
-[![Method](https://img.shields.io/badge/Method-Self--Organizing%20Map-orange)](https://en.wikipedia.org/wiki/Self-organizing_map)
+**No dataset is published in this repository.** See [Data policy](#data-policy).
 
-## What this project does
+## Contents
 
-Perovskite solar cells can lose performance in very different ways: some remain stable, while others decay steadily or exhibit an early rapid drop. This repository collects digitised PCE-versus-time curves from published studies, harmonises their time axes, and uses unsupervised learning to identify recurring degradation shapes.
+- [Research question](#research-question)
+- [Data policy](#data-policy)
+- [Repository map](#repository-map)
+- [Experiment index](#experiment-index)
+- [Current findings](#current-findings)
+- [Reproducing an experiment](#reproducing-an-experiment)
+- [Provenance and attribution](#provenance-and-attribution)
 
-The main reproducible analysis focuses on the first **200 hours** of each curve. It:
+## Research question
 
-1. loads accepted curves digitised from the literature;
-2. converts minutes, hours, days, weeks, months, and years to hours;
-3. quality-controls, interpolates, smooths, and normalises each trajectory;
-4. trains a 2 × 2 Self-Organizing Map (SOM) on the curve shapes;
-5. compares SOM assignments with k-means and evaluates alternative SOM sizes and hyperparameters; and
-6. exports traceable tables, figures, trained models, and Markdown reports.
+1. Applied to PCE–time curves digitised from published figures, does the PvkSOM workflow (10-minute resampling, per-curve max normalisation, Savitzky–Golay smoothing, MiniSom SOM, quantisation-error elbow for the cluster count) give a stable partition, and what do its clusters look like?
+2. Do the four target morphologies below appear as separate, stable clusters under fully unsupervised training, or only as individual curves?
 
-The project builds on the PvkSOM workflow associated with Hartono *et al.* (2023), while adding a structured 200-hour analysis pipeline, quality-control records, validation outputs, and analysis of literature-derived curves.
+| Target morphology | Description (first 200 h, then later) |
+|---|---|
+| IFO-Bridge | rapid rise, then slow decay |
+| IFO-Hill | rapid rise, rapid fall, then slow decay |
+| IFO-Slope | rapid fall, then slow decay |
+| IFO-Valley | rapid fall, recovery, then slow decay |
 
-## Highlights
+These names come from internal project material; the literature searches in `lab-v2/literature_k_som_search/08_recent_literature_review/` and `pce_hour_curve_taxonomy/08_literature_review/` did not find them as established published terms, and the expansion of "IFO" is not defined by any primary source.
 
-- **2,151** curves are loaded in the current 200-hour run.
-- **1,453** curves pass preprocessing and are included in the SOM analysis; **698** are excluded with documented reasons.
-- The main model is a **2 × 2 SOM** (4 nodes) trained for 50,000 iterations.
-- The four nodes span stable trajectories through moderate loss to early, rapid degradation.
-- A new **6 × 6 exploratory SOM** isolates a high-purity, low-recall rise-then-fall trajectory subtype using a fully documented 200-hour parameter scan.
-- Full intermediate data, cluster assignments, audit files, figures, trained SOM artifacts, and run logs are versioned for inspection.
+## Data policy
 
-These figures are descriptive clustering results, not proof of distinct physical degradation mechanisms.
+Datasets are kept local and are excluded by `.gitignore`. The repository contains code, configuration, run logs, reports, summary tables (cluster assignments, metrics, centroids) and cluster-level figures only. Excluded in every form, including copies produced inside experiment folders:
+
+| Local path (not in git) | Content |
+|---|---|
+| `lab/data_all/` | 2,151 PCE–time curves digitised from 1,373 publications (DOI / figure / series), with the source figures, axis-validation JSON and paper full texts. Organised by source time unit: `x_time_h/`, `x_time_day/`, `x_time_min/`, `x_time_week_month_year/`. |
+| `lab-v2/som_references/accepted/samples_test/` (and identical copies in `DTW/samples_test/`, `HDB-scan/samples_test/`) | 218-curve test subset (99 figures). |
+| `thesis/dataset/` | Hartono *et al.* processed dataset (2,245 curves), Zenodo record [10.5281/zenodo.8185882](https://doi.org/10.5281/zenodo.8185882). |
+| any `accepted/`, `raw_curves/`, `raw/`, `aligned/`, `*_input/`, `data/` folder inside an experiment; `preprocessed_*curves.csv`, `merged_all_curves.csv`, `included_samples.csv`, `*_samples.csv`; all `*.npy` / `*.npz` / `*.pkl`; interactive `*.html` | per-curve copies, resampled matrices, serialised curves and trained models |
+| `*.pdf`, `*.xlsx`, paper full texts, rendered pages, `oa_pdfs/`, `open_access_papers/`, `fulltext_*` | third-party publications gathered during literature review |
+
+Cluster assignment tables keep the DOI, figure and series identifiers of each curve so that results can be traced to the original publications without redistributing the digitised data.
+
+Rerunning an experiment therefore requires placing the data at the paths above. Recorded absolute paths in `run_config.json`, `environment*.json` and `*.log` files refer to the machine on which the run was made.
 
 ## Repository map
 
+Directory names are the working names used during the project and are kept unchanged.
+
 ```text
 .
-├── lab/
-│   ├── data_all/                   # Current canonical literature-derived PCE–time curves
-│   │   ├── x_time_h/               # Curves reported in hours
-│   │   ├── x_time_day/             # Curves reported in days
-│   │   ├── x_time_min/             # Curves reported in minutes
-│   │   ├── x_time_week_month_year/ # Curves reported in longer time units
-│   ├── 05_accepted_all copy/       # Legacy analysis reports and selected-figure manifest
-│   │   └── curves_over_200h_full/  # Compact CSV/JSON index of qualifying figures
-│   ├── NEW/som_200h_reanalysis/    # New 200 h reanalysis, reports, code, and SI outputs
-│   │   └── 11_paper200h_tuned_rise_fall_som/ # Reproducible 36-node rise-then-fall analysis
-│   ├── RESULTS_>200h/200h_som/     # Earlier/extended 200 h SOM results
-│   └── results_all/A_result/       # Structured primary analysis pipeline and outputs
-│       ├── scripts/run_200h_som.py # Pipeline entry point
-│       ├── src/                    # Loading, preprocessing, SOM, validation, plotting
-│       ├── tests/                  # Preprocessing and output tests
-│       └── outputs/200h_som/       # Versioned reports, tables, figures, models
-└── thesis/
-    ├── dataset/                    # PvkSOM-compatible processed dataset
-    ├── *.ipynb                     # Original/exploratory notebook workflows
-    ├── run_pipeline.py             # Thesis-oriented pipeline
-    └── README.md                   # Upstream workflow notes and attribution
+├── thesis/                                   # PvkSOM fork (Hartono et al. 2023): notebooks, reproduction, preprocessing comparison
+├── lab/                                      # literature-curve database and the 200 h SOM reanalysis line
+│   ├── data_all/                             # dataset (local only)
+│   ├── 05_accepted_all copy/                 # legacy curve index and over/under-200 h reports
+│   ├── result/                               # 200 h SOM, first version (Jul 2026)
+│   ├── results_all/A_result/                 # 200 h SOM, structured pipeline with tests (Jul 2026)
+│   ├── RESULTS_>200h/200h_som/               # 200 h SOM, n = 2..16 with and without smoothing (Jul 2026)
+│   └── NEW/som_200h_reanalysis/              # canonical 200 h reanalysis + shape-sensitive and 36-node sub-studies
+├── lab-v2/                                   # IFO four-shape hypothesis (Aug–Sep 2026)
+│   ├── som_references/                       # 218-curve subset (local only), reference plots and slides
+│   ├── som_200h_paper_exact/
+│   ├── ifo_four_shape_discovery/
+│   ├── ifo_four_shape_data_all_discovery/
+│   ├── ifo_synthetic_four_class_paper_som/
+│   ├── pure_unsupervised_paper_som_window_search/
+│   ├── ifo_four_type_matching_curves_export/
+│   ├── literature_k_som_search/
+│   └── data_all_ifo_shape_groups/
+├── pce_hour_curve_taxonomy/                  # literature-whitelisted parameters + literature review (Sep 2026)
+├── pce_curve_pattern_discovery/              # paper parameters, K frozen before IFO check (Sep 2026)
+├── HDB-scan/                                 # change-point features + HDBSCAN, no smoothing (Sep 2026)
+├── DTW/                                      # derivative-aware DTW + hierarchical clustering, no smoothing (Sep 2026)
+├── curve_discovery_unsupervised_20260906_01/ # variable-length curves, no smoothing (Sep 2026)
+├── pce_som_no_smoothing_20260907_01/         # paper SOM without smoothing, 500 h window (Sep 2026)
+├── pce_ifo_unsupervised_detail_search_20260907_01/ # large label-free SOM search, no smoothing (Sep 2026)
+├── environment.yml                           # conda environment used for most runs (PvkSOM)
+└── README.md
 ```
 
-## Data and provenance
+Every experiment folder is self-contained: a `README*.md` or `REPORT*.md`, numbered stage folders (`00_…`, `01_…`), `run_config.json`, a run log, `checksums.sha256` and a `verify_*.py` script that checks the archived outputs without retraining. Several folders vendor MiniSom 2.2.9 (`vendor/`) to match the paper's version.
 
-The current canonical literature curves are organised by source DOI and figure/series under `lab/data_all/`. Each accepted curve is stored as a CSV, with associated source notes and figure assets where available. The source time unit is retained, then converted to hours by the analysis pipeline.
+## Experiment index
 
-`lab/05_accepted_all copy/curves_over_200h_full/` contains only CSV/JSON manifests. It is a compact index of selected figures rather than a second physical copy of the source assets.
+Chronological. "Input" is the local dataset used; counts are curves entering the final model.
 
-`thesis/dataset/` contains the processed dataset used by the PvkSOM-derived notebook workflow:
+| # | Directory | Period | Question | Input | Method | Outcome | Entry point |
+|---|---|---|---|---|---|---|---|
+| 1 | `thesis/` (`run_pipeline.py`, `result/`, `20230816_run_revision_excN2/`) | Jun–Jul 2026 | Reproduce the published 150 h workflow | Hartono 2,245 | 2×2 SOM, k-means comparison | Paper workflow reproduced | `thesis/README.md` |
+| 2 | `lab/result/` | Jul 2026 | First 200 h SOM on the literature curves | data_all, 1,667 | 2×2 SOM | Superseded by #5 | `lab/result/SOM_200h_pipeline.py` |
+| 3 | `lab/results_all/A_result/` | Jul 2026 | Structured, tested pipeline | data_all, 1,453 | 2×2 SOM, QE sweep, sensitivity, k-means | 4 nodes; ARI vs k-means 0.90 | `outputs/200h_som/analysis_report.md` |
+| 4 | `lab/RESULTS_>200h/200h_som/` | Jul 2026 | Larger node counts, smoothing on/off | data_all, 1,812 | SOM n = 2..16 | Superseded by #5 | `scripts/run_200h_som.py` |
+| 5 | `lab/NEW/som_200h_reanalysis/` | Jul–Aug 2026 | Canonical 200 h reanalysis with the SI cluster-count rule | data_all, 1,442 (≥10 points) + 1,785 sensitivity | SOM n = 2..10, seeds, centroid-overlap rule | n = 4: stable 57.6 %, moderate loss 27.3 %, rapid loss 11.0 %, initial drop + rapid loss 4.1 %; k-means ARI 0.97 | `REPORT.md`, `FILE_INDEX.md` |
+| 5a | `…/10_shape_sensitive_reanalysis/` | Aug 2026 | Shape-sensitive representations | same | derivative / time-weighted features + SOM | Sub-study of #5 | `REPORT_CN.md` |
+| 5b | `…/11_paper200h_tuned_rise_fall_som/` | Aug 2026 | Can a larger SOM isolate rise-then-fall curves? | 1,442 | 6×6 SOM, 99 configurations × 5 seeds, post-hoc RTF diagnostic | One node: precision 88.9 %, recall 14.3 % | `README_REPRODUCE_CN.md` |
+| 6 | `lab-v2/som_200h_paper_exact/` | Aug 2026 | Paper parameters, 200 h window, 218 subset | samples_test, 114 | 2×2 SOM (MiniSom 2.2.9) | Nodes: 3 / 54 / 22 / 35; DTW k-means ARI 0.81 | `REPORT_CN.md` |
+| 7 | `lab-v2/ifo_four_shape_discovery/` | Aug 2026 | Find the four IFO shapes in the 218 subset | samples_test, 130 | SOM parameter search, then phase-aware rules | SOM alone does not separate four shapes; strict rules: 61 curves | `REPORT_CN.md` |
+| 8 | `lab-v2/ifo_four_shape_data_all_discovery/` | Aug 2026 | Same on the full database | data_all, 1,635 | as #7, windows 200–1000 h | Strict rules: 1,003 curves, 226 unresolved | `REPORT_CN.md` |
+| 9 | `lab-v2/ifo_synthetic_four_class_paper_som/` | Aug 2026 | Can the paper SOM recover four clean shapes at all? | synthetic | 2×2 SOM on balanced synthetic classes | 100 % recovery on synthetic data | `REPORT_CN.md` |
+| 10 | `lab-v2/pure_unsupervised_paper_som_window_search/` | Aug 2026 | Tune only variables the paper exposes | samples_test | 54 candidates (window, sigma, learning rate) | 300 h selected; clusters still ordered by decay strength | `REPORT_CN.md` |
+| 11 | `lab-v2/ifo_four_type_matching_curves_export/` | Aug 2026 | Export strict rule matches | samples_test | rule matching | Bridge 3, Hill 3, Slope 51, Valley 4 | `README_CN.md` |
+| 12 | `lab-v2/literature_k_som_search/` | Sep 2026 | Literature-backed cluster-count rule; where do the IFO names come from? | samples_test | SOM n = 2..10, three paper (sigma, lr) pairs; OpenAlex/Crossref review | K = 4 frozen before IFO check; names not found in literature | `REPORT_CN.md`, `K_SELECTION_DECISION_CN.md` |
+| 13 | `pce_hour_curve_taxonomy/` | Sep 2026 | Parameter whitelist with evidence registry, 150/300/500 h | samples_test, 103 / 94 / 86 | SOM k = 2..10, n = 16 diagnostic | k = 5; only Slope-like forms a stable cluster | `reports/final_report.md` |
+| 14 | `pce_curve_pattern_discovery/` | Sep 2026 | 27 paper-parameter candidates, K frozen before IFO check | samples_test, 109 | SOM, QE elbow | K = 4; Bridge / Hill / Valley not natural clusters | `REPORT_CN.md` |
+| 15 | `lab-v2/data_all_ifo_shape_groups/` | Sep 2026 | Rule-based grouping of all curves (not clustering) | data_all, 2,151 | phase-aware rules, 500 h | Clear: Bridge 23, Hill 21, Slope 433, Valley 10; 516 boundary | `README_CN.md` |
+| 16 | `HDB-scan/change_point_hdbscan_20260905/` | Sep 2026 | Label-free alternative without smoothing | samples_test, 79 (300 h) | change points + kinetic descriptors + HDBSCAN | 2 clusters + 8 noise; bootstrap ARI 0.52, not stable | `研究结果与方法报告.md` |
+| 17 | `DTW/` (`derivative_dtw_results_20260906/` = fit, `result_derivative_dtw/` = export) | Sep 2026 | Derivative-aware DTW distance | samples_test, 91 | multivariate DTW + average-linkage hierarchical | K = 2 (84 / 7) | `result_derivative_dtw/README.md` |
+| 18 | `curve_discovery_unsupervised_20260906_01/` | Sep 2026 | Keep variable-length curves, no smoothing | samples_test, 218 | SOM on relative-progress axis, QE elbow | 4 main clusters (46 / 23 / 89 / 60); IFO shapes exist as individuals only | `README.md` |
+| 19 | `pce_som_no_smoothing_20260907_01/` | Sep 2026 | Paper SOM with smoothing disabled, 500 h primary | data_all | SOM, QE elbow, 10 seeds | K = 4 (371 / 586 / 56 / 189), seed ARI 1.0; all centres Slope-like | `FINAL_DECISION_CN.md` |
+| 20 | `pce_ifo_unsupervised_detail_search_20260907_01/` | Sep 2026 | Exhaustive label-free search over windows, representations and SOM parameters | data_all, 1,590 (300 h) | 4,032 grid + 9,072 extended SOM runs | K = 4 auto-selected; no run yields four IFO nodes at once, at most three | `FINAL_DECISION_CN.md` |
+| 21 | `thesis/som_preprocessing_comparison/` (`run_som_preprocessing_comparison.py`) | Sep 2026 | Effect of preprocessing level on the Hartono data | Hartono 2,245 | raw / resample+normalise / +smooth → SOM | Natural K: 4 / 5 / 5 | `final_analysis.md` |
 
-- `PCE_df_grouping.csv` — grouping/metadata table;
-- `pkl_complete/20230303_mySeriesDrop.pkl` — processed curves;
-- `pkl_complete/20230303_mySeriesDropNorm.pkl` — normalised curves; and
-- `pkl_complete/20230303_mySeriesDrop_savgol.npy` — smoothed curve representation.
+## Current findings
 
-Please consult and cite the underlying articles when reusing digitised literature data. This repository does not claim ownership of the original experimental measurements.
+- On the literature-digitised curves, unsupervised clustering repeatedly selects about four clusters, but they are ordered by decay strength and speed (stable, moderate, rapid, initial-drop-then-rapid), not by the four target topologies.
+- Curves with Bridge, Hill, Slope and Valley appearance exist and can be picked out by explicit rules, but they do not form four separate, seed-stable clusters under SOM, HDBSCAN or DTW-based clustering, with or without smoothing.
+- The paper's SOM does recover four classes on synthetic data built from those four shapes (#9), so the negative result is a property of the data, not of the method's capacity.
+- Selecting a run because it "looks like four classes" would turn the target shapes into a model-selection signal; the reports therefore separate unsupervised training from any post-hoc morphology assessment.
 
-## Analysis workflow
+All results are descriptive clustering outcomes on heterogeneous, figure-digitised data; they are not evidence of distinct physical degradation mechanisms.
 
-### 1. Load and harmonise curves
+## Reproducing an experiment
 
-The loader finds accepted CSV curves in the four `x_time_*` folders, records source metadata (DOI, figure, series, unit), and converts all time values to hours.
-
-### 2. Quality control and preprocessing
-
-For the primary run, a curve is retained when it has valid identifiers, time and PCE values; at least 10 unique points within 0–200 h; a positive PCE maximum; and no NaN/Inf values after interpolation. The pipeline then:
-
-- resamples on a 10-minute grid (1,201 points from 0 to 200 h);
-- interpolates with Akima interpolation and forward-fills only within the selected window;
-- applies a Savitzky–Golay filter (window 71, polynomial order 2); and
-- normalises each curve by its own maximum PCE in the 0–200 h window.
-
-By default, trajectories that do not reach 200 h are excluded. The `--include-short` option retains them by forward-filling the tail; use that option carefully because it is not a physical extrapolation.
-
-### 3. SOM clustering and validation
-
-The main SOM uses Euclidean distance, a Gaussian neighbourhood, `sigma=0.5`, learning rate `0.1`, a fixed random seed of `42`, and 50,000 training iterations. The pipeline additionally provides:
-
-- a quantisation-error sweep for 2–10 nodes;
-- two hyperparameter-sensitivity variants;
-- k-means comparisons for *k*=2–10; and
-- automatic checks of counts, matrix shape, normalisation, assignments, and empty nodes.
-
-For non-four-node SOMs, the current sweep uses a 1 × *n* topology; this is an implementation choice rather than a confirmed setting from the upstream notebook.
-
-## Current 200-hour results
-
-The current complete report is [available here](<lab/results_all/A_result/outputs/200h_som/analysis_report.md>). The primary 2 × 2 SOM identifies the following mean trajectory groups:
-
-| SOM node | Interpretation of mean shape | Curves | Mean normalised PCE at 200 h |
-|---|---|---:|---:|
-| (0, 0) | Stable with gradual late loss | 860 (59.2%) | 0.923 |
-| (0, 1) | Moderate, steady degradation | 157 (10.8%) | 0.506 |
-| (1, 0) | Moderate, steady degradation | 371 (25.5%) | 0.746 |
-| (1, 1) | Initial drop followed by rapid, decelerating loss | 65 (4.5%) | 0.259 |
-
-The SOM-versus-k-means (*k*=4) comparison gives ARI = 0.9004 and NMI = 0.8677 for this run. See the [cluster assignments](<lab/results_all/A_result/outputs/200h_som/cluster_assignments.csv>), [cluster summary](<lab/results_all/A_result/outputs/200h_som/cluster_summary.csv>), [quality-control report](<lab/results_all/A_result/outputs/200h_som/quality_control_report.csv>), and [run configuration](<lab/results_all/A_result/outputs/200h_som/run_config.json>) for the auditable record.
-
-Key visual outputs include the [cluster curves](<lab/results_all/A_result/outputs/200h_som/figures/som_cluster_curves.png>), [U-matrix](<lab/results_all/A_result/outputs/200h_som/figures/som_u_matrix.png>), [hit map](<lab/results_all/A_result/outputs/200h_som/figures/som_hit_map.png>), and [quantisation-error elbow](<lab/results_all/A_result/outputs/200h_som/figures/quantisation_error_elbow.png>).
-
-## Exploratory 36-node rise-then-fall analysis
-
-An additional paper-style 200-hour analysis investigates whether the SOM can isolate trajectories that first increase and then decrease. This analysis keeps the literature-aligned preprocessing and MiniSom framework fixed while tuning only the number of SOM nodes, Gaussian neighbourhood width (`sigma`), and learning rate.
-
-The fixed input contains **1,442 curves × 1,201 time points**. Curves are placed on a 10-minute grid using Akima interpolation, divided by their own 0–200 h maximum, and smoothed with a Savitzky–Golay filter (window 71, polynomial order 2). The selected exploratory model uses:
-
-| Parameter | Selected value |
-|---|---:|
-| SOM topology | 6 × 6 (36 nodes) |
-| `sigma` | 0.3 |
-| Learning rate | 0.1 |
-| Training iterations | 50,000 |
-| Primary random seed | 42 |
-
-The complete search evaluates **99 parameter combinations**, followed by 50,000-iteration validation across seeds 7, 21, 42, 84, and 168. For the primary seed, node 22 contains 9 curves, 8 of which satisfy the predefined core rise-then-fall (RTF) diagnostic:
-
-| Diagnostic | Result |
-|---|---:|
-| RTF-node precision | 88.9% |
-| RTF-node recall | 14.3% |
-| RTF-node F1 | 0.246 |
-| Quantisation error | 0.5735 |
-| Five-seed mean global ARI | 0.602 |
-| Five-seed mean target-node Jaccard | 0.317 |
-
-SOM weight training remains unsupervised: the RTF diagnostic is not an input feature and does not update model weights. However, RTF enrichment is used after training to compare parameter combinations and select the final model. The 36-node result should therefore be described as **unsupervised SOM training with target-guided post-training model selection**, not as a category count established solely by a QE elbow or by the original publication. Its main result is a high-purity but low-recall shape subtype, not complete recovery of all rise-then-fall curves.
-
-Start with the [reproduction guide](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/README_REPRODUCE_CN.md>). The bundle also contains the [complete parameter and workflow record](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/36_CLASS_SOM_PARAMETERS_AND_WORKFLOW_CN.md>), [99-configuration screen](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/01_parameter_screen/primary_seed_parameter_screen.csv>), [multi-seed validation](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/02_multiseed_validation/candidate_multiseed_metrics.csv>), [final assignments](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/03_selected_model/final_curve_assignments.csv>), and [36-node overview](<lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som/03_selected_model/all_som_nodes.png>).
-
-To verify the archived result without retraining:
+Most runs used the conda environment `PvkSOM` (Python 3.9, NumPy 1.26, SciPy 1.13, pandas 1.5, scikit-learn 1.6, Matplotlib 3.9; MiniSom 2.2.9 vendored where the paper version matters). `environment.yml` lists it. `HDB-scan/…/requirements-lock.txt` and `curve_discovery_unsupervised_20260906_01/requirements.txt` record the environments of the runs that used the system Python 3.9 instead.
 
 ```bash
-cd lab/NEW/som_200h_reanalysis/11_paper200h_tuned_rise_fall_som
-python3 code/verify_paper200h_tuned_rise_fall_som.py
-```
-
-To retrain only the selected 36-node model and compare it with the archive:
-
-```bash
-python3 code/reproduce_selected_36_model.py --strict
-```
-
-## Run the primary pipeline
-
-### Requirements
-
-The original PvkSOM environment is provided in `thesis/environment.yml`. The structured 200-hour pipeline requires Python plus NumPy, pandas, SciPy, scikit-learn, MiniSom, Matplotlib, and the packages imported by the modules in `lab/results_all/A_result/src/`.
-
-```bash
-git clone https://github.com/ShunHao0626/ml-degradation-analysis.git
-cd ml-degradation-analysis
-
-conda env create -f thesis/environment.yml
+conda env create -f environment.yml
 conda activate PvkSOM
+
+# typical experiment folder
+cd lab-v2/ifo_four_shape_data_all_discovery
+MPLCONFIGDIR=/tmp/mpl python run_pipeline.py     # retrain (needs the local dataset)
+python verify_outputs.py                         # check archived outputs only
 ```
 
-### Configure paths
+Each folder's own README/REPORT gives the exact commands. Verification scripts that compare against the local dataset (`verify_outputs.py` in #8 and #16, `verify_results.py` in #17) need the data present at the paths in [Data policy](#data-policy).
 
-Before running, open `lab/results_all/A_result/src/config.py` and update `OUT_ROOT` and the `DATA_DIRS` entries for your clone. They currently contain the original macOS absolute paths. In the current repository layout, point the four `DATA_DIRS` entries to `lab/data_all/x_time_h`, `lab/data_all/x_time_day`, `lab/data_all/x_time_min`, and `lab/data_all/x_time_week_month_year`.
+## Provenance and attribution
 
-The earlier pipeline in `lab/RESULTS_>200h/200h_som/` similarly uses a manifest under `lab/05_accepted_all copy/`; when running it against the migrated local layout, set its `DATASET_ROOT` to `lab/data_all` while retaining the manifest path.
-
-### Execute
-
-```bash
-cd lab/results_all/A_result
-python scripts/run_200h_som.py
-
-# Optional: retain curves shorter than 200 h by forward-filling their tails
-python scripts/run_200h_som.py --include-short
-```
-
-Outputs are written to `lab/results_all/A_result/outputs/200h_som/`. The run produces a reproducibility report, CSV tables, PNG/PDF figures, serialised models, processed arrays, and a log file.
-
-To run the included tests:
-
-```bash
-cd lab/results_all/A_result
-python -m pytest tests
-```
-
-## Important limitations
-
-- SOM clusters are shape-based, unsupervised groupings. They should not automatically be interpreted as unique physical failure mechanisms.
-- Curves come from different publications and experimental conditions; metadata coverage and measurement protocols vary.
-- The four-node layout is a pre-specified main configuration, not a demonstrated global optimum.
-- The k-means comparison uses Euclidean distance. It is an auxiliary validation and differs from the DTW-based comparison described in the upstream work.
-- Some parameters (including the Savitzky–Golay edge mode and non-four-node sweep topology) are documented implementation assumptions.
-
-## Relationship to upstream work
-
-This repository includes/adapts materials from **PvkSOM**, the codebase accompanying:
-
-> Hartono, N. T. P. *et al.* “Stability follows efficiency based on the analysis of a large perovskite solar cells ageing dataset.” *Nature Communications* **14**, 4869 (2023). https://doi.org/10.1038/s41467-023-40585-3
-
-Upstream repository: [noortitan/PvkSOM](https://github.com/noortitan/PvkSOM) · Dataset release: https://doi.org/10.5281/zenodo.8185882
-
-Please acknowledge both the upstream work and the original source studies when building upon this project.
-
-## License and reuse
-
-The upstream `thesis/` materials include a BSD 2-Clause license. Review that license and the terms of the underlying publications before redistributing code or data. No additional repository-wide licence is declared at the root level.
-
-## Contributing
-
-Contributions are welcome, especially improvements to data provenance, portable configuration, metadata integration, preprocessing validation, and physically informed interpretation. Please open an issue or pull request with a concise description, and do not commit copyrighted source figures or data without permission.
+- Method and reference dataset: N. T. P. Hartono, H. Köbler, P. Graniero, M. Khenkin, R. Schlatmann, C. Ulbrich, A. Abate, "Stability follows efficiency based on the analysis of a large perovskite solar cells ageing dataset", *Nat. Commun.* 14, 4869 (2023), [10.1038/s41467-023-40585-3](https://doi.org/10.1038/s41467-023-40585-3). Code: PvkSOM, BSD 2-Clause (`thesis/LICENSE`).
+- SOM implementation: MiniSom (G. Vettigli), version 2.2.9 vendored in several experiments.
+- Literature curves were digitised from published figures for analysis only. Every cluster table carries the source DOI, figure and series; consult and cite the original articles when reusing any result.
+- Literature-review metadata came from OpenAlex and Crossref; screening tables are included, raw API dumps and downloaded papers are not.

@@ -1,0 +1,22 @@
+{
+  "horizon_hours": 500,
+  "grid_step_hours": 1,
+  "grid_points": 501,
+  "included": 1202,
+  "counts_by_outcome": {
+    "included": 1202,
+    "shorter_than_500h": 900,
+    "not_identified_as_PCE": 48,
+    "too_few_original_points": 1
+  },
+  "original_point_count_quantiles_included": {
+    "0": 10.0,
+    "0.1": 38.0,
+    "0.25": 47.0,
+    "0.5": 57.0,
+    "0.75": 70.0,
+    "0.9": 88.0,
+    "1": 184.0
+  },
+  "smoothing_enabled": false
+}

@@ -1,0 +1,12 @@
+{
+  "generated_at_utc": "2026-09-02T16:19:18.875227+00:00",
+  "queue_size": 50,
+  "status_counts": {
+    "unavailable_after_curl_fallback": 32,
+    "downloaded_open_pdf": 18
+  },
+  "downloaded_files": 18,
+  "downloaded_bytes": 45147104,
+  "note": "The first Python attempt was DNS-blocked; a permitted curl fallback was then attempted for all 50 URLs.",
+  "policy": "Only explicitly open PDF URLs were attempted; no access-control bypass."
+}

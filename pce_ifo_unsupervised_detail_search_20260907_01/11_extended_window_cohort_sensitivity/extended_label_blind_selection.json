@@ -1,0 +1,67 @@
+{
+  "selection_completed_before_ifo_naming": true,
+  "best": {
+    "variant_id": "w0300_detail_maxabs_level",
+    "setting_id": "paper_sigma03_lr01_seq",
+    "elbow_k": 4,
+    "qe_elbow_strength": 0.3790001862164016,
+    "sigma": 0.3,
+    "learning_rate": 0.1,
+    "random_order": false,
+    "window_hours": 300,
+    "cohort": "detail",
+    "representation": "maxabs_level",
+    "n": 1325,
+    "dimensions": 64,
+    "retention_fraction": 0.6297528517110266,
+    "quantization_error_median": 0.33126440561521253,
+    "topographic_error_median": 0.0,
+    "silhouette_median": 0.5191128979574132,
+    "seed_ari": 1.0,
+    "empty_nodes_median": 0.0,
+    "min_cluster_fraction_median": 0.05811320754716981,
+    "center_separation_ratio_median": 3.027794054708941,
+    "primary_window_eligible": true,
+    "passes_support": true
+  },
+  "settings": [
+    {
+      "id": "paper_sigma03_lr01_seq",
+      "sigma": 0.3,
+      "learning_rate": 0.1,
+      "random_order": false
+    },
+    {
+      "id": "paper_sigma05_lr01_seq",
+      "sigma": 0.5,
+      "learning_rate": 0.1,
+      "random_order": false
+    },
+    {
+      "id": "paper_sigma05_lr03_seq",
+      "sigma": 0.5,
+      "learning_rate": 0.3,
+      "random_order": false
+    },
+    {
+      "id": "detail_sigma12_lr05_seq",
+      "sigma": 1.2,
+      "learning_rate": 0.5,
+      "random_order": false
+    },
+    {
+      "id": "random_sigma05_lr01",
+      "sigma": 0.5,
+      "learning_rate": 0.1,
+      "random_order": true
+    },
+    {
+      "id": "random_sigma12_lr03",
+      "sigma": 1.2,
+      "learning_rate": 0.3,
+      "random_order": true
+    }
+  ],
+  "smoothing_enabled": false,
+  "labels_used": false
+}

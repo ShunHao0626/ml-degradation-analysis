@@ -1,0 +1,1799 @@
+{
+  "smoothing": false,
+  "labels_used": false,
+  "random_seed": 20260905,
+  "minimum_points": 12,
+  "main_cohort": "explicit hours and days metadata; days multiplied by 24",
+  "time_origin": "first valid observed timestamp",
+  "candidate_windows_hours": [
+    50,
+    100,
+    200,
+    300,
+    500,
+    750,
+    1000,
+    1500,
+    2000
+  ],
+  "minimum_window_cohort": 30,
+  "fixed_length_curve_features": "elapsed-time fraction; raw point counts retained as required; duration excluded from clustering",
+  "cp_search": [
+    {
+      "id": "CP000",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP001",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 1
+    },
+    {
+      "id": "CP002",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 2
+    },
+    {
+      "id": "CP003",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 3
+    },
+    {
+      "id": "CP004",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 5
+    },
+    {
+      "id": "CP005",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 8
+    },
+    {
+      "id": "CP006",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 10
+    },
+    {
+      "id": "CP007",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP008",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 1
+    },
+    {
+      "id": "CP009",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 2
+    },
+    {
+      "id": "CP010",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 3
+    },
+    {
+      "id": "CP011",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 5
+    },
+    {
+      "id": "CP012",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 8
+    },
+    {
+      "id": "CP013",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 10
+    },
+    {
+      "id": "CP014",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP015",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 1
+    },
+    {
+      "id": "CP016",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 2
+    },
+    {
+      "id": "CP017",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 3
+    },
+    {
+      "id": "CP018",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 5
+    },
+    {
+      "id": "CP019",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 8
+    },
+    {
+      "id": "CP020",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 10
+    },
+    {
+      "id": "CP021",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP022",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 1
+    },
+    {
+      "id": "CP023",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 2
+    },
+    {
+      "id": "CP024",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 3
+    },
+    {
+      "id": "CP025",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 5
+    },
+    {
+      "id": "CP026",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 8
+    },
+    {
+      "id": "CP027",
+      "algorithm": "pelt",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 10
+    },
+    {
+      "id": "CP028",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP029",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 1
+    },
+    {
+      "id": "CP030",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 2
+    },
+    {
+      "id": "CP031",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 3
+    },
+    {
+      "id": "CP032",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 5
+    },
+    {
+      "id": "CP033",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 8
+    },
+    {
+      "id": "CP034",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 10
+    },
+    {
+      "id": "CP035",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP036",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 1
+    },
+    {
+      "id": "CP037",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 2
+    },
+    {
+      "id": "CP038",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 3
+    },
+    {
+      "id": "CP039",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 5
+    },
+    {
+      "id": "CP040",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 8
+    },
+    {
+      "id": "CP041",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 10
+    },
+    {
+      "id": "CP042",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP043",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 1
+    },
+    {
+      "id": "CP044",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 2
+    },
+    {
+      "id": "CP045",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 3
+    },
+    {
+      "id": "CP046",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 5
+    },
+    {
+      "id": "CP047",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 8
+    },
+    {
+      "id": "CP048",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 10
+    },
+    {
+      "id": "CP049",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP050",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 1
+    },
+    {
+      "id": "CP051",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 2
+    },
+    {
+      "id": "CP052",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 3
+    },
+    {
+      "id": "CP053",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 5
+    },
+    {
+      "id": "CP054",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 8
+    },
+    {
+      "id": "CP055",
+      "algorithm": "pelt",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 10
+    },
+    {
+      "id": "CP056",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP057",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 1
+    },
+    {
+      "id": "CP058",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 2
+    },
+    {
+      "id": "CP059",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 3
+    },
+    {
+      "id": "CP060",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 5
+    },
+    {
+      "id": "CP061",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 8
+    },
+    {
+      "id": "CP062",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 10
+    },
+    {
+      "id": "CP063",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP064",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 1
+    },
+    {
+      "id": "CP065",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 2
+    },
+    {
+      "id": "CP066",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 3
+    },
+    {
+      "id": "CP067",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 5
+    },
+    {
+      "id": "CP068",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 8
+    },
+    {
+      "id": "CP069",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 10
+    },
+    {
+      "id": "CP070",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP071",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 1
+    },
+    {
+      "id": "CP072",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 2
+    },
+    {
+      "id": "CP073",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 3
+    },
+    {
+      "id": "CP074",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 5
+    },
+    {
+      "id": "CP075",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 8
+    },
+    {
+      "id": "CP076",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 10
+    },
+    {
+      "id": "CP077",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP078",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 1
+    },
+    {
+      "id": "CP079",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 2
+    },
+    {
+      "id": "CP080",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 3
+    },
+    {
+      "id": "CP081",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 5
+    },
+    {
+      "id": "CP082",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 8
+    },
+    {
+      "id": "CP083",
+      "algorithm": "pelt",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 10
+    },
+    {
+      "id": "CP084",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP085",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 1
+    },
+    {
+      "id": "CP086",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 2
+    },
+    {
+      "id": "CP087",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 3
+    },
+    {
+      "id": "CP088",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 5
+    },
+    {
+      "id": "CP089",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 8
+    },
+    {
+      "id": "CP090",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 10
+    },
+    {
+      "id": "CP091",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP092",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 1
+    },
+    {
+      "id": "CP093",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 2
+    },
+    {
+      "id": "CP094",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 3
+    },
+    {
+      "id": "CP095",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 5
+    },
+    {
+      "id": "CP096",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 8
+    },
+    {
+      "id": "CP097",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 10
+    },
+    {
+      "id": "CP098",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP099",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 1
+    },
+    {
+      "id": "CP100",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 2
+    },
+    {
+      "id": "CP101",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 3
+    },
+    {
+      "id": "CP102",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 5
+    },
+    {
+      "id": "CP103",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 8
+    },
+    {
+      "id": "CP104",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 10
+    },
+    {
+      "id": "CP105",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP106",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 1
+    },
+    {
+      "id": "CP107",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 2
+    },
+    {
+      "id": "CP108",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 3
+    },
+    {
+      "id": "CP109",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 5
+    },
+    {
+      "id": "CP110",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 8
+    },
+    {
+      "id": "CP111",
+      "algorithm": "binseg",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 10
+    },
+    {
+      "id": "CP112",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP113",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 1
+    },
+    {
+      "id": "CP114",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 2
+    },
+    {
+      "id": "CP115",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 3
+    },
+    {
+      "id": "CP116",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 5
+    },
+    {
+      "id": "CP117",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 8
+    },
+    {
+      "id": "CP118",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 10
+    },
+    {
+      "id": "CP119",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP120",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 1
+    },
+    {
+      "id": "CP121",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 2
+    },
+    {
+      "id": "CP122",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 3
+    },
+    {
+      "id": "CP123",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 5
+    },
+    {
+      "id": "CP124",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 8
+    },
+    {
+      "id": "CP125",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 10
+    },
+    {
+      "id": "CP126",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP127",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 1
+    },
+    {
+      "id": "CP128",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 2
+    },
+    {
+      "id": "CP129",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 3
+    },
+    {
+      "id": "CP130",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 5
+    },
+    {
+      "id": "CP131",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 8
+    },
+    {
+      "id": "CP132",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 10
+    },
+    {
+      "id": "CP133",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP134",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 1
+    },
+    {
+      "id": "CP135",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 2
+    },
+    {
+      "id": "CP136",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 3
+    },
+    {
+      "id": "CP137",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 5
+    },
+    {
+      "id": "CP138",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 8
+    },
+    {
+      "id": "CP139",
+      "algorithm": "binseg",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 10
+    },
+    {
+      "id": "CP140",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP141",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 1
+    },
+    {
+      "id": "CP142",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 2
+    },
+    {
+      "id": "CP143",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 3
+    },
+    {
+      "id": "CP144",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 5
+    },
+    {
+      "id": "CP145",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 8
+    },
+    {
+      "id": "CP146",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 10
+    },
+    {
+      "id": "CP147",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP148",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 1
+    },
+    {
+      "id": "CP149",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 2
+    },
+    {
+      "id": "CP150",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 3
+    },
+    {
+      "id": "CP151",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 5
+    },
+    {
+      "id": "CP152",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 8
+    },
+    {
+      "id": "CP153",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 10
+    },
+    {
+      "id": "CP154",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP155",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 1
+    },
+    {
+      "id": "CP156",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 2
+    },
+    {
+      "id": "CP157",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 3
+    },
+    {
+      "id": "CP158",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 5
+    },
+    {
+      "id": "CP159",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 8
+    },
+    {
+      "id": "CP160",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 10
+    },
+    {
+      "id": "CP161",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP162",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 1
+    },
+    {
+      "id": "CP163",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 2
+    },
+    {
+      "id": "CP164",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 3
+    },
+    {
+      "id": "CP165",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 5
+    },
+    {
+      "id": "CP166",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 8
+    },
+    {
+      "id": "CP167",
+      "algorithm": "binseg",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 10
+    },
+    {
+      "id": "CP168",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP169",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 1
+    },
+    {
+      "id": "CP170",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 2
+    },
+    {
+      "id": "CP171",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 3
+    },
+    {
+      "id": "CP172",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 5
+    },
+    {
+      "id": "CP173",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 8
+    },
+    {
+      "id": "CP174",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.03,
+      "penalty": 10
+    },
+    {
+      "id": "CP175",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP176",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 1
+    },
+    {
+      "id": "CP177",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 2
+    },
+    {
+      "id": "CP178",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 3
+    },
+    {
+      "id": "CP179",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 5
+    },
+    {
+      "id": "CP180",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 8
+    },
+    {
+      "id": "CP181",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.05,
+      "penalty": 10
+    },
+    {
+      "id": "CP182",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP183",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 1
+    },
+    {
+      "id": "CP184",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 2
+    },
+    {
+      "id": "CP185",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 3
+    },
+    {
+      "id": "CP186",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 5
+    },
+    {
+      "id": "CP187",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 8
+    },
+    {
+      "id": "CP188",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.08,
+      "penalty": 10
+    },
+    {
+      "id": "CP189",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP190",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 1
+    },
+    {
+      "id": "CP191",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 2
+    },
+    {
+      "id": "CP192",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 3
+    },
+    {
+      "id": "CP193",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 5
+    },
+    {
+      "id": "CP194",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 8
+    },
+    {
+      "id": "CP195",
+      "algorithm": "window",
+      "cost": "l2",
+      "min_fraction": 0.1,
+      "penalty": 10
+    },
+    {
+      "id": "CP196",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP197",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 1
+    },
+    {
+      "id": "CP198",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 2
+    },
+    {
+      "id": "CP199",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 3
+    },
+    {
+      "id": "CP200",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 5
+    },
+    {
+      "id": "CP201",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 8
+    },
+    {
+      "id": "CP202",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.03,
+      "penalty": 10
+    },
+    {
+      "id": "CP203",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP204",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 1
+    },
+    {
+      "id": "CP205",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 2
+    },
+    {
+      "id": "CP206",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 3
+    },
+    {
+      "id": "CP207",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 5
+    },
+    {
+      "id": "CP208",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 8
+    },
+    {
+      "id": "CP209",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.05,
+      "penalty": 10
+    },
+    {
+      "id": "CP210",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP211",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 1
+    },
+    {
+      "id": "CP212",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 2
+    },
+    {
+      "id": "CP213",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 3
+    },
+    {
+      "id": "CP214",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 5
+    },
+    {
+      "id": "CP215",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 8
+    },
+    {
+      "id": "CP216",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.08,
+      "penalty": 10
+    },
+    {
+      "id": "CP217",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP218",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 1
+    },
+    {
+      "id": "CP219",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 2
+    },
+    {
+      "id": "CP220",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 3
+    },
+    {
+      "id": "CP221",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 5
+    },
+    {
+      "id": "CP222",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 8
+    },
+    {
+      "id": "CP223",
+      "algorithm": "window",
+      "cost": "linear",
+      "min_fraction": 0.1,
+      "penalty": 10
+    },
+    {
+      "id": "CP224",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP225",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 1
+    },
+    {
+      "id": "CP226",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 2
+    },
+    {
+      "id": "CP227",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 3
+    },
+    {
+      "id": "CP228",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 5
+    },
+    {
+      "id": "CP229",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 8
+    },
+    {
+      "id": "CP230",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.03,
+      "penalty": 10
+    },
+    {
+      "id": "CP231",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP232",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 1
+    },
+    {
+      "id": "CP233",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 2
+    },
+    {
+      "id": "CP234",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 3
+    },
+    {
+      "id": "CP235",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 5
+    },
+    {
+      "id": "CP236",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 8
+    },
+    {
+      "id": "CP237",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.05,
+      "penalty": 10
+    },
+    {
+      "id": "CP238",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP239",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 1
+    },
+    {
+      "id": "CP240",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 2
+    },
+    {
+      "id": "CP241",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 3
+    },
+    {
+      "id": "CP242",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 5
+    },
+    {
+      "id": "CP243",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 8
+    },
+    {
+      "id": "CP244",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.08,
+      "penalty": 10
+    },
+    {
+      "id": "CP245",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 0.5
+    },
+    {
+      "id": "CP246",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 1
+    },
+    {
+      "id": "CP247",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 2
+    },
+    {
+      "id": "CP248",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 3
+    },
+    {
+      "id": "CP249",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 5
+    },
+    {
+      "id": "CP250",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 8
+    },
+    {
+      "id": "CP251",
+      "algorithm": "window",
+      "cost": "rbf",
+      "min_fraction": 0.1,
+      "penalty": 10
+    }
+  ],
+  "cp_screen_repeats_per_drop": 1,
+  "cp_feature_repeats_per_drop": 10,
+  "final_cp_repeats_per_drop": 50,
+  "cp_selection": "per-curve BIC percentile averaged, 80%; deletion CP F1, 20%; no target change point count",
+  "segment_slots": "choose up to four segments with highest minimum boundary support; retain chronological order; NaN pad",
+  "hdb_bootstrap_screen_repeats": 5,
+  "finalist_bootstrap_repeats": 50,
+  "final_repeated_seed_runs": 50,
+  "selection_score": "0.45 bootstrap ARI + 0.15 nonnoise + 0.20 DBCV + 0.05 silhouette + 0.05 min/max cluster size + 0.10 cohort coverage",
+  "scope": "staged search, not full Cartesian product of every CP configuration and HDBSCAN configuration",
+  "finalist_selection_score": "0.30 bootstrap ARI + 0.15 deletion ARI + 0.15 normalization ARI + 0.10 nonnoise + 0.15 DBCV + 0.05 silhouette + 0.10 coverage",
+  "inferential_status": "exploratory; no independent confirmatory test set; same-figure dependence checked by group bootstrap"
+}

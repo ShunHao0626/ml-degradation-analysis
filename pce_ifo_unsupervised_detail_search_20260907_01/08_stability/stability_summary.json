@@ -1,0 +1,8 @@
+{
+  "bootstrap_repeats": 20,
+  "ari_mean": 0.8998837802963798,
+  "ari_median": 0.9182202906908252,
+  "ari_p05": 0.7311856279759403,
+  "ari_p95": 0.9773591776338113,
+  "all_bootstraps_occupied_all_nodes": true
+}

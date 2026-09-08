@@ -1,0 +1,2 @@
+window_hours,n_curves,n_time_points,requested_clusters,occupied_clusters,grid_x,grid_y,sigma,learning_rate,iterations,seed,quantization_error,topographic_error,cluster_sizes,elapsed_seconds,selection_note
+500,86,3000,16,16,4,4,0.5,0.1,50000,42,0.6897539293587405,0.20930232558139536,"[2, 3, 8, 3, 1, 1, 4, 4, 11, 3, 3, 5, 22, 7, 4, 5]",3.92720103263855,IFO morphology not used in fitting or selection

@@ -1,0 +1,10 @@
+{
+  "script_syntax": true,
+  "all_218_curves_and_9674_points": true,
+  "cluster_filter": true,
+  "curve_highlight": true,
+  "normalization_switch": true,
+  "hour_filter_159": true,
+  "navigation": true,
+  "real_browser_test": false
+}

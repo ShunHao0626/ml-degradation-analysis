@@ -1,0 +1,51 @@
+{
+  "source": "OpenAlex official API",
+  "retrieved_at_local_date": "2026-09-02",
+  "date_filter": {
+    "from": "2021-01-01",
+    "to": "2026-09-02"
+  },
+  "per_query_cap": 200,
+  "query_log": [
+    {
+      "slug": "psc_stability_mppt",
+      "query": "perovskite solar cell stability degradation MPPT",
+      "reported_total": 981,
+      "retrieved": 200
+    },
+    {
+      "slug": "psc_operational_stability",
+      "query": "perovskite solar cell operational stability maximum power point tracking",
+      "reported_total": 3764,
+      "retrieved": 200
+    },
+    {
+      "slug": "psc_light_soaking_recovery",
+      "query": "perovskite solar cell light soaking recovery degradation",
+      "reported_total": 499,
+      "retrieved": 200
+    },
+    {
+      "slug": "pv_degradation_clustering",
+      "query": "photovoltaic degradation trajectory time series clustering",
+      "reported_total": 2828,
+      "retrieved": 200
+    },
+    {
+      "slug": "solar_ageing_unsupervised",
+      "query": "solar cell ageing curve unsupervised machine learning",
+      "reported_total": 150,
+      "retrieved": 150
+    },
+    {
+      "slug": "psc_stability_ml",
+      "query": "perovskite stability data machine learning",
+      "reported_total": 11944,
+      "retrieved": 200
+    }
+  ],
+  "raw_records": 1150,
+  "deduplicated_records": 1068,
+  "open_access_records": 1011,
+  "note": "Ranking is for screening only and never enters the SOM model."
+}

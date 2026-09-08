@@ -1,0 +1,5 @@
+numpy
+pandas
+scipy
+matplotlib
+# MiniSom 2.2.9 uses the locally preserved source recorded in environment_actual.json.

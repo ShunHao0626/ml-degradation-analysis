@@ -1,0 +1,7 @@
+{
+  "n_common_curves": 1431,
+  "baseline_n": 4,
+  "new_n": 6,
+  "new_feature_set": "curve_derivative_descriptors",
+  "ARI_old_vs_new": 0.7819406124909782
+}

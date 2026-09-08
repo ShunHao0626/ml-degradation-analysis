@@ -1,0 +1,39 @@
+{
+  "accepted_csv_scanned": 2151,
+  "true_pce_curves_accepted": 2104,
+  "excluded": 47,
+  "exclusion_counts": {
+    "not_identified_as_true_PCE": 46,
+    "fewer_than_4_points": 1
+  },
+  "windows": [
+    150,
+    200,
+    300,
+    500,
+    750,
+    1000
+  ],
+  "cohorts": {
+    "coverage": {
+      "minimum_points_in_window": 4,
+      "maximum_relative_gap": 1.0,
+      "minimum_points_first_quarter": 1,
+      "minimum_points_last_quarter": 1
+    },
+    "detail": {
+      "minimum_points_in_window": 12,
+      "maximum_relative_gap": 0.35,
+      "minimum_points_first_quarter": 2,
+      "minimum_points_last_quarter": 2
+    },
+    "dense": {
+      "minimum_points_in_window": 25,
+      "maximum_relative_gap": 0.2,
+      "minimum_points_first_quarter": 3,
+      "minimum_points_last_quarter": 3
+    }
+  },
+  "smoothing_enabled": false,
+  "source_tree_modified": false
+}

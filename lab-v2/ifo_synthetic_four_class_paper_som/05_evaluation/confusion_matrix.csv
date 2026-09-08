@@ -1,0 +1,5 @@
+true_class,IFO-Bridge,IFO-Hill,IFO-Slope,IFO-Valley
+IFO-Bridge,250,0,0,0
+IFO-Hill,0,250,0,0
+IFO-Slope,0,0,250,0
+IFO-Valley,0,0,0,250

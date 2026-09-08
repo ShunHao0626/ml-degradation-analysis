@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": {
+    "input_csv_count_is_218": true,
+    "included_count_is_nonzero": true,
+    "matrix_has_900_time_values": true,
+    "all_model_values_finite": true,
+    "all_27_literature_parameter_runs_present": true,
+    "k_values_exactly_2_through_10": true,
+    "only_three_paper_parameter_pairs": true,
+    "all_nodes_occupied": true
+  }
+}

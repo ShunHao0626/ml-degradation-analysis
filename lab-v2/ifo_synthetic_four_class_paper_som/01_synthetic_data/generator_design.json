@@ -1,0 +1,18 @@
+{
+  "purpose": "Separated but noisy synthetic benchmark for four user-defined curve topologies.",
+  "balance": {
+    "IFO-Bridge": 250,
+    "IFO-Hill": 250,
+    "IFO-Slope": 250,
+    "IFO-Valley": 250
+  },
+  "duration_hours": 150,
+  "raw_sampling": "Nominal 30 min with jitter and 1.5–4.5% random point loss; endpoints retained.",
+  "noise": "White plus AR(1) correlated noise; exact per-curve values are in the metadata CSV.",
+  "topology_definition": {
+    "IFO-Bridge": "rapid increase, broad high shoulder, slow decay",
+    "IFO-Hill": "rapid increase, early peak, rapid decay, then slower decay",
+    "IFO-Slope": "bi-exponential rapid-to-slow decay",
+    "IFO-Valley": "rapid decay, recovery peak, then slow decay"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "status": "completed",
+  "parameters": {
+    "n_clusters": 4,
+    "metric": "dtw",
+    "max_iter": 50,
+    "tol": 1e-06,
+    "n_init": 1,
+    "max_iter_barycenter": 100,
+    "metric_params": null,
+    "n_jobs": null,
+    "dtw_inertia": false,
+    "verbose": 0,
+    "random_state": null,
+    "init": "k-means++"
+  },
+  "defaults_note": "The source notebook specified only n_clusters and metric. All defaults above match tslearn 0.5.2 exactly.",
+  "tslearn_version": "0.6.4",
+  "cluster_sizes": {
+    "0": 56,
+    "1": 24,
+    "2": 2,
+    "3": 32
+  },
+  "inertia": 0.05612550322721045,
+  "adjusted_rand_index_vs_som": 0.8057523150213214,
+  "dtw_to_som_optimal_label_mapping": {
+    "1": 0,
+    "2": 1,
+    "0": 2,
+    "3": 3
+  },
+  "contingency_som_rows_dtw_columns": [
+    [
+      0,
+      22,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      2,
+      0
+    ],
+    [
+      52,
+      0,
+      0,
+      2
+    ],
+    [
+      4,
+      1,
+      0,
+      30
+    ]
+  ]
+}

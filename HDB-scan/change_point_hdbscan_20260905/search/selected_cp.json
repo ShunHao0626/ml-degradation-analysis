@@ -1,0 +1,7 @@
+{
+  "id": "CP028",
+  "algorithm": "pelt",
+  "cost": "linear",
+  "min_fraction": 0.03,
+  "penalty": 0.5
+}

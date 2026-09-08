@@ -1,0 +1,9 @@
+timestamp,decision,evidence,impact
+2026-09-02T00:00:00+08:00,Do not assume four clusters,User requirement,Cluster count must be selected independently of target morphology
+2026-09-02T00:00:00+08:00,Restrict tuning to literature-supported parameters,User requirement,Parameter registry is a mandatory pre-run gate
+2026-09-02T00:00:00+08:00,Keep existing projects read-only,User requirement,All derived artifacts go into the new project
+2026-09-02T18:00:00+08:00,"Admit 300 h and 500 h only as documented time-window sensitivity","Supplementary Information reports 300 h and 500 h cutoff analyses; requested morphologies require post-200 h behavior","No ad hoc 200 h window or new feature was introduced"
+2026-09-02T18:20:00+08:00,"Select k=5 independently for 150 h, 300 h, and 500 h","QE elbow plus visual main-shape distinctness/overlap across k=2..10","The result is not forced to four; small clusters remain explicitly flagged"
+2026-09-02T18:22:00+08:00,"Treat n=16 only as a diagnostic","The paper shows a 16-node overview, but current n=16 runs contain many 1-2 member nodes","Bridge/Hill-like nodes are not promoted to final classes"
+2026-09-02T18:23:00+08:00,"Trigger large-scale recent-literature retrieval","All paper-documented parameter pairs failed to isolate all four requested morphologies","Built a 1068-record deduplicated corpus and a 20-paper priority shortlist"
+2026-09-02T18:25:00+08:00,"Treat four IFO terms as task-specific morphology labels","Exact web searches found no relevant solar-cell publications using the four terms","Use post-clustering '-like' labels and do not present them as a standard taxonomy"

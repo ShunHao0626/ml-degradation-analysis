@@ -1,0 +1,18 @@
+{
+  "selected_k": 4,
+  "selected_variant": "w0300_coverage_maxabs_level",
+  "posthoc_ifo_counts": {
+    "Slope-like": 4
+  },
+  "exact_four_ifo_like_clusters": false,
+  "mean_seed_ari": 0.9577765666002448,
+  "bootstrap_ari_median": 0.9182202906908252,
+  "primary_grid_som_runs": 4032,
+  "extended_grid_som_runs": 9072,
+  "extended_elbow_models_audited": 432,
+  "extended_exact_four_count": 0,
+  "extended_maximum_target_type_coverage": 3,
+  "individual_candidates_exist_for_all_four_appearances": true,
+  "smoothing_enabled": false,
+  "labels_used_before_freeze": false
+}

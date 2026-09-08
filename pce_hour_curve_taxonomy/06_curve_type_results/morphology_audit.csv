@@ -1,0 +1,5 @@
+morphology,present_as_individual_500h,independent_centroid_at_selected_k5,n16_sigma0p3_lr0p1_diagnostic,interpretation
+IFO-Bridge-like,yes,no,"cluster 12; n=4","A credible member exists and a Bridge-like high-resolution diagnostic node appears, but it is not an independently selected main cluster."
+IFO-Hill-like,yes,no,"cluster 6; n=2","A credible member exists and a Hill-like diagnostic node appears, but the node is too small and k=16 is not optimal."
+IFO-Slope-like,yes,yes,"cluster 7; n=12","Rapid early decay followed by a slower tail is a recurrent and independently visible morphology."
+IFO-Valley-like,yes,no,"not isolated; candidate is mixed into cluster 7","A recovery-shaped member exists, but the literature-constrained SOM never separates Valley as its own centroid."

@@ -1,0 +1,10 @@
+candidate_id,mean_pairwise_ari_5_seeds,min_pairwise_ari_5_seeds,all_seed_runs_occupy_four_nodes,median_seed_silhouette,minimum_cluster_size_across_seeds
+25,1,1,True,0.5918688424,2
+22,1,1,True,0.5918688424,2
+19,0.7730550827,0.6217584711,True,0.5918688424,2
+26,1,1,True,0.5918688424,2
+23,1,1,True,0.5918688424,2
+20,1,1,True,0.5918688424,2
+27,1,1,True,0.5918270426,2
+24,1,1,True,0.5918270426,2
+21,1,1,True,0.5918270426,2

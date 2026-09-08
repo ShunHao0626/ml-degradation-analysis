@@ -1,0 +1,15 @@
+{
+  "sample_count": 2245,
+  "points_per_curve": 900,
+  "elapsed_start_hours": 0.0,
+  "elapsed_end_hours": 149.83333333333334,
+  "nominal_window_hours": 150.0,
+  "sampling_interval_minutes": 10,
+  "all_values_finite": true,
+  "all_curves_equal_length": true,
+  "all_within_curve_spacings_10_minutes": true,
+  "test2_resampling_changed_values": false,
+  "test2_interpolation_required": false,
+  "raw_test_label": "Raw SOM",
+  "raw_limitation": "Zenodo \u53d1\u5e03\u7684\u662f\u5df2\u6e05\u6d17\u5e76\u6392\u5217\u4e3a 900 \u4e2a\u8fde\u7eed 10 min \u70b9\u7684\u66f2\u7ebf\u3002Test 1 \u76f4\u63a5\u4f7f\u7528\u8fd9\u4e9b\u53d1\u5e03\u7684 PCE \u503c\uff0c\u4e0d\u518d\u589e\u52a0\u91cd\u91c7\u6837\u3001\u63d2\u503c\u3001\u5f52\u4e00\u5316\u6216\u5e73\u6ed1\uff1b\u56e0\u6b64\u5b83\u4e0d\u662f\u4eea\u5668\u7ea7 raw JSON \u5206\u6790\u3002"
+}

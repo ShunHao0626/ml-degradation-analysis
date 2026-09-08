@@ -1,0 +1,4 @@
+role,path,access_policy,status,notes
+method_and_code,/Users/shunhao/Desktop/ML/thesis,read_only,pending_audit,PvkSOM repository and local adaptations
+initial_dataset,/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test,read_only,pending_audit,Expected PCE-hour extracted curves; eligibility must be verified
+

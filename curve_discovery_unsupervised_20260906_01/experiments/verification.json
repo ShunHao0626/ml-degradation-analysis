@@ -1,0 +1,6 @@
+{
+  "all_218_sources_unchanged_and_all_9674_points_preserved": true,
+  "L2_pairwise_max_squared_error": 8.35844728933749e-12,
+  "native_elastic_vs_independent_python_200_cases": "passed",
+  "all_sweep_QE_finite": true
+}

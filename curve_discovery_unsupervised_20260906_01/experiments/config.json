@@ -1,0 +1,60 @@
+{
+  "source": "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test",
+  "smoothing": false,
+  "truncate": false,
+  "extrapolate": false,
+  "target_labels_used": false,
+  "norms": [
+    "minmax",
+    "maxabs",
+    "zscore"
+  ],
+  "ks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "screen_seeds": [
+    11,
+    29,
+    47
+  ],
+  "final_seeds": [
+    11,
+    29,
+    47,
+    71,
+    101
+  ],
+  "sigma": [
+    0.15,
+    0.3,
+    0.5,
+    1.0
+  ],
+  "lr": [
+    0.03,
+    0.1,
+    0.3
+  ],
+  "screen_iterations": 5000,
+  "final_iterations": 50000,
+  "primary_representation": "minmax",
+  "primary_reason": "shape independent of vertical offset and amplitude",
+  "parameter_rule": "minimum mean across k of seed-median QE / k=1 seed-median QE",
+  "k_rule": "maximum unsmoothed normalized chord gap for k=1..16; report other ranges and shape-overlap review",
+  "created_before_training": true
+}

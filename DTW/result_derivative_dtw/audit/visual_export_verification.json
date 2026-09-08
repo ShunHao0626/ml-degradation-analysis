@@ -1,0 +1,15 @@
+{
+  "n_curves": 91,
+  "all_sample_ids_preserved": true,
+  "labels_reproduced": true,
+  "means_used_for_training": false,
+  "common_display_grid_spacing_h": 21.022544068802713,
+  "typical_original_spacing_h": 20.890672245811317,
+  "cluster_trace_counts": {
+    "cluster_1": 86,
+    "cluster_2": 9
+  },
+  "n_png_top_level": 22,
+  "n_html_top_level": 5,
+  "source_dataset_unchanged": true
+}

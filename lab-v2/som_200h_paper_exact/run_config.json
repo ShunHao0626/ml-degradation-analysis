@@ -1,0 +1,17 @@
+{
+  "window_hours": 200,
+  "interval_minutes": 10,
+  "savgol_window": 71,
+  "savgol_order": 2,
+  "som_x": 2,
+  "som_y": 2,
+  "som_sigma": 0.5,
+  "som_learning_rate": 0.1,
+  "som_iterations": 50000,
+  "som_random_seed": null,
+  "max_plausible_duration_hours": 100000.0,
+  "minimum_points_for_akima": 4,
+  "expected_input_curves": 218,
+  "expected_selected_curves": 114,
+  "n_points": 1200
+}

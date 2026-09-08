@@ -1,0 +1,9 @@
+{
+  "generated_at_utc": "2026-09-02T16:19:18.875002+00:00",
+  "valid_open_pdfs": 18,
+  "total_pages": 180,
+  "total_bytes": 45147104,
+  "with_nonmonotonic_text_signal": 15,
+  "rendered_page_count": 54,
+  "note": "Text signals are triage only; rendered pages require visual review before curve-shape claims."
+}

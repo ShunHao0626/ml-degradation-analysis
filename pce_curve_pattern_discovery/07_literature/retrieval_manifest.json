@@ -1,0 +1,141 @@
+{
+  "generated_at_utc": "2026-09-02T16:07:28.848663+00:00",
+  "date_filter": {
+    "from": "2010-01-01",
+    "to": "2026-09-03"
+  },
+  "method": {
+    "retrieval": "Top 200 relevance-ranked records for each of 8 queries from both Crossref and OpenAlex.",
+    "deduplication": "Normalized DOI primary key; normalized title fallback.",
+    "screening": "Deterministic title/abstract keyword triage; not a substitute for figure-level full-text review."
+  },
+  "queries": [
+    {
+      "source": "Crossref",
+      "query_id": "burn_in_nonmonotonic",
+      "service_total_results": 2010614,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_crossref/burn_in_nonmonotonic.json"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "curve_clustering",
+      "service_total_results": 3692508,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_crossref/curve_clustering.json"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "light_soaking_recovery",
+      "service_total_results": 2588377,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_crossref/light_soaking_recovery.json"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "operational_stability",
+      "service_total_results": 2166610,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_crossref/operational_stability.json"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "outdoor_diurnal",
+      "service_total_results": 2011553,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_crossref/outdoor_diurnal.json"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "pce_time_curve",
+      "service_total_results": 2782685,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_crossref/pce_time_curve.json"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "reversible_degradation",
+      "service_total_results": 2187011,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_crossref/reversible_degradation.json"
+    },
+    {
+      "source": "Crossref",
+      "query_id": "som_degradation",
+      "service_total_results": 1012632,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_crossref/som_degradation.json"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "burn_in_nonmonotonic",
+      "service_total_results": 8,
+      "retrieved": 8,
+      "raw_file": "07_literature/raw_openalex/burn_in_nonmonotonic.json"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "curve_clustering",
+      "service_total_results": 3950,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_openalex/curve_clustering.json"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "light_soaking_recovery",
+      "service_total_results": 707,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_openalex/light_soaking_recovery.json"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "operational_stability",
+      "service_total_results": 1088,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_openalex/operational_stability.json"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "outdoor_diurnal",
+      "service_total_results": 21,
+      "retrieved": 21,
+      "raw_file": "07_literature/raw_openalex/outdoor_diurnal.json"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "pce_time_curve",
+      "service_total_results": 2479,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_openalex/pce_time_curve.json"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "reversible_degradation",
+      "service_total_results": 3019,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_openalex/reversible_degradation.json"
+    },
+    {
+      "source": "OpenAlex",
+      "query_id": "som_degradation",
+      "service_total_results": 444,
+      "retrieved": 200,
+      "raw_file": "07_literature/raw_openalex/som_degradation.json"
+    }
+  ],
+  "counts": {
+    "raw_records_with_duplicates": 2829,
+    "deduplicated_records": 1953,
+    "with_doi": 1939,
+    "with_abstract": 1256,
+    "high_priority_curve_likely": 142,
+    "nonmonotonic_recovery_priority": 115,
+    "high_priority_with_open_pdf_url": 65,
+    "screen_status": {
+      "A_curve_likely_original": 142,
+      "B_perovskite_stability_related": 1119,
+      "C_review_or_perspective": 78,
+      "D_exclude_not_core_perovskite_PV": 614
+    }
+  }
+}

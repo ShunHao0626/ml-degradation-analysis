@@ -1,0 +1,9 @@
+{
+  "min_points": 6,
+  "duration_log10_median": 2.9892806145265975,
+  "duration_log10_mad": 0.2938224313005313,
+  "upper_duration_h": 147023.34445339337,
+  "time_origin": "first recorded observation; no time stretching",
+  "duplicate_policy": "remove identical; exclude conflicting",
+  "source": "/Users/shunhao/Desktop/ML/method2/samples_test"
+}

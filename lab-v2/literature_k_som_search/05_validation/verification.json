@@ -1,0 +1,543 @@
+{
+  "overall_status": "PASS",
+  "generated_at_utc": "2026-09-01T19:01:09.860901+00:00",
+  "scope": "Read-only validation of already-generated artifacts. No SOM training, parameter search, target-driven relabeling, or model mutation was performed.",
+  "summary": {
+    "checks_total": 15,
+    "checks_passed": 15,
+    "checks_failed": 0,
+    "failed_check_names": [],
+    "final_k": 4,
+    "final_quantization_error": 0.5279399360104996,
+    "final_cluster_sizes": [
+      55,
+      4,
+      28,
+      22
+    ]
+  },
+  "checks": [
+    {
+      "name": "audit_has_218_rows",
+      "status": "PASS",
+      "expected": 218,
+      "actual": 218,
+      "evidence": "01_data_audit/all_218_curves_audit.csv"
+    },
+    {
+      "name": "strict_inclusion_has_109_rows",
+      "status": "PASS",
+      "expected": {
+        "audit_true_rows": 109,
+        "included_csv_rows": 109
+      },
+      "actual": {
+        "audit_true_rows": 109,
+        "included_csv_rows": 109
+      },
+      "evidence": "01_data_audit/all_218_curves_audit.csv; 01_data_audit/included_strict_150h.csv"
+    },
+    {
+      "name": "strict_inclusion_ids_match_audit",
+      "status": "PASS",
+      "expected": "same ordered 109 unique curve_ids",
+      "actual": {
+        "ordered_lists_equal": true,
+        "unique_curve_ids": 109
+      },
+      "evidence": "01_data_audit/included_strict_150h.csv"
+    },
+    {
+      "name": "config_strict_input_count_is_109",
+      "status": "PASS",
+      "expected": 109,
+      "actual": 109,
+      "evidence": "run_config.json"
+    },
+    {
+      "name": "preprocessed_array_is_109_by_900",
+      "status": "PASS",
+      "expected": {
+        "keys": [
+          "curve_ids",
+          "normalized",
+          "raw",
+          "smoothed",
+          "time_hours"
+        ],
+        "shapes": {
+          "time_hours": [
+            900
+          ],
+          "raw": [
+            109,
+            900
+          ],
+          "normalized": [
+            109,
+            900
+          ],
+          "smoothed": [
+            109,
+            900
+          ],
+          "curve_ids": [
+            109
+          ]
+        },
+        "finite": true
+      },
+      "actual": {
+        "keys": [
+          "curve_ids",
+          "normalized",
+          "raw",
+          "smoothed",
+          "time_hours"
+        ],
+        "shapes": {
+          "curve_ids": [
+            109
+          ],
+          "normalized": [
+            109,
+            900
+          ],
+          "raw": [
+            109,
+            900
+          ],
+          "smoothed": [
+            109,
+            900
+          ],
+          "time_hours": [
+            900
+          ]
+        },
+        "finite": true
+      },
+      "evidence": "02_preprocessed_150h/strict_paper_preprocessed_150h.npz"
+    },
+    {
+      "name": "preprocessed_ids_match_strict_inclusion",
+      "status": "PASS",
+      "expected": "same 109-curve set as audit; NPZ order matches preprocessing metadata",
+      "actual": {
+        "same_curve_id_set_as_audit": true,
+        "ordered_like_audit_csv": false,
+        "ordered_like_curve_metadata": true,
+        "unique_npz_curve_ids": 109
+      },
+      "evidence": "02_preprocessed_150h/strict_paper_preprocessed_150h.npz; 02_preprocessed_150h/curve_metadata.csv"
+    },
+    {
+      "name": "preprocessed_grid_matches_fixed_150h_method",
+      "status": "PASS",
+      "expected": {
+        "window_hours": 150,
+        "interval_minutes": 10,
+        "points": 900,
+        "time_start_hours": 0.16666666666666666,
+        "time_end_hours": 150.0
+      },
+      "actual": {
+        "window_hours": 150,
+        "interval_minutes": 10,
+        "points": 900,
+        "time_start_hours": 0.16666666666666666,
+        "time_end_hours": 150.0
+      },
+      "evidence": "run_config.json; 02_preprocessed_150h/strict_paper_preprocessed_150h.npz"
+    },
+    {
+      "name": "only_three_literature_parameter_pairs_configured",
+      "status": "PASS",
+      "expected": [
+        [
+          1,
+          0.5,
+          0.1
+        ],
+        [
+          2,
+          0.3,
+          0.1
+        ],
+        [
+          3,
+          0.5,
+          0.3
+        ]
+      ],
+      "actual": [
+        [
+          1,
+          0.5,
+          0.1
+        ],
+        [
+          2,
+          0.3,
+          0.1
+        ],
+        [
+          3,
+          0.5,
+          0.3
+        ]
+      ],
+      "evidence": "run_config.json"
+    },
+    {
+      "name": "configured_k_search_is_exactly_2_through_10",
+      "status": "PASS",
+      "expected": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "actual": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "evidence": "run_config.json"
+    },
+    {
+      "name": "k_search_contains_exactly_27_unique_candidates",
+      "status": "PASS",
+      "expected": {
+        "candidate_count": 27,
+        "pairs": [
+          [
+            1,
+            0.5,
+            0.1
+          ],
+          [
+            2,
+            0.3,
+            0.1
+          ],
+          [
+            3,
+            0.5,
+            0.3
+          ]
+        ],
+        "k_per_pair": [
+          {
+            "pair": [
+              1,
+              0.5,
+              0.1
+            ],
+            "k_values": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "pair": [
+              2,
+              0.3,
+              0.1
+            ],
+            "k_values": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "pair": [
+              3,
+              0.5,
+              0.3
+            ],
+            "k_values": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        ],
+        "iterations": 50000,
+        "seed": 0,
+        "input_shape": [
+          109,
+          900
+        ]
+      },
+      "actual": {
+        "candidate_count": 27,
+        "unique_candidate_keys": 27,
+        "pairs": [
+          [
+            1,
+            0.5,
+            0.1
+          ],
+          [
+            2,
+            0.3,
+            0.1
+          ],
+          [
+            3,
+            0.5,
+            0.3
+          ]
+        ],
+        "k_per_pair": [
+          {
+            "pair": [
+              1,
+              0.5,
+              0.1
+            ],
+            "k_values": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "pair": [
+              2,
+              0.3,
+              0.1
+            ],
+            "k_values": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          },
+          {
+            "pair": [
+              3,
+              0.5,
+              0.3
+            ],
+            "k_values": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        ],
+        "shared_invariants_pass": true
+      },
+      "evidence": "03_k_search_n2_10/all_27_run_metrics.csv"
+    },
+    {
+      "name": "all_27_candidate_artifact_sets_exist",
+      "status": "PASS",
+      "expected": {
+        "metric_files": 27,
+        "all_required_artifacts_present": true
+      },
+      "actual": {
+        "metric_files": 27,
+        "all_required_artifacts_present": true
+      },
+      "evidence": "03_k_search_n2_10/pair_*/n_*/"
+    },
+    {
+      "name": "model_input_contains_no_added_shape_or_device_variables",
+      "status": "PASS",
+      "expected": [
+        "normalized PCE/efficiency values on the 10-minute time grid"
+      ],
+      "actual": {
+        "model_input_variables": [
+          "normalized PCE/efficiency values on the 10-minute time grid"
+        ],
+        "prohibited_terms_found": []
+      },
+      "evidence": "run_config.json"
+    },
+    {
+      "name": "final_saved_model_is_selected_k4_author_style_run",
+      "status": "PASS",
+      "expected": {
+        "selected_k": 4,
+        "pair": [
+          0.5,
+          0.1
+        ],
+        "layout": [
+          2,
+          2
+        ],
+        "seed": null,
+        "input_shape": [
+          109,
+          900
+        ],
+        "occupied_nodes": 4
+      },
+      "actual": {
+        "selected_k": 4,
+        "pair": [
+          0.5,
+          0.1
+        ],
+        "layout": [
+          2,
+          2
+        ],
+        "seed": null,
+        "input_shape": [
+          109,
+          900
+        ],
+        "occupied_nodes": 4,
+        "cluster_sizes_metrics": [
+          55,
+          4,
+          28,
+          22
+        ],
+        "cluster_sizes_csv": [
+          55,
+          4,
+          28,
+          22
+        ],
+        "cluster_sizes_labels": [
+          55,
+          4,
+          28,
+          22
+        ],
+        "weights_shape": [
+          2,
+          2,
+          900
+        ],
+        "labels_shape": [
+          109
+        ],
+        "centroids_shape": [
+          4,
+          900
+        ],
+        "quantization_error": 0.5279399360104996
+      },
+      "evidence": "06_selected_paper_rule_result_k4/selection_summary.json; 06_selected_paper_rule_result_k4/metrics.json"
+    },
+    {
+      "name": "n16_is_saved_as_exploratory_only",
+      "status": "PASS",
+      "expected": {
+        "n_clusters": 16,
+        "layout": [
+          4,
+          4
+        ],
+        "selection_role": "exploratory_only_not_part_of_K_selection",
+        "excluded_from_configured_k_search": true
+      },
+      "actual": {
+        "n_clusters": 16,
+        "layout": [
+          4,
+          4
+        ],
+        "selection_role": "exploratory_only_not_part_of_K_selection",
+        "excluded_from_configured_k_search": true,
+        "occupied_nodes": 15,
+        "cluster_sizes": [
+          2,
+          2,
+          3,
+          9,
+          6,
+          1,
+          0,
+          11,
+          5,
+          7,
+          4,
+          6,
+          1,
+          5,
+          12,
+          35
+        ],
+        "weights_shape": [
+          4,
+          4,
+          900
+        ],
+        "labels_shape": [
+          109
+        ]
+      },
+      "evidence": "04_n16_exploratory_not_selected/metrics.json; run_config.json"
+    },
+    {
+      "name": "written_decision_records_k4_before_ifo_review",
+      "status": "PASS",
+      "expected": "K=4 selected before IFO review; n=16 explicitly not optimal K",
+      "actual": {
+        "k4_heading_present": true,
+        "pre_ifo_statement_present": true,
+        "n16_not_optimal_statement_present": true
+      },
+      "evidence": "K_SELECTION_DECISION_CN.md"
+    }
+  ]
+}

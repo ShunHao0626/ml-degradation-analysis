@@ -1,0 +1,87 @@
+{
+  "window_hours": 150,
+  "interval_minutes": 10,
+  "savgol_window": 71,
+  "savgol_order": 2,
+  "iterations": 50000,
+  "comparison_seed": 0,
+  "k_values": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "parameter_pairs": [
+    [
+      0.5,
+      0.1
+    ],
+    [
+      0.3,
+      0.1
+    ],
+    [
+      0.5,
+      0.3
+    ]
+  ],
+  "minimum_unique_points": 4,
+  "layouts": {
+    "2": [
+      1,
+      2
+    ],
+    "3": [
+      1,
+      3
+    ],
+    "4": [
+      2,
+      2
+    ],
+    "5": [
+      1,
+      5
+    ],
+    "6": [
+      2,
+      3
+    ],
+    "7": [
+      1,
+      7
+    ],
+    "8": [
+      2,
+      4
+    ],
+    "9": [
+      3,
+      3
+    ],
+    "10": [
+      2,
+      5
+    ],
+    "16": [
+      4,
+      4
+    ]
+  },
+  "input_root": "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test",
+  "included_curve_count": 109,
+  "model_input": "only normalized PCE/efficiency values over time",
+  "forbidden_and_unused": [
+    "IFO target labels or templates",
+    "derivatives, extrema, or engineered shape variables",
+    "material/device/testing-condition variables",
+    "supervised labels or classifiers",
+    "algorithm replacement",
+    "random-seed search"
+  ]
+}

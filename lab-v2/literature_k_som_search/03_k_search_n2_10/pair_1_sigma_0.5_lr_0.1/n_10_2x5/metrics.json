@@ -1,0 +1,31 @@
+{
+  "parameter_pair_id": 1,
+  "sigma": 0.5,
+  "learning_rate": 0.1,
+  "n_clusters": 10,
+  "layout": [
+    2,
+    5
+  ],
+  "iterations": 50000,
+  "comparison_seed": 0,
+  "selection_role": "paper_K_search_n2_10",
+  "n_input_curves": 109,
+  "n_dimensions": 900,
+  "occupied_nodes": 10,
+  "quantization_error": 0.37912664974515004,
+  "quantization_error_per_sqrt_dimension": 0.012637554991505002,
+  "cluster_sizes": [
+    3,
+    13,
+    9,
+    5,
+    19,
+    5,
+    9,
+    32,
+    10,
+    4
+  ],
+  "minimum_occupied_cluster_size": 3
+}

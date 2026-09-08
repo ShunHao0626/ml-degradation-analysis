@@ -1,0 +1,9 @@
+{
+  "n_absolute_pce_curves": 26,
+  "n_groups": 5,
+  "slope": -0.6135857907052182,
+  "intercept": 19.17016171569273,
+  "r_squared": 0.5590869667389435,
+  "mse_on_group_means": 18.122533968233547,
+  "warning": "Exploratory subset only: atmosphere, irradiance and temperature metadata are unavailable."
+}

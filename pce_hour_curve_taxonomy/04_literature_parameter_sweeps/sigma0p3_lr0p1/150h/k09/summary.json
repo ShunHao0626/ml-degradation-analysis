@@ -1,0 +1,28 @@
+{
+  "window_hours": 150,
+  "n_curves": 103,
+  "n_time_points": 900,
+  "requested_clusters": 9,
+  "occupied_clusters": 9,
+  "grid_x": 3,
+  "grid_y": 3,
+  "sigma": 0.3,
+  "learning_rate": 0.1,
+  "iterations": 50000,
+  "seed": 42,
+  "quantization_error": 0.402141283741064,
+  "topographic_error": 0.24271844660194175,
+  "cluster_sizes": [
+    22,
+    5,
+    12,
+    11,
+    6,
+    21,
+    11,
+    11,
+    4
+  ],
+  "elapsed_seconds": 1.1524789333343506,
+  "selection_note": "IFO morphology not used in fitting or selection"
+}

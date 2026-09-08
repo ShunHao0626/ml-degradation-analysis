@@ -1,0 +1,49 @@
+{
+  "input_root": "/Users/shunhao/Desktop/ML/lab/data_all",
+  "windows_hours": [150, 200, 300, 500, 750, 1000],
+  "primary_minimum_window_hours": 300,
+  "grid_points": 64,
+  "candidate_k_kmeans": [2, 3, 4, 5, 6, 7, 8, 9, 10],
+  "candidate_k_som": [2, 3, 4, 5, 6, 7, 8],
+  "kmeans_seeds": [11, 23, 37, 53, 71],
+  "screen_seeds": [11, 37, 71],
+  "final_seeds": [3, 7, 11, 19, 29, 41, 53, 67, 79, 97],
+  "bootstrap_seeds": [101, 103, 107, 109, 113, 127, 131, 137, 139, 149, 151, 157, 163, 167, 173, 179, 181, 191, 193, 197],
+  "kmeans_subsample_repeats": 5,
+  "top_dataset_variants_for_som": 4,
+  "som_screen_iterations": 2500,
+  "som_final_iterations": 30000,
+  "som_bootstrap_iterations": 12000,
+  "minimum_cluster_fraction": 0.01,
+  "cohorts": {
+    "coverage": {
+      "minimum_points_in_window": 4,
+      "maximum_relative_gap": 1.0,
+      "minimum_points_first_quarter": 1,
+      "minimum_points_last_quarter": 1
+    },
+    "detail": {
+      "minimum_points_in_window": 12,
+      "maximum_relative_gap": 0.35,
+      "minimum_points_first_quarter": 2,
+      "minimum_points_last_quarter": 2
+    },
+    "dense": {
+      "minimum_points_in_window": 25,
+      "maximum_relative_gap": 0.2,
+      "minimum_points_first_quarter": 3,
+      "minimum_points_last_quarter": 3
+    }
+  },
+  "representations": [
+    "maxabs_level",
+    "z_level",
+    "z_level_d1",
+    "z_level_d1_d2"
+  ],
+  "som_sigmas": [0.2, 0.3, 0.5, 0.8, 1.2, 2.0],
+  "som_learning_rates": [0.03, 0.1, 0.3, 0.5],
+  "som_random_order": [false, true],
+  "smoothing_enabled": false,
+  "labels_used_for_training_or_selection": false
+}

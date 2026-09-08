@@ -1,0 +1,11 @@
+{
+  "feature_set": "curve_derivative_descriptors",
+  "n_nodes": 6,
+  "topology": [
+    2,
+    3
+  ],
+  "primary_seed": 42,
+  "selection_score": 0.6454108584185562,
+  "selection_rule": "Within the prespecified composite feature set, require no empty node, minimum cluster fraction >=2%, mean seed ARI >=0.90, and distinct initial-gain and early-drop clusters with >=80% precision and >=20 target curves; then select the highest composite score."
+}

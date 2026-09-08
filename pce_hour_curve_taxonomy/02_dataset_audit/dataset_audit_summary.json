@@ -1,0 +1,29 @@
+{
+  "source": "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test",
+  "sample_directories": 99,
+  "manifest_rows": 218,
+  "csv_curves": 218,
+  "strict_pce_hour_curves": 142,
+  "strict_pce_hour_samples": 67,
+  "curves_reaching_150h": 117,
+  "x_class_counts": {
+    "non_time_cycle": 17,
+    "time_hours": 157,
+    "missing": 42,
+    "time_days": 2
+  },
+  "y_class_counts": {
+    "pce_or_efficiency": 169,
+    "power_proxy": 15,
+    "missing": 34
+  },
+  "csv_status_counts": {
+    "ok": 218
+  },
+  "ineligibility_reason_counts": {
+    "non_time_cycle": 17,
+    "power_proxy": 15,
+    "missing;missing": 32,
+    "missing": 12
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": [
+    "parameter whitelist and single-variable input",
+    "preprocessing counts and finite model matrices",
+    "selected cluster models and membership totals",
+    "four post-clustering representatives and source paths",
+    "bulk literature corpus and priority shortlist",
+    "11 validated open-access PDFs and SHA-256 checksums",
+    "reports and key visual artifacts"
+  ],
+  "check_count": 7
+}

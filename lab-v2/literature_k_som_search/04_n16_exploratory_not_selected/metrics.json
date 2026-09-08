@@ -1,0 +1,37 @@
+{
+  "parameter_pair_id": 1,
+  "sigma": 0.5,
+  "learning_rate": 0.1,
+  "n_clusters": 16,
+  "layout": [
+    4,
+    4
+  ],
+  "iterations": 50000,
+  "comparison_seed": 0,
+  "selection_role": "exploratory_only_not_part_of_K_selection",
+  "n_input_curves": 109,
+  "n_dimensions": 900,
+  "occupied_nodes": 15,
+  "quantization_error": 0.2697546570457467,
+  "quantization_error_per_sqrt_dimension": 0.00899182190152489,
+  "cluster_sizes": [
+    2,
+    2,
+    3,
+    9,
+    6,
+    1,
+    0,
+    11,
+    5,
+    7,
+    4,
+    6,
+    1,
+    5,
+    12,
+    35
+  ],
+  "minimum_occupied_cluster_size": 1
+}

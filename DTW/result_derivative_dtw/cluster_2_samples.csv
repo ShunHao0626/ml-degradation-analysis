@@ -1,0 +1,8 @@
+id,cluster,group,source,is_medoid,n_points,distance_to_medoid
+C029,2,图片121,图片121/accepted/samples_test__unknown__unknown__图片121__Poly-2PACz__Series_2.csv,False,24,0.3473453809550232
+C044,2,图片135,图片135/accepted/samples_test__unknown__unknown__图片135__Series_1__Series_1.csv,False,24,0.6527163586004976
+C055,2,图片157,图片157/accepted/samples_test__unknown__unknown__图片157__NBG_PSCs_with_YbOx__Series_1.csv,False,31,0.4152571515508828
+C125,2,图片33,图片33/accepted/samples_test__unknown__unknown__图片33__AZO_SnOx__Series_1.csv,True,12,0.0
+C138,2,图片48,图片48/accepted/samples_test__unknown__unknown__图片48__EtCz3EPA_PTAA_BCP__Series_1.csv,False,10,0.6707327751316166
+C176,2,图片70,图片70/accepted/samples_test__unknown__unknown__图片70__Series_3__Series_3.csv,False,19,0.5196202741763337
+C198,2,图片89,图片89/accepted/samples_test__unknown__unknown__图片89__EtCz3EPA__Series_2.csv,False,21,0.4981118182391985

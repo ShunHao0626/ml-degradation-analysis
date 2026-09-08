@@ -1,0 +1,182 @@
+{
+  "passed": true,
+  "checks": {
+    "input_curve_count_matches_expected": true,
+    "all_sources_are_under_lab_data_all": true,
+    "axis_valid_curve_count_matches_expected": true,
+    "selected_window_is_at_least_500h": true,
+    "selected_matrix_has_no_nan": true,
+    "all_selected_curves_are_assigned_once": true,
+    "all_four_classes_exist": true,
+    "each_class_meets_minimum_size": true,
+    "all_four_strict_topology_classes_exist": true,
+    "each_strict_class_meets_minimum_size": true,
+    "strict_target_topology_checks_pass": true,
+    "saved_feature_labels_match_assignments": true,
+    "vendored_minisom_2_2_9_used": true
+  },
+  "four_way_assignment_counts": {
+    "IFO-Slope": 1118,
+    "IFO-Bridge": 56,
+    "IFO-Hill": 39,
+    "IFO-Valley": 16
+  },
+  "strict_topology_class_counts": {
+    "IFO-Slope": 892,
+    "IFO-Bridge": 56,
+    "IFO-Hill": 39,
+    "IFO-Valley": 16
+  },
+  "strict_topology_validation": {
+    "passed": true,
+    "checks": {
+      "bridge_has_early_gain": true,
+      "bridge_has_later_decay": true,
+      "hill_has_early_gain": true,
+      "hill_has_rapid_drop_by_200h": true,
+      "hill_has_strong_total_post_peak_drop": true,
+      "slope_has_early_drop": true,
+      "slope_has_limited_recovery": true,
+      "valley_has_early_drop": true,
+      "valley_has_recovery": true,
+      "valley_has_post_recovery_decay": true,
+      "valley_late_slope_is_negative": true,
+      "valley_recovery_occurs_after_minimum": true
+    },
+    "class_feature_medians": {
+      "IFO-Bridge": {
+        "gain_ratio": 0.49672098462446135,
+        "peak_drop_ratio": 0.9814583058723243,
+        "early_peak_drop_ratio": 0.12982085198507592,
+        "early_drop_ratio": 0.029794778894264257,
+        "recovery_ratio": 0.5255954879603995,
+        "post_recovery_drop_ratio": 0.9791469586717751,
+        "t_peak_fraction": 0.22666666666666666,
+        "t_early_min_fraction": 0.0,
+        "t_recovery_fraction": 0.23666666666666666,
+        "end_minus_start_ratio": -0.4580984528856927,
+        "early_slope": 0.2779210698817096,
+        "late_slope": -0.09981362845741384,
+        "fraction_negative_steps": 0.7266666666666667
+      },
+      "IFO-Hill": {
+        "gain_ratio": 0.281467302337608,
+        "peak_drop_ratio": 0.9912978151151742,
+        "early_peak_drop_ratio": 0.4117186921416767,
+        "early_drop_ratio": 0.18840119651993018,
+        "recovery_ratio": 0.004681704934453016,
+        "post_recovery_drop_ratio": 0.623677273503008,
+        "t_peak_fraction": 0.11333333333333333,
+        "t_early_min_fraction": 0.4,
+        "t_recovery_fraction": 0.4,
+        "end_minus_start_ratio": -0.7069726553779979,
+        "early_slope": 0.5279442646306955,
+        "late_slope": -0.09116554812603851,
+        "fraction_negative_steps": 0.7633333333333333
+      },
+      "IFO-Slope": {
+        "gain_ratio": 0.00913302607125679,
+        "peak_drop_ratio": 0.9932049106490672,
+        "early_peak_drop_ratio": 0.4686346717136439,
+        "early_drop_ratio": 0.4611099469101253,
+        "recovery_ratio": 0.0,
+        "post_recovery_drop_ratio": 0.5249153847868339,
+        "t_peak_fraction": 0.0,
+        "t_early_min_fraction": 0.4,
+        "t_recovery_fraction": 0.4,
+        "end_minus_start_ratio": -0.9819350486447613,
+        "early_slope": -0.238965747392381,
+        "late_slope": -0.15563726506891912,
+        "fraction_negative_steps": 0.98
+      },
+      "IFO-Valley": {
+        "gain_ratio": 0.07083736751217354,
+        "peak_drop_ratio": 0.9135511451520584,
+        "early_peak_drop_ratio": 0.5140920099764901,
+        "early_drop_ratio": 0.7032040037860654,
+        "recovery_ratio": 0.6053921900978154,
+        "post_recovery_drop_ratio": 0.567504726755548,
+        "t_peak_fraction": 0.006666666666666667,
+        "t_early_min_fraction": 0.22333333333333333,
+        "t_recovery_fraction": 0.5733333333333334,
+        "end_minus_start_ratio": -0.713837161457104,
+        "early_slope": -0.3218189667024194,
+        "late_slope": -0.08188944991258354,
+        "fraction_negative_steps": 0.5483333333333333
+      }
+    }
+  },
+  "paper_som_gate": {
+    "paper_som_passed_four_archetype_gate": false,
+    "best_candidate": {
+      "candidate_id": 38,
+      "search_stage": "expanded_som",
+      "window_hours": 300,
+      "sigma": 0.2,
+      "learning_rate": 0.5,
+      "iterations": 100000,
+      "seed": 0,
+      "n_curves": 1635,
+      "quantization_error": 0.8539755483580256,
+      "topographic_error": 0.0,
+      "silhouette": 0.5730009237401119,
+      "davies_bouldin": 0.8422028168402835,
+      "calinski_harabasz": 2240.580383559623,
+      "min_cluster_size": 5,
+      "balance_entropy": 0.6311637714068945,
+      "matched_mean_prototype_correlation": 0.8485932545156804,
+      "independent_archetypes_found": 3,
+      "independent_labels": "IFO-Hill;IFO-Hill;IFO-Valley;IFO-Slope",
+      "cluster_0_size": 428,
+      "cluster_1_size": 1049,
+      "cluster_2_size": 5,
+      "cluster_3_size": 153,
+      "selection_score": 0.769465695609669,
+      "mean_pairwise_ari_5_seeds": 0.9982253335073684,
+      "min_pairwise_ari_5_seeds": 0.9955633337684209,
+      "stable_selection_score": 0.7691243093628621
+    },
+    "prototype_mapping": {
+      "0": "IFO-Hill",
+      "1": "IFO-Bridge",
+      "2": "IFO-Valley",
+      "3": "IFO-Slope"
+    },
+    "prototype_correlation_matrix": [
+      [
+        0.7122728658096799,
+        0.9345765030306583,
+        0.9047031085389046,
+        -0.14849647193578325
+      ],
+      [
+        0.7815889473772024,
+        0.9093936576645085,
+        0.8516792533915002,
+        -0.15278097524923606
+      ],
+      [
+        0.3049410197242308,
+        -0.8281231345302896,
+        -0.5456144423892944,
+        0.7317238118129789
+      ],
+      [
+        0.6302591148293408,
+        0.9458799926240066,
+        0.9464837558418816,
+        -0.1363382127618447
+      ]
+    ],
+    "gate": {
+      "independent_archetypes_found_required": 4,
+      "matched_mean_correlation_required": 0.7,
+      "minimum_cluster_size_required": 10,
+      "mean_seed_ari_required": 0.75
+    },
+    "decision": "fallback_to_shape_guided_classifier"
+  },
+  "low_stability_review_count": 30,
+  "unresolved_other_shape_count": 226,
+  "total_manual_review_count": 253
+}

@@ -1,0 +1,21 @@
+doi,status,url,path,bytes,error
+10.3390/asi9060116,download_failed,https://www.mdpi.com/2571-5577/9/6/116/pdf,,0,HTTPError: HTTP Error 403: Forbidden
+10.1016/j.egyai.2025.100503,download_failed,https://doi.org/10.1016/j.egyai.2025.100503,,0,response was not PDF (2713 bytes)
+10.1016/j.apenergy.2025.126132,download_failed,https://doi.org/10.1016/j.apenergy.2025.126132,,0,URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+10.1002/aenm.202501906,download_failed,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/aenm.202501906,,0,HTTPError: HTTP Error 403: Forbidden
+10.1039/d3ta05966a,download_failed,https://pubs.rsc.org/en/content/articlepdf/2024/ta/d3ta05966a,,0,HTTPError: HTTP Error 403: Forbidden
+10.1021/acsenergylett.4c00328,download_failed,https://pubs.acs.org/doi/pdf/10.1021/acsenergylett.4c00328,,0,HTTPError: HTTP Error 403: Forbidden
+10.1021/acsenergylett.4c01943,download_failed,https://pubs.acs.org/doi/pdf/10.1021/acsenergylett.4c01943,,0,HTTPError: HTTP Error 403: Forbidden
+10.1002/aenm.202304452,download_failed,https://doi.org/10.1002/aenm.202304452,,0,HTTPError: HTTP Error 403: Forbidden
+10.1038/s41560-024-01487-w,downloaded,https://www.nature.com/articles/s41560-024-01487-w.pdf,/Users/shunhao/Desktop/ML/pce_hour_curve_taxonomy/08_literature_review/open_access_papers/10.1038_s41560-024-01487-w.pdf,6294352,
+10.1038/s41560-023-01421-6,downloaded,https://www.nature.com/articles/s41560-023-01421-6.pdf,/Users/shunhao/Desktop/ML/pce_hour_curve_taxonomy/08_literature_review/open_access_papers/10.1038_s41560-023-01421-6.pdf,3234538,
+10.1038/s41586-024-08161-x,downloaded,https://www.nature.com/articles/s41586-024-08161-x.pdf,/Users/shunhao/Desktop/ML/pce_hour_curve_taxonomy/08_literature_review/open_access_papers/10.1038_s41586-024-08161-x.pdf,7244221,
+10.1038/s41467-023-40585-3,downloaded,https://www.nature.com/articles/s41467-023-40585-3.pdf,/Users/shunhao/Desktop/ML/pce_hour_curve_taxonomy/08_literature_review/open_access_papers/10.1038_s41467-023-40585-3.pdf,1005018,
+10.3389/fenrg.2023.1118654,download_failed,https://doi.org/10.3389/fenrg.2023.1118654,,0,response was not PDF (694095 bytes)
+10.1038/s41467-022-35400-4,downloaded,https://www.nature.com/articles/s41467-022-35400-4.pdf,/Users/shunhao/Desktop/ML/pce_hour_curve_taxonomy/08_literature_review/open_access_papers/10.1038_s41467-022-35400-4.pdf,1214361,
+10.1002/ente.202200234,download_failed,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ente.202200234,,0,HTTPError: HTTP Error 403: Forbidden
+10.1149/2162-8777/ac6f1d,downloaded,https://iopscience.iop.org/article/10.1149/2162-8777/ac6f1d/pdf,/Users/shunhao/Desktop/ML/pce_hour_curve_taxonomy/08_literature_review/open_access_papers/10.1149_2162-8777_ac6f1d.pdf,2821741,
+10.1002/adma.202110239,download_failed,https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/adma.202110239,,0,HTTPError: HTTP Error 403: Forbidden
+10.1021/acsaem.1c00588,downloaded,https://findresearcher.sdu.dk/ws/files/192223977/Draft_Perovskite_CLEAN_Jul01.pdf,/Users/shunhao/Desktop/ML/pce_hour_curve_taxonomy/08_literature_review/open_access_papers/10.1021_acsaem.1c00588.pdf,916597,
+10.1038/s41560-019-0529-5,download_failed,https://www.nrel.gov/docs/fy20osti/74047.pdf,,0,URLError: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>
+10.1016/j.solmat.2019.110284,not_open_access,,,0,

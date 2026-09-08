@@ -1,0 +1,3 @@
+method,selected_k,representation,mean_seed_ari,raw_space_silhouette,status
+paper_MaxAbs_SOM,4,MaxAbs unsmoothed trajectory,1.0,0.505390582725207,primary_selected_by_paper_protocol
+shape_z_SOM,4,per-curve z-normalized unsmoothed trajectory,1.0,-0.16430622446219223,sensitivity_only

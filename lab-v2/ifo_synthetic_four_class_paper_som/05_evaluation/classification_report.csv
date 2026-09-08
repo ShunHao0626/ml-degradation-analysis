@@ -1,0 +1,8 @@
+,precision,recall,f1-score,support
+IFO-Bridge,1,1,1,250
+IFO-Hill,1,1,1,250
+IFO-Slope,1,1,1,250
+IFO-Valley,1,1,1,250
+accuracy,1,1,1,1
+macro avg,1,1,1,1000
+weighted avg,1,1,1,1000

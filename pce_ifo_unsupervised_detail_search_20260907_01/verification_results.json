@@ -1,0 +1,23 @@
+{
+  "all_passed": true,
+  "checks": {
+    "all_required_outputs_exist": true,
+    "run_complete": true,
+    "smoothing_disabled_in_all_manifests": true,
+    "labels_absent_before_freeze": true,
+    "all_72_variants_created": true,
+    "one_som_candidate_per_representation": true,
+    "complete_som_grid": true,
+    "assignment_count_matches_final": true,
+    "cluster_count_matches_frozen_k": true,
+    "cluster_sizes_match": true,
+    "one_descriptor_per_cluster": true,
+    "bootstrap_count_matches": true,
+    "extended_grid_complete": true,
+    "extended_elbow_audit_complete": true,
+    "extended_exact_four_consistent": true,
+    "finite_core_metrics": true,
+    "frozen_written_before_posthoc": true,
+    "no_smoothing_function_calls": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "status": "provisional_individual_matches_not_cluster_labels",
+  "training_constraint": "only normalized smoothed PCE trajectory was supplied to SOM",
+  "cluster_model": "baseline sigma=0.5, learning_rate=0.1, seed=42, k=5",
+  "representatives": [
+    {
+      "morphology": "IFO-Bridge-like",
+      "curve_id": "图片105_dccad548c1",
+      "sample": "图片105",
+      "csv_path": "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test/图片105/accepted/samples_test__unknown__unknown__图片105__Series_2__Series_2.csv",
+      "baseline_k5_cluster": 1,
+      "selection_stage": "manual_post_clustering_morphology_audit",
+      "selection_reason": "initial rise to a broad maximum followed by gradual decay",
+      "model_input_use": "none; label assigned only after clustering"
+    },
+    {
+      "morphology": "IFO-Hill-like",
+      "curve_id": "图片136_d25478ae5a",
+      "sample": "图片136",
+      "csv_path": "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test/图片136/accepted/samples_test__unknown__unknown__图片136__Control__Series_2.csv",
+      "baseline_k5_cluster": 3,
+      "selection_stage": "manual_post_clustering_morphology_audit",
+      "selection_reason": "pronounced rise to a peak near 100 h followed by sustained decay",
+      "model_input_use": "none; label assigned only after clustering"
+    },
+    {
+      "morphology": "IFO-Slope-like",
+      "curve_id": "图片114_ee5e59416d",
+      "sample": "图片114",
+      "csv_path": "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test/图片114/accepted/samples_test__unknown__unknown__图片114__Series_1__Series_1.csv",
+      "baseline_k5_cluster": 4,
+      "selection_stage": "manual_post_clustering_morphology_audit",
+      "selection_reason": "rapid early decay followed by a slower declining tail",
+      "model_input_use": "none; label assigned only after clustering"
+    },
+    {
+      "morphology": "IFO-Valley-like",
+      "curve_id": "图片71_ce6043959c",
+      "sample": "图片71",
+      "csv_path": "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test/图片71/accepted/samples_test__unknown__unknown__图片71__Target__Series_1.csv",
+      "baseline_k5_cluster": 5,
+      "selection_stage": "manual_post_clustering_morphology_audit",
+      "selection_reason": "decay to a late minimum followed by partial recovery",
+      "model_input_use": "none; label assigned only after clustering"
+    }
+  ]
+}

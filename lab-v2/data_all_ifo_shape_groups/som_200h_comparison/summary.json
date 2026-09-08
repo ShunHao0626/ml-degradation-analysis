@@ -1,0 +1,19 @@
+{
+  "som_input_count": 1442,
+  "candidate_input_count": 1003,
+  "common_curves": 694,
+  "candidates_absent_from_som": 309,
+  "som_curves_outside_candidates": 748,
+  "excluded_candidate_reasons": {
+    "unique_points_lt_4": 32,
+    "unique_points_4_to_9_main_qc": 272,
+    "global_max_pce_after_200h": 5
+  },
+  "slope_distribution": {
+    "not_in_som": 271,
+    "cluster_0": 419,
+    "cluster_1": 35,
+    "cluster_2": 156,
+    "cluster_3": 11
+  }
+}

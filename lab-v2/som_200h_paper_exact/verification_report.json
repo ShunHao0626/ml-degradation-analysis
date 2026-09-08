@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "checks": {
+    "input_curve_count_is_218": true,
+    "selected_curve_count_is_114": true,
+    "raw_shape_is_114x1200": true,
+    "normalized_shape_matches": true,
+    "smoothed_shape_matches": true,
+    "all_matrices_finite": true,
+    "maxabs_normalization_recomputes_exactly": true,
+    "savgol_71_2_recomputes_exactly": true,
+    "time_grid_ends_at_200h": true,
+    "time_grid_spacing_is_10min": true,
+    "all_selected_duration_ge_200h": true,
+    "no_selected_global_max_after_200h": true,
+    "assignment_count_matches": true,
+    "assignment_curve_ids_match_selected_order": true,
+    "saved_som_replays_all_assignments": true,
+    "saved_som_weights_match_npy": true,
+    "som_parameters_match_paper_except_200h": true,
+    "dtw_parameters_match_tslearn_0_5_2_defaults": true,
+    "all_four_som_neurons_populated": true,
+    "vendored_minisom_2_2_9_used": true
+  }
+}

@@ -1,0 +1,10 @@
+window_hours,n_curves,n_time_points,requested_clusters,occupied_clusters,grid_x,grid_y,sigma,learning_rate,iterations,seed,quantization_error,topographic_error,cluster_sizes,elapsed_seconds,selection_note
+150,103,900,2,2,1,2,0.5,0.1,50000,42,0.917533158111676,0.0,"[26, 77]",0.6210818290710449,IFO morphology not used in fitting or selection
+150,103,900,3,3,1,3,0.5,0.1,50000,42,0.7582195026001908,0.9029126213592233,"[23, 4, 76]",0.6953270435333252,IFO morphology not used in fitting or selection
+150,103,900,4,4,2,2,0.5,0.1,50000,42,0.5423648667375509,0.0,"[49, 4, 28, 22]",0.7723913192749023,IFO morphology not used in fitting or selection
+150,103,900,5,5,1,5,0.5,0.1,50000,42,0.49623494070448393,0.9320388349514563,"[24, 21, 4, 8, 46]",0.8405919075012207,IFO morphology not used in fitting or selection
+150,103,900,6,6,2,3,0.5,0.1,50000,42,0.4312554497935813,0.0,"[17, 13, 44, 5, 4, 20]",0.9137811660766602,IFO morphology not used in fitting or selection
+150,103,900,7,7,1,7,0.5,0.1,50000,42,0.41803234017207497,0.8155339805825242,"[44, 11, 5, 17, 20, 2, 4]",0.9874861240386963,IFO morphology not used in fitting or selection
+150,103,900,8,8,2,4,0.5,0.1,50000,42,0.4248998584293148,0.0970873786407767,"[19, 11, 31, 11, 4, 5, 7, 15]",1.069857120513916,IFO morphology not used in fitting or selection
+150,103,900,9,9,3,3,0.5,0.1,50000,42,0.368473419502373,0.2524271844660194,"[34, 12, 16, 15, 6, 5, 9, 2, 4]",1.1436538696289062,IFO morphology not used in fitting or selection
+150,103,900,10,10,2,5,0.5,0.1,50000,42,0.3523572254996116,0.6116504854368932,"[15, 2, 5, 4, 3, 14, 3, 16, 7, 34]",1.2093479633331299,IFO morphology not used in fitting or selection

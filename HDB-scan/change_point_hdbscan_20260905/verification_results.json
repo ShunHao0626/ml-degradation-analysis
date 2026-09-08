@@ -1,0 +1,4681 @@
+{
+  "n_checks": 935,
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "all input curves audited",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0001",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0001",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0002",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0002",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0003",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0003",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0004",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0004",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0005",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0005",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0006",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0006",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0007",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0007",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0008",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0008",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0009",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0009",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0010",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0010",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0011",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0011",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0012",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0012",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0013",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0013",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0014",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0014",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0015",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0015",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0016",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0016",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0017",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0017",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0018",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0018",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0019",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0019",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0020",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0020",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0021",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0021",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0022",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0022",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0023",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0023",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0024",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0024",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0025",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0025",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0026",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0026",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0027",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0027",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0028",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0028",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0029",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0029",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0030",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0030",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0031",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0031",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0032",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0032",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0033",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0033",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0034",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0034",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0035",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0035",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0036",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0036",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0037",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0037",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0038",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0038",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0039",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0039",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0040",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0040",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0041",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0041",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0042",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0042",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0043",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0043",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0044",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0044",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0045",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0045",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0046",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0046",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0047",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0047",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0048",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0048",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0049",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0049",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0050",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0050",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0051",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0051",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0052",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0052",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0053",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0053",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0054",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0054",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0055",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0055",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0056",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0056",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0057",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0057",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0058",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0058",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0059",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0059",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0060",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0060",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0061",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0061",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0062",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0062",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0063",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0063",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0064",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0064",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0065",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0065",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0066",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0066",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0067",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0067",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0068",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0068",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0069",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0069",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0070",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0070",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0071",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0071",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0072",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0072",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0073",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0073",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0074",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0074",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0075",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0075",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0076",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0076",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0077",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0077",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0078",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0078",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0079",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0079",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0080",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0080",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0081",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0081",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0082",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0082",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0083",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0083",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0084",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0084",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0085",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0085",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0086",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0086",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0087",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0087",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0088",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0088",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0089",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0089",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0090",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0090",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0091",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0091",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0092",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0092",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0093",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0093",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0094",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0094",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0095",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0095",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0096",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0096",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0097",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0097",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0098",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0098",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0099",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0099",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0100",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0100",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0101",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0101",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0102",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0102",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0103",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0103",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0104",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0104",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0105",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0105",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0106",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0106",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0107",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0107",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0108",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0108",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0109",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0109",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0110",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0110",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0111",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0111",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0112",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0112",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0113",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0113",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0114",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0114",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0115",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0115",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0116",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0116",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0117",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0117",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0118",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0118",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0119",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0119",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0120",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0120",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0121",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0121",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0122",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0122",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0123",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0123",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0124",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0124",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0125",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0125",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0126",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0126",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0127",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0127",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0128",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0128",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0129",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0129",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0130",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0130",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0131",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0131",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0132",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0132",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0133",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0133",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0134",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0134",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0135",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0135",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0136",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0136",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0137",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0137",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0138",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0138",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0139",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0139",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0140",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0140",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0141",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0141",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0142",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0142",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0143",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0143",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0144",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0144",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0145",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0145",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0146",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0146",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0147",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0147",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0148",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0148",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0149",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0149",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0150",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0150",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0151",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0151",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0152",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0152",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0153",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0153",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0154",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0154",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0155",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0155",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0156",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0156",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0157",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0157",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0158",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0158",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0159",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0159",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0160",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0160",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0161",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0161",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0162",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0162",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0163",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0163",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0164",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0164",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0165",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0165",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0167",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0167",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0168",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0168",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0169",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0169",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0170",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0170",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0171",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0171",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0172",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0172",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0173",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0173",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0174",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0174",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0175",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0175",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0176",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0176",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0177",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0177",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0178",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0178",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0179",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0179",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0180",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0180",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0181",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0181",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0182",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0182",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0183",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0183",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0184",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0184",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0185",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0185",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0186",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0186",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0187",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0187",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0188",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0188",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0189",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0189",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0190",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0190",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0191",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0191",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0192",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0192",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0193",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0193",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0194",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0194",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0195",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0195",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0196",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0196",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0197",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0197",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0198",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0198",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0200",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0200",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0201",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0201",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0202",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0202",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0203",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0203",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0204",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0204",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0205",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0205",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0206",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0206",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0207",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0207",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0208",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0208",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0209",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0209",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0210",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0210",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0211",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0211",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0212",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0212",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0213",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0213",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0214",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0214",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0215",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0215",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0216",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0216",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0217",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0217",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw hash preserved S0218",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "raw snapshot identical S0218",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "sample alignment",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "finite clustering matrix",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "labels agree with saved model",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "membership in unit interval",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "no identifiers in features",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "saved preprocessing reproduces clustering coordinates",
+      "status": "passed",
+      "detail": "max_abs_error=8.53e-14"
+    },
+    {
+      "check": "known-hour cohort only",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0005",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0005",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0005",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0006",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0006",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0006",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0007",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0007",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0007",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0008",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0008",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0008",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0013",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0013",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0013",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0014",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0014",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0014",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0015",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0015",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0015",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0016",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0016",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0016",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0017",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0017",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0017",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0020",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0020",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0020",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0021",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0021",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0021",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0022",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0022",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0022",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0023",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0023",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0023",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0028",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0028",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0028",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0029",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0029",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0029",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0030",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0030",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0030",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0031",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0031",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0031",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0037",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0037",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0037",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0038",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0038",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0038",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0044",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0044",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0044",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0045",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0045",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0045",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0055",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0055",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0055",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0056",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0056",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0056",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0057",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0057",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0057",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0058",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0058",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0058",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0059",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0059",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0059",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0060",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0060",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0060",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0063",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0063",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0063",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0064",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0064",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0064",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0065",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0065",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0065",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0066",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0066",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0066",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0067",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0067",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0067",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0071",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0071",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0071",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0072",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0072",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0072",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0081",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0081",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0081",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0086",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0086",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0086",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0087",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0087",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0087",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0095",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0095",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0095",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0099",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0099",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0099",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0100",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0100",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0100",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0103",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0103",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0103",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0104",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0104",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0104",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0107",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0107",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0107",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0108",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0108",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0108",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0109",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0109",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0109",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0110",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0110",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0110",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0118",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0118",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0118",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0119",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0119",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0119",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0128",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0128",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0128",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0141",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0141",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0141",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0153",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0153",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0153",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0154",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0154",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0154",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0163",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0163",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0163",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0164",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0164",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0164",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0165",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0165",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0165",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0167",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0167",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0167",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0170",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0170",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0170",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0172",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0172",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0172",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0173",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0173",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0173",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0174",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0174",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0174",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0175",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0175",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0175",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0176",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0176",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0176",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0177",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0177",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0177",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0178",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0178",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0178",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0182",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0182",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0182",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0183",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0183",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0183",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0186",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0186",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0186",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0187",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0187",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0187",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0191",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0191",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0191",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0192",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0192",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0192",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0193",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0193",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0193",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0194",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0194",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0194",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0195",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0195",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0195",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0196",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0196",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0196",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0197",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0197",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0197",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0198",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0198",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0198",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "unsmoothed window S0216",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "minimum raw points S0216",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "covers entire candidate window S0216",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "50 changepoint repeats at each drop fraction",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "sample_bootstrap_50_runs.csv",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "figure_bootstrap_50_runs.csv",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "repeated_seed_50_runs.csv",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "100 final timepoint perturbation runs",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "252 CP configurations",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "three normalization alternatives",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "four feature representations",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "both clustering metrics",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "six time-window strategies",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "no smoothing or labels declared",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "actual-time linear changepoint detects slope change",
+      "status": "passed",
+      "detail": "[25, 50]"
+    },
+    {
+      "check": "affine normalization preserves calibrated changepoints",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "constant raw curve yields zero changepoints",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0141",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0141",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0196",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0196",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0182",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0182",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0021",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0021",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0008",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0008",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0020",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0020",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0183",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0183",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0197",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0197",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0154",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0154",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0195",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0195",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0022",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0022",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0023",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0023",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0037",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0037",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0194",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0194",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0153",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0153",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0191",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0191",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0178",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0178",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0193",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0193",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0187",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0187",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0030",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0030",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0031",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0031",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0186",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0186",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0192",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0192",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0056",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0056",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0081",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0081",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0095",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0095",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0057",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0057",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0109",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0109",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0055",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0055",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0108",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0108",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0118",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0118",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0044",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0044",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0087",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0087",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0086",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0086",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0045",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0045",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0119",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0119",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0103",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0103",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0063",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0063",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0100",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0100",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0128",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0128",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0060",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0060",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0059",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0059",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0071",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0071",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0065",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0065",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0064",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0064",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0058",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0058",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0110",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0110",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0104",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0104",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0066",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0066",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0072",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0072",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0099",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0099",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0067",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0067",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0107",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0107",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0174",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0174",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0216",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0216",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0014",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0014",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0028",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0028",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0029",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0029",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0015",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0015",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0175",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0175",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0163",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0163",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0177",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0177",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0017",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0017",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0016",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0016",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0176",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0176",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0172",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0172",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0006",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0006",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0007",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0007",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0013",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0013",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0198",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0198",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0173",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0173",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0167",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0167",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0165",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0165",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0005",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0005",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0038",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0038",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0164",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0164",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear grid no extrapolation S0170",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "linear interpolation reproduces saved data S0170",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "resampling grid no finer than typical native spacing",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "representatives are real dataset curves",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "one medoid per reported group",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0005",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0006",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0007",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0008",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0013",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0014",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0015",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0016",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0017",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0020",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0021",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0022",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0023",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0028",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0029",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0030",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0031",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0037",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0038",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0044",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0045",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0055",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0056",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0057",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0058",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0059",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0060",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0063",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0064",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0065",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0066",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0067",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0071",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0072",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0081",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0086",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0087",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0095",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0099",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0100",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0103",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0104",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0107",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0108",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0109",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0110",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0118",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0119",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0128",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0141",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0153",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0154",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0163",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0164",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0165",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0166",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0167",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0170",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0172",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0173",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0174",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0175",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0176",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0177",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0178",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0182",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0183",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0186",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0187",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0191",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0192",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0193",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0194",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0195",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0196",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0197",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0198",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0199",
+      "status": "passed",
+      "detail": ""
+    },
+    {
+      "check": "segments preserve raw point counts S0216",
+      "status": "passed",
+      "detail": ""
+    }
+  ]
+}

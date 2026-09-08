@@ -1,0 +1,17 @@
+{
+  "seed_count": 5,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "mean_accuracy": 1.0,
+  "min_accuracy": 1.0,
+  "max_accuracy": 1.0,
+  "mean_macro_f1": 1.0,
+  "mean_pairwise_ari_between_seed_runs": 1.0,
+  "min_pairwise_ari_between_seed_runs": 1.0,
+  "note": "Seeds are a supplemental robustness diagnostic; all other paper parameters remain unchanged."
+}

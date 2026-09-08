@@ -1,0 +1,40 @@
+{
+  "setting": {
+    "name": "paper_lr_sensitivity",
+    "sigma": 0.5,
+    "learning_rate": 0.3,
+    "random_order": false,
+    "source": "paper"
+  },
+  "k": 4,
+  "layout": [
+    2,
+    2
+  ],
+  "iterations": 50000,
+  "selected_seed": 0,
+  "mean_pairwise_seed_ari": 1.0,
+  "smoothing_enabled": false,
+  "labels_used": false,
+  "selection": {
+    "setting": "paper_lr_sensitivity",
+    "source": "paper",
+    "sigma": 0.5,
+    "learning_rate": 0.3,
+    "random_order": false,
+    "elbow_k": 4,
+    "qe_at_elbow": 1.0395192046869703,
+    "silhouette_at_elbow": 0.5098416577230439,
+    "seed_ari_at_elbow": 1.0,
+    "overlap_ratio_at_elbow": 2.5443812218411965,
+    "min_cluster_fraction_at_elbow": 0.04159733777038269,
+    "occupied_nodes_at_elbow": 4.0,
+    "empty_nodes_at_elbow": 0.0,
+    "rank_qe": 6.0,
+    "rank_silhouette": 1.0,
+    "rank_stability": 1.0,
+    "rank_separation": 4.0,
+    "rank_sum": 12.0,
+    "passes_main_shape_support": true
+  }
+}

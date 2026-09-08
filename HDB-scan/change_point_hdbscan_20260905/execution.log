@@ -1,0 +1,183 @@
+2026-09-05 13:54:15 QC: 218 total curves, 156 eligible known-hour curves
+2026-09-05 13:54:15 CP screening: 252 configurations x 156 curves, two deletion probes each
+2026-09-05 13:55:21 CP selected {'id': 'CP028', 'algorithm': 'pelt', 'cost': 'linear', 'min_fraction': 0.03, 'penalty': 0.5}
+2026-09-05 13:56:19 QC: 218 total curves, 156 eligible known-hour curves
+2026-09-05 13:56:19 CP selected {'id': 'CP028', 'algorithm': 'pelt', 'cost': 'linear', 'min_fraction': 0.03, 'penalty': 0.5}
+2026-09-05 13:56:19 Feature extraction full_duration: 156 curves; no resampling
+2026-09-05 13:56:24 Feature extraction 200h: 50 curves; no resampling
+2026-09-05 13:56:25 Feature extraction 300h: 79 curves; no resampling
+2026-09-05 13:56:25 Feature extraction 500h: 84 curves; no resampling
+2026-09-05 13:56:26 Feature extraction 750h: 83 curves; no resampling
+2026-09-05 13:56:27 Feature extraction 1000h: 51 curves; no resampling
+2026-09-05 13:56:28 HDBSCAN grid full_duration: three normalizations x four representations x adaptive full parameter grid
+2026-09-05 13:56:29 full_duration grid complete; total evaluated candidates 960
+2026-09-05 13:56:29 HDBSCAN grid 200h: three normalizations x four representations x adaptive full parameter grid
+2026-09-05 13:56:29 200h grid complete; total evaluated candidates 1536
+2026-09-05 13:56:29 HDBSCAN grid 300h: three normalizations x four representations x adaptive full parameter grid
+2026-09-05 13:56:30 300h grid complete; total evaluated candidates 2496
+2026-09-05 13:56:30 HDBSCAN grid 500h: three normalizations x four representations x adaptive full parameter grid
+2026-09-05 13:56:31 500h grid complete; total evaluated candidates 3456
+2026-09-05 13:56:31 HDBSCAN grid 750h: three normalizations x four representations x adaptive full parameter grid
+2026-09-05 13:56:32 750h grid complete; total evaluated candidates 4416
+2026-09-05 13:56:32 HDBSCAN grid 1000h: three normalizations x four representations x adaptive full parameter grid
+2026-09-05 13:56:32 1000h grid complete; total evaluated candidates 4992
+2026-09-05 14:03:04 QC: 218 total curves, 156 eligible known-hour curves
+2026-09-05 14:03:04 CP selected {'id': 'CP028', 'algorithm': 'pelt', 'cost': 'linear', 'min_fraction': 0.03, 'penalty': 0.5}
+2026-09-05 14:03:04 Feature extraction full_duration: 156 curves; no resampling
+2026-09-05 14:03:04 Feature extraction 200h: 50 curves; no resampling
+2026-09-05 14:03:04 Feature extraction 300h: 79 curves; no resampling
+2026-09-05 14:03:04 Feature extraction 500h: 84 curves; no resampling
+2026-09-05 14:03:04 Feature extraction 750h: 83 curves; no resampling
+2026-09-05 14:03:04 Feature extraction 1000h: 51 curves; no resampling
+2026-09-05 14:03:04 full_duration grid complete; total evaluated candidates 960
+2026-09-05 14:03:04 200h grid complete; total evaluated candidates 1536
+2026-09-05 14:03:04 300h grid complete; total evaluated candidates 2496
+2026-09-05 14:03:04 500h grid complete; total evaluated candidates 3456
+2026-09-05 14:03:04 750h grid complete; total evaluated candidates 4416
+2026-09-05 14:03:04 1000h grid complete; total evaluated candidates 4992
+2026-09-05 14:03:04 Full change-point support validation 300h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:03:08 Full change-point support validation full_duration: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:03:30 Full change-point support validation 200h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:03:32 Full change-point support validation 750h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:03:39 Full change-point support validation 500h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:03:45 Full change-point support validation 1000h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:03:50 50-bootstrap finalist 300h__robust__full__000
+2026-09-05 14:03:51 50-bootstrap finalist full_duration__robust__0.9__005
+2026-09-05 14:03:51 50-bootstrap finalist 300h__max__full__001
+2026-09-05 14:03:51 50-bootstrap finalist 200h__max__0.99__000
+2026-09-05 14:03:51 50-bootstrap finalist 200h__robust__0.95__003
+2026-09-05 14:03:52 50-bootstrap finalist 750h__initial__0.95__037
+2026-09-05 14:03:52 50-bootstrap finalist 750h__max__0.9__023
+2026-09-05 14:03:52 50-bootstrap finalist 300h__initial__0.95__001
+2026-09-05 14:03:52 50-bootstrap finalist 500h__max__0.9__003
+2026-09-05 14:03:52 50-bootstrap finalist 500h__initial__0.9__017
+2026-09-05 14:03:53 50-bootstrap finalist 1000h__max__full__003
+2026-09-05 14:03:53 50-bootstrap finalist 1000h__initial__full__003
+2026-09-05 14:03:53 50-bootstrap finalist 500h__robust__0.95__003
+2026-09-05 14:03:53 50-bootstrap finalist 300h__robust__full__004
+2026-09-05 14:03:53 50-bootstrap finalist 300h__robust__0.95__001
+2026-09-05 14:03:54 50-bootstrap finalist 300h__robust__0.95__005
+2026-09-05 14:03:54 50-bootstrap finalist 300h__robust__full__001
+2026-09-05 14:03:54 50-bootstrap finalist 300h__robust__full__005
+2026-09-05 14:03:54 Candidate frozen before physical interpretation: 300h__robust__0.95__001
+2026-09-05 14:04:04 Final stability: sample bootstrap, figure bootstrap, shuffled input, 50 repetitions each
+2026-09-05 14:04:04 Final timepoint deletion: 50 runs at 5%, 50 runs at 10%; changepoints and feature transforms refit
+2026-09-05 14:04:10 Sensitivity cp_pelt_linear
+2026-09-05 14:04:10 Sensitivity cp_binseg_linear
+2026-09-05 14:04:11 Sensitivity cp_pelt_rbf
+2026-09-05 14:04:11 Sensitivity cp_pelt_l2
+2026-09-05 14:04:11 Sensitivity cp_binseg_rbf
+2026-09-05 14:04:12 Sensitivity cp_binseg_l2
+2026-09-05 14:04:12 Sensitivity cp_window_linear
+2026-09-05 14:04:12 Sensitivity cp_window_rbf
+2026-09-05 14:04:12 Sensitivity cp_window_l2
+2026-09-05 14:04:13 Sensitivity: common linear grids, observation windows and metadata cohorts
+2026-09-05 14:04:20 Parameters frozen; generating medoids, raw member overlays and descriptive morphology
+2026-09-05 14:04:23 ALL STAGES COMPLETE
+2026-09-05 14:07:15 QC: 218 total curves, 156 eligible known-hour curves
+2026-09-05 14:07:15 CP selected {'id': 'CP028', 'algorithm': 'pelt', 'cost': 'linear', 'min_fraction': 0.03, 'penalty': 0.5}
+2026-09-05 14:07:15 Feature extraction full_duration: 156 curves; no resampling
+2026-09-05 14:07:15 Feature extraction 200h: 50 curves; no resampling
+2026-09-05 14:07:15 Feature extraction 300h: 79 curves; no resampling
+2026-09-05 14:07:15 Feature extraction 500h: 84 curves; no resampling
+2026-09-05 14:07:15 Feature extraction 750h: 83 curves; no resampling
+2026-09-05 14:07:15 Feature extraction 1000h: 51 curves; no resampling
+2026-09-05 14:07:15 full_duration grid complete; total evaluated candidates 960
+2026-09-05 14:07:15 200h grid complete; total evaluated candidates 1536
+2026-09-05 14:07:15 300h grid complete; total evaluated candidates 2496
+2026-09-05 14:07:15 500h grid complete; total evaluated candidates 3456
+2026-09-05 14:07:15 750h grid complete; total evaluated candidates 4416
+2026-09-05 14:07:15 1000h grid complete; total evaluated candidates 4992
+2026-09-05 14:07:16 Full change-point support validation 300h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:07:16 Full change-point support validation full_duration: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:07:16 Full change-point support validation 200h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:07:16 Full change-point support validation 750h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:07:16 Full change-point support validation 500h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:07:16 Full change-point support validation 1000h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:07:16 Candidate frozen before physical interpretation: 300h__robust__0.95__001
+2026-09-05 14:07:17 Final stability: sample bootstrap, figure bootstrap, shuffled input, 50 repetitions each
+2026-09-05 14:07:17 Final timepoint deletion: 50 runs at 5%, 50 runs at 10%; changepoints and feature transforms refit
+2026-09-05 14:07:17 Sensitivity cp_pelt_linear
+2026-09-05 14:07:17 Sensitivity cp_binseg_linear
+2026-09-05 14:07:17 Sensitivity cp_pelt_rbf
+2026-09-05 14:07:17 Sensitivity cp_pelt_l2
+2026-09-05 14:07:17 Sensitivity cp_binseg_rbf
+2026-09-05 14:07:17 Sensitivity cp_binseg_l2
+2026-09-05 14:07:17 Sensitivity cp_window_linear
+2026-09-05 14:07:17 Sensitivity cp_window_rbf
+2026-09-05 14:07:17 Sensitivity cp_window_l2
+2026-09-05 14:07:17 Sensitivity: common linear grids, observation windows and metadata cohorts
+2026-09-05 14:07:17 Parameters frozen; generating medoids, raw member overlays and descriptive morphology
+2026-09-05 14:07:20 ALL STAGES COMPLETE
+2026-09-05 14:09:54 QC: 218 total curves, 156 eligible known-hour curves
+2026-09-05 14:09:54 CP selected {'id': 'CP028', 'algorithm': 'pelt', 'cost': 'linear', 'min_fraction': 0.03, 'penalty': 0.5}
+2026-09-05 14:09:54 Feature extraction full_duration: 156 curves; no resampling
+2026-09-05 14:09:54 Feature extraction 200h: 50 curves; no resampling
+2026-09-05 14:09:54 Feature extraction 300h: 79 curves; no resampling
+2026-09-05 14:09:55 Feature extraction 500h: 84 curves; no resampling
+2026-09-05 14:09:55 Feature extraction 750h: 83 curves; no resampling
+2026-09-05 14:09:55 Feature extraction 1000h: 51 curves; no resampling
+2026-09-05 14:09:55 full_duration grid complete; total evaluated candidates 960
+2026-09-05 14:09:55 200h grid complete; total evaluated candidates 1536
+2026-09-05 14:09:55 300h grid complete; total evaluated candidates 2496
+2026-09-05 14:09:55 500h grid complete; total evaluated candidates 3456
+2026-09-05 14:09:55 750h grid complete; total evaluated candidates 4416
+2026-09-05 14:09:55 1000h grid complete; total evaluated candidates 4992
+2026-09-05 14:09:55 Full change-point support validation 300h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:09:55 Full change-point support validation full_duration: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:09:55 Full change-point support validation 200h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:09:55 Full change-point support validation 750h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:09:55 Full change-point support validation 500h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:09:55 Full change-point support validation 1000h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:09:56 Candidate frozen before physical interpretation: 300h__robust__0.95__001
+2026-09-05 14:09:56 Final stability: sample bootstrap, figure bootstrap, shuffled input, 50 repetitions each
+2026-09-05 14:09:56 Final timepoint deletion: 50 runs at 5%, 50 runs at 10%; changepoints and feature transforms refit
+2026-09-05 14:09:56 Sensitivity cp_pelt_linear
+2026-09-05 14:09:56 Sensitivity cp_binseg_linear
+2026-09-05 14:09:56 Sensitivity cp_pelt_rbf
+2026-09-05 14:09:56 Sensitivity cp_pelt_l2
+2026-09-05 14:09:56 Sensitivity cp_binseg_rbf
+2026-09-05 14:09:56 Sensitivity cp_binseg_l2
+2026-09-05 14:09:56 Sensitivity cp_window_linear
+2026-09-05 14:09:56 Sensitivity cp_window_rbf
+2026-09-05 14:09:56 Sensitivity cp_window_l2
+2026-09-05 14:09:56 Sensitivity: common linear grids, observation windows and metadata cohorts
+2026-09-05 14:09:57 Post-freeze audit of 26 four-cluster candidates: 50 bootstraps each; no reselection
+2026-09-05 14:10:01 Parameters frozen; generating medoids, raw member overlays and descriptive morphology
+2026-09-05 14:10:05 ALL STAGES COMPLETE
+2026-09-05 14:11:43 QC: 218 total curves, 156 eligible known-hour curves
+2026-09-05 14:11:43 CP selected {'id': 'CP028', 'algorithm': 'pelt', 'cost': 'linear', 'min_fraction': 0.03, 'penalty': 0.5}
+2026-09-05 14:11:43 Feature extraction full_duration: 156 curves; no resampling
+2026-09-05 14:11:43 Feature extraction 200h: 50 curves; no resampling
+2026-09-05 14:11:43 Feature extraction 300h: 79 curves; no resampling
+2026-09-05 14:11:43 Feature extraction 500h: 84 curves; no resampling
+2026-09-05 14:11:43 Feature extraction 750h: 83 curves; no resampling
+2026-09-05 14:11:43 Feature extraction 1000h: 51 curves; no resampling
+2026-09-05 14:11:44 full_duration grid complete; total evaluated candidates 960
+2026-09-05 14:11:44 200h grid complete; total evaluated candidates 1536
+2026-09-05 14:11:44 300h grid complete; total evaluated candidates 2496
+2026-09-05 14:11:44 500h grid complete; total evaluated candidates 3456
+2026-09-05 14:11:44 750h grid complete; total evaluated candidates 4416
+2026-09-05 14:11:44 1000h grid complete; total evaluated candidates 4992
+2026-09-05 14:11:44 Full change-point support validation 300h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:11:44 Full change-point support validation full_duration: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:11:44 Full change-point support validation 200h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:11:44 Full change-point support validation 750h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:11:44 Full change-point support validation 500h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:11:44 Full change-point support validation 1000h: 50 repeats at each of 5% and 10% deletion
+2026-09-05 14:11:44 Candidate frozen before physical interpretation: 300h__robust__0.95__001
+2026-09-05 14:11:45 Final stability: sample bootstrap, figure bootstrap, shuffled input, 50 repetitions each
+2026-09-05 14:11:45 Final timepoint deletion: 50 runs at 5%, 50 runs at 10%; changepoints and feature transforms refit
+2026-09-05 14:11:45 Sensitivity cp_pelt_linear
+2026-09-05 14:11:45 Sensitivity cp_binseg_linear
+2026-09-05 14:11:45 Sensitivity cp_pelt_rbf
+2026-09-05 14:11:45 Sensitivity cp_pelt_l2
+2026-09-05 14:11:45 Sensitivity cp_binseg_rbf
+2026-09-05 14:11:45 Sensitivity cp_binseg_l2
+2026-09-05 14:11:45 Sensitivity cp_window_linear
+2026-09-05 14:11:45 Sensitivity cp_window_rbf
+2026-09-05 14:11:45 Sensitivity cp_window_l2
+2026-09-05 14:11:45 Sensitivity: common linear grids, observation windows and metadata cohorts
+2026-09-05 14:11:45 Post-freeze audit of 26 four-cluster candidates: 50 bootstraps each; no reselection
+2026-09-05 14:11:45 Parameters frozen; generating medoids, raw member overlays and descriptive morphology
+2026-09-05 14:11:49 ALL STAGES COMPLETE

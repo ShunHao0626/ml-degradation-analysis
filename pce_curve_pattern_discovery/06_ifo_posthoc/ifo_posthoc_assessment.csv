@@ -1,0 +1,5 @@
+target_shape,retained_natural_k4_cluster,closest_frozen_result,evidence
+IFO-Bridge,False,node 3,near-stable/weak initial gain only; no rapid rise followed by a resolved slow-decay segment
+IFO-Hill,False,none,"no K=4 center has rapid rise, a clear peak, rapid post-peak loss, and subsequent slow decay"
+IFO-Slope,True,nodes 0 and 2,early decline followed by slower continuing decline; nodes differ mainly in loss magnitude
+IFO-Valley,False,K=16 node 5 only,one-member valley-like exploratory node; K=16 also has an empty node and is rejected by the paper K rule

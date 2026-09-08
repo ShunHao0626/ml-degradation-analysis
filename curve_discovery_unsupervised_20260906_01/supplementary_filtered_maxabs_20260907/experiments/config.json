@@ -1,0 +1,44 @@
+{
+  "source_result": "/Users/shunhao/Desktop/ML/curve_discovery_unsupervised_20260906_01",
+  "source_dataset": "/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test",
+  "normalization": "per-curve maxabs",
+  "x_transform": "per-curve relative observed progress",
+  "smoothing": false,
+  "target_shape_labels_used": false,
+  "ks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "seeds": [
+    11,
+    29,
+    47,
+    71,
+    101
+  ],
+  "sigma": 0.5,
+  "learning_rate": 0.3,
+  "iterations": 50000,
+  "selection": "median QE normalized chord elbow; overlap diagnostics are reported, never optimized against IFO labels",
+  "subsets": {
+    "Q156_quality": 156,
+    "H200_n126": 126,
+    "H500_n105_recommended": 105,
+    "H750_n88_strict": 88,
+    "P15_n153_sensitivity": 153
+  }
+}

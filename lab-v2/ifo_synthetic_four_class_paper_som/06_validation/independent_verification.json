@@ -1,0 +1,34 @@
+{
+  "all_passed": true,
+  "passed": 22,
+  "total": 22,
+  "checks": {
+    "exactly_1000_truth_rows": true,
+    "four_balanced_truth_classes": true,
+    "unique_curve_ids": true,
+    "preprocessed_matrix_shape_1000x901": true,
+    "preprocessed_matrix_all_finite": true,
+    "qc_has_1000_rows": true,
+    "akima_leaves_no_nan": true,
+    "maxabs_normalization_correct": true,
+    "assignment_has_1000_rows": true,
+    "all_four_nodes_occupied": true,
+    "node_counts_sum_to_1000": true,
+    "posthoc_mapping_is_bijection": true,
+    "confusion_matrix_recomputes": true,
+    "accuracy_recomputes": true,
+    "macro_f1_recomputes": true,
+    "ari_recomputes": true,
+    "five_seed_diagnostic_runs": true,
+    "pairwise_seed_matrix_5x5": true,
+    "pairwise_seed_ari_diagonal_is_one": true,
+    "report_exists": true,
+    "main_plot_exists": true,
+    "confusion_plot_exists": true
+  },
+  "recomputed_metrics": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "adjusted_rand_index": 1.0
+  }
+}

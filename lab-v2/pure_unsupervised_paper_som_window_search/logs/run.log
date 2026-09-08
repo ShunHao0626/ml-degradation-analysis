@@ -1,0 +1,26 @@
+2026-08-30 16:28:33,703 INFO Audited 218 CSV; 155 verified time-output curves
+2026-08-30 16:28:33,795 INFO Preprocessed 150h: (130, 900)
+2026-08-30 16:28:33,897 INFO Preprocessed 200h: (124, 1200)
+2026-08-30 16:28:34,023 INFO Preprocessed 300h: (116, 1800)
+2026-08-30 16:28:34,198 INFO Preprocessed 500h: (104, 3000)
+2026-08-30 16:28:34,395 INFO Preprocessed 750h: (87, 4500)
+2026-08-30 16:28:34,567 INFO Preprocessed 1000h: (55, 6000)
+2026-08-30 16:28:40,750 INFO Parameter search 6/54
+2026-08-30 16:28:47,270 INFO Parameter search 12/54
+2026-08-30 16:28:54,080 INFO Parameter search 18/54
+2026-08-30 16:29:02,238 INFO Parameter search 24/54
+2026-08-30 16:29:11,348 INFO Parameter search 30/54
+2026-08-30 16:29:21,557 INFO Parameter search 36/54
+2026-08-30 16:29:33,645 INFO Parameter search 42/54
+2026-08-30 16:29:47,005 INFO Parameter search 48/54
+2026-08-30 16:30:01,650 INFO Parameter search 54/54
+2026-08-30 16:30:06,982 INFO Stability candidate 1/9 complete
+2026-08-30 16:30:12,295 INFO Stability candidate 2/9 complete
+2026-08-30 16:30:17,654 INFO Stability candidate 3/9 complete
+2026-08-30 16:30:23,007 INFO Stability candidate 4/9 complete
+2026-08-30 16:30:28,369 INFO Stability candidate 5/9 complete
+2026-08-30 16:30:33,674 INFO Stability candidate 6/9 complete
+2026-08-30 16:30:39,392 INFO Stability candidate 7/9 complete
+2026-08-30 16:30:44,820 INFO Stability candidate 8/9 complete
+2026-08-30 16:30:50,333 INFO Stability candidate 9/9 complete
+2026-08-30 16:30:52,293 INFO Selected candidate 25 and reran with random_seed=None

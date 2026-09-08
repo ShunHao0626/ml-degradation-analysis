@@ -1,0 +1,4 @@
+comparison,k,ARI,NMI,note
+Test 1 vs Test 2,4,0.1565794661267041,0.17739415524504437,Label-permutation invariant; fixed K=4 controlled view.
+Test 2 vs Test 3,4,1.0,1.0,Label-permutation invariant; fixed K=4 controlled view.
+Test 1 vs Test 3,4,0.1565794661267041,0.17739415524504437,Label-permutation invariant; fixed K=4 controlled view.

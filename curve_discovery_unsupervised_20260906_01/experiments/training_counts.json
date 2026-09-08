@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "final_sweep.csv": 240,
+    "additional_sweep.csv": 96,
+    "elastic_sweep.csv": 1200,
+    "local_sweep.csv": 155,
+    "time_only_sweep.csv": 48,
+    "screening.csv": 1728,
+    "group_bootstrap_training_runs": 320
+  },
+  "total": 3787
+}

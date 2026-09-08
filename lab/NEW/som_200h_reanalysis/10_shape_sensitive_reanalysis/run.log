@@ -1,0 +1,34 @@
+2026-08-09 02:28:06,709 INFO Discovering raw curves
+2026-08-09 02:28:07,625 INFO QC complete: 1431/1442 retained; 2 flagged axis labels
+2026-08-09 02:28:13,774 INFO Preprocessing comparison complete: 1431 curves
+2026-08-09 02:28:13,955 INFO Feature sets built: time_weighted_curve=(1431, 201), curve_plus_derivative=(1431, 242), curve_derivative_descriptors=(1431, 263), descriptors_only=(1431, 21)
+2026-08-09 02:28:13,956 INFO SOM scan time_weighted_curve n=4
+2026-08-09 02:28:16,703 INFO SOM scan time_weighted_curve n=5
+2026-08-09 02:28:19,499 INFO SOM scan time_weighted_curve n=6
+2026-08-09 02:28:22,476 INFO SOM scan time_weighted_curve n=7
+2026-08-09 02:28:25,675 INFO SOM scan time_weighted_curve n=8
+2026-08-09 02:28:29,021 INFO SOM scan time_weighted_curve n=9
+2026-08-09 02:28:32,324 INFO SOM scan time_weighted_curve n=10
+2026-08-09 02:28:36,887 INFO SOM scan curve_plus_derivative n=4
+2026-08-09 02:28:39,451 INFO SOM scan curve_plus_derivative n=5
+2026-08-09 02:28:42,339 INFO SOM scan curve_plus_derivative n=6
+2026-08-09 02:28:45,338 INFO SOM scan curve_plus_derivative n=7
+2026-08-09 02:28:48,598 INFO SOM scan curve_plus_derivative n=8
+2026-08-09 02:28:51,970 INFO SOM scan curve_plus_derivative n=9
+2026-08-09 02:28:55,526 INFO SOM scan curve_plus_derivative n=10
+2026-08-09 02:29:00,052 INFO SOM scan curve_derivative_descriptors n=4
+2026-08-09 02:29:02,702 INFO SOM scan curve_derivative_descriptors n=5
+2026-08-09 02:29:05,624 INFO SOM scan curve_derivative_descriptors n=6
+2026-08-09 02:29:08,711 INFO SOM scan curve_derivative_descriptors n=7
+2026-08-09 02:29:12,020 INFO SOM scan curve_derivative_descriptors n=8
+2026-08-09 02:29:15,450 INFO SOM scan curve_derivative_descriptors n=9
+2026-08-09 02:29:19,073 INFO SOM scan curve_derivative_descriptors n=10
+2026-08-09 02:29:23,659 INFO SOM scan descriptors_only n=4
+2026-08-09 02:29:25,857 INFO SOM scan descriptors_only n=5
+2026-08-09 02:29:28,180 INFO SOM scan descriptors_only n=6
+2026-08-09 02:29:30,590 INFO SOM scan descriptors_only n=7
+2026-08-09 02:29:33,308 INFO SOM scan descriptors_only n=8
+2026-08-09 02:29:36,059 INFO SOM scan descriptors_only n=9
+2026-08-09 02:29:38,841 INFO SOM scan descriptors_only n=10
+2026-08-09 02:29:46,869 INFO Selected shape-sensitive model: curve_derivative_descriptors n=6
+2026-08-09 02:29:47,068 INFO Shape-sensitive reanalysis complete: /Users/shunhao/Desktop/ML/lab/NEW/som_200h_reanalysis/10_shape_sensitive_reanalysis

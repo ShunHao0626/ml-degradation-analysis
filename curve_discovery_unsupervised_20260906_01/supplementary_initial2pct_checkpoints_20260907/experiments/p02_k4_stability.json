@@ -1,0 +1,97 @@
+{
+  "k": 4,
+  "n": 120,
+  "seeds": [
+    11,
+    29,
+    47,
+    71,
+    101
+  ],
+  "pairwise_ari_mean": 0.838855029092701,
+  "pairwise_ari_min": 0.6987370283967501,
+  "pairwise_ari": [
+    0.8013307939188379,
+    0.8805138816543887,
+    0.852221098428294,
+    0.9087114588346286,
+    0.8507105809378416,
+    0.6987370283967501,
+    0.8278277588624073,
+    0.7860694119820406,
+    0.9701591274380793,
+    0.8122691504737434
+  ],
+  "runs": [
+    {
+      "seed": 11,
+      "qe": 0.5369178979444753,
+      "cluster_sizes": [
+        7,
+        7,
+        33,
+        73
+      ],
+      "silhouette": 0.5079698746070748,
+      "minimum_centroid_distance": 1.39473352780973,
+      "mean_within_cluster_rms": 0.8552234457495475,
+      "separation_ratio": 1.6308410798856632
+    },
+    {
+      "seed": 29,
+      "qe": 0.5286516340712107,
+      "cluster_sizes": [
+        19,
+        23,
+        71,
+        7
+      ],
+      "silhouette": 0.4621598886970907,
+      "minimum_centroid_distance": 1.1294031778569356,
+      "mean_within_cluster_rms": 0.7858376738952577,
+      "separation_ratio": 1.4371965297345501
+    },
+    {
+      "seed": 47,
+      "qe": 0.5364291932624955,
+      "cluster_sizes": [
+        35,
+        8,
+        71,
+        6
+      ],
+      "silhouette": 0.49800326811624696,
+      "minimum_centroid_distance": 1.3428188133345091,
+      "mean_within_cluster_rms": 0.8548126603675821,
+      "separation_ratio": 1.5708925190194039
+    },
+    {
+      "seed": 71,
+      "qe": 0.5507348578619291,
+      "cluster_sizes": [
+        30,
+        78,
+        6,
+        6
+      ],
+      "silhouette": 0.5204455528151027,
+      "minimum_centroid_distance": 1.4718905582842192,
+      "mean_within_cluster_rms": 0.8784920972334218,
+      "separation_ratio": 1.6754738749722948
+    },
+    {
+      "seed": 101,
+      "qe": 0.5419598652095388,
+      "cluster_sizes": [
+        34,
+        8,
+        72,
+        6
+      ],
+      "silhouette": 0.500349382520178,
+      "minimum_centroid_distance": 1.3561522551177136,
+      "mean_within_cluster_rms": 0.8555163305562026,
+      "separation_ratio": 1.5851857021081401
+    }
+  ]
+}
