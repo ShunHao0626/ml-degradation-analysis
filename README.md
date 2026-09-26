@@ -1,38 +1,37 @@
 # ML degradation analysis
 
-对钙钛矿太阳能电池的 PCE–时间曲线进行整理、无监督聚类与形态分析。本仓库按**当前分析、方法复现、历史实验**组织；曲线原始数据、论文全文和逐曲线图片留在本地，不随 Git 发布。
+English · [中文](README_CN.md)
 
-## 从哪里开始
+This repository studies power conversion efficiency (PCE) versus time in perovskite solar cells. It contains the upstream curve work, SOM and shape analyses, method comparisons, and historical experiments. Raw curves, third-party papers, and per-curve images used by these projects are normally kept outside Git.
 
-| 任务 | 入口 | 内容 |
+## Start here
+
+| Task | Entry point | Scope |
 |---|---|---|
-| 当前 0–200 h 四形态分析 | [`ML_SOM/target_shape_classification/README.md`](ML_SOM/target_shape_classification/README.md) | 输入审计、SOM、形态判读、来源复核和测试 |
-| 固定 1,842 条曲线的四簇复现 | [`ML_SOM/SI_1842_reproduction_core_20260926/README_CN.md`](ML_SOM/SI_1842_reproduction_core_20260926/README_CN.md) | 冻结配置、拟合、出图和核验；输入数据另行提供 |
-| 2,246 条去重曲线的构建 | [`ML_SOM/canonical_2246_full_dataset_20260925/README.md`](ML_SOM/canonical_2246_full_dataset_20260925/README.md) | 构建、来源映射与完整性验证；生成的数据留在本地 |
-| PFD–DTW 方法复现 | [`derivative_clustering/README.md`](derivative_clustering/README.md) | 独立的导数特征、DTW、层次聚类及单元测试 |
-| Hartono 等人的 PvkSOM 复现 | [`thesis/README.md`](thesis/README.md) | 原始论文工作流及预处理比较 |
-| 其他导数 DTW 实验 | [`DTW/result_derivative_dtw/code/REPRODUCE.md`](DTW/result_derivative_dtw/code/REPRODUCE.md) | 早期独立实验和结果导出 |
-| 历史 SOM、HDBSCAN 和参数探索 | [`by-products/README.md`](by-products/README.md) | 按研究问题索引既有实验，不参与当前入口 |
+| Current 0–200 h shape analysis | [`ML_SOM/target_shape_classification/`](ML_SOM/target_shape_classification/README.md) | Input audit, SOM, shape interpretation, source review, and tests |
+| Fixed 1,842-curve four-cluster reproduction | [Perovskite early degradation clusters](https://github.com/ShunHao0626/perovskite-early-degradation-clusters) | Fixed inputs, density-weighted K-means, verification, and full results; maintained in its own repository |
+| Build the 2,246-curve canonical dataset | [`ML_SOM/canonical_2246_full_dataset_20260925/`](ML_SOM/canonical_2246_full_dataset_20260925/README.md) | Deduplication, provenance, and integrity checks; generated data stay local |
+| Reproduce PFD–DTW | [`derivative_clustering/`](derivative_clustering/README.md) | Derivative features, DTW, hierarchical clustering, and tests |
+| Reproduce the Hartono PvkSOM workflow | [`thesis/`](thesis/README.md) | Original paper workflow and preprocessing comparison |
+| Other derivative DTW experiments | [`DTW/`](DTW/result_derivative_dtw/code/REPRODUCE.md) | Earlier independent experiments and exports |
+| Historical SOM, HDBSCAN, and parameter searches | [`by-products/`](by-products/README.md) | Research archive indexed by question |
 
-`environment.yml` 是早期 PvkSOM 实验环境。当前子项目优先使用各自的 `requirements.txt`、配置和 README。脚本通常从其子项目目录运行；需要先放入相应的本地数据，再按该目录说明执行。
+`environment.yml` describes the earlier PvkSOM environment. For newer projects, use the environment and commands documented in each project directory. The [code map](ML_SOM/target_shape_classification/CODE_MAP.md) shows the dependencies within the current 0–200 h analysis.
 
-当前 0–200 h 分析的模块依赖和数据流另见 [代码导航](ML_SOM/target_shape_classification/CODE_MAP.md)。
+## Repository boundary
 
-## 研究边界
+This repository owns upstream curve curation, the broader 0–200 h SOM and morphology study, derivative/DTW comparisons, and the historical research record. The [separate early degradation repository](https://github.com/ShunHao0626/perovskite-early-degradation-clusters) is the canonical public source for fitting four clusters to the **fixed set of 1,842 curves**. Its input selection came from an earlier exploration here, so that upstream work remains for provenance. The duplicate reproduction package is no longer maintained in this repository.
 
-项目主要检验 Bridge、Hill、Slope、Valley 四种目标曲线形态在无标签聚类中是否自然分开。历史 SOM、HDBSCAN 与 DTW 实验表明，真实文献曲线的簇更常按衰减幅度和速度分开。目标形态可作为逐曲线判读线索，但不能把簇号当作已验证的四类标签。固定 1,842 条输入的四簇实验使用过旧的候选筛选，因此属于探索性分析；具体限制见其 README。
+## Interpretation
 
-## 数据与发布范围
+The broader question is whether Bridge, Hill, Slope, and Valley patterns form distinct groups without labels. Historical SOM, HDBSCAN, and DTW analyses often divide the heterogeneous literature curves by degradation magnitude and speed. A cluster ID is not a validated pattern label. The separate 1,842-curve analysis uses density-weighted K-means, **not SOM**; earlier provisional shape candidates influenced its input selection, so its four groups are exploratory.
 
-Git 中仅保留代码、配置、方法文档、必要的汇总表与汇总图。以下内容保存在工作机或由使用者从原始来源获取：
+## Data and publication policy
 
-- `ML_SOM/data_final/`、`ML_SOM/original_curves_2250/`、`ML_SOM/canonical_2246_full_dataset_20260925/{dataset,derived}/` 等原始或派生曲线；
-- `ML_SOM/SI_1842_reproduction_core_20260926/data/` 中的固定输入，以及完整 SI 交付包；
-- `by-products/` 下历史实验使用的曲线、矩阵、模型和论文全文；
-- 本地文献库、原图、PDF、逐曲线图库及压缩包。
+This repository publishes code, configuration, methods, and selected aggregate tables and figures. Local-only material includes `ML_SOM/data_final/`, `ML_SOM/original_curves_2250/`, generated canonical datasets, historical experiment inputs, paper full texts, and per-curve galleries. The fixed 1,842-curve input and complete reproduction results are owned by the separate repository. Identifiers such as DOI, figure, and curve ID in summaries support provenance; they do not imply that the original files are present here.
 
-仓库中的索引、配置和结果可能包含 DOI、图号、曲线 ID 或原工作机路径，用于溯源，不代表相应原始文件已公开。完整复现需要按子项目 README 准备数据。
+Unique historical SI text, figures, and per-curve plotting values are retained locally at `ML_SOM/si_1842_supplementary/` and are excluded from this Git repository. Its historical cluster numbering may differ from the separate repository's display numbering.
 
-## 来源
+## Attribution
 
-PvkSOM 方法及参考数据：Hartono 等，*Nature Communications* 14, 4869 (2023)，[DOI: 10.1038/s41467-023-40585-3](https://doi.org/10.1038/s41467-023-40585-3)。`thesis/LICENSE` 为相应代码许可。文献数字化曲线应回查并引用各原始论文。
+The PvkSOM method and reference dataset come from Hartono et al., *Nature Communications* 14, 4869 (2023), [DOI: 10.1038/s41467-023-40585-3](https://doi.org/10.1038/s41467-023-40585-3). See `thesis/LICENSE` for the corresponding code license. Consult and cite the source articles for literature-digitized curves.

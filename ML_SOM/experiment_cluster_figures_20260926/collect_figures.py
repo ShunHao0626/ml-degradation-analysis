@@ -10,12 +10,23 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
+REPO_ROOT = ROOT.parent
 OUT = Path(__file__).resolve().parent
 RECORDS: list[dict[str, str]] = []
 
 
+def source_path(source: str | Path) -> Path:
+    source = Path(source)
+    if source.is_absolute():
+        return source
+    # The shared thesis and derivative projects have one maintained copy at
+    # the repository root; the shape research remains under ML_SOM/.
+    base = REPO_ROOT if source.parts[0] in {"thesis", "derivative_clustering"} else ROOT
+    return base / source
+
+
 def add(source: str | Path, group: str, method: str, dataset: str) -> None:
-    src = ROOT / source
+    src = source_path(source)
     if not src.is_file():
         raise FileNotFoundError(src)
     dest = OUT / "figures" / group / src.name
@@ -29,16 +40,16 @@ def add(source: str | Path, group: str, method: str, dataset: str) -> None:
             "method": method,
             "dataset": dataset,
             "figure": str(dest.relative_to(OUT)),
-            "original_path": str(src.relative_to(ROOT)),
+            "original_path": str(src.relative_to(REPO_ROOT)),
             "sha256": src_hash,
         }
     )
 
 
 def add_glob(directory: str, pattern: str, group: str, method: str, dataset: str) -> None:
-    for path in sorted((ROOT / directory).glob(pattern)):
+    for path in sorted(source_path(directory).glob(pattern)):
         if path.suffix.lower() in {".png", ".svg"}:
-            add(path.relative_to(ROOT), group, method, dataset)
+            add(path, group, method, dataset)
 
 
 THESIS = "Hartono 2245 条 PCE 老化曲线"
@@ -64,10 +75,10 @@ for branch, method in (
     ("test3_resample_normalize_smooth", "MaxAbs＋Savitzky–Golay 平滑＋SOM；自然 K=5"),
 ):
     group = f"02_preprocessing/{branch}"
-    for path in sorted((ROOT / prep / branch).glob("*.png")):
+    for path in sorted((source_path(prep) / branch).glob("*.png")):
         if path.name == "initial_max_pce_distributions.png":
             continue
-        add(path.relative_to(ROOT), group, method, THESIS)
+        add(path, group, method, THESIS)
 add(
     f"{prep}/comparison/04_three_pipeline_comparison.png",
     "02_preprocessing/comparison", "三种输入固定 K=4 的 SOM 形状对照", THESIS,
@@ -161,17 +172,17 @@ for sub in ("02_injection", "03_derivative_graph"):
 hour = "derivative_clustering/hour_aware_analysis"
 for branch in ("outputs", "initial_arpack_outputs"):
     for sub in ("existing_400", "independent_31001", "same_family_31001", "clock_replicas_42001", "clock_replicas_42002", "clock_replicas_42003"):
-        folder = ROOT / hour / branch / sub
+        folder = source_path(hour) / branch / sub
         if not folder.is_dir():
             continue
         for path in sorted(folder.glob("*.png")):
             add(
-                path.relative_to(ROOT), f"07_hour_aware/{branch}/{sub}",
+                path, f"07_hour_aware/{branch}/{sub}",
                 "相对进程形态分组＋原始小时响应时间子群", SYNTH,
             )
         for path in sorted(folder.glob("*.svg")):
             add(
-                path.relative_to(ROOT), f"07_hour_aware/{branch}/{sub}",
+                path, f"07_hour_aware/{branch}/{sub}",
                 "相对进程形态分组＋原始小时响应时间子群", SYNTH,
             )
 

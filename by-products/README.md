@@ -1,14 +1,16 @@
-# 历史实验索引
+# Historical experiments
 
-这里收纳此前位于仓库根目录的探索性实验，原有子目录结构、配置、报告和汇总结果保持不变。该目录是研究记录；当前工作请从根目录 [README](../README.md) 进入。原始曲线、论文全文、模型文件和大型中间矩阵仍保留在本地。
+English · [中文](README_CN.md)
 
-| 方向 | 路径 | 主要问题 |
+This directory archives exploratory projects formerly at the repository root. Their internal structure, configuration, reports, and aggregate outputs remain as research records. Start new work from the [main README](../README.md). Raw curves, paper full texts, models, and large intermediate matrices remain local.
+
+| Area | Directory | Main question |
 |---|---|---|
-| 文献曲线与 200 h SOM | [`lab/`](lab/) | 从初版到规范化的 200 h 重分析 |
-| 四形态 SOM 搜索 | [`lab-v2/`](lab-v2/) | 218 条子集和完整文献曲线上的无监督搜索与事后形态核查 |
-| 文献参数与聚类数 | [`pce_hour_curve_taxonomy/`](pce_hour_curve_taxonomy/)、[`pce_curve_pattern_discovery/`](pce_curve_pattern_discovery/) | 参数证据、K 的选择及稳健性 |
-| 变化点与密度聚类 | [`HDB-scan/`](HDB-scan/) | 不平滑的 HDBSCAN 对照 |
-| 可变长度曲线 | [`curve_discovery_unsupervised_20260906_01/`](curve_discovery_unsupervised_20260906_01/) | 相对进度轴上的无监督实验 |
-| 无平滑与广泛搜索 | [`pce_som_no_smoothing_20260907_01/`](pce_som_no_smoothing_20260907_01/)、[`pce_ifo_unsupervised_detail_search_20260907_01/`](pce_ifo_unsupervised_detail_search_20260907_01/) | 500 h 基线、窗口和表示的敏感性 |
+| Literature curves and 200 h SOM | [`lab/`](lab/) | Initial through canonical 200 h reanalyses |
+| Four-shape SOM search | [`lab-v2/`](lab-v2/) | Unsupervised searches on a 218-curve subset and the full literature collection |
+| Literature parameters and cluster count | [`pce_hour_curve_taxonomy/`](pce_hour_curve_taxonomy/), [`pce_curve_pattern_discovery/`](pce_curve_pattern_discovery/) | Parameter evidence, K selection, and robustness |
+| Change points and density clustering | [`HDB-scan/`](HDB-scan/) | HDBSCAN comparison without smoothing |
+| Variable-length curves | [`curve_discovery_unsupervised_20260906_01/`](curve_discovery_unsupervised_20260906_01/) | Unsupervised analysis on a relative-progress axis |
+| No-smoothing and broad searches | [`pce_som_no_smoothing_20260907_01/`](pce_som_no_smoothing_20260907_01/), [`pce_ifo_unsupervised_detail_search_20260907_01/`](pce_ifo_unsupervised_detail_search_20260907_01/) | 500 h baseline and window/representation sensitivity |
 
-大部分脚本原来假定这些目录直接位于仓库根目录。迁入本目录后，带有硬编码相对路径的历史脚本需要从其原目录布局或按其报告记录的路径运行；归档结果本身不受移动影响。
+Many archived scripts assumed these directories were directly under the repository root. After the move, scripts with hard-coded relative paths may require their original layout or path adjustments; the archived results themselves are unchanged.

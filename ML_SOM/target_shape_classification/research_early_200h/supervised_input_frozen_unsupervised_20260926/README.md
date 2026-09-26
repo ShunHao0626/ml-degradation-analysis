@@ -1,5 +1,9 @@
 # 有监督输入整理 + 冻结的无监督四簇拟合
 
+本目录记录上游输入筛选实验。固定 1,842 条曲线的公开复现、固定输入及完整结果以[独立仓库](https://github.com/ShunHao0626/perovskite-early-degradation-clusters)为准；此处保留筛选过程和研究溯源。
+
+This directory records upstream input curation. The [separate repository](https://github.com/ShunHao0626/perovskite-early-degradation-clusters) owns the maintained public fit, fixed inputs, and full results for 1,842 curves.
+
 本目录与上一轮[无标签质量筛选结果](../shape_only_input_curation_20260925/README.md)并列保存，不改写原始 CSV 或上一轮输出。**有监督部分只有 `prepare_dataset.py` 生成模型输入名单；聚类阶段的形状编码、参数和 KMeans 拟合函数保持上一轮不变。**这不等于整个端到端流程无监督，也不证明原始全集天然包含四个独立类别。
 
 ## 先看结果
