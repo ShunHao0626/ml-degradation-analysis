@@ -1,0 +1,20 @@
+{
+  "protocol_version": "early200h-v2-extrema-2026-09-24",
+  "source_root": "/Users/shunhao/Desktop/ML_SOM/original_curves_2250",
+  "image_root": "/Users/shunhao/Desktop/ML_SOM/data_final",
+  "legacy_results_root": "/Users/shunhao/Desktop/ML_SOM/target_shape_classification/results",
+  "window_h": 200,
+  "boundary_limit_h": 250,
+  "boundary_max_points": 3,
+  "grid_step_h": 2,
+  "maximum_interpolation_gap_h": 40,
+  "detail_mode": "extrema_only",
+  "split_seed": 20260924,
+  "train_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "map_rows": 10,
+  "map_columns": 10,
+  "epochs": 50,
+  "seeds": [41, 42, 43, 44, 45, 46, 47, 48, 49, 50],
+  "group_weights": {"trajectory": 0.5, "velocity": 0.25, "detail": 0.25}
+}

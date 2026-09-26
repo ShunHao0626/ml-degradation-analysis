@@ -24,6 +24,10 @@ tmp/
 *.tmp
 *.bak
 *~
+*.zip
+.matplotlib_cache/
+tmp_pycache/
+tmp_matplotlib/
 
 # ---- Datasets: never published --------------------------------------------
 # digitised literature curves, source figures and paper full texts
@@ -113,3 +117,70 @@ plotly.min.js
 .venv/
 venv/
 env/
+
+# Current workspace: source data and generated artifacts stay local.
+/ML_SOM/data_final/
+/ML_SOM/original_curves_2250/
+/ML_SOM/derivative_clustering/
+/ML_SOM/thesis/
+/ML_SOM/SI_1842_curves_20260926/
+/ML_SOM/SI_1842_reproduction_outputs/
+/ML_SOM/SI_1842_reproduction_core_20260926/data/
+/ML_SOM/canonical_2246_full_dataset_20260925/dataset/
+/ML_SOM/canonical_2246_full_dataset_20260925/derived/
+/ML_SOM/canonical_2246_full_dataset_20260925/provenance/
+/ML_SOM/canonical_2246_full_dataset_20260925/*.csv
+/ML_SOM/target_shape_classification/results/
+/ML_SOM/target_shape_classification/review_inputs/
+/ML_SOM/target_shape_classification/research_early_200h/results/
+/ML_SOM/target_shape_classification/research_early_200h/delivery/
+/ML_SOM/target_shape_classification/research_early_200h/diagram_stage_20260925/
+/ML_SOM/target_shape_classification/research_early_200h/evaluation/
+/ML_SOM/target_shape_classification/research_early_200h/final_integrated_20260925/
+/ML_SOM/target_shape_classification/research_early_200h/manifests/
+/ML_SOM/target_shape_classification/research_early_200h/reviews/
+/ML_SOM/target_shape_classification/research_early_200h/runs/
+/ML_SOM/target_shape_classification/research_early_200h/交付_核心研究图包_20260925/
+/ML_SOM/target_shape_classification/research_early_200h/**/results/
+/ML_SOM/experiment_cluster_figures_20260926/figures/
+/derivative_clustering/data/
+/derivative_clustering/dataset/
+/derivative_clustering/outputs/
+/derivative_clustering/eg_based_synthetic_dataset/
+/derivative_clustering/functional_validation_20260920/outputs/
+/derivative_clustering/**/outputs/
+/derivative_clustering/**/cli_smoke/
+/derivative_clustering/**/initial_arpack_outputs/
+/NC references/
+/0917_bohrium_118/
+/bohrium_paper_screenshots/
+/new_dataset/
+
+# Historical experiments were moved under by-products/. Apply their old
+# data exclusions at the new path as well.
+/by-products/lab/data_all/
+/by-products/lab-v2/som_references/accepted/
+/by-products/**/accepted/
+/by-products/**/raw_curves/
+/by-products/**/samples_test/
+/by-products/**/samples_test_png/
+/by-products/**/data/
+/by-products/**/raw/
+/by-products/**/aligned/
+/by-products/**/raw_input/
+/by-products/**/cleaned_input/
+/by-products/**/normalized_input/
+/by-products/**/resampled_input/
+/by-products/**/window_inputs/
+/by-products/**/oa_pdfs/
+/by-products/**/open_access_papers/
+/by-products/**/fulltext_open/
+/by-products/**/fulltext_text/
+/by-products/**/rendered_relevant_pages/
+/by-products/**/evidence_pages/
+/by-products/**/figure_review/
+/by-products/**/source_data/
+/by-products/**/raw_openalex/
+/by-products/**/raw_crossref/
+/by-products/**/openalex_raw/
+/by-products/**

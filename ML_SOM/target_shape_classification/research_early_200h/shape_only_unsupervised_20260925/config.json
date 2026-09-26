@@ -1,0 +1,16 @@
+{
+  "protocol": "anonymous-rank-shape-exact-dtw-v2",
+  "input_index": "../dtw_unsupervised_200h_20260925/results/curve_index.csv",
+  "input_points_root": "../dtw_unsupervised_200h_20260925/results",
+  "minimum_distinct_observations": 4,
+  "rank_grid_points": 64,
+  "exact_dtw_neighbors": 36,
+  "warping_fraction_of_rank_grid": 0.5,
+  "short_difference_radius": 2,
+  "long_difference_radius": 6,
+  "short_difference_soft_scale": 0.0075,
+  "long_difference_soft_scale": 0.015,
+  "dtw_channel_weights": [0.25, 0.45, 0.3],
+  "cluster_counts": [16, 32, 64],
+  "random_seed": 20260925
+}

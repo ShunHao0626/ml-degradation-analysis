@@ -1,0 +1,21 @@
+{
+  "protocol": "strict-original-0-200h-dtw-v1",
+  "source_root": "/Users/shunhao/Desktop/ML_SOM/original_curves_2250",
+  "canonical_manifest": "/Users/shunhao/Desktop/ML_SOM/target_shape_classification/results/canonical_curves.csv",
+  "all_file_manifest": "/Users/shunhao/Desktop/ML_SOM/target_shape_classification/results/input_manifest.csv",
+  "window_h": 200,
+  "grid_step_h": 2,
+  "maximum_interpolation_gap_h": 40,
+  "minimum_original_unique_hours": 4,
+  "minimum_supported_grid_points": 12,
+  "minimum_observed_span_h": 20,
+  "minimum_pair_shared_grid_points": 12,
+  "minimum_pair_shared_span_h": 20,
+  "dtw_warp_limit_h": 20,
+  "derivative_window_h": 10,
+  "derivative_scale_h": 20,
+  "candidate_neighbors_per_view": 55,
+  "primary_cluster_count": 8,
+  "diagnostic_cluster_counts": [4, 8, 12],
+  "random_seed": 20260925
+}

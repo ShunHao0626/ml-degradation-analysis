@@ -1,0 +1,25 @@
+{
+  "protocol": "supervised-input-curation-frozen-label-free-fit-v1",
+  "input_index": "data/input_index.csv",
+  "input_shapes": "data/shape_inputs.npz",
+  "input_points_root": "data",
+  "output_dir": "../SI_1842_reproduction_outputs",
+  "minimum_distinct_observations": 8,
+  "maximum_total_variation_to_range": 3.0,
+  "roughness_range_floor": 0.005,
+  "amplitude_floor": 0.01,
+  "gaussian_rank_sigma": 1.5,
+  "chebyshev_degree": 5,
+  "robust_scaler_quantiles": [
+    10,
+    90
+  ],
+  "density_neighbors": 31,
+  "density_weight_clip": [
+    0.2,
+    10.0
+  ],
+  "cluster_count": 4,
+  "kmeans_restarts": 20,
+  "random_seed": 43
+}
