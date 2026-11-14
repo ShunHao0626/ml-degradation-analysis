@@ -1,6 +1,8 @@
 # 导数感知 DTW 无监督聚类结果
 
-先打开 **[index.html](index.html)**，或直接查看 **[dtw_clusters.png](dtw_clusters.png)**。输出组织参考 `thesis/result`，训练方法采用你提供 Markdown 的 **multivariate DTW + 层次聚类 G1 分支**。
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
+先打开 **`index.html`**，或直接查看 **[dtw_clusters.png](dtw_clusters.png)**。输出组织参考 `thesis/result`，训练方法采用你提供 Markdown 的 **multivariate DTW + 层次聚类 G1 分支**。
 
 当前结果：399.43 h，91 条，z-normalization，λ=4，radius=20%，average linkage，K=2，簇规模 84/7。所有曲线未平滑；原始数据未修改。
 

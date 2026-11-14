@@ -1,5 +1,7 @@
 # 形状 DTW 匿名细分：实测结果与边界
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 ## 匿名运行
 
 - 纳入 2152 条曲线，比原先带绝对小时约束的 DTW 多 87 条；输入均为
@@ -9,20 +11,20 @@
   预先设定 16、32、64 簇；64 簇最小 8 条、最大 72 条。
 - 聚类输入仅有归一化 PCE 随相对观测序位的轨迹及短／长尺度变化。
   四类旧候选、源分组、绝对小时、旧聚类结果均没有进入距离或分群。
-  [计算核验](results/verification.json)通过：完整曲线对数量、有限距离、
+  计算核验（`results/verification.json`）通过：完整曲线对数量、有限距离、
   输出覆盖与 C++/独立 Python DTW 一致性均通过。
 
 ## 结果中可观察到的形状
 
-在[64 簇全尺度图](results/anonymous_k64_page3.png)和
-[逐簇纵轴放大图](results/anonymous_k64_zoom_page3.png)中，可见匿名簇 38、39 的
-先上升后下降轨迹；[第 2 页](results/anonymous_k64_page2.png)中的簇 31
-呈现先下降后回升；[第 4 页](results/anonymous_k64_zoom_page4.png)中的簇
+在64 簇全尺度图（`results/anonymous_k64_page3.png`）和
+逐簇纵轴放大图（`results/anonymous_k64_zoom_page3.png`）中，可见匿名簇 38、39 的
+先上升后下降轨迹；第 2 页（`results/anonymous_k64_page2.png`）中的簇 31
+呈现先下降后回升；第 4 页（`results/anonymous_k64_zoom_page4.png`）中的簇
 54、55、56、63 呈现不同幅度的上升或高位平台，簇 18 等则持续下降。
 其中 56、63 的小幅变化只有纵轴放大后才明显。
 这些是**观察到的轨迹描述**，不是已经确认的四类标签。
 
-冻结分群后才运行旧自动候选的[事后交叉表](results/posthoc_old_candidate_contingency_k64.csv)：
+冻结分群后才运行旧自动候选的事后交叉表（`results/posthoc_old_candidate_contingency_k64.csv`）：
 簇 38 为 Hill 候选 38/38，簇 39 为 26/26；簇 31 为 Valley 候选 30/38；
 簇 54 为 Bridge 候选 8/8，但这 8 条的旧证据状态均为 `insufficient_evidence`；
 簇 56 为 Bridge 候选 23/26，其中只有 2 条旧状态为 `stage_candidate`；
@@ -39,7 +41,7 @@
 纵轴局部放大页显示一些约 1% 的真实点变化参与了分群，
 但是否为物理趋势还需要原图或重复测量确认。
 
-[无标签扰动检查](results/unlabeled_noise_sensitivity.json)将每个原始观测值加入
+无标签扰动检查（`results/unlabeled_noise_sensitivity.json`）将每个原始观测值加入
 独立标准差 0.003 或 0.005 的归一化 PCE 扰动，并重跑完整分群。
 在 64 簇尺度，对原结果的 ARI 分别只有 0.345 和 0.248；每个原簇的最佳
 Jaccard 重叠中位数分别为 0.333 和 0.207。部分形状簇较稳，

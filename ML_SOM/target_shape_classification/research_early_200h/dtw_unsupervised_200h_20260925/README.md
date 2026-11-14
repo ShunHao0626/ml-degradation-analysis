@@ -1,5 +1,7 @@
 # 0–200 h 原始曲线的匿名 DTW 聚类
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 本目录是独立实验，不读取旧分类作为训练输入。`run.py` 从指定的
 `original_curves_2250` 读取规范曲线，核对源 CSV 哈希，统一小时轴，只保留
 `0 ≤ hour ≤ 200` 的原始点。每曲线用该窗口内有效原始点的最大 PCE 归一化。
@@ -22,15 +24,15 @@
 实际数量、匿名群外观及限制见 [RESULTS.md](RESULTS.md)。少数转折形态的
 `results/event_review_queue.csv` 是聚类后独立生成的核图队列，不改变聚类。
 
-细节观察：打开 [匿名群局部查看页](results/anonymous_cluster_detail_viewer.html)，
+细节观察：打开 匿名群局部查看页（`results/anonymous_cluster_detail_viewer.html`），
 可选 8 个群、搜索曲线编号，直接输入横轴小时范围和纵轴 PCE 范围，或用
 50 h 分段按钮放大；纵轴可按当前可见的代表曲线与所选曲线自动缩放。
 圆点对应原始观测，悬停显示源 CSV 行号。查看页收录全部 2065 条可建模曲线，
 由 `python3 make_detail_viewer.py` 从已保存的逐点数据重新生成；它只改变显示尺度，
 不改变 2 h 模型网格、DTW 距离或匿名分组。
 
-若按[严格数值候选的 2207 条口径](../evaluation/strict_numeric_coverage_20260925/README.md)
-逐条查看，可打开 [2207 条细节查看页](results/strict_numeric_2207_detail_viewer.html)。
+若按严格数值候选的 2207 条口径（`../evaluation/strict_numeric_coverage_20260925/README.md`）
+逐条查看，可打开 2207 条细节查看页（`results/strict_numeric_2207_detail_viewer.html`）。
 它读取整合图库的 `classes/*/*.csv` 中 0–200 h 的真实点；其中 2065 条有
 既有 DTW 匿名群号，142 条显示未进入 DTW 的原因。四类名称只是事后自动规则
 候选，**没有作为 DTW 输入**。运行 `python3 make_2207_detail_viewer.py` 可重建此页。

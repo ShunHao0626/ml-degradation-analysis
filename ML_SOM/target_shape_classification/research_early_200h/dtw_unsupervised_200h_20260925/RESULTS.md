@@ -1,5 +1,7 @@
 # 严格 0–200 h DTW 无监督实验：实测结果
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 运行日期：2026-09-25。此目录是新实验；输入仅为 `original_curves_2250` 的源 CSV。
 旧规则四类结果仅在匿名分组写盘之后，用于探索性对照。
 
@@ -37,10 +39,10 @@
 外观只是查看真实代表曲线后的描述，**不是四类命名或人工核图结论**。
 请看 `results/anonymous_cluster_overview.png` 和 `results/cluster_representatives.csv`；
 群号没有语义，红/蓝等示例线均来自真实的 0–200 h 原始点。
-如需放大局部，可打开 [交互式细节查看页](results/anonymous_cluster_detail_viewer.html)：
+如需放大局部，可打开 交互式细节查看页（`results/anonymous_cluster_detail_viewer.html`）：
 有 0–50、50–100、100–150、150–200 h 预设，也可手动细调横纵轴范围；
 单点悬停显示其精确值和源行号。`make_detail_viewer.py` 可重新生成该页。
-另有 [2207 条数值候选细节页](results/strict_numeric_2207_detail_viewer.html)，
+另有 2207 条数值候选细节页（`results/strict_numeric_2207_detail_viewer.html`），
 可查看未进入 DTW 的 142 条曲线及其排除原因。两页的 2065 条可建模曲线
 使用同一批原始观测；2207 条集合是事后候选筛选口径，不是新的无标签聚类结果。
 

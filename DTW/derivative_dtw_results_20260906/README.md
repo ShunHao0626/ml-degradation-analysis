@@ -1,6 +1,8 @@
 # derivative-aware DTW 分析结果
 
-建议先打开 [研究报告.html](研究报告.html)，或阅读 [研究报告.md](研究报告.md)。
+> Note: paths shown in code format that were previously links (for example under `results/`) are local run outputs that are not published in Git, so they are no longer linked.
+
+建议先打开 `研究报告.html`，或阅读 [研究报告.md](研究报告.md)。
 
 推荐探索窗口约 **399.43 h（每条曲线首观测点起算）**；91 条曲线分为 **84 / 7**。结果对重采样较稳定，但对归一化敏感，不能作为普适两类/四类形态结论；导数未改变 PCE-only 的标签。
 

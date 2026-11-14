@@ -1,13 +1,15 @@
 # 无标签输入质量筛选后的四簇实验
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 这是[上一轮四簇探索](../shape_only_four_group_exploration_20260925/README.md)的**独立新结果目录**。本轮固定上一轮的形状表示、密度加权 KMeans、四簇数量及随机种子，只调整输入数据的最低实测点数；聚类拟合与本轮门槛选择都不读取旧四类候选。上一轮的特征／模型方案曾受目标外观引导，故不能把整条研究链称作从零开始的严格无监督发现。
 
 ## 看结果
 
-- [按参考风格绘制的四簇放大图 PNG](results/anonymous_four_groups_zoom.png)（[SVG](results/anonymous_four_groups_zoom.svg)）：彩色淡线是该匿名簇全部曲线，黑线是平滑后的逐序位中位数。各面板的纵轴自动按本簇中位数放大，范围外成员片段会被裁切；横轴为相对观测序位，无 hour。
-- [统一纵轴图](results/anonymous_four_groups.png)与[逐曲线交互查看器](results/anonymous_cluster_detail_viewer.html)。
-- [全部匿名归属](results/anonymous_assignments.csv)、[255 条暂缓输入曲线及原因](results/excluded_input_curves.csv)、[结果与限制](RESULTS.md)。
-- [无标签门槛选择记录](SELECTION.md)及[数值核验](results/verification.json)。
+- 按参考风格绘制的四簇放大图 PNG（`results/anonymous_four_groups_zoom.png`）（SVG (`results/anonymous_four_groups_zoom.svg`)）：彩色淡线是该匿名簇全部曲线，黑线是平滑后的逐序位中位数。各面板的纵轴自动按本簇中位数放大，范围外成员片段会被裁切；横轴为相对观测序位，无 hour。
+- 统一纵轴图（`results/anonymous_four_groups.png`）与逐曲线交互查看器（`results/anonymous_cluster_detail_viewer.html`）。
+- 全部匿名归属（`results/anonymous_assignments.csv`）、255 条暂缓输入曲线及原因（`results/excluded_input_curves.csv`）、[结果与限制](RESULTS.md)。
+- [无标签门槛选择记录](SELECTION.md)及数值核验（`results/verification.json`）。
 
 ## 输入与复现
 

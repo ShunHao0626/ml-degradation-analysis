@@ -1,5 +1,7 @@
 # 形态相同但小时尺度不同：解决方案与实测边界
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 ## 结论
 
 采用用户确认的方案：**先无监督分形态组，再解释形态；同一形态内保留实际小时参数，必要时再分响应快慢子组。**
@@ -59,7 +61,7 @@
 没有把“测得更久”当成“变化更慢”。本对照中观测最大值不变；新出现更高峰值时，
 最大值归一化本身会改变参考，不能声称对任意延长窗口都不变。
 
-图：[相同形态、不同实际小时](outputs/physical_examples/same_shape_different_hours.png)。
+图：相同形态、不同实际小时（`outputs/physical_examples/same_shape_different_hours.png`）。
 
 ## 3. 6 批数据实测结果
 
@@ -130,5 +132,5 @@ TWED 是显式处理时间戳和时间刚性的相关原始方法；本次附加
 并检查 CSV 往返与命令行输入排序变化后的分组一致性。
 原 400 个源 CSV 的 SHA256 均未改变。
 
-入口：[运行说明](README.md)；明细：[指标汇总](outputs/metrics_summary.csv)、
-[输出审计](outputs/verification.json)、[原 400 条逐曲线结果](outputs/existing_400/hour_assignments.csv)。
+入口：[运行说明](README.md)；明细：指标汇总（`outputs/metrics_summary.csv`）、
+输出审计（`outputs/verification.json`）、原 400 条逐曲线结果（`outputs/existing_400/hour_assignments.csv`）。

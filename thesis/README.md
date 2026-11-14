@@ -1,3 +1,20 @@
+> **About this folder (added in ml-degradation-analysis).** This README below the line is an unmodified copy of the upstream [noortitan/PvkSOM](https://github.com/noortitan/PvkSOM) README by Noor Titan Putri Hartono (BSD 2-Clause, see `LICENSE`). Its installation steps refer to the upstream repository: `PCE_df_grouping.csv` and the Zenodo `.pkl` files are **not** included here and must be obtained from the upstream repository and [Zenodo](https://doi.org/10.5281/zenodo.8185882).
+>
+> Files added for this project:
+>
+> | File | Purpose |
+> |---|---|
+> | `run_pipeline.py`, `environment_mac.yml` | Script version of the upstream notebook workflow (revision 11, with revision 10 as reference) for running outside Jupyter |
+> | `run_som_preprocessing_comparison.py`, `Three_Run_SOM_Preprocessing_Comparison_Prompt.md`, `som_preprocessing_comparison/` | Three-way preprocessing comparison (raw, resample + MaxAbs, resample + MaxAbs + Savitzky–Golay) on the 2,245 Hartono curves; see `som_preprocessing_comparison/final_analysis.md` (Chinese) |
+> | `my_pipeline.py` | Adaptation of the pipeline to the author's own 30 MPPT measurements (hard-coded local paths) |
+> | `normalize_data_200h.py` | Converts literature curves to a 0–200 h, 10-min grid with MaxAbs scaling (hard-coded local paths) |
+> | `paper/convert_pdf.py`, `paper/convert_supp.py` | Convert the Hartono article and its supplement to Markdown for reading; the PDFs themselves are not included |
+> | `result/`, `20230816_run_revision_excN2/` | Summary figures and cluster tables from local runs |
+>
+> 中文说明：分隔线以下为上游 PvkSOM README 的原样副本；`PCE_df_grouping.csv` 与 Zenodo 数据不在本仓库中。本项目新增的文件见上表。
+
+---
+
 # PvkSOM: Perovskite solar cells degradation data clustering using self-organizing map
 This documentation is prepared as the workflow to accompany the following study:
 

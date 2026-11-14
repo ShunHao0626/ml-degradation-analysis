@@ -1,5 +1,7 @@
 # 有监督输入整理 + 冻结的无监督四簇拟合
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 本目录记录上游输入筛选实验。固定 1,842 条曲线的公开复现、固定输入及完整结果以[独立仓库](https://github.com/ShunHao0626/perovskite-early-degradation-clusters)为准；此处保留筛选过程和研究溯源。
 
 This directory records upstream input curation. The [separate repository](https://github.com/ShunHao0626/perovskite-early-degradation-clusters) owns the maintained public fit, fixed inputs, and full results for 1,842 curves.
@@ -8,16 +10,16 @@ This directory records upstream input curation. The [separate repository](https:
 
 ## 先看结果
 
-- [四簇曲线放大图](results/anonymous_four_groups_zoom.png)（[SVG](results/anonymous_four_groups_zoom.svg)）：彩色淡线为全部成员，黑线为平滑后的逐序位中位数；横轴为相对观测序位，无 hour。
-- [统一纵轴图](results/anonymous_four_groups.png)与[逐曲线交互查看器](results/anonymous_cluster_detail_viewer.html)。
-- [1842 条匿名簇归属](results/anonymous_assignments.csv)、[完整 2152 条输入决策](full_input_decisions.csv)、[本轮额外暂缓的 55 条](supervised_input_exclusions.csv)。
-- [结果、稳定性与限制](RESULTS.md)及[边界核验](results/verification.json)。
+- 四簇曲线放大图（`results/anonymous_four_groups_zoom.png`）（SVG (`results/anonymous_four_groups_zoom.svg`)）：彩色淡线为全部成员，黑线为平滑后的逐序位中位数；横轴为相对观测序位，无 hour。
+- 统一纵轴图（`results/anonymous_four_groups.png`）与逐曲线交互查看器（`results/anonymous_cluster_detail_viewer.html`）。
+- 1842 条匿名簇归属（`results/anonymous_assignments.csv`）、完整 2152 条输入决策（`full_input_decisions.csv`）、本轮额外暂缓的 55 条（`supervised_input_exclusions.csv`）。
+- [结果、稳定性与限制](RESULTS.md)及边界核验（`results/verification.json`）。
 
 ## 数据边界
 
 上游 2152 条至少 4 个实测时刻的曲线中，上一轮质量门槛暂缓 255 条，剩余 1897 条。本轮只对这 1897 条做输入整理：用**上一轮冻结的匿名簇**和**旧的、未验证四类自动候选**识别三个小簇中二者不一致的曲线；总起伏不超过 0.01 PCE 的曲线保留，以免丢掉用户关注的约 1% 形状变化。由此额外暂缓 55 条，最后 **1842** 条进入模型；相对于更早的 2135 条方案，额外暂缓 **293** 条，符合约 300 条的取舍范围。
 
-这 55 条不能被称为已证实的“非目标曲线”：旧候选没有独立人工真值，前一轮的簇也不是四类真值。此处是在**监督式整理输入**，让输入中小型形态簇与旧候选更一致。输入 CSV/NPZ 只含曲线 ID、来源、点数及数值轨迹，没有旧类别列；旧类别只存在于[输入决策表](full_input_decisions.csv)和整理脚本中。
+这 55 条不能被称为已证实的“非目标曲线”：旧候选没有独立人工真值，前一轮的簇也不是四类真值。此处是在**监督式整理输入**，让输入中小型形态簇与旧候选更一致。输入 CSV/NPZ 只含曲线 ID、来源、点数及数值轨迹，没有旧类别列；旧类别只存在于输入决策表（`full_input_decisions.csv`）和整理脚本中。
 
 ## 复现顺序
 
@@ -32,4 +34,4 @@ python3 target_shape_classification/research_early_200h/supervised_input_frozen_
 python3 target_shape_classification/research_early_200h/supervised_input_frozen_unsupervised_20260926/verify.py
 ```
 
-[`config.json`](config.json)与上一轮除协议名称和输入文件路径外的全部参数一致。[核验脚本](verify.py)逐函数比较 `original_observations`、`encode`、`fit` 的语法树，并核对参数、输入列、覆盖与有限数值；结果见[verification.json](results/verification.json)。
+[`config.json`](config.json)与上一轮除协议名称和输入文件路径外的全部参数一致。[核验脚本](verify.py)逐函数比较 `original_observations`、`encode`、`fit` 的语法树，并核对参数、输入列、覆盖与有限数值；结果见`results/verification.json`。

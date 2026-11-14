@@ -1,7 +1,9 @@
 # 保留实际小时的两层曲线分组
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 先看 [中文结论](REPORT_CN.md)，以及
-[同形态、不同小时尺度示例](outputs/physical_examples/same_shape_different_hours.png)。
+同形态、不同小时尺度示例（`outputs/physical_examples/same_shape_different_hours.png`）。
 
 本目录是新增实现，未改写 `eg`、原 400 条 synthetic curve 或此前实验。
 形态层仍使用相对进程，时间层独立使用原始小时；不是把归一化横坐标改名为 hour。

@@ -1,6 +1,8 @@
 # 本次研究结果
 
-**最终展示图入口：[result/index.html](result/index.html)。分簇曲线与均值总览：[hdbscan_clusters.png](result/hdbscan_clusters.png)。**
+> Note: paths shown in code format that were previously links (for example under `results/`) are local run outputs that are not published in Git, so they are no longer linked.
+
+**最终展示图入口：`result/index.html`。分簇曲线与均值总览：[hdbscan_clusters.png](result/hdbscan_clusters.png)。**
 
 请先阅读 [研究结果与方法报告.md](研究结果与方法报告.md)。
 

@@ -2,6 +2,8 @@
 
 [English](README.md) · 中文
 
+> **一个项目，两个仓库。** 本仓库是早期衰减曲线聚类研究的完整工作区。它的独立复现包——固定 1,842 条曲线的四簇结果、核验脚本和离线浏览页面——位于 [perovskite-early-degradation-clusters](https://github.com/ShunHao0626/perovskite-early-degradation-clusters)。复现主要结果请从该仓库开始；数据集构建、方法对照与溯源记录见本仓库。
+
 对钙钛矿太阳能电池的 PCE–时间曲线进行整理、无监督聚类与形态分析。本仓库按**当前分析、方法复现、历史实验**组织；曲线原始数据、论文全文和逐曲线图片留在本地，不随 Git 发布。
 
 ## 从哪里开始
@@ -12,13 +14,29 @@
 | 固定 1,842 条曲线的四簇复现 | [独立仓库 perovskite-early-degradation-clusters](https://github.com/ShunHao0626/perovskite-early-degradation-clusters) | 固定输入、密度加权 KMeans、核验与完整结果；此处不再维护副本 |
 | 2,246 条去重曲线的构建 | [`ML_SOM/canonical_2246_full_dataset_20260925/README.md`](ML_SOM/canonical_2246_full_dataset_20260925/README.md) | 构建、来源映射与完整性验证；生成的数据留在本地 |
 | PFD–DTW 方法复现 | [`derivative_clustering/README.md`](derivative_clustering/README.md) | 独立的导数特征、DTW、层次聚类及单元测试 |
-| Hartono 等人的 PvkSOM 复现 | [`thesis/README.md`](thesis/README.md) | 原始论文工作流及预处理比较 |
+| Hartono 等人的 PvkSOM 复现 | [`thesis/README.md`](thesis/README.md) | 上游 PvkSOM 工作流的改编副本、运行脚本，以及在 Hartono 自有数据集上的三种预处理对比 |
 | 其他导数 DTW 实验 | [`DTW/result_derivative_dtw/code/REPRODUCE.md`](DTW/result_derivative_dtw/code/REPRODUCE.md) | 早期独立实验和结果导出 |
 | 历史 SOM、HDBSCAN 和参数探索 | [`by-products/README_CN.md`](by-products/README_CN.md) | 按研究问题索引既有实验，不参与当前入口 |
 
 `environment.yml` 是早期 PvkSOM 实验环境。当前子项目优先使用各自的 `requirements.txt`、配置和 README。脚本通常从其子项目目录运行；需要先放入相应的本地数据，再按该目录说明执行。
 
 当前 0–200 h 分析的模块依赖和数据流另见 [代码导航](ML_SOM/target_shape_classification/CODE_MAP_CN.md)。
+
+## 项目中出现的曲线数量
+
+各子项目文档中出现了多个曲线数量，它们对应不同的处理阶段，并非结果相互矛盾：
+
+| 数量 | 含义 |
+|---:|---|
+| 2,250 | 从文献数字化得到的源文件（`ML_SOM/original_curves_2250/`） |
+| 2,246 | 去除 2,250 个文件中 4 个重复别名后的规范曲线 |
+| 2,216 | 整合交付中带四形态记录的规范曲线：2,205 条来自原自动规则，2 条为论文核轴后的自动规则，9 条仅来自原图人工判读 |
+| 2,207 | 2,216 条中有数值数据的部分（2,205 + 2），用于严格的 0–200 h 数值分析 |
+| 2,205 | 适用原数值阶段规则的曲线，用于稳健性审计 |
+| 2,208 | 独立 0–200 h 重新分类（`classify_200h.py`）中，2,250 个源文件里获得四形态候选的文件数 |
+| 2,152 | 纯形状 K-means 实验的输入池；较早一轮无标签质量门槛保留其中 1,897 条 |
+| 1,842 | 四簇复现的固定输入，在借助暂定形状候选的情况下从 2,152 条中筛出 |
+| 2,245 | `thesis/` 使用的 Hartono 等人自有高通量老化数据集，与文献曲线集无关 |
 
 ## 两个仓库的边界
 

@@ -1,12 +1,14 @@
 # 0–200 h 形状优先的四簇实验
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 目标是在**聚类拟合时不使用四类名称或旧规则标签**，尽量保留可用曲线，让匿名簇呈现 Bridge、Hill、Slope、Valley 所描述的四种形状。这里的“四簇”是模型设定；四类名称只用于完成聚类后的人工解释。特征与筛选门槛的选择参考了目标外观和旧自动候选，因此**整个研究与模型选择过程并非完全无监督**。旧候选也不是独立真值。
 
 ## 直接查看
 
-- [逐曲线交互放大页](results/anonymous_cluster_detail_viewer.html)：切换簇、输入 ID、局部放大纵轴；蓝线为插值，橙点为原始测点。
-- [四簇统一纵轴图](results/anonymous_four_groups.png)与[曲线叠加局部放大图](results/anonymous_four_groups_zoom.png)（[SVG](results/anonymous_four_groups_zoom.svg)）。放大图按参考风格显示半透明的簇成员曲线与黑色平滑逐序位中位数；横轴为相对观测序位，不标 hour。各面板的纵轴范围不同，超出范围的线段会被裁切。
-- [匿名簇归属](results/anonymous_assignments.csv)、[被筛除的 17 条](results/excluded_rough_curves.csv)、[全部 2152 条均保留的对照版本](results/all_curves_variant_assignments.csv)。
+- 逐曲线交互放大页（`results/anonymous_cluster_detail_viewer.html`）：切换簇、输入 ID、局部放大纵轴；蓝线为插值，橙点为原始测点。
+- 四簇统一纵轴图（`results/anonymous_four_groups.png`）与曲线叠加局部放大图（`results/anonymous_four_groups_zoom.png`）（SVG (`results/anonymous_four_groups_zoom.svg`)）。放大图按参考风格显示半透明的簇成员曲线与黑色平滑逐序位中位数；横轴为相对观测序位，不标 hour。各面板的纵轴范围不同，超出范围的线段会被裁切。
+- 匿名簇归属（`results/anonymous_assignments.csv`）、被筛除的 17 条（`results/excluded_rough_curves.csv`）、全部 2152 条均保留的对照版本（`results/all_curves_variant_assignments.csv`）。
 - [具体结果与限制](RESULTS.md)。
 
 ## 输入与方法

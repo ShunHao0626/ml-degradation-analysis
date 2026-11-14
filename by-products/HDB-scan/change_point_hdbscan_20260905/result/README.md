@@ -1,6 +1,8 @@
 # 最终展示图（参照 thesis/result）
 
-打开 [index.html](index.html)，或直接看 [hdbscan_clusters.png](hdbscan_clusters.png)。
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
+打开 `index.html`，或直接看 [hdbscan_clusters.png](hdbscan_clusters.png)。
 
 这一套展示读取本次冻结的 HDBSCAN 标签，按参考目录的成员叠图、均值线、单簇交互图、数量统计、PCA 和分布图形式输出。未重新训练，未改标签，未使用参考目录的类别或数据。
 

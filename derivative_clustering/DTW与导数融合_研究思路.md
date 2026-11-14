@@ -1,5 +1,7 @@
 # DTW 与导数信息融合：四类实验曲线的无监督识别思路
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 更新日期：2026-09-18。本文用于把研究想法表达清楚；其中的方法扩展和验证流程属于研究方案，不代表已在新版数据集上验证成功。
 
 ## 可以直接用来介绍这个想法的一段话
@@ -258,4 +260,4 @@ N_synthetic = round[r / (1-r) × N_real]
 
 最新版人工数据目前完成了生成和规则质检。后续若开展实验，需要先适配可变时长、不规则采样和导数量纲，再确定对照实验与独立测试集。本次文档仅整理研究思路。
 
-相关本地文件：[论文方法说明](文章复现说明.md)、[早期融合实验代码](accepted_pfd_experiment/run_derivative_graph_experiment.py)、[最新版数据集说明](eg_based_synthetic_dataset_1000/DATASET_CARD_CN.md)。
+相关本地文件：[论文方法说明](文章复现说明.md)、[早期融合实验代码](accepted_pfd_experiment/run_derivative_graph_experiment.py)、最新版数据集说明（`eg_based_synthetic_dataset_1000/DATASET_CARD_CN.md`）。

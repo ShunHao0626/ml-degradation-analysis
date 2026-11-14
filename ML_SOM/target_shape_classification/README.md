@@ -1,5 +1,7 @@
 # 四类目标 PCE 曲线分类
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 公开仓库保留分析代码、方法说明与测试。下文引用的 `data_final/`、`review_inputs/` 和 `results/` 是本地输入及运行产物，不随 Git 分发；运行前请按实际工作目录准备数据。以下命令以 `ML_SOM/` 为当前目录。
 
 ## 独立的 0–200 h 重新分类
@@ -10,7 +12,7 @@
 python3 target_shape_classification/classify_200h.py
 ```
 
-结果位于 [`results/som_200h/`](results/som_200h/README.md)：[离线交互页面](results/som_200h/all_curves_index.html) 展示全部原始文件，[全文件 CSV](results/som_200h/all_files_200h.csv) 分列 SOM 神经元、SOM 候选、原图复核和最终类别。SOM 只使用实际 0–200 h 的 PCE 点，按该窗口内最大值归一化；谷底在 150–200 h 且 200–250 h 出现至少 1% 恢复者另列边界复核候选，原图证实后可归为 Valley。归一化后至少 1% 的时间波动保留。少于两个窗口点、非 PCE 或小时轴未确认的文件明确列为 unresolved。当前 2,208/2,250 个原始文件获四类候选，42 个未分类（1.87%）；[当前复核队列](results/som_200h/review_priority_200h.csv)尚有 1,320 条曲线、1,094 张不同原图。已逐图重判 46 条曲线、44 张原图，其中 36 条确认、9 条仍有歧义、1 条采点不符；各类确认至少 5 条且覆盖至少 5 个 DOI 组。记录见 [`review_inputs/source_reviews_200h.csv`](review_inputs/source_reviews_200h.csv)。下文为之前的全程分析方法与结果，两套产物彼此独立。
+结果位于 `results/som_200h/` (`results/som_200h/README.md`)：离线交互页面（`results/som_200h/all_curves_index.html`） 展示全部原始文件，全文件 CSV（`results/som_200h/all_files_200h.csv`） 分列 SOM 神经元、SOM 候选、原图复核和最终类别。SOM 只使用实际 0–200 h 的 PCE 点，按该窗口内最大值归一化；谷底在 150–200 h 且 200–250 h 出现至少 1% 恢复者另列边界复核候选，原图证实后可归为 Valley。归一化后至少 1% 的时间波动保留。少于两个窗口点、非 PCE 或小时轴未确认的文件明确列为 unresolved。当前 2,208/2,250 个原始文件获四类候选，42 个未分类（1.87%）；当前复核队列（`results/som_200h/review_priority_200h.csv`）尚有 1,320 条曲线、1,094 张不同原图。已逐图重判 46 条曲线、44 张原图，其中 36 条确认、9 条仍有歧义、1 条采点不符；各类确认至少 5 条且覆盖至少 5 个 DOI 组。记录见 `review_inputs/source_reviews_200h.csv`。下文为之前的全程分析方法与结果，两套产物彼此独立。
 
 执行入口（先运行审计与形态对照，再运行 SOM 主方法）：
 
@@ -49,14 +51,14 @@ python3 target_shape_classification/redigitize.py \
 
 主入口 `unsupervised_som.py` 将 SOM 作为四类 PCE 曲线的无标签发现方法；`run.py` 提供输入审计、原图复核、版本化补采和形态对照。当前 **2,221** 条可比较 PCE 规范曲线全部参与 SOM 拟合，结果回填到 **2,250** 个原始文件。早期上升分支按输入曲线自身的完整阶段稀有程度增加训练抽样机会，幂次 2、倍率上限 15；其他分支维持原抽样。源图审阅类别不用于训练。不同时间的源点归一化后约 **1%** 的波动不删点、不剪平；唯一时间点的分箱极值和显著度至少 0.01 的峰谷数进入 SOM 特征，当前 535 条曲线检出此类峰谷。同一时间戳的多个纵值逐点保留并单独审计。
 
-用户已明确本数据中的 η 为 PCE%，`normalized performance` 为归一化 PCE。逐图、逐系列复核使 25 条先前保守排除的 PCE 曲线恢复参与分析；同一图中明确是 FF、Jsc、Voc 的系列仍不作为 PCE。名称带 FF/Jsc/Voc/EQE 的 `final_data` 图也已按实际纵轴及所选系列追加九条原图哈希审计规则；固定 1 Sun 下的归一化 Pmax 与归一化 PCE 具有相同的相对轨迹。两条 MPP 功率密度曲线缺少可核验的 PCE 换算依据；一条 Arrhenius 等效时间曲线不具有实际经过小时。共 36 条轴与物理量复核规则及原图哈希在 [`review_inputs/source_axis_overrides.csv`](review_inputs/source_axis_overrides.csv)。实际曲线图用 `Time (h)` 和 `Normalized PCE`；四条月轴曲线按平均公历月 730.485 h 近似换算并逐条标注。
+用户已明确本数据中的 η 为 PCE%，`normalized performance` 为归一化 PCE。逐图、逐系列复核使 25 条先前保守排除的 PCE 曲线恢复参与分析；同一图中明确是 FF、Jsc、Voc 的系列仍不作为 PCE。名称带 FF/Jsc/Voc/EQE 的 `final_data` 图也已按实际纵轴及所选系列追加九条原图哈希审计规则；固定 1 Sun 下的归一化 Pmax 与归一化 PCE 具有相同的相对轨迹。两条 MPP 功率密度曲线缺少可核验的 PCE 换算依据；一条 Arrhenius 等效时间曲线不具有实际经过小时。共 36 条轴与物理量复核规则及原图哈希在 `review_inputs/source_axis_overrides.csv`。实际曲线图用 `Time (h)` 和 `Normalized PCE`；四条月轴曲线按平均公历月 730.485 h 近似换算并逐条标注。
 
 主 SOM 的五个种子 41–45 先满足全量无标签拓扑误差距最小值 ≤0.005，再以四类完整阶段曲线的无标签平均覆盖率选代表；当前为种子 **41**。神经元在训练后才用阶段规则解释，源图审阅类别和模板不进入拟合。`som_assignments.csv` 保留四选一最近已命名神经元候选、可为 `unresolved` 的最佳匹配神经元类别及逐种子投票。SOM 最近标签是检索线索，不自动成为可信成员。
 
-[全文件交付表](results/som_primary/som_delivery_all_files.csv) 与 [覆盖率核算](results/som_primary/som_delivery_coverage.json) 检查用户要求的**最终舍弃 ≤15%**：四类最近匹配或来源确认 2,196 个文件，待核查扩展组 28 个，排除 26 个。排除占原始文件和去重曲线均约 **1.16%**。逐行 `assignment_basis` 区分源图确认、SOM 与完整阶段一致、仅最近 SOM 相似；最后一层不是已核验目标成员。`corrected_series` 列标出经原图核对发现的系列错名。全部文件、原始点和排除原因仍可追溯。
+全文件交付表（`results/som_primary/som_delivery_all_files.csv`） 与 覆盖率核算（`results/som_primary/som_delivery_coverage.json`） 检查用户要求的**最终舍弃 ≤15%**：四类最近匹配或来源确认 2,196 个文件，待核查扩展组 28 个，排除 26 个。排除占原始文件和去重曲线均约 **1.16%**。逐行 `assignment_basis` 区分源图确认、SOM 与完整阶段一致、仅最近 SOM 相似；最后一层不是已核验目标成员。`corrected_series` 列标出经原图核对发现的系列错名。全部文件、原始点和排除原因仍可追溯。
 
-45 条原图审阅中，40 条四类阶段明确。当前主 SOM 的审阅吻合为 Bridge 5/5、Hill 19/21、Slope 6/6、Valley 5/8；排除 40 个已审阅 DOI 组重新训练的来源留出诊断为 5/5、8/21、6/6、5/8。以同一留出组重拟合的[未均衡基线](results/som_baseline_current_review/README_CN.md)分别为 Hill 0/21 与 3/21；[耦合抽样诊断](results/som_coupled_sampling/README_CN.md)的来源留出 Hill 为 1/21。审阅例参与过特征探索或由 SOM 检索发现，这些比例**不是独立泛化精度**；稀有形态的跨来源稳定性仍有限。四类严格源图和形态双重核验成员为 Bridge 5、Hill 19、Slope 5、Valley 6。完整 Hill 阶段检索有 27 条线索，5 条未获当前代表 SOM 的 Hill 候选；[多种子支持清单](results/som_primary/hill_som_corroborated.csv)列出其中 23 条得到至少两个种子支持的曲线及其独立的源图审阅状态。
+45 条原图审阅中，40 条四类阶段明确。当前主 SOM 的审阅吻合为 Bridge 5/5、Hill 19/21、Slope 6/6、Valley 5/8；排除 40 个已审阅 DOI 组重新训练的来源留出诊断为 5/5、8/21、6/6、5/8。以同一留出组重拟合的未均衡基线（`results/som_baseline_current_review/README_CN.md`）分别为 Hill 0/21 与 3/21；耦合抽样诊断（`results/som_coupled_sampling/README_CN.md`）的来源留出 Hill 为 1/21。审阅例参与过特征探索或由 SOM 检索发现，这些比例**不是独立泛化精度**；稀有形态的跨来源稳定性仍有限。四类严格源图和形态双重核验成员为 Bridge 5、Hill 19、Slope 5、Valley 6。完整 Hill 阶段检索有 27 条线索，5 条未获当前代表 SOM 的 Hill 候选；多种子支持清单（`results/som_primary/hill_som_corroborated.csv`）列出其中 23 条得到至少两个种子支持的曲线及其独立的源图审阅状态。
 
-[原图审阅工作量](results/source_review_workload.json)按曲线与去重原图分别统计：当前形态复核任务中，尚未首次审阅 **1,332 条曲线、1,090 张图**；优先候选队列为 **74 条曲线、70 张图**。若全部 2,221 条可比 PCE 都逐条核图，尚未审阅 2,176 条曲线、1,670 张图。生成任务表中的 1,337 条还包含 5 条已看图但阶段未确认的曲线。
+原图审阅工作量（`results/source_review_workload.json`）按曲线与去重原图分别统计：当前形态复核任务中，尚未首次审阅 **1,332 条曲线、1,090 张图**；优先候选队列为 **74 条曲线、70 张图**。若全部 2,221 条可比 PCE 都逐条核图，尚未审阅 2,176 条曲线、1,670 张图。生成任务表中的 1,337 条还包含 5 条已看图但阶段未确认的曲线。
 
-12 条原图标定补采使用独立版本，原 CSV 未改。完整方法、敏感性配置、输入版本反事实和当前限制见 [运行报告](results/som_primary/REPORT_CN.md)。`results/verification.json` 的 `overall_acceptance_met=false` 表示严格的全量来源与形态验收尚未完成；15% 舍弃上限已在 SOM 交付表中单独核算并满足。
+12 条原图标定补采使用独立版本，原 CSV 未改。完整方法、敏感性配置、输入版本反事实和当前限制见 运行报告（`results/som_primary/REPORT_CN.md`）。`results/verification.json` 的 `overall_acceptance_met=false` 表示严格的全量来源与形态验收尚未完成；15% 舍弃上限已在 SOM 交付表中单独核算并满足。

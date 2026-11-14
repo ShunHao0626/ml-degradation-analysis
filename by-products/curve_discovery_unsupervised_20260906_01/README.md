@@ -1,5 +1,7 @@
 # 无平滑、变长 PCE 曲线的无监督形态探索
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 本目录基于 `/Users/shunhao/Desktop/ML/thesis` 的论文方法，分析：
 
 `/Users/shunhao/Desktop/ML/lab-v2/som_references/accepted/samples_test`
@@ -12,8 +14,8 @@
 
 - [初始值2%与50/100/200 h卡点实验](supplementary_initial2pct_checkpoints_20260907/README.md)：120条曲线的阈值事件模型；按预定全范围QE规则选择5类
 - [MaxAbs 数据质量筛选补充实验](supplementary_filtered_maxabs_20260907/README.md)：筛除轴/时长异常后，推荐的 H500 组保留 105 条并稳定选择 3 类
-- [完整技术报告](report.html)
-- [离线交互曲线查看器](index.html)
+- 完整技术报告（`report.html`）
+- 离线交互曲线查看器（`index.html`）
 - [4 个无监督主簇](figures/01_selected_clusters.png)
 - [QE 类别数判断](figures/03_qe_elbows.png)
 - [四种 IFO-like 原始样本](figures/00_four_target_examples_minmax.png)
@@ -454,4 +456,4 @@ cd /Users/shunhao/Desktop/ML/curve_discovery_unsupervised_20260906_01
 - 没有真实标签，不能报告四分类准确率；
 - 4 类是本数据、候选方法及参数范围下最有依据的简洁解，不是所有算法空间中的全局最优证明。
 
-更完整的结果讨论和文献链接见 [完整技术报告](report.html)。
+更完整的结果讨论和文献链接见 完整技术报告（`report.html`）。

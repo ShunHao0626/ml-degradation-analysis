@@ -1,5 +1,7 @@
 # 无标签、无绝对小时坐标的形状 DTW 细分实验
 
+> 注：本文中以代码格式标出、原为链接的 `results/` 等路径是本地运行产物，未随 Git 发布，因此不再提供链接。
+
 本实验从已有源 CSV 校验和归一化后的 **0–200 h 原始 PCE 观测点**出发；
 `run.py` 只读取前一实验的 `curve_index.csv` 和 `results/points/*.csv`，
 不读取任何四类名称、旧规则候选或旧 DTW 分群。小时只用于确定观测先后顺序
@@ -13,12 +15,12 @@ DTW 允许相对序位上最多 50% 的错位，不要求两个转折发生在�
 对所有 2,314,476 对曲线计算精确 DTW，再以 36 近邻构造相似图，谱嵌入后
 层次聚类为 16、32、64 个匿名细簇。簇数是预设观察尺度，**不是自然类别数**。
 
-先看 [交互式细节页](results/anonymous_shape_detail_viewer.html)：可切换 16/32/64
-簇、搜索 ID、自动或手动放大纵轴。64 簇的 [全尺度图 1](results/anonymous_k64_page1.png)、
-[2](results/anonymous_k64_page2.png)、[3](results/anonymous_k64_page3.png)、
-[4](results/anonymous_k64_page4.png) 与 [纵轴局部放大图 1](results/anonymous_k64_zoom_page1.png)、
-[2](results/anonymous_k64_zoom_page2.png)、[3](results/anonymous_k64_zoom_page3.png)、
-[4](results/anonymous_k64_zoom_page4.png) 方便总览。各群成员及 5 条代表见
+先看 交互式细节页（`results/anonymous_shape_detail_viewer.html`）：可切换 16/32/64
+簇、搜索 ID、自动或手动放大纵轴。64 簇的 全尺度图 1（`results/anonymous_k64_page1.png`）、
+2 (`results/anonymous_k64_page2.png`)、3 (`results/anonymous_k64_page3.png`)、
+4 (`results/anonymous_k64_page4.png`) 与 纵轴局部放大图 1（`results/anonymous_k64_zoom_page1.png`）、
+2 (`results/anonymous_k64_zoom_page2.png`)、3 (`results/anonymous_k64_zoom_page3.png`)、
+4 (`results/anonymous_k64_zoom_page4.png`) 方便总览。各群成员及 5 条代表见
 `results/anonymous_assignments.csv`、`results/representatives_k64.csv`。
 
 匿名分群落盘后，**单独**运行 `posthoc_audit.py`，才与旧四类自动候选比较；

@@ -2,21 +2,39 @@
 
 English · [中文](README_CN.md)
 
+> **One project, two repositories.** This repository is the full research workspace of the early-degradation curve clustering study. Its standalone reproduction package — the fixed 1,842-curve, four-cluster result with verification scripts and an offline dashboard — is [perovskite-early-degradation-clusters](https://github.com/ShunHao0626/perovskite-early-degradation-clusters). Start there to reproduce the main result; use this repository for dataset construction, method comparisons, and provenance.
+
 This repository studies power conversion efficiency (PCE) versus time in perovskite solar cells. It contains the upstream curve work, SOM and shape analyses, method comparisons, and historical experiments. Raw curves, third-party papers, and per-curve images used by these projects are normally kept outside Git.
 
 ## Start here
 
 | Task | Entry point | Scope |
 |---|---|---|
-| Current 0–200 h shape analysis | [`ML_SOM/target_shape_classification/`](ML_SOM/target_shape_classification/README.md) | Input audit, SOM, shape interpretation, source review, and tests |
+| Current 0–200 h shape analysis | [`ML_SOM/target_shape_classification/`](ML_SOM/target_shape_classification/README.md) (README in Chinese) | Input audit, SOM, shape interpretation, source review, and tests |
 | Fixed 1,842-curve four-cluster reproduction | [Perovskite early degradation clusters](https://github.com/ShunHao0626/perovskite-early-degradation-clusters) | Fixed inputs, density-weighted K-means, verification, and full results; maintained in its own repository |
 | Build the 2,246-curve canonical dataset | [`ML_SOM/canonical_2246_full_dataset_20260925/`](ML_SOM/canonical_2246_full_dataset_20260925/README.md) | Deduplication, provenance, and integrity checks; generated data stay local |
 | Reproduce PFD–DTW | [`derivative_clustering/`](derivative_clustering/README.md) | Derivative features, DTW, hierarchical clustering, and tests |
-| Reproduce the Hartono PvkSOM workflow | [`thesis/`](thesis/README.md) | Original paper workflow and preprocessing comparison |
+| Reproduce the Hartono PvkSOM workflow | [`thesis/`](thesis/README.md) | Adapted copy of the upstream PvkSOM workflow, run scripts, and a three-way preprocessing comparison on Hartono's own dataset |
 | Other derivative DTW experiments | [`DTW/`](DTW/result_derivative_dtw/code/REPRODUCE.md) | Earlier independent experiments and exports |
 | Historical SOM, HDBSCAN, and parameter searches | [`by-products/`](by-products/README.md) | Research archive indexed by question |
 
 `environment.yml` describes the earlier PvkSOM environment. For newer projects, use the environment and commands documented in each project directory. The [code map](ML_SOM/target_shape_classification/CODE_MAP.md) shows the dependencies within the current 0–200 h analysis.
+
+## Curve counts used across the project
+
+Several curve counts appear in the sub-project documents. They refer to different stages, not to conflicting results:
+
+| Count | Meaning |
+|---:|---|
+| 2,250 | Digitized source files from the literature (`ML_SOM/original_curves_2250/`) |
+| 2,246 | Canonical curves after removing 4 duplicate aliases of the 2,250 files |
+| 2,216 | Canonical curves with a four-pattern record in the integrated delivery: 2,205 by the original automatic rule, 2 by the rule after axis checks in the paper, and 9 from source-figure judgement only |
+| 2,207 | The numeric part of the 2,216 records (2,205 + 2), used for strict 0–200 h numeric analysis |
+| 2,205 | Curves with the original numeric stage rule, used in the robustness audits |
+| 2,208 | Source files that received a four-pattern candidate in the independent 0–200 h rerun (`classify_200h.py`), out of 2,250 |
+| 2,152 | Input pool of the shape-only K-means experiments; an earlier label-free quality gate kept 1,897 of them |
+| 1,842 | Fixed input of the four-cluster reproduction, selected from the 2,152 with help from provisional shape candidates |
+| 2,245 | Hartono et al.'s own high-throughput ageing dataset used in `thesis/`; a separate dataset, not part of the literature collection |
 
 ## Repository boundary
 
