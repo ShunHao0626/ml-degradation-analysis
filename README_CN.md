@@ -1,4 +1,4 @@
-# ML degradation analysis
+# 钙钛矿太阳能电池衰减曲线分析
 
 [English](README.md) · 中文
 

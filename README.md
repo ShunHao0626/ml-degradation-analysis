@@ -1,4 +1,4 @@
-# ML degradation analysis
+# Perovskite Solar-Cell Degradation Curve Analysis
 
 English · [中文](README_CN.md)
 
