@@ -2,9 +2,9 @@
 
 English · [中文](README_CN.md)
 
-**Research question.** Can unsupervised methods distinguish degradation-curve shapes across perovskite solar-cell studies, or do they mainly recover differences in degradation rate and magnitude?
+This repository analyzes literature-derived perovskite solar-cell PCE–time curves with unsupervised shape methods. It brings together a deduplicated collection of **2,246 curves**, dataset construction, SOM and shape analysis, derivative/DTW comparisons, and method reproductions.
 
-I curated a literature-derived collection of **2,246 distinct PCE–time curves** and organized its dataset construction, SOM and shape analysis, derivative/DTW comparisons, and method reproductions here. The featured [four-cluster reproduction](reproduction/early-degradation-clusters/README.md) provides fixed inputs, code, figures, and an offline dashboard for **1,842 curves**. The [former standalone repository](https://github.com/ShunHao0626/perovskite-early-degradation-clusters) is archived as a historical entry point.
+The featured [four-cluster reproduction](reproduction/early-degradation-clusters/README.md) provides fixed inputs, code, figures, and an offline dashboard for **1,842 curves**. The [former standalone repository](https://github.com/ShunHao0626/perovskite-early-degradation-clusters) is archived as a historical entry point.
 
 <p align="center"><a href="reproduction/early-degradation-clusters/results/figures/Supplementary_Fig_S1_zoom.png"><img src="reproduction/early-degradation-clusters/results/figures/Supplementary_Fig_S1_zoom.png" alt="Exploratory four-cluster result for 1,842 early-degradation curves" width="520"></a></p>
 

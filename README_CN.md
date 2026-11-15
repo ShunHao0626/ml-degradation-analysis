@@ -2,9 +2,9 @@
 
 [English](README.md) · 中文
 
-**研究问题。** 跨论文收集的钙钛矿太阳能电池衰减曲线，能否通过无监督方法区分形态？聚类结果在多大程度上反映的是衰减速度与幅度？
+本仓库使用无监督形状分析方法研究文献中的钙钛矿太阳能电池 PCE–时间曲线，汇集 **2,246 条去重曲线**的数据集构建、SOM 与形态分析、导数／DTW 对照及方法复现。
 
-我整理了文献来源的 **2,246 条去重 PCE–时间曲线**，并将数据集构建、SOM 与形态分析、导数／DTW 对照及方法复现组织在本仓库。[四簇复现包](reproduction/early-degradation-clusters/README_CN.md)提供 **1,842 条曲线**的固定输入、代码、图表和离线浏览页面。原[独立仓库](https://github.com/ShunHao0626/perovskite-early-degradation-clusters)已归档，保留为历史入口。
+[四簇复现包](reproduction/early-degradation-clusters/README_CN.md)提供 **1,842 条曲线**的固定输入、代码、图表和离线浏览页面。原[独立仓库](https://github.com/ShunHao0626/perovskite-early-degradation-clusters)已归档，保留为历史入口。
 
 <p align="center"><a href="reproduction/early-degradation-clusters/results/figures/Supplementary_Fig_S1_zoom.png"><img src="reproduction/early-degradation-clusters/results/figures/Supplementary_Fig_S1_zoom.png" alt="1,842 条早期衰减曲线的探索性四簇结果" width="520"></a></p>
 
