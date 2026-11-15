@@ -1,0 +1,14 @@
+{
+  "inputs_valid": true,
+  "curves": 1842,
+  "raw_csv_files": 1842,
+  "results_valid": true,
+  "cluster_sizes": {
+    "1": 1710,
+    "2": 44,
+    "3": 21,
+    "4": 67
+  },
+  "cluster_folders_valid": true,
+  "dashboard_valid": true
+}

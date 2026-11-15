@@ -1,0 +1,9 @@
+{
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "scipy": "1.13.1",
+  "scikit_learn": "1.6.1",
+  "matplotlib": "3.9.4",
+  "blas_threads": 1,
+  "omp_threads": 1
+}

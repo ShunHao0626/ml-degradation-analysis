@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1842 条曲线 · 四簇结果浏览</title>
+  <style>
+    :root{--ink:#182d34;--muted:#657780;--paper:#f5f4ee;--card:#fffefa;--line:#dbe2df;--accent:#165c66;--c1:#47846a;--c2:#416987;--c3:#a5833d;--c4:#88608c}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}
+    a{color:var(--accent);text-underline-offset:3px}
+    button,input{font:inherit}
+    button{cursor:pointer}
+    .shell{max-width:1540px;margin:0 auto;padding:0 28px}
+    .topbar{background:#14363d;color:#f8faf7;border-bottom:5px solid #c5a668}
+    .topbar .shell{padding-top:28px;padding-bottom:30px}
+    .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#b9d8d4;font-weight:700}
+    h1{font-size:clamp(27px,3vw,42px);line-height:1.2;margin:7px 0 10px;letter-spacing:-.025em}
+    .topbar p{max-width:850px;color:#d2e2df;margin:0}
+    .headline-row{display:flex;justify-content:space-between;gap:24px;align-items:flex-end}
+    .headline-count{font-size:49px;line-height:1;font-weight:700;letter-spacing:-.05em;white-space:nowrap}
+    .headline-count span{display:block;font-size:12px;font-weight:500;letter-spacing:.08em;color:#b9d8d4;margin-top:7px;text-align:right}
+    main{padding-top:28px;padding-bottom:54px}
+    .section-label{font-size:12px;font-weight:800;letter-spacing:.12em;color:#657780;text-transform:uppercase;margin:0 0 12px}
+    .summary{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:25px}
+    .summary-card{border:1px solid var(--line);background:var(--card);border-radius:15px;padding:15px 17px;text-align:left;box-shadow:0 2px 8px #1d35370a;transition:transform .15s,box-shadow .15s,border-color .15s}
+    .summary-card:hover{transform:translateY(-2px);box-shadow:0 9px 22px #1d353717}
+    .summary-card.active{border-color:var(--accent);box-shadow:0 0 0 2px #165c6629}
+    .summary-card .tag{font-size:12px;font-weight:700;color:var(--muted)}
+    .summary-card .name{font-size:21px;font-weight:750;margin:3px 0 9px}
+    .summary-card .count{font-size:27px;font-weight:750;line-height:1.1}
+    .summary-card .unit{font-size:12px;color:var(--muted);margin-left:5px}
+    .meter{height:5px;background:#e8edeb;border-radius:9px;overflow:hidden;margin-top:14px}
+    .meter span{display:block;height:100%;min-width:4px}
+    .cluster-1 .meter span,.pill.cluster-1{background:var(--c1)}
+    .cluster-2 .meter span,.pill.cluster-2{background:var(--c2)}
+    .cluster-3 .meter span,.pill.cluster-3{background:var(--c3)}
+    .cluster-4 .meter span,.pill.cluster-4{background:var(--c4)}
+    .overview{border:1px solid var(--line);border-radius:16px;background:var(--card);margin-bottom:25px;overflow:hidden}
+    .overview summary{padding:15px 19px;font-weight:750;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center}
+    .overview summary::-webkit-details-marker{display:none}
+    .overview summary small{color:var(--muted);font-weight:500}
+    .overview[open] summary{border-bottom:1px solid var(--line)}
+    .overview-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding:18px}
+    .overview-grid a{display:block;text-decoration:none;color:inherit}
+    .overview-grid img{width:100%;height:235px;object-fit:contain;background:#f0f4f5;border:1px solid var(--line);border-radius:10px}
+    .overview-grid strong{display:block;margin-top:8px;font-size:13px}
+    .controls{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
+    .filters{display:flex;gap:7px;flex-wrap:wrap}
+    .filter{border:1px solid var(--line);background:var(--card);padding:8px 12px;border-radius:999px;color:#40545c;font-size:13px;font-weight:700}
+    .filter.active{background:#143c44;color:white;border-color:#143c44}
+    .search{min-width:min(390px,100%);flex:0 1 410px;border:1px solid #b8c9c8;border-radius:10px;background:white;padding:10px 13px;outline:none}
+    .search:focus{border-color:var(--accent);box-shadow:0 0 0 3px #165c6629}
+    .workspace{display:grid;grid-template-columns:minmax(390px,.95fr) minmax(0,1.05fr);gap:16px;align-items:start}
+    .panel{border:1px solid var(--line);border-radius:16px;background:var(--card);box-shadow:0 2px 8px #1d35370a;overflow:hidden}
+    .panel-head{padding:14px 17px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}
+    .panel-head strong{font-size:16px}
+    .panel-head span{color:var(--muted);font-size:12px}
+    .curve-list{max-height:740px;overflow:auto}
+    .curve-row{width:100%;border:0;border-bottom:1px solid #ebefed;background:transparent;text-align:left;padding:12px 17px;display:grid;grid-template-columns:84px 1fr auto;gap:8px 12px;align-items:center;color:var(--ink)}
+    .curve-row:hover{background:#f2f8f6}
+    .curve-row.selected{background:#e9f4f1;box-shadow:inset 4px 0 var(--accent)}
+    .curve-id{font-weight:800;letter-spacing:.01em}
+    .row-main{min-width:0}
+    .row-legend{display:block;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .row-meta{display:block;font-size:12px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .pill{display:inline-block;color:white;padding:3px 8px;border-radius:999px;font-size:11px;font-weight:800;white-space:nowrap}
+    .empty{padding:40px 20px;text-align:center;color:var(--muted)}
+    .pagination{border-top:1px solid var(--line);padding:11px 15px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+    .pagination button{border:1px solid var(--line);border-radius:8px;background:white;padding:5px 11px;color:var(--ink)}
+    .pagination button:disabled{opacity:.38;cursor:default}
+    .pagination span{font-size:12px;color:var(--muted)}
+    .detail{position:sticky;top:18px}
+    .detail-body{padding:20px}
+    .detail-title{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:19px}
+    .detail-title h2{font-size:25px;line-height:1.2;margin:0 0 4px}
+    .detail-title p{margin:0;color:var(--muted);font-size:13px}
+    .facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:0 0 20px}
+    .fact{border:1px solid #e7ece9;background:#fafbf8;border-radius:10px;padding:9px 11px;min-width:0}
+    .fact dt{font-size:11px;color:var(--muted);font-weight:700;margin-bottom:3px}
+    .fact dd{font-size:14px;font-weight:650;margin:0;overflow-wrap:anywhere}
+    .image-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+    .image-card{min-width:0}
+    .image-card a{display:block;color:inherit;text-decoration:none}
+    .image-card .image-label{font-size:12px;font-weight:800;margin-bottom:7px}
+    .image-card img{width:100%;height:280px;object-fit:contain;background:#edf2f4;border:1px solid var(--line);border-radius:10px}
+    .image-card .open-hint{font-size:11px;color:var(--muted);margin-top:4px}
+    .detail-links{display:flex;gap:9px;flex-wrap:wrap;margin-top:20px}
+    .detail-links a{display:inline-block;background:#e8f1ef;border:1px solid #cdded9;border-radius:8px;padding:7px 10px;font-size:12px;font-weight:700;text-decoration:none}
+    .footnote{margin-top:20px;font-size:12px;color:var(--muted);max-width:900px}
+    @media(max-width:1050px){.workspace{grid-template-columns:1fr}.detail{position:static}.curve-list{max-height:440px}}
+    @media(max-width:700px){.shell{padding-left:15px;padding-right:15px}.headline-count{display:none}.summary{grid-template-columns:repeat(2,minmax(0,1fr))}.overview-grid,.image-grid{grid-template-columns:1fr}.facts{grid-template-columns:1fr}.curve-row{grid-template-columns:74px 1fr}.curve-row .pill{grid-column:2;justify-self:start}.overview-grid img{height:190px}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="shell headline-row">
+      <div><div class="eyebrow">SI · shape clustering explorer</div><h1>1842 条曲线 · 四簇结果浏览</h1><p>按 Cluster 1–4 筛选曲线，查看 DOI、论文图号、曲线图例、论文原图、replot 图和原始 CSV。所有数据与图片均从本地结果目录读取。</p></div>
+      <div class="headline-count">1,842<span>CURVES · 4 CLUSTERS</span></div>
+    </div>
+  </header>
+  <main class="shell">
+    <div class="section-label">聚类概览</div>
+    <div class="summary" id="summary"></div>
+    <details class="overview"><summary>查看整体结果图 <small>点击展开 · 两张图均可打开原尺寸</small></summary><div class="overview-grid"><a href="cluster_four_groups.png" target="_blank"><img src="cluster_four_groups.png" alt="四簇曲线概览"><strong>四簇曲线与代表曲线</strong></a><a href="figures/Supplementary_Fig_S1_zoom.png" target="_blank"><img src="figures/Supplementary_Fig_S1_zoom.png" alt="四簇局部放大图"><strong>Supplementary Fig. S1 · zoom</strong></a></div></details>
+    <div class="controls"><div class="filters" id="filters"></div><input class="search" id="search" type="search" placeholder="搜索 DOI、图号、曲线图例或 F 编号…" aria-label="搜索曲线"></div>
+    <div class="workspace">
+      <section class="panel"><div class="panel-head"><strong>曲线清单</strong><span id="result-count"></span></div><div class="curve-list" id="curve-list"></div><div class="pagination"><button id="prev" type="button">上一页</button><span id="page-label"></span><button id="next" type="button">下一页</button></div></section>
+      <section class="panel detail"><div class="panel-head"><strong>曲线详情</strong><span>图片点击可放大</span></div><div class="detail-body" id="detail"></div></section>
+    </div>
+    <p class="footnote">曲线图例由原始 CSV 文件名提取，保留原文件中的写法；若文件名只写有 Series 编号，应以论文原图核对。某些 DOI 含不同簇的曲线，因此同一论文图可能出现在多个簇目录。四簇属于探索性形状分组，不代表经独立验证的真实类别。</p>
+  </main>
+  <script type="application/json" id="dashboard-data">__DASHBOARD_DATA__</script>
+  <script>
+    const data = JSON.parse(document.getElementById('dashboard-data').textContent);
+    const records = data.records;
+    const names = {1:'Slope',2:'Bridge',3:'Valley',4:'Hill'};
+    const counts = Object.fromEntries([1,2,3,4].map(n => [n,records.filter(r => r.cluster === n).length]));
+    const state = {cluster:0,query:'',page:1,selected:null};
+    const pageSize = 30;
+    const el = id => document.getElementById(id);
+    const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    function matches(){const q=state.query.trim().toLocaleLowerCase();return records.filter(r=>(!state.cluster||r.cluster===state.cluster)&&(!q||[r.curve_id,r.doi,r.figure,r.legend,r.cluster_name].some(v=>String(v).toLocaleLowerCase().includes(q))));}
+    function setCluster(cluster){state.cluster=cluster;state.page=1;render();}
+    function renderFilters(){
+      el('filters').innerHTML = [0,1,2,3,4].map(n=>`<button type="button" class="filter ${state.cluster===n?'active':''}" data-cluster="${n}">${n ? `Cluster ${n} · ${names[n]}`:'全部曲线'}</button>`).join('');
+      el('summary').innerHTML = [1,2,3,4].map(n=>`<button type="button" class="summary-card cluster-${n} ${state.cluster===n?'active':''}" data-cluster="${n}"><div class="tag">CLUSTER ${n}</div><div class="name">${names[n]}</div><div><span class="count">${counts[n].toLocaleString()}</span><span class="unit">条曲线 · ${(counts[n]/records.length*100).toFixed(1)}%</span></div><div class="meter"><span style="width:${counts[n]/records.length*100}%"></span></div></button>`).join('');
+    }
+    function showDetail(r){
+      if(!r){el('detail').innerHTML='<div class="empty">没有符合条件的曲线。</div>';return;}
+      el('detail').innerHTML=`<div class="detail-title"><div><h2>${esc(r.curve_id)}</h2><p>原始曲线记录</p></div><span class="pill cluster-${r.cluster}">Cluster ${r.cluster} · ${names[r.cluster]}</span></div><dl class="facts"><div class="fact"><dt>DOI</dt><dd><a id="doi-link" target="_blank" rel="noopener noreferrer">${esc(r.doi)}</a></dd></div><div class="fact"><dt>论文图号</dt><dd>${esc(r.figure)}</dd></div><div class="fact"><dt>曲线图例 / 名称</dt><dd>${esc(r.legend)}</dd></div><div class="fact"><dt>对应类别</dt><dd>Cluster ${r.cluster} · ${names[r.cluster]}</dd></div></dl><div class="image-grid"><div class="image-card"><div class="image-label">原论文图</div><a id="original-link" target="_blank"><img id="original-image" loading="lazy" alt="${esc(r.curve_id)} 的原论文图"></a><div class="open-hint">点击查看原尺寸</div></div><div class="image-card"><div class="image-label">从原论文提取曲线后的 replot 图</div><a id="replot-link" target="_blank"><img id="replot-image" loading="lazy" alt="${esc(r.curve_id)} 的 replot 图"></a><div class="open-hint">点击查看原尺寸</div></div></div><div class="detail-links"><a id="csv-link" download>打开原始 CSV</a><a id="folder-link">打开对应 DOI 文件夹</a></div>`;
+      el('doi-link').href='https://doi.org/'+encodeURI(r.doi);
+      for(const kind of ['original','replot']){el(kind+'-link').href=r[kind];el(kind+'-image').src=r[kind];}
+      el('csv-link').href=r.csv;
+      el('folder-link').href=r.csv.slice(0,r.csv.lastIndexOf('/')+1);
+    }
+    function render(){
+      const found=matches(); const pages=Math.max(1,Math.ceil(found.length/pageSize));
+      state.page=Math.min(state.page,pages);
+      if(!found.some(r=>r.curve_id===state.selected))state.selected=found[0]?.curve_id||null;
+      const shown=found.slice((state.page-1)*pageSize,state.page*pageSize);
+      el('curve-list').innerHTML=shown.length?shown.map(r=>`<button type="button" class="curve-row ${state.selected===r.curve_id?'selected':''}" data-id="${esc(r.curve_id)}"><span class="curve-id">${esc(r.curve_id)}</span><span class="row-main"><span class="row-legend">${esc(r.legend)}</span><span class="row-meta">${esc(r.doi)} · ${esc(r.figure)}</span></span><span class="pill cluster-${r.cluster}">C${r.cluster} · ${names[r.cluster]}</span></button>`).join(''):'<div class="empty">没有符合条件的曲线。试试其他关键词或簇。</div>';
+      el('result-count').textContent=`找到 ${found.length.toLocaleString()} 条`;
+      el('page-label').textContent=`第 ${state.page} / ${pages} 页`;
+      el('prev').disabled=state.page<=1; el('next').disabled=state.page>=pages;
+      renderFilters();showDetail(records.find(r=>r.curve_id===state.selected));
+    }
+    document.addEventListener('click',event=>{
+      const clusterButton=event.target.closest('[data-cluster]');
+      if(clusterButton){setCluster(Number(clusterButton.dataset.cluster));return;}
+      const row=event.target.closest('[data-id]');
+      if(row){state.selected=row.dataset.id;render();}
+    });
+    el('search').addEventListener('input',event=>{state.query=event.target.value;state.page=1;render();});
+    el('prev').addEventListener('click',()=>{state.page--;render();el('curve-list').scrollTop=0;});
+    el('next').addEventListener('click',()=>{state.page++;render();el('curve-list').scrollTop=0;});
+    render();
+  </script>
+</body>
+</html>
