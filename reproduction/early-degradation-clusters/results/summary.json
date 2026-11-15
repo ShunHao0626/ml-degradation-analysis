@@ -1,0 +1,22 @@
+{
+  "protocol": "supervised-input-curation-frozen-label-free-fit-v1",
+  "input_index_sha256": "60ea8ec317e5687d6ae4f466e4d7b3887a9b2cbbe2db3b03fe3b5064555bb164",
+  "input_shapes_sha256": "b98c0f48cd845a26de970912cd3c4362546e98eecb5dd7a71a64a89b37b4aa34",
+  "config_sha256": "2319920c58c82b7e7fb19e43cdfed0cff86d9e4db0b1f41980f7a3d23a1ba082",
+  "code_sha256": "7c8d9b4b21e6dcb684fb135810a8087102400cd587a0a52cd0b22b6f9cb3ac5d",
+  "included": 1842,
+  "excluded_sparse": 0,
+  "excluded_rough": 0,
+  "excluded_from_input": 0,
+  "cluster_sizes": {
+    "1": 1710,
+    "2": 44,
+    "3": 21,
+    "4": 67
+  },
+  "sparse_4_to_7": 0,
+  "class_names_used_in_fit": false,
+  "current_input_selection_used_old_candidates": true,
+  "previous_feature_model_selection_was_target_informed": true,
+  "cluster_export_mode": "full_doi"
+}
