@@ -52,7 +52,7 @@ The broader question is whether Bridge, Hill, Slope, and Valley patterns form di
 
 This repository publishes code, configuration, methods, selected aggregate tables and figures, and the complete fixed-input reproduction package. Local-only material includes `ML_SOM/data_final/`, `ML_SOM/original_curves_2250/`, generated canonical datasets, historical experiment inputs, paper full texts, and upstream per-curve galleries. The reproduction package includes its own 1,842 fixed inputs, results, and source-figure crops. Identifiers such as DOI, figure, and curve ID in other summaries support provenance; they do not imply that every upstream original file is present here.
 
-Unique historical SI text, figures, and per-curve plotting values are retained locally at `ML_SOM/si_1842_supplementary/` and are excluded from this Git repository. Its historical cluster numbering may differ from the separate repository's display numbering.
+Unique historical SI text, figures, and per-curve plotting values are retained locally at `ML_SOM/si_1842_supplementary/` and are excluded from this Git repository. Its historical cluster numbering may differ from the reproduction package's display numbering.
 
 ## Attribution
 
