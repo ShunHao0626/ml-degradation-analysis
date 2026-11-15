@@ -2,13 +2,13 @@
 
 English · [中文](README_CN.md)
 
-> **One project, one research repository.** This workspace now includes the [self-contained four-cluster reproduction package](reproduction/early-degradation-clusters/README.md), alongside dataset construction, method comparisons, and provenance. The former [standalone repository](https://github.com/ShunHao0626/perovskite-early-degradation-clusters) remains available as a historical entry point.
+**Research question.** Can unsupervised methods distinguish degradation-curve shapes across perovskite solar-cell studies, or do they mainly recover differences in degradation rate and magnitude?
 
-This repository studies power conversion efficiency (PCE) versus time in perovskite solar cells. It contains upstream curve work, SOM and shape analyses, method comparisons, historical experiments, and the fixed 1,842-curve reproduction. Some upstream raw curves and third-party papers remain outside Git; the reproduction package includes its own fixed inputs, outputs, and source-figure crops.
+I curated a literature-derived collection of **2,246 distinct PCE–time curves** and organized its dataset construction, SOM and shape analysis, derivative/DTW comparisons, and method reproductions here. The featured [four-cluster reproduction](reproduction/early-degradation-clusters/README.md) provides fixed inputs, code, figures, and an offline dashboard for **1,842 curves**. The [former standalone repository](https://github.com/ShunHao0626/perovskite-early-degradation-clusters) is archived as a historical entry point.
 
 <p align="center"><a href="reproduction/early-degradation-clusters/results/figures/Supplementary_Fig_S1_zoom.png"><img src="reproduction/early-degradation-clusters/results/figures/Supplementary_Fig_S1_zoom.png" alt="Exploratory four-cluster result for 1,842 early-degradation curves" width="520"></a></p>
 
-The fixed-input result is exploratory: the four groups contain 1,710 / 44 / 21 / 67 curves, and the horizontal axis in this figure is relative observation rank rather than elapsed time. [Explore individual curves](reproduction/early-degradation-clusters/results/dashboard.html) or [read the method and limitations](reproduction/early-degradation-clusters/README.md).
+The four groups contain **1,710 / 44 / 21 / 67 curves**. The figure compares shapes on a relative observation-rank axis; the clustering is exploratory because provisional shape candidates informed input selection. [Explore individual curves](reproduction/early-degradation-clusters/results/dashboard.html) or [read the method](reproduction/early-degradation-clusters/README.md).
 
 ## Start here
 
@@ -26,7 +26,7 @@ The fixed-input result is exploratory: the four groups contain 1,710 / 44 / 21 /
 
 ## Curve counts used across the project
 
-Several curve counts appear in the sub-project documents. They refer to different stages, not to conflicting results:
+The sub-projects use different curve sets and processing stages:
 
 | Count | Meaning |
 |---:|---|

@@ -2,13 +2,13 @@
 
 [English](README.md) · 中文
 
-> **一个项目，一个研究仓库。** 本工作区现已包含[四簇独立复现包](reproduction/early-degradation-clusters/README_CN.md)，并保留数据集构建、方法对照与溯源记录。原[独立仓库](https://github.com/ShunHao0626/perovskite-early-degradation-clusters)仍可作为历史入口访问。
+**研究问题。** 跨论文收集的钙钛矿太阳能电池衰减曲线，能否通过无监督方法区分形态？聚类结果在多大程度上反映的是衰减速度与幅度？
 
-对钙钛矿太阳能电池的 PCE–时间曲线进行整理、无监督聚类与形态分析。本仓库按**当前分析、方法复现、历史实验**组织，并纳入固定 1,842 条曲线的复现包。部分上游原始曲线和第三方论文全文仍保存在本地；复现包已包含固定输入、结果和来源原图裁图。
+我整理了文献来源的 **2,246 条去重 PCE–时间曲线**，并将数据集构建、SOM 与形态分析、导数／DTW 对照及方法复现组织在本仓库。[四簇复现包](reproduction/early-degradation-clusters/README_CN.md)提供 **1,842 条曲线**的固定输入、代码、图表和离线浏览页面。原[独立仓库](https://github.com/ShunHao0626/perovskite-early-degradation-clusters)已归档，保留为历史入口。
 
 <p align="center"><a href="reproduction/early-degradation-clusters/results/figures/Supplementary_Fig_S1_zoom.png"><img src="reproduction/early-degradation-clusters/results/figures/Supplementary_Fig_S1_zoom.png" alt="1,842 条早期衰减曲线的探索性四簇结果" width="520"></a></p>
 
-该固定输入结果属于探索性分析：四簇分别包含 1,710／44／21／67 条曲线，图中的横轴是相对观测序位，而非实际时间。可[浏览单条曲线](reproduction/early-degradation-clusters/results/dashboard.html)，或[阅读方法与限制](reproduction/early-degradation-clusters/README_CN.md)。
+四簇分别包含 **1,710／44／21／67 条曲线**。图中以相对观测序位比较形状；固定输入的选取曾参考暂定形态候选，因此聚类结果属于探索性分析。可[浏览单条曲线](reproduction/early-degradation-clusters/results/dashboard.html)，或[阅读方法](reproduction/early-degradation-clusters/README_CN.md)。
 
 ## 从哪里开始
 
@@ -28,7 +28,7 @@
 
 ## 项目中出现的曲线数量
 
-各子项目文档中出现了多个曲线数量，它们对应不同的处理阶段，并非结果相互矛盾：
+各子项目使用不同的曲线集合与处理阶段：
 
 | 数量 | 含义 |
 |---:|---|
